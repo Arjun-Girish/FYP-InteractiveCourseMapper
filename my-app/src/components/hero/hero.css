@@ -65,10 +65,30 @@
 
 .close-modal{
     position: absolute;
-    right: 20px;
-    background-color: white;
-    border-style: none;
-    font-weight: bold;
+    top: 12px;
+    right: 10px;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    background-color: transparent;
+    border-radius: 0.5rem/* 8px */;
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+    padding: 0.375rem/* 6px */;
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+
+}
+.close-modal:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(17 24 39 / var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+
 }
 
 .year-12-units{
@@ -79,16 +99,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0165AC;
-    margin-top: 30px;
-    width: 80px;
+    background-color:rgb(29 78 216);
+    margin-top: 80px;
+    width: 100%;
     height: 40px;
     color: white;    
     border-style: none;
+    border-radius: 10px;
+}
+.create-plan-button:hover{
+    background-color: rgb(30 64 175);
 }
 
 .year-12-units-status{
     display: flex;
     flex-direction: column;
+    
+}
+.close-icon{
+    width:20px;
+    height:20px;
     
 }
