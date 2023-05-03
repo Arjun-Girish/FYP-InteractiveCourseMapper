@@ -1,0 +1,118 @@
+[
+    {
+      name: "ENG2005",
+      credit: "6",
+      unitTitle: "Advanced engineering mathematics",
+      unitInfo: []
+    },
+
+    {
+      name: "MAE2402",
+      credit: "6",
+      unitTitle: "Thermodynamics and gas dynamics",
+      unitInfo: []
+    },
+
+    {
+      name: "MAE2404",
+      credit: "6",
+      unitTitle: "Aerodynamics 1",
+      unitInfo: []
+    },
+
+    {
+      name: "MAE2505",
+      credit: "6",
+      unitTitle: "Aerospace dynamics",
+      unitInfo: []
+    },
+
+    {
+      name: "MEC2402",
+      credit: "6",
+      unitTitle: "Design methods",
+      unitInfo: []
+    },
+
+    {
+      name: "MEC2403",
+      credit: "6",
+      unitTitle: "Mechanics of materials",
+      unitInfo: []
+    },
+
+    {
+      name: "MAE3401",
+      credit: "6",
+      unitTitle: "Aerodynamics 2",
+      unitInfo: []
+    },
+    {
+      name: "MAE3404",
+      credit: "6",
+      unitTitle: "Flight vehicle dynamics",
+      unitInfo: []
+    },
+    {
+      name: "MAE3405",
+      credit: "6",
+      unitTitle: "Aerospace propulsion",
+      unitInfo: []
+    },
+    {
+      name: "MAE3408",
+      credit: "6",
+      unitTitle: "Aerospace control",
+      unitInfo: []
+    },
+    {
+      name: "MAE3411",
+      credit: "6",
+      unitTitle: "Aerospace structural mechanics",
+      unitInfo: []
+    },
+    {
+      name: "MEC3456",
+      credit: "6",
+      unitTitle: "Engineering computational analysis",
+      unitInfo: []
+    },
+    {
+      name: "MAE4410",
+      credit: "6",
+      unitTitle: "Flight vehicle design",
+      unitInfo: []
+    },
+    {
+      name: "MAE4416",
+      credit: "6",
+      unitTitle: "Orbital mechanics and spaceflight dynamics",
+      unitInfo: []
+    },
+    {
+      name: "MAE4426",
+      credit: "6",
+      unitTitle: "Finite element analysis and composite structures",
+      unitInfo: []
+    },
+    {
+      name: "MEC4404",
+      credit: "6",
+      unitTitle: "Professional practice",
+      unitInfo: []
+    },
+    {
+      name: "ENG4701",
+      credit: "6",
+      unitTitle: "Final year project A",
+      unitInfo: []
+    },
+    
+    {
+      name: "ENG4702",
+      credit: "6",
+      unitTitle: "Final year project B",
+      unitInfo: []
+    }
+
+  ]
