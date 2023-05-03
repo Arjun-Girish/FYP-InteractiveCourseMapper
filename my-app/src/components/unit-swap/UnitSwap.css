@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.box-container{
+  font-family: 'Inter', sans-serif;
+  width: 1350px;
+  height: 100%;
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+  display: flex;
+  background-color: white;
+  box-shadow: 6px 6px 6px -6px #dddddd, -6px 6px 6px -6px #dddddd; 
+  border-radius: 4px;
+}
+
+.unit-box-container{
+  height: 500px;
+  padding: 0px;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.year-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1000px;
+  width: 300px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  margin-right: 50px;
+  padding: 25px 0px 0px 0px;  
+  border-color: #d1d3d4;
+}
+
+.year-text{
+  font-size: larger;
+  border-color: d1d3d4(0, 0, 0, 0.227);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 15px 0px 0px;
+  width: 150px;
+  height: 230px;
+}
+
+.box{
+  width: 160px;
+  height: 75px;
+  background-color: #eeece1;
+  margin: 25px 20px;
+  border: 1.5px solid rgba(0, 0, 0, 0);
+}
+
+.box:hover{
+  border: 1.5px solid black;
+  transition: border 0.5s;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.unit-code{
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.unit-title{
+  font-size: 12px;
+  
+}
+
+.unit-info{
+  color: black;
+  font-size: medium;
+  background-color: rgba(245, 245, 220, 0);
+  border: 0;
+}
+
+.popup-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  height: 1550px;
+}
+
+.popup-body{
+  width: 500px;
+  height: 500px;
+  padding: 30px;
+  position: relative;
+  top: 300px;
+  overflow: auto;
+  background-color: white;
+  margin: auto;
+}
+
+.unit-modal{
+  color: black;
+  font-weight: bold;
+  background-color: rgba(128, 128, 128, 0);
+  border-style: none;
+  display: flex;
+}
+
+.title-container{
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.year-sem-container{
+  width: 1350px;
+  display: flex;
+  justify-content: space-between;
+  height: 230px;
+  border-bottom: solid 1px;
+  border-color: #d1d3d4;
+}
+
+.sem-container{
+  display: flex;
+  margin: 0px 30px 0px 0px;
+  padding: 10px 0px 10px 0px;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  align-items:flex-start;
+}

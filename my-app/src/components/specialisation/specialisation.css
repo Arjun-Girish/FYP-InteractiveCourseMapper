@@ -1,0 +1,58 @@
+.search-container{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    width: 92%;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.semester-block {
+    display: flex;
+}
+
+.specialisation-name{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+
+.select-course{
+    font-size: 25px;
+    
+}
+
+.course-block {
+    background-color: #d9d9d967;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 70px;
+    margin: 20px 40px 0px 40px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width:2px;
+}
+
+.course-block:hover{
+    background-color: #0165AC;
+    text-decoration: underline;
+    color: white;
+    transition: 0.3s;
+}
+
+
+.submit_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0165AC;
+    margin-top: 30px;
+    width: 80px;
+    height: 40px;
+    color: aliceblue;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
