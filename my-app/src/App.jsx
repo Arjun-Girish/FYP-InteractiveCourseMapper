@@ -1,5 +1,5 @@
 import "./App.css";
-import Router from './router'
+import Routes from "./router/routes";
 import logo from './logo.png';
 import {Link} from 'react-router-dom';
 
@@ -17,7 +17,7 @@ function App() {
     </div>
 
       <div className="main">
-        <Router />
+        <Routes />
       </div>
 
       <div className="footer-container">

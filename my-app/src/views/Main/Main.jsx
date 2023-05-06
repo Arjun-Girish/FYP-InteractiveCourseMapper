@@ -5,9 +5,9 @@ import { PlusOutlined, ExclamationCircleOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
 import { connect} from "react-redux";
 import { updateValue } from "../../store/actions";
-import "./index.css";
+import "./Main.css";
 
-const Home = ({ updateValue, data, event }) => {
+const Main = ({ updateValue, data, event }) => {
   const history = useNavigate();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [item, setItem] = useState({});
@@ -226,4 +226,4 @@ const Home = ({ updateValue, data, event }) => {
 export default connect(
   (state) => ({ data: state.data, event: state.event }), //映射状态
   { updateValue } //映射操作状态的方法
-)(Home);
+)(Main);
