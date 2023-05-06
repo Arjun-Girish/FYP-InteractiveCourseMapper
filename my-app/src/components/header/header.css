@@ -15,10 +15,6 @@
 .header-text{
     font-weight: 400;
     letter-spacing: -0.8px;
-    font-size: 22px;
+    font-size: px;
     color: white;
-}
-
-.logo{
-    height: 150px;
 }
