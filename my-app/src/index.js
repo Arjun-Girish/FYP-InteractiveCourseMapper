@@ -1,12 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
-import { BrowserRouter } from 'react-router-dom';
-import LandingPage from './LandingPage';
-
+import ReactDOM from 'react-dom';
+import { FormProvider } from './utils/FormContext';
 import App from './App';
-import Main from './Main';
 
 ReactDOM.render(
-    <BrowserRouter>
-        <App/>
-    </BrowserRouter>, document.getElementById('root'));
+  <React.StrictMode>
+    <FormProvider>
+      <App />
+    </FormProvider>
+  </React.StrictMode>,
+  document.getElementById('root')
+);

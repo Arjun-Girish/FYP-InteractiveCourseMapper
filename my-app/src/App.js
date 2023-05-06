@@ -1,7 +1,7 @@
 import React from 'react'
 import LandingPage from './LandingPage';
 import Main from './Main';
-import {Route, Routes, BrowserRouter} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 import SpecialisationPage from './SpecialisationPage';
 import UnitSearchPage from './UnitSearchPage';
 
