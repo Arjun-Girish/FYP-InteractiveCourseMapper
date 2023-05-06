@@ -1,0 +1,29 @@
+{
+"code": "ENG4701",
+"credit points":"",
+"name": "FYP",
+"details":"",
+"overview": "",
+"offerings":[
+
+     {
+        "51-81-Clayton-On-Campus":{
+          "location":"Clayton",
+          "teaching_period": "First semester",
+          "Attendance mode": "On-campus"}
+        },
+     {
+        "52-81-Clayton-On-Campus":{
+          "location":"Clayton",
+          "teaching period": "Second semester",
+          "Attendance mode": "On-campus"}
+        }
+    ],
+"prerequisiste":{
+"OR":[
+"ENG4171"],
+"AND" :[
+],
+"prohibiton":[]
+}
+}
