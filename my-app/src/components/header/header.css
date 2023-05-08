@@ -7,18 +7,16 @@
     color: white;
     background-color: #0165AC;
     height: 100px;
-    padding: 0px 500px 0px 500px;
-    display: flex;
+    display: flex;  
 
 }
 
 .header-text{
     font-weight: 400;
-    letter-spacing: -0.8px;
-    font-size: 22px;
+    letter-spacing: -0.6px;
+    font-size: 23px;
     color: white;
+    margin: 0px;
 }
 
-.logo{
-    height: 150px;
-}
+ 

@@ -1,7 +1,8 @@
 @import '~antd/dist/antd.css';
-.wrap {
-  width: 100vw;
-  height: 100vh;
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .wrap .nav {
@@ -50,6 +51,13 @@
   height: 150px;
 }
 
+.main{
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .footer-container{
     font-family: 'Inter', sans-serif;
     background-color: #0165AC;
@@ -77,22 +85,6 @@
 
 }
 
-.navbar-container{
-    font-family: 'Inter', sans-serif;
-    max-width: 100%;
-    background-color: #004B80;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0px 415px 0px 500px;
-    font-size: 11px;
-    box-shadow: 0 8px 6px -6px grey;
-    position: relative;
-    margin: 0px 0px 30px 0px;
-
-}
 
 a:visited { 
     color: white; 
@@ -106,20 +98,6 @@ a:hover {
     text-decoration: underline;
 }
   
-.navbar-container{
-    font-family: 'Inter', sans-serif;
-    max-width: 100%;
-    background-color: #004B80;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0px 415px 0px 500px;
-    font-size: 11px;
-    box-shadow: 0 8px 6px -6px grey;
-    position: relative;
-}
 
 a:visited { 
     color: white; 
@@ -133,3 +111,7 @@ a:hover {
     text-decoration: underline;
 }
   
+.footer{
+  margin-top: auto;
+  
+}
