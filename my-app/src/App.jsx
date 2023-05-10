@@ -1,33 +1,25 @@
 import "./App.css";
-import Router from './router'
+import Routes from "./router/routes";
 import logo from './logo.png';
 import {Link} from 'react-router-dom';
-
+import Header from "./components/header/Header";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className="wrap">
-      <div className="header-container">
-      <img class="logo" src={logo} alt="React Image" /></div>
-
-      <div class="navbar-container">
-      <li><a class = "navbar-font"> </a><Link to="/">Home</Link></li> 
-      <li><a class = "navbar-font"> </a><Link to="https://forms.monash.edu/course-advice?chatbot=nomount">Course Advice Request</Link></li> 
-      <li><a class = "navbar-font"> </a><Link to="https://forms.monash.edu/enrolment-amendment?chatbot=nomount">Enrolment Amendment</Link></li> 
-    </div>
+    
+    <div className="app-container">
+      <Header />
+      <Navbar />
 
       <div className="main">
-        <Router />
+        <Routes />
       </div>
 
-      <div className="footer-container">
-        <div className="text-contaienr">
-          <h1 className="designed-by">Designed by:</h1>
-          <h2 className="student-name">Malith Liyanaarachchi</h2>
-          <h2 className="student-name">Arjun Girish</h2>
-          <h2 className="student-name">Jing Wu</h2>
-        </div>
-    </div>    
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
   );
 }
