@@ -27,12 +27,6 @@ def get_ug_specialisation():
         # Converting dictionary object -> JSON string -> JSON object
         json_data = json.loads(json.dumps(spec_data))
         ug_specialisation.append(json_data)
-    print(ug_specialisation)    
-    # return ug_specialisation
-    
-            
-    
-
 
 def getCoreUnits(unit):
     # self, spec_code
@@ -57,7 +51,6 @@ def getCoreUnits(unit):
         # Converting dictionary object -> JSON string -> JSON object
         json_data = json.loads(json.dumps(spec_data))
         core_unit.append(json_data)
-    print(core_unit)      
     # return core_unit
     
 
@@ -81,7 +74,6 @@ def getUnitDetails(unit):
     offerings_container = handbook_soup.find("div", {"data-menu-title": "Offerings"})
     offerings_headers = offerings_container.find_all("div", {"role": "listitem"})
     if offerings_headers:
-        print("Offerings:")
         for offering_header in offerings_headers:
             offering_info = offering_header.text.strip()
             
@@ -109,18 +101,12 @@ def getUnitDetails(unit):
 
     
     requisites_container = handbook_soup.find("div", {"data-menu-title": "Requisites"}) #Outer div --> scrapes all the divs under Requisites
-    
-    try:
-        rules_container = handbook_soup.find("div", {"data-menu-title": "Rules"})
-
-    except AttributeError:
-        rules_container = None
-
     requisites_headers = requisites_container.find_all("div", {"role": "listitem"}) 
-    requisites_group = requisites_container.find("div", class_=lambda x: x and "RequisiteGroup" in x)   
 
-    Prerequisite = 'null'
-    Prohibition = 'null'
+    requisites_group_prerequisite = requisites_group_prohibition = None
+
+    Prerequisite = None
+    Prohibition = None
 
     for div in requisites_headers:
         text = div.text
@@ -129,71 +115,117 @@ def getUnitDetails(unit):
         elif "Prohibition" in text:
             Prohibition = div
 
+    if Prerequisite is not None:
+        requisites_group_prerequisite = Prerequisite.find("div", class_=lambda x: x and "RequisiteGroup" in x)
+    if Prohibition is not None:
+        requisites_group_prohibition = Prohibition.find("div", class_=lambda x: x and "RequisiteGroup" in x)  
+  
+
     badge_pre = badge_pro = None  # Default values
 
-    if Prerequisite != 'null':
+    if Prerequisite != None:
         badge_pre = Prerequisite.find("span", class_=lambda x: x and "Badge" in x)
-    if Prohibition != 'null':
+    if Prohibition != None:
         badge_pro = Prohibition.find("span", class_=lambda x: x and "Badge" in x)
 
-    # print("pre--",Prerequisite )
-   
-    # print('Container:')
-    # print(requisites_container.text.strip())
-    # print('Header:')
-    description = None
-    
-    for child in Prerequisite:    # CODE BREAKS IF PROHIBITION OR PRE-REQ HAS MORE THAN 1 REQUISITE GROUP 
-        print("Contains Prerequisite")
-        if requisites_group:    #DONE! - executes code if a requisite group exists
-            related_units = requisites_group.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x)   # Grabs the unit code  StyledLinkGroup 
-            relationship = requisites_group.find("span").text.strip()       # Grabs the relationship
+    if Prerequisite is not None:
+        for child in Prerequisite:    # CODE BREAKS IF PROHIBITION OR PRE-REQ HAS MORE THAN 1 REQUISITE GROUP 
+            if requisites_group_prerequisite is not None:    #DONE! - executes code if a requisite group exists
+                related_units = requisites_group_prerequisite.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x)   # Grabs the unit code  StyledLinkGroup 
+                relationship = requisites_group_prerequisite.find("span").text.strip()       # Grabs the relationship
 
-            if relationship == "OR":    #DONE!
-                print("Reached OR")
-                prerequisites = [unit.text.strip() for unit in related_units]
-                unit_details["prerequisites"]["OR"] = prerequisites
-                print("PreReq", unit_details["prerequisites"])
+                if relationship == "OR":    #DONE!
+                    prerequisites = [unit.text.strip() for unit in related_units]
+                    unit_details["prerequisites"]["OR"] = prerequisites
 
-            elif relationship == "AND": #NEED TO VERIFY!
-                prerequisites = [unit.text.strip() for unit in related_units]
-                unit_details["prerequisites"]["AND"] = prerequisites
-                print("Reached AND")
+                elif relationship == "AND": #NEED TO VERIFY!
+                    prerequisites = [unit.text.strip() for unit in related_units]
+                    unit_details["prerequisites"]["AND"] = prerequisites
+                    
+                else:
+                    print("Neither OR, AND relationship exists!")   #NOT SURE IF THERE IS EVER A SCENARIO FOR THIS
+            
+            # Add code to retrieve units outside requsitie group.
+            
+                unit_code_divs = Prerequisite.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x)
+                span_tags = Prerequisite.find_all("span")
+
+                # If there are any matches, get the text of the last one -> essentially ignoring the requisite group
+                if unit_code_divs:
+                    unit_code = unit_code_divs[-1].text.strip()
+
+                # If there are any matches, get the text of the last one
+                if span_tags:
+                    badge = span_tags[-1].text.strip()
+                    if badge == "OR":
+                        unit_details["prerequisites"]["OR"].append(unit_code)
+                    if badge == "AND":
+                        unit_details["prerequisites"]["AND"].append(unit_code)
+
+            # Units with the badge -> OR relationship
+            if badge_pre is not None and not requisites_group_prerequisite:
+                y = child.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x) 
+                yPrint = [unit.text.strip() for unit in y]
+                unit_details["prerequisites"]["OR"] = yPrint
                 
-            else:
-                print("Neither OR, AND relationship exists!")   #NOT SURE IF THERE IS EVER A SCENARIO FOR THIS
-        
-        # Add code to retrieve units if there is not requsitie group.  This should handle for units outside the requisiste group too??
-          
-            unit_code_divs = Prerequisite.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x)
-            span_tags = Prerequisite.find_all("span")
+            if not badge_pre and not requisites_group_prerequisite:
+                # Units without the pill -> AND relationship
+                x = child.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x) 
+                xPrint = [unit.text.strip() for unit in x]
+                unit_details["prerequisites"]["AND"] = xPrint
 
-            # If there are any matches, get the text of the last one -> essentially ignoring the requisite group
-            if unit_code_divs:
-                unit_code = unit_code_divs[-1].text.strip()
-                print("unit_code:", unit_code)
+    if Prohibition is not None:
+        for child in Prohibition:
+            if requisites_group_prohibition is not None:    #DONE! - executes code if a requisite group exists
+                related_units = requisites_group_prohibition.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x)   # Grabs the unit code  StyledLinkGroup 
+                relationship = requisites_group_prohibition.find("span").text.strip()       # Grabs the relationship
 
-            # If there are any matches, get the text of the last one
-            if span_tags:
-                badge = span_tags[-1].text.strip()
-                if badge == "OR":
-                    unit_details["prerequisites"]["OR"].append(unit_code)
-                if badge == "AND":
-                    unit_details["prerequisites"]["AND"].append(unit_code)
+                if relationship == "OR":    #DONE!
+                    prohibition = [unit.text.strip() for unit in related_units]
+                    unit_details["prohibitions"]["OR"] = prohibition
 
-        # Units with the pill -> OR relationship
-        if badge_pre is not None and not requisites_group:
-            y = child.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x) 
-            yPrint = [unit.text.strip() for unit in y]
-            unit_details["prerequisites"]["OR"] = yPrint
+                elif relationship == "AND": #NEED TO VERIFY!
+                    prohibition = [unit.text.strip() for unit in related_units]
+                    unit_details["prohibitions"]["AND"] = prohibition
+                    
+                else:
+                    print("Neither OR, AND relationship exists!")   #NOT SURE IF THERE IS EVER A SCENARIO FOR THIS
             
-        if not badge_pre and not requisites_group:
-            # Units without the pill -> AND relationship
-            x = child.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x) 
-            xPrint = [unit.text.strip() for unit in x]
-            unit_details["prerequisites"]["AND"] = xPrint
+            # Add code to retrieve units outside requsitie group.
             
-    #Find Rules
+                unit_code_divs = Prohibition.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x)
+                span_tags = Prohibition.find_all("span")
+
+                # If there are any matches, get the text of the last one -> essentially ignoring the requisite group
+                if unit_code_divs:
+                    unit_code = unit_code_divs[-1].text.strip()
+
+                # If there are any matches, get the text of the last one
+                if span_tags:
+                    badge = span_tags[-1].text.strip()
+                    if badge == "OR":
+                        unit_details["prohibitions"]["OR"].append(unit_code)
+                    if badge == "AND":
+                        unit_details["prohibitions"]["AND"].append(unit_code)
+            # Units with the badge -> OR relationship
+            if badge_pro is not None and not requisites_group_prohibition:
+                y = child.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x) 
+                yPrint = [unit.text.strip() for unit in y]
+                unit_details["prohibitions"]["OR"] = yPrint
+                
+            if not badge_pro and not requisites_group_prohibition:
+                # Units without the pill -> AND relationship
+                x = child.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x) 
+                xPrint = [unit.text.strip() for unit in x]
+                unit_details["prohibitions"]["AND"] = xPrint
+  
+   #Find Rules
+    try:
+        rules_container = handbook_soup.find("div", {"data-menu-title": "Rules"})
+
+    except AttributeError:
+        rules_container = None
+
     if rules_container:
         rules_text = rules_container.get_text()
         substring = "keyboard_arrow_down"
@@ -201,56 +233,9 @@ def getUnitDetails(unit):
         if index != -1:  # Make sure the substring was found
             start_position = index + len(substring)
             rules = rules_text[start_position:]
-            unit_details["rule"] = rules
-
-        
-        
-        # if child.name == "div" and "RequisiteGroup" in child.get('class', []):
-        # # Skip divs with class RequisiteGroup
-        #     continue
-        # else:
-        #     # If it's a div, it should contain a unit code
-        #     unit_code_div = child.find("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x)
-        #     if unit_code_div is not None:  
-        #         unit_code = unit_code_div.text  
-        #         print("unit_code:", unit_code)  
-        #     else:
-        #         print("unit_code div not found")
-            
-        #     relationship_span_ = child.find("span", class_=lambda x: x and "Badge" in x)
-        #     if relationship_span_ is not None:  
-        #         relationship_span = relationship_span_.text  
-        #         print("relationship_span:", relationship_span)  
-        #     else:
-        #         print("relationship div not found")
-
-            # if relationship_span == "OR":
-            #     unit_details["prerequisites"]["OR"].append(unit_code)
-            # if relationship_span == "AND":
-            #     unit_details["prerequisites"]["AND"].append(unit_code)
-        
-    # print("Offerings!!",unit_details["offerings"])
-    # print("Prerequisite!!",unit_details["prerequisites"])
-    # print("Unit Details",unit_details)
+            unit_details["rule"] = rules        
     
-
-                # print("requisites_headers", requisites_headers)
-                # print("list-items",list_items)
-            # requisites_unit = requisites_headers.find("div", class_=lambda x: x and "StyledLinkGroup" in x)
-            # print("requisites_unit",requisites_unit)
-
-            # else:
-            #     print("Group Doesnt Exist!")
-        # if list_items.startswith("Prohibition"):
-        #     print("Contains Prohibition")
-        #     print("Prohibition")
-        #     print(items.text.strip())
-    # print(requisites_group.text.strip())
-
-
-    
-    # unit_details_json = json.dumps(unit_details)
-                
+    print("unit_details",unit_details)            
 
     driver.quit()
 
@@ -262,7 +247,7 @@ def getUnitDetails(unit):
     
 
 
-getUnitDetails("ECE4081")
+getUnitDetails("ECE2111")
 
 
 # get_ug_specialisation()
