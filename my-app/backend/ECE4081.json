@@ -1,0 +1,22 @@
+{
+    "overview": "Overview This unit shows how engineering principles are used in the design and construction of biomedical instrumentation. This includes the application of electrochemistry to biological membranes, application of cable theory to nerve axons, application of electronic design principles to the recording of biological electrical signals, application of quantitative optics to spectrometry. \u2026 For more content click the Read More button below.This unit shows how engineering principles are used in the design and construction of biomedical instrumentation. This includes the application of electrochemistry to biological membranes, application of cable theory to nerve axons, application of electronic design principles to the recording of biological electrical signals, application of quantitative optics to spectrometry. In addition, the operating principles of a wide range of medical and laboratory instruments will be explored, ranging from ECG machines, pressure transducers to cochlear and vision implants.Read More about Overview",
+    "offerings": {
+        "S2-01-CLAYTON-ON-CAMPUS": {
+            "location": [
+                "Clayton"
+            ],
+            "teaching_period": "Second semester",
+            "Attendance_mode": [
+                "On-campus"
+            ]
+        }
+    },
+    "prerequisites": {
+        "OR": [],
+        "AND": [
+            "ECE2131"
+        ]
+    },
+    "prohibitions": {},
+    "rule:": null
+}

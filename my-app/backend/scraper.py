@@ -68,7 +68,7 @@ def getUnitDetails(unit):
     content = driver.page_source.encode('utf-8').strip()
     handbook_soup = BeautifulSoup(content, "lxml")
 
-    unit_details = {"overview": "", "offerings": {}, "prerequisites":{"OR": [], "AND": []}, "prohibitions":{}}
+    unit_details = {"overview": "", "offerings": {}, "prerequisites":{"OR": [], "AND": []}, "prohibitions":{}, "rule:":None}
 
     # Find overview
     overview = handbook_soup.find("div", id="Overview")
@@ -109,10 +109,16 @@ def getUnitDetails(unit):
 
     
     requisites_container = handbook_soup.find("div", {"data-menu-title": "Requisites"}) #Outer div --> scrapes all the divs under Requisites
-    requisites_headers = requisites_container.find_all("div", {"role": "listitem"}) #Inner div --> 1 div for prohibition, 1 for preReqs
-    requisites_group = requisites_container.find("div", class_=lambda x: x and "RequisiteGroup" in x)   # Get the Requisite group
+    
+    try:
+        rules_container = handbook_soup.find("div", {"data-menu-title": "Rules"})
 
-    # Logic to determine which div is which as its not consistent for all units.  Default to null so it aligns with JSON format
+    except AttributeError:
+        rules_container = None
+
+    requisites_headers = requisites_container.find_all("div", {"role": "listitem"}) 
+    requisites_group = requisites_container.find("div", class_=lambda x: x and "RequisiteGroup" in x)   
+
     Prerequisite = 'null'
     Prohibition = 'null'
 
@@ -123,12 +129,19 @@ def getUnitDetails(unit):
         elif "Prohibition" in text:
             Prohibition = div
 
-    
+    badge_pre = badge_pro = None  # Default values
+
+    if Prerequisite != 'null':
+        badge_pre = Prerequisite.find("span", class_=lambda x: x and "Badge" in x)
+    if Prohibition != 'null':
+        badge_pro = Prohibition.find("span", class_=lambda x: x and "Badge" in x)
+
     # print("pre--",Prerequisite )
    
-    print('Container:')
-    print(requisites_container.text.strip())
-    print('Header:')
+    # print('Container:')
+    # print(requisites_container.text.strip())
+    # print('Header:')
+    description = None
     
     for child in Prerequisite:    # CODE BREAKS IF PROHIBITION OR PRE-REQ HAS MORE THAN 1 REQUISITE GROUP 
         print("Contains Prerequisite")
@@ -152,21 +165,43 @@ def getUnitDetails(unit):
         
         # Add code to retrieve units if there is not requsitie group.  This should handle for units outside the requisiste group too??
           
-        unit_code_divs = Prerequisite.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x)
-        span_tags = Prerequisite.find_all("span")
+            unit_code_divs = Prerequisite.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x)
+            span_tags = Prerequisite.find_all("span")
 
-        # If there are any matches, get the text of the last one -> essentially ignoring the requisite group
-        if unit_code_divs:
-            unit_code = unit_code_divs[-1].text.strip()
-            print("unit_code:", unit_code)
+            # If there are any matches, get the text of the last one -> essentially ignoring the requisite group
+            if unit_code_divs:
+                unit_code = unit_code_divs[-1].text.strip()
+                print("unit_code:", unit_code)
 
-        # If there are any matches, get the text of the last one
-        if span_tags:
-            badge = span_tags[-1].text.strip()
-            if badge == "OR":
-                unit_details["prerequisites"]["OR"].append(unit_code)
-            if badge == "AND":
-                unit_details["prerequisites"]["AND"].append(unit_code)
+            # If there are any matches, get the text of the last one
+            if span_tags:
+                badge = span_tags[-1].text.strip()
+                if badge == "OR":
+                    unit_details["prerequisites"]["OR"].append(unit_code)
+                if badge == "AND":
+                    unit_details["prerequisites"]["AND"].append(unit_code)
+
+        # Units with the pill -> OR relationship
+        if badge_pre is not None and not requisites_group:
+            y = child.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x) 
+            yPrint = [unit.text.strip() for unit in y]
+            unit_details["prerequisites"]["OR"] = yPrint
+            
+        if not badge_pre and not requisites_group:
+            # Units without the pill -> AND relationship
+            x = child.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x) 
+            xPrint = [unit.text.strip() for unit in x]
+            unit_details["prerequisites"]["AND"] = xPrint
+            
+    #Find Rules
+    if rules_container:
+        rules_text = rules_container.get_text()
+        substring = "keyboard_arrow_down"
+        index = rules_text.find(substring)
+        if index != -1:  # Make sure the substring was found
+            start_position = index + len(substring)
+            rules = rules_text[start_position:]
+            unit_details["rule"] = rules
 
         
         
@@ -194,8 +229,10 @@ def getUnitDetails(unit):
             # if relationship_span == "AND":
             #     unit_details["prerequisites"]["AND"].append(unit_code)
         
-        print("No Requisite Group!")
-        print("Prerequisite!!",unit_details["prerequisites"])
+    # print("Offerings!!",unit_details["offerings"])
+    # print("Prerequisite!!",unit_details["prerequisites"])
+    # print("Unit Details",unit_details)
+    
 
                 # print("requisites_headers", requisites_headers)
                 # print("list-items",list_items)
@@ -217,12 +254,15 @@ def getUnitDetails(unit):
 
     driver.quit()
 
+    with open('data.json', 'w') as f:
+        json.dump(unit_details, f)
+
     # return (unit_details_json)                  
 
     
 
 
-getUnitDetails("ECE2111")
+getUnitDetails("ECE4081")
 
 
 # get_ug_specialisation()
