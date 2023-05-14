@@ -1,38 +1,135 @@
-.App {
+@import '~antd/dist/antd.css';
+.wrap {
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrap .nav {
+  height: 50px;
+  line-height: 50px;
   text-align: center;
+  background: rgb(9, 9, 170);
+  color: #fff;
+  font-weight: 500;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrap .main {
+  height: calc(100vh - 100px);
+  overflow: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrap .footer {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: rgb(9, 9, 170);
+  color: #fff;
+  font-weight: 500;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-container{
+  font-family: 'Inter', sans-serif;
+  max-width: 100%;
+  color: white;
+  background-color: #0165AC;
   display: flex;
-  flex-direction: column;
+  height: 100px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0px 500px 0px 500px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.header-text{
+  font-weight: 400;
+  letter-spacing: -0.8px;
+  font-size: 22px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo{
+  height: 150px;
 }
+
+.footer-container{
+    font-family: 'Inter', sans-serif;
+    background-color: #0165AC;
+    display: flex;
+    height: 100px;
+    align-items: left;
+    padding-left: 30px;
+    overflow-x: hidden;
+}
+
+.designed-by{
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing:-0.2px; 
+    margin: 15px 0px 1px 0px;
+    color: white;
+
+}
+
+.student-name{
+    font-weight: 300;
+    font-size: 10px;
+    margin: 0px;
+    color: white;
+
+}
+
+.navbar-container{
+    font-family: 'Inter', sans-serif;
+    max-width: 100%;
+    background-color: #004B80;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px 415px 0px 500px;
+    font-size: 11px;
+    box-shadow: 0 8px 6px -6px grey;
+    position: relative;
+    margin: 0px 0px 30px 0px;
+
+}
+
+a:visited { 
+    color: white; 
+}
+   
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+  
+.navbar-container{
+    font-family: 'Inter', sans-serif;
+    max-width: 100%;
+    background-color: #004B80;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px 415px 0px 500px;
+    font-size: 11px;
+    box-shadow: 0 8px 6px -6px grey;
+    position: relative;
+}
+
+a:visited { 
+    color: white; 
+}
+   
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+  
