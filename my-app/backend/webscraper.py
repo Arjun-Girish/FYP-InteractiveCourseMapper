@@ -62,9 +62,12 @@ class Webscraper:
         return soup
 
     def get_offerings(self, soup):
-        offerings_container = soup.find("div", {"data-menu-title": "Offerings"})
-        offerings_headers = offerings_container.find_all("div", {"role": "listitem"})
         offerings = {}
+        offerings_container = soup.find("div", {"data-menu-title": "Offerings"})
+        offerings_headers = []
+        if offerings_container is not None:
+            offerings_headers = offerings_container.find_all("div", {"role": "listitem"})
+        
         for offering_header in offerings_headers:
             offering_info = offering_header.text.strip()
             
@@ -89,20 +92,26 @@ class Webscraper:
 
     def get_requisites(self, soup, requisite_type):
         requisites_container = soup.find("div", {"data-menu-title": "Requisites"}) 
-        requisites_headers = requisites_container.find_all("div", {"role": "listitem"}) 
+        requisites_headers = []
+        if requisites_container is not None:
+            requisites_headers = requisites_container.find_all("div", {"role": "listitem"}) # WORKS
+        # print("requisites_headers",requisites_headers)
 
+        # Default values
         requisite_group = None
         requisite_element = None
+        badge_element = None  
 
+        #Determine if its prerequisites or prohibitions
         for div in requisites_headers:
             text = div.text
             if requisite_type in text:
                 requisite_element = div
-
+        # print("requisite_type",requisite_type)
+        # print("requisite_element",requisite_element)
         if requisite_element is not None:
             requisite_group = requisite_element.find("div", class_=lambda x: x and "RequisiteGroup" in x)
-
-        badge_element = None  # Default values
+            # print("requisite_group",requisite_group)
 
         if requisite_element != None:
             badge_element = requisite_element.find("span", class_=lambda x: x and "Badge" in x)
@@ -112,9 +121,12 @@ class Webscraper:
         if requisite_element is not None:
             for child in requisite_element:    
                 if requisite_group is not None:
+                    span_element = requisite_group.find("span")
                     related_units = requisite_group.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x)   
-                    relationship = requisite_group.find("span").text.strip()       
-
+                    if span_element is not None:
+                        relationship = span_element.text.strip()       
+                    else: 
+                        relationship = None
                     if relationship == "OR":
                         units = [unit.text.strip() for unit in related_units]
                         requisites["OR"] = units
@@ -123,7 +135,7 @@ class Webscraper:
                         units = [unit.text.strip() for unit in related_units]
                         requisites["AND"] = units
 
-                else:
+                # Code to retrieve units outside requisite group.
                     unit_code_divs = requisite_element.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x)
                     span_tags = requisite_element.find_all("span")
 
@@ -137,6 +149,7 @@ class Webscraper:
                         if badge == "AND":
                             requisites["AND"].append(unit_code)
 
+                # Code to retrieve units when no requisite group.
                 if badge_element is not None and not requisite_group:
                     units = child.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x) 
                     units = [unit.text.strip() for unit in units]
@@ -146,6 +159,7 @@ class Webscraper:
                     units = child.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x) 
                     units = [unit.text.strip() for unit in units]
                     requisites["AND"] = units
+
         return {requisite_type.lower(): requisites}
 
     def get_rules(self, soup):
@@ -170,17 +184,17 @@ class Webscraper:
         unit_details = {}
         
         offerings = self.get_offerings(soup)
-        prerequisites = self.get_requisites(soup, "Prerequisites")
-        corequisites = self.get_requisites(soup, "Corequisites")
-        prohibitions = self.get_requisites(soup, "Prohibitions")
+        prerequisites = self.get_requisites(soup, "Prerequisite")
+        prohibitions = self.get_requisites(soup, "Prohibition")
         rules = self.get_rules(soup)
         
         unit_details.update(offerings)
         unit_details.update(prerequisites)
-        unit_details.update(corequisites)
         unit_details.update(prohibitions)
         unit_details.update(rules)
         
+        # print("Prerequisites", unit_details["prerequisite"])
+        # print("Prohibitions",unit_details["prohibition"])
         return unit_details
 
 
