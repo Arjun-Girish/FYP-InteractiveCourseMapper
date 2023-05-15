@@ -1,0 +1,118 @@
+{
+    "code": "ENTENMNR02",
+    "credit points": "24",
+    "name": "Engineering entrepreneurship",
+    "units": [
+        {
+            "code": "BEX3311",
+            "credit points": "6",
+            "name": "Entrepreneurial mindsets and capabilities",
+            "unit_details": {
+                "offerings": {
+                    "S1-01-CAULFIELD-ON-CAMPUS": {
+                        "location": [
+                            "Caulfield"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-CAULFIELD-ONLINE": {
+                        "location": [
+                            "Caulfield"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "Online"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must have completed 72 credit points of study to undertake this unit. "
+            }
+        },
+        {
+            "code": "BEX3411",
+            "credit points": "6",
+            "name": "Building start-ups with impact",
+            "unit_details": {
+                "offerings": {
+                    "S2-01-CAULFIELD-ON-CAMPUS": {
+                        "location": [
+                            "Caulfield"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CAULFIELD-ONLINE": {
+                        "location": [
+                            "Caulfield"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "Online"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "BEX2411",
+                        "BEX3311"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "FIT3134"
+                    ]
+                },
+                "rules": "You must have completed 72 credit points of study to undertake this unit. "
+            }
+        },
+        {
+            "code": "ENG3701",
+            "credit points": "6",
+            "name": " Entrepreneurial project A",
+            "unit_details": {
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ENG3702",
+            "credit points": "6",
+            "name": "Entrepreneurial project B",
+            "unit_details": {
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        }
+    ]
+}

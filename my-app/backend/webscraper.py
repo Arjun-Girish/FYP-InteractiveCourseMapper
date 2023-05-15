@@ -13,12 +13,12 @@ class Webscraper:
         self.driver.get(url)
         return BeautifulSoup(self.driver.page_source.encode('utf-8').strip(), "lxml")
 
-    def extract_undergrad_specialisation_data(self, raw_text):
-        spec_code_CP = raw_text.split('arrow_forward')[1].split(' ')[0]
-        spec_code = spec_code_CP[:-3]
+    def extract_data(self, raw_text):
+        code_CP = raw_text.split('arrow_forward')[1].split(' ')[0]
+        code = code_CP[:-3]
         name = raw_text.split("CP")[1]
-        credit_points = spec_code_CP[-3:]
-        return {"code": spec_code, "credit points": credit_points, "name": name}
+        credit_points = code_CP[-3:]
+        return {"code": code, "credit points": credit_points, "name": name}
 
     def extract_unit_data(self, raw_text):
         unit_code_CP = raw_text.split()[0].split('arrow_forward')[1][:8]
@@ -26,32 +26,61 @@ class Webscraper:
         name = raw_text.split("CP")[1]
         credit_points = unit_code_CP[-1]
         unit_details = self.get_unit_details(unit_code)
+        print("unit_code",unit_code)
         return {"code": unit_code, "credit points": credit_points, "name": name, "unit_details": unit_details}
-
+    
+    def extract_minor_data(self, raw_text): # Gets all the different minors
+        print('EXTRACTING MINOR DATA')
+        minor_code_CP = raw_text.split()[0].split('arrow_forward')[1][:12]
+        minor_code = minor_code_CP[:-2]
+        print("minor_code",minor_code)
+        name = raw_text.split("CP")[1]
+        credit_points = minor_code_CP[-2:]
+        return {"code": minor_code, "credit points": credit_points, "name": name, "units": []}
 
     def get_ug_specialisation(self):
         url = 'https://handbook.monash.edu/2023/courses/E3001'
         soup = self.get_page_content(url)
         spec_elements = soup.find_all("div", class_="css-m23545-Links--LinkGroupWrapper e1t6s54p1", filter="ug_specialisation")
-        specialisations = [self.extract_undergrad_specialisation_data(e.text.strip()) for e in spec_elements]
+        specialisations = [self.extract_data(e.text.strip()) for e in spec_elements]
 
         for spec in specialisations:
             spec_code = spec["code"]
-            core_units = self.get_core_units(spec_code)
+            core_units = self.get_units(spec_code)
             spec["core_units"] = core_units
             
             # Export to JSON
-            with open(f'{spec_code}.json', 'w') as json_file:
+            with open(f'engineering-specialisation/{spec_code}.json', 'w') as json_file:
                 json.dump(spec, json_file, indent=4)
 
         return specialisations
-
-    def get_core_units(self, unit):
-        url = 'https://handbook.monash.edu/2023/aos/' + unit  + '.html'
+    
+    def get_eng_minors(self):
+        url = 'https://handbook.monash.edu/2023/courses/E3001'
         soup = self.get_page_content(url)
-        unit_elements = soup.find_all("div", class_="css-m23545-Links--LinkGroupWrapper e1t6s54p1", filter="subject")
-        return [self.extract_unit_data(e.text.strip()) for e in unit_elements]
+        minor_elements = soup.find_all("div", class_="css-m23545-Links--LinkGroupWrapper e1t6s54p1", filter="minor")
+        minors = [self.extract_minor_data(e.text.strip()) for e in minor_elements]
 
+        for minor in minors:
+            minor_code = minor["code"]
+            minor_units = self.get_units(minor_code)
+            minor["units"] = minor_units
+
+            # Export to JSON
+            with open(f'engineering-minors/{minor_code}.json', 'w') as json_file:
+                json.dump(minor, json_file, indent=4)
+
+        return minors
+
+    def get_units(self, unit):
+        print('CODE REACHED')
+        url = 'https://handbook.monash.edu/2023/aos/' + unit
+        soup = self.get_page_content(url)
+        unit_elements = soup.find_all("div", class_="css-gzffxs-Links--LinkGroupWrapper e1t6s54p1", filter="subject")
+        print("unit_elements",unit_elements)
+        return [self.extract_unit_data(e.text.strip()) for e in unit_elements]
+    # Use css-gzffxs-Links--LinkGroupWrapper e1t6s54p1 for minor units
+    # Use css-m23545-Links--LinkGroupWrapper e1t6s54p1 for core/specialisation units
 
     def get_driver_content(self, url):
         driver = webdriver.Chrome()
@@ -199,4 +228,5 @@ class Webscraper:
 
 
 MonashHandbook = Webscraper()
-specialisations = MonashHandbook.get_ug_specialisation()
+# specialisations = MonashHandbook.get_ug_specialisation()
+engineering_minors = MonashHandbook.get_eng_minors()
