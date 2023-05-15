@@ -1,0 +1,77 @@
+.search-container{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 1000px;
+    border-radius: 8px; /* Soft edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+    padding: 30px;
+}
+
+.semester-block {
+    display: flex;
+}
+
+.course-container{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.specialisation-name{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+
+.select-course{
+    font-size: 20px;
+    letter-spacing: -1px;
+    
+}
+
+.course-block {
+    background-color: #d9d9d967;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 70px;
+    margin: 20px 40px 0px 40px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width:2px;
+}
+
+.course-block:hover{
+    background-color: #0165AC;
+    text-decoration: underline;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.submit_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0165AC;
+  margin: 30px auto; /* Set left and right margins to auto */
+  width: 100px;
+  max-width: 300px; /* Set a maximum width for the button */
+  height: 40px;
+  color: white;
+  border-style: none;
+  border-radius: 20px; /* Make the button rounded like a pill */
+  padding: 0 1.5rem; /* Adjust padding for an appealing look */
+}
+
+.submit_button:hover{
+    background-color: #004b80;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  

@@ -2,6 +2,8 @@ import React, { useState, useContext } from "react";
 import { Select } from "antd";
 import { CaretDownOutlined } from "@ant-design/icons";
 import { MyContext } from "./index";
+import "./index.css";
+
 export default function Left() {
   const handleChange = (value) => {
     console.log(`selected ${value}`);
@@ -14,6 +16,7 @@ export default function Left() {
     name: "",
     input3: "",
   });
+  
   const handleInputChange1 = (event) => {
     setInputValue({ ...inputValue, code: event.target.value });
   };
