@@ -76,8 +76,7 @@ class Webscraper:
         print('CODE REACHED')
         url = 'https://handbook.monash.edu/2023/aos/' + unit
         soup = self.get_page_content(url)
-        unit_elements = soup.find_all("div", class_="css-gzffxs-Links--LinkGroupWrapper e1t6s54p1", filter="subject")
-        print("unit_elements",unit_elements)
+        unit_elements = soup.find_all("div", class_="css-m23545-Links--LinkGroupWrapper e1t6s54p1", filter="subject")
         return [self.extract_unit_data(e.text.strip()) for e in unit_elements]
     # Use css-gzffxs-Links--LinkGroupWrapper e1t6s54p1 for minor units
     # Use css-m23545-Links--LinkGroupWrapper e1t6s54p1 for core/specialisation units
@@ -89,6 +88,14 @@ class Webscraper:
         soup = BeautifulSoup(content, "lxml")
         driver.quit()
         return soup
+    
+    def get_overview(self,soup):
+        overview = ""
+        overview_container = soup.find("div", id="Overview")
+        if overview_container:
+            overview = overview_container.text.strip()
+        return {"overview":overview}
+
 
     def get_offerings(self, soup):
         offerings = {}
@@ -211,11 +218,13 @@ class Webscraper:
         soup = self.get_driver_content(url)
         unit_details = {}
         
+        overview = self.get_overview(soup)
         offerings = self.get_offerings(soup)
         prerequisites = self.get_requisites(soup, "Prerequisite")
         prohibitions = self.get_requisites(soup, "Prohibition")
         rules = self.get_rules(soup)
         
+        unit_details.update(overview)
         unit_details.update(offerings)
         unit_details.update(prerequisites)
         unit_details.update(prohibitions)
@@ -228,5 +237,5 @@ class Webscraper:
 
 
 MonashHandbook = Webscraper()
-# specialisations = MonashHandbook.get_ug_specialisation()
-engineering_minors = MonashHandbook.get_eng_minors()
+specialisations = MonashHandbook.get_ug_specialisation()
+# engineering_minors = MonashHandbook.get_eng_minors()

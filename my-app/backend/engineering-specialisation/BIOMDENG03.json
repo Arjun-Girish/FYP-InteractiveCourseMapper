@@ -8,6 +8,7 @@
             "credit points": "6",
             "name": "Mechanics of fluids",
             "unit_details": {
+                "overview": "Overview This unit develops your physical understanding of fluid statics and fluid flow and the interaction of fluid forces with solids.\nTopics include hydrostatics, Reynolds transport theorem, continuity and momentum equations, control volume analysis, the Bernoulli equation, viscous pipe flow, pumps, dimensional analysis, boundary layers, flow measurement techniques and applications of \u2026 For more content click the Read More button below.This unit develops your physical understanding of fluid statics and fluid flow and the interaction of fluid forces with solids.\nTopics include hydrostatics, Reynolds transport theorem, continuity and momentum equations, control volume analysis, the Bernoulli equation, viscous pipe flow, pumps, dimensional analysis, boundary layers, flow measurement techniques and applications of fluid forces in flow - lift and drag.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -47,6 +48,7 @@
             "credit points": "6",
             "name": "Early human development from cells to tissues",
             "unit_details": {
+                "overview": "Overview Developmental biology encompasses numerous disciplines, including embryology, anatomy, molecular and cellular biology, as well as evolution and genetics. This unit covers the key events involved in early human development, including gametogenesis, fertilisation, blastocyst formation and implantation, generation of germ layers and cellular derivatives. You will explore how the many specialised \u2026 For more content click the Read More button below.\nYou will gain a range of skills in studying developmental biology that are transferable to different postgraduate areas of study and career paths such as biomedical research, medicine and allied health professions, and industry.\u00a0 The skills gained from completing DEV2011 assessment tasks include experimental techniques, critical thinking, investigative research skills, communication and project management.Developmental biology encompasses numerous disciplines, including embryology, anatomy, molecular and cellular biology, as well as evolution and genetics. This unit covers the key events involved in early human development, including gametogenesis, fertilisation, blastocyst formation and implantation, generation of germ layers and cellular derivatives. You will explore how the many specialised cell types in the adult human body are derived from a single fertilised egg, how molecular and cellular mechanisms regulate development, and how issues with these mechanisms can result in developmental disorders. You will learn about the development and microanatomy of a range of cell types, which provides foundational information on organ formation that you will build on in DEV2022. Finally, you will explore the roles of embryonic and adult stem cells, the potential for the use of these cells in medicine, and how cutting-edge developmental biology experiments are performed.\nYou will gain a range of skills in studying developmental biology that are transferable to different postgraduate areas of study and career paths such as biomedical research, medicine and allied health professions, and industry.\u00a0 The skills gained from completing DEV2011 assessment tasks include experimental techniques, critical thinking, investigative research skills, communication and project management.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -74,6 +76,7 @@
             "credit points": "6",
             "name": "Human anatomy and development: Tissues and body systems",
             "unit_details": {
+                "overview": "Overview This unit investigates the structure of the human body and organ systems (gross anatomy and histology), including their developmental origins. You will gain a deep understanding of how the structure of the human body (both macro and microscopic) relates to its function and the development of specific organs and organ \u2026 For more content click the Read More button below.\nThe assessment tasks and laboratories in the unit are designed to build employability skills which emphasise human ethics, investigative research skills, critical thinking and communication. You will be provided with hands-on anatomy experience, which serves to improve understanding of structural relationships, provided within the world-class anatomical sciences and biomedical science laboratoriesThis unit investigates the structure of the human body and organ systems (gross anatomy and histology), including their developmental origins. You will gain a deep understanding of how the structure of the human body (both macro and microscopic) relates to its function and the development of specific organs and organ systems by building upon the microscopic knowledge foundations gained in DEV2011. You will learn how the primary tissue types can combine to form organs and help with execution of organ function.\u00a0 In studying this unit, you will learn anatomical terminology and principles, how organs work together in systems as well as how embryogenesis yields both typical and variant anatomical structures. \u00a0\nThe assessment tasks and laboratories in the unit are designed to build employability skills which emphasise human ethics, investigative research skills, critical thinking and communication. You will be provided with hands-on anatomy experience, which serves to improve understanding of structural relationships, provided within the world-class anatomical sciences and biomedical science laboratoriesRead More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -101,6 +104,7 @@
             "credit points": "6",
             "name": "Computer organisation and programming",
             "unit_details": {
+                "overview": "Overview This unit provides an introduction to computers and CPU organisation, assemblers and compilers, and algorithm design for engineering problems and embedded computer systems. It covers the language C and its implementation on a typical computer, including standard data types, arrays, control statements, functions, including ways of parameter passing, C library \u2026 For more content click the Read More button below.This unit provides an introduction to computers and CPU organisation, assemblers and compilers, and algorithm design for engineering problems and embedded computer systems. It covers the language C and its implementation on a typical computer, including standard data types, arrays, control statements, functions, including ways of parameter passing, C library functions, pointers, strings, arrays of pointers, structures, linked lists and binary tree data structures, dynamic memory allocations, and calls to assembly language programs. Object-oriented programming is introduced. Software engineering is covered as the methodology of software development and lifecycle models. Operating system concepts are introduced. The unit also includes an introduction to programmable logic controllers (PLCs).Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -141,6 +145,7 @@
             "credit points": "6",
             "name": "Signals and systems",
             "unit_details": {
+                "overview": "Overview This unit provides foundations for the electrical engineering areas of control, signal processing and communications. The unit introduces concepts of continuous-time and discrete-time signals, their sampling and aliasing issues. Complex numbers, in particular, complex exponentials are introduced along with their representation as phasors, leading to periodic waveforms, Fourier series and \u2026 For more content click the Read More button below.This unit provides foundations for the electrical engineering areas of control, signal processing and communications. The unit introduces concepts of continuous-time and discrete-time signals, their sampling and aliasing issues. Complex numbers, in particular, complex exponentials are introduced along with their representation as phasors, leading to periodic waveforms, Fourier series and the signal frequency spectrum. Modification of spectra will be described using FIR filters, discrete-time systems, the unit-sample response, discrete convolution, linear time-invariant systems, convolution integrals, the continuous-time Fourier transform, windowing, DFT, FFT, time-frequency spectrum analysis, spectrogram, and Laplace Transform. Connecting frequency response and time response completes the unit.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -185,6 +190,7 @@
             "credit points": "6",
             "name": "Electrical circuits",
             "unit_details": {
+                "overview": "Overview This unit provides foundation knowledge for analogue circuit analysis and design. You will be introduced to the fundamentals of linear electronic circuit analysis and design. At the completion of the unit, you will develop skills in using state of the art prototyping and measurement tools for linear electronic circuit analysis \u2026 For more content click the Read More button below.\nThe unit will provide a grounding in circuit theory leading to solutions of electrical networks with node and mesh analysis, equivalent sources, two-port representations and simulation. AC analysis with phasors, first and second-order transient responses will be included. Frequency and time response will be developed with Laplace transform techniques.This unit provides foundation knowledge for analogue circuit analysis and design. You will be introduced to the fundamentals of linear electronic circuit analysis and design. At the completion of the unit, you will develop skills in using state of the art prototyping and measurement tools for linear electronic circuit analysis and design. The topics covered in this course include sinusoidal steady-state analysis using phasors and complex impedances, feedback concepts, solid-state electronics, solid-state diodes and diode circuits, field-effect transistors, bipolar junction transistors and operational amplifiers.\nThe unit will provide a grounding in circuit theory leading to solutions of electrical networks with node and mesh analysis, equivalent sources, two-port representations and simulation. AC analysis with phasors, first and second-order transient responses will be included. Frequency and time response will be developed with Laplace transform techniques.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -229,6 +235,7 @@
             "credit points": "6",
             "name": "Advanced engineering mathematics",
             "unit_details": {
+                "overview": "Overview This unit introduces advanced mathematical concepts required for all disciplines of engineering that extend on the concepts in ENG1005 Engineering mathematics.\nMajor concepts taught using engineering contexts include multivariable and vector calculus, Fourier series and partial differential equations. Specific topics include partial derivatives, double and triple integrals with change of \u2026 For more content click the Read More button below.This unit introduces advanced mathematical concepts required for all disciplines of engineering that extend on the concepts in ENG1005 Engineering mathematics.\nMajor concepts taught using engineering contexts include multivariable and vector calculus, Fourier series and partial differential equations. Specific topics include partial derivatives, double and triple integrals with change of coordinates, vector functions and operators, parametric curves and surfaces, periodic functions, Laplace transforms, ODE boundary value problems, partial differential equation solution techniques and applications.Read More about Overview",
                 "offerings": {
                     "NOV12-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -301,6 +308,7 @@
             "credit points": "6",
             "name": "Molecular biology and the cell",
             "unit_details": {
+                "overview": "Overview In this unit you will explore the construction, components and maintenance of the cell, focusing on: the similarities and differences between prokaryotic and eukaryotic cells; the properties and functions of membranes; how cells replicate, die, communicate, and form communities; and how cells are genetically programmed.In this unit you will explore the construction, components and maintenance of the cell, focusing on: the similarities and differences between prokaryotic and eukaryotic cells; the properties and functions of membranes; how cells replicate, die, communicate, and form communities; and how cells are genetically programmed.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -328,6 +336,7 @@
             "credit points": "6",
             "name": "The dynamic cell",
             "unit_details": {
+                "overview": "Overview In this unit you will study the cell as a dynamic unit capable of responding to environmental, cellular and molecular cues that can result in a range of outcomes such as: motility; movement or rearrangement of internal structures; alterations in the production, processing or disposal of oligonucleotides, proteins and organelles; \u2026 For more content click the Read More button below.In this unit you will study the cell as a dynamic unit capable of responding to environmental, cellular and molecular cues that can result in a range of outcomes such as: motility; movement or rearrangement of internal structures; alterations in the production, processing or disposal of oligonucleotides, proteins and organelles; repair of damaged components; assembly and disassembly of molecular machinery or communication pathways; switching genetic pathways on or off; and changes in cell proliferation, lifespan, function, or interactions with other cells.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -355,6 +364,7 @@
             "credit points": "6",
             "name": "Neuroscience of communication, sensory and control systems",
             "unit_details": {
+                "overview": "Overview This unit studies how the cells in our body communicate to each other, using fast and slow response systems, and how our bodies use these systems to gain information about the world through our senses and then respond using the muscle systems of our limbs and internal organs and the \u2026 For more content click the Read More button below.This unit studies how the cells in our body communicate to each other, using fast and slow response systems, and how our bodies use these systems to gain information about the world through our senses and then respond using the muscle systems of our limbs and internal organs and the hormone systems. This material is taught through four successive themes that progressively build up the discipline knowledge and broader organisation, communication and management skills of science. Themes 1 and 2 (Foundations) explain cell structure and nerve organisation and function. Theme 3 (Communication systems) develops that knowledge base to study fast and slow inter-cell communication systems. Theme 4 (Sensory systems) shows how the systems of touch, pain, hearing, vision, taste and smell detect the world and how the brain analyses that information. Theme 5 (Control and response systems) details how the body responds through movement of limbs and the action of internal organs, and hormone systems. Normal physiology and common dysfunctions of the systems are studied, to allow for a greater understanding of the normal physiology, and an appreciation of dysfunctions.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -382,6 +392,7 @@
             "credit points": "6",
             "name": "Body systems physiology",
             "unit_details": {
+                "overview": "Overview The focus for this unit is 'homeostasis': how the body maintains a normal internal environment for optimal function. You will examine the roles of three major body systems that are vital for homeostasis: the respiratory system and gas exchange, the cardiovascular system and delivery of blood and nutrients, and the \u2026 For more content click the Read More button below.The focus for this unit is 'homeostasis': how the body maintains a normal internal environment for optimal function. You will examine the roles of three major body systems that are vital for homeostasis: the respiratory system and gas exchange, the cardiovascular system and delivery of blood and nutrients, and the kidneys and their role in maintaining body fluid composition. You will consider each system at rest and in a variety of active states, and the role of control mechanisms in each system. In addition to core physiological principles you will be introduced to disease states associated with dysfunctions of these systems to allow for a greater understanding and appreciation of both the normal physiology and dysfunction of these systems.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -409,6 +420,7 @@
             "credit points": "6",
             "name": "Mechanics for biomedical engineering",
             "unit_details": {
+                "overview": "Overview Mechanics is the study of motion and the forces that cause motion. Biology is the study of living organisms. Biomechanics is, therefore, about using mechanics for understanding the motion of living things and the forces that cause them. Such an understanding is vital for a wide range of biomedical applications \u2026 For more content click the Read More button below.Mechanics is the study of motion and the forces that cause motion. Biology is the study of living organisms. Biomechanics is, therefore, about using mechanics for understanding the motion of living things and the forces that cause them. Such an understanding is vital for a wide range of biomedical applications including designing medical implants, medical imaging, orthopaedics,\u00a0sports training and therapy, forensics, computer-aided surgery, computational biomechanics, etc. This unit provides you with a foundational understanding of the concepts required for quantifying motion and forces and understanding their relationship in the context of biological materials and processes.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -445,6 +457,7 @@
             "credit points": "6",
             "name": "Medical technology innovation",
             "unit_details": {
+                "overview": "Overview This unit provides an introduction to the process of design and innovation with particular reference to medical technology. The design, development and manufacture of medical technology are covered, taking into consideration safety and effectiveness issues, regulatory and legal issues, the patient equipment interface and the hospital or medical environment in \u2026 For more content click the Read More button below.This unit provides an introduction to the process of design and innovation with particular reference to medical technology. The design, development and manufacture of medical technology are covered, taking into consideration safety and effectiveness issues, regulatory and legal issues, the patient equipment interface and the hospital or medical environment in which the equipment is to be used. This will be achieved through case studies and development of a business plan.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -472,6 +485,7 @@
             "credit points": "6",
             "name": "Professional practice",
             "unit_details": {
+                "overview": "Overview This unit provides you with an understanding of the work environment of a professional engineer addressing topics not covered in other parts of the degree program. It allows you to more effectively use your engineering skills within the context of a business environment and assists you to add value to \u2026 For more content click the Read More button below.This unit provides you with an understanding of the work environment of a professional engineer addressing topics not covered in other parts of the degree program. It allows you to more effectively use your engineering skills within the context of a business environment and assists you to add value to the community. You will be encouraged to evaluate problems from a multi-faceted perspective and to articulate your views in writing as well as in discussion. The unit provides a balance between global macro issues likely to influence your future work environment, and more current micro issues likely to confront you in establishing yourself as a professional engineer.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -510,6 +524,7 @@
             "credit points": "6",
             "name": "Implantable devices",
             "unit_details": {
+                "overview": "Overview This unit is an introduction to biomedical engineering from the perspective of implantable medical devices. Topics include human physiology for engineers, principles of implantable\u00a0medical devices, implantable cardiac devices, modelling of fluid flow, implantable sensors, application of control systems, biomedically relevant properties and phenomena, medical device development strategies, and medical \u2026 For more content click the Read More button below.This unit is an introduction to biomedical engineering from the perspective of implantable medical devices. Topics include human physiology for engineers, principles of implantable\u00a0medical devices, implantable cardiac devices, modelling of fluid flow, implantable sensors, application of control systems, biomedically relevant properties and phenomena, medical device development strategies, and medical device regulatory approval processes. During this time, project teams are formed and project proposals are developed to address a clinical problem.\u00a0Project work continues with groups progressing through a strategy to develop an implantable medical device and associated commercialisation strategy.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [],
@@ -527,6 +542,7 @@
             "credit points": "6",
             "name": "Biomedical engineering integrated design",
             "unit_details": {
+                "overview": "Overview This unit provides you with an opportunity to work on a real-world, biomedical engineering\u00a0design problem in a professional team environment. The project will integrate your previous subdisciplines\u00a0of study, providing you with a holistic capstone experience to prepare you for a\u00a0career utilising your broad engineering skillset and specialist \u2026 For more content click the Read More button below.\nThe project will involve a critical assessment of a complex open-ended design problem or\u00a0opportunity from multiple perspectives, taking into account societal, health, safety, legal, cultural, ethical and environmental factors. The project work relies on using creative problem-solving and decision-making skills and modern project management tools for developing\u00a0practical solutions to the design problem. You will iteratively test your solution and seek the feedback of others while reflecting on your own practice.\nThe outcomes of the project will be communicated via presentations, demonstrations and\u00a0professional reports.This unit provides you with an opportunity to work on a real-world, biomedical engineering\u00a0design problem in a professional team environment. The project will integrate your previous subdisciplines\u00a0of study, providing you with a holistic capstone experience to prepare you for a\u00a0career utilising your broad engineering skillset and specialist domain knowledge.\u00a0\nThe project will involve a critical assessment of a complex open-ended design problem or\u00a0opportunity from multiple perspectives, taking into account societal, health, safety, legal, cultural, ethical and environmental factors. The project work relies on using creative problem-solving and decision-making skills and modern project management tools for developing\u00a0practical solutions to the design problem. You will iteratively test your solution and seek the feedback of others while reflecting on your own practice.\nThe outcomes of the project will be communicated via presentations, demonstrations and\u00a0professional reports.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [],
@@ -544,6 +560,7 @@
             "credit points": "6",
             "name": "Final year project A",
             "unit_details": {
+                "overview": "Overview The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course. This unit is the first part of a two-unit project.The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course. This unit is the first part of a two-unit project.",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -598,6 +615,7 @@
             "credit points": "6",
             "name": "Final year project B",
             "unit_details": {
+                "overview": "Overview This unit is a continuation of ENG4701 Final year project A. The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course.This unit is a continuation of ENG4701 Final year project A. The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course.",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [

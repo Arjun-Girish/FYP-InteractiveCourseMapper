@@ -8,6 +8,7 @@
             "credit points": "6",
             "name": "Computer organisation and programming",
             "unit_details": {
+                "overview": "Overview This unit provides an introduction to computers and CPU organisation, assemblers and compilers, and algorithm design for engineering problems and embedded computer systems. It covers the language C and its implementation on a typical computer, including standard data types, arrays, control statements, functions, including ways of parameter passing, C library \u2026 For more content click the Read More button below.This unit provides an introduction to computers and CPU organisation, assemblers and compilers, and algorithm design for engineering problems and embedded computer systems. It covers the language C and its implementation on a typical computer, including standard data types, arrays, control statements, functions, including ways of parameter passing, C library functions, pointers, strings, arrays of pointers, structures, linked lists and binary tree data structures, dynamic memory allocations, and calls to assembly language programs. Object-oriented programming is introduced. Software engineering is covered as the methodology of software development and lifecycle models. Operating system concepts are introduced. The unit also includes an introduction to programmable logic controllers (PLCs).Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -48,6 +49,7 @@
             "credit points": "6",
             "name": "Digital systems",
             "unit_details": {
+                "overview": "Overview This unit introduces you to modern logic design techniques, hardware used and common representations. Topics include two and multi-level combinational logic, decoders, multiplexers, arithmetic circuits, programmable and steering logic, flip-flops, registers, counters, RAM and ROM. Using this hardware the design component will include finite state machine design and applications to \u2026 For more content click the Read More button below.This unit introduces you to modern logic design techniques, hardware used and common representations. Topics include two and multi-level combinational logic, decoders, multiplexers, arithmetic circuits, programmable and steering logic, flip-flops, registers, counters, RAM and ROM. Using this hardware the design component will include finite state machine design and applications to computer data path control. This will incorporate simple analogue and digital I/O interfacing. Programmable logic devices will be covered, and the use of a hardware description language for describing, synthesising and testing digital logic. Laboratories cover logic design, implementation, and testing.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -84,6 +86,7 @@
             "credit points": "6",
             "name": "Signals and systems",
             "unit_details": {
+                "overview": "Overview This unit provides foundations for the electrical engineering areas of control, signal processing and communications. The unit introduces concepts of continuous-time and discrete-time signals, their sampling and aliasing issues. Complex numbers, in particular, complex exponentials are introduced along with their representation as phasors, leading to periodic waveforms, Fourier series and \u2026 For more content click the Read More button below.This unit provides foundations for the electrical engineering areas of control, signal processing and communications. The unit introduces concepts of continuous-time and discrete-time signals, their sampling and aliasing issues. Complex numbers, in particular, complex exponentials are introduced along with their representation as phasors, leading to periodic waveforms, Fourier series and the signal frequency spectrum. Modification of spectra will be described using FIR filters, discrete-time systems, the unit-sample response, discrete convolution, linear time-invariant systems, convolution integrals, the continuous-time Fourier transform, windowing, DFT, FFT, time-frequency spectrum analysis, spectrogram, and Laplace Transform. Connecting frequency response and time response completes the unit.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -128,6 +131,7 @@
             "credit points": "6",
             "name": "Electrical circuits",
             "unit_details": {
+                "overview": "Overview This unit provides foundation knowledge for analogue circuit analysis and design. You will be introduced to the fundamentals of linear electronic circuit analysis and design. At the completion of the unit, you will develop skills in using state of the art prototyping and measurement tools for linear electronic circuit analysis \u2026 For more content click the Read More button below.\nThe unit will provide a grounding in circuit theory leading to solutions of electrical networks with node and mesh analysis, equivalent sources, two-port representations and simulation. AC analysis with phasors, first and second-order transient responses will be included. Frequency and time response will be developed with Laplace transform techniques.This unit provides foundation knowledge for analogue circuit analysis and design. You will be introduced to the fundamentals of linear electronic circuit analysis and design. At the completion of the unit, you will develop skills in using state of the art prototyping and measurement tools for linear electronic circuit analysis and design. The topics covered in this course include sinusoidal steady-state analysis using phasors and complex impedances, feedback concepts, solid-state electronics, solid-state diodes and diode circuits, field-effect transistors, bipolar junction transistors and operational amplifiers.\nThe unit will provide a grounding in circuit theory leading to solutions of electrical networks with node and mesh analysis, equivalent sources, two-port representations and simulation. AC analysis with phasors, first and second-order transient responses will be included. Frequency and time response will be developed with Laplace transform techniques.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -172,6 +176,7 @@
             "credit points": "6",
             "name": "Probability models in engineering",
             "unit_details": {
+                "overview": "Overview This unit will introduce fundamental concepts of probability theory applied to engineering problems in a manner that combines intuition and mathematical precision. The treatment of probability includes elementary set operations, sample spaces and probability laws, conditional probability, independence, and notions of combinatorics. A discussion of discrete and continuous random variables, \u2026 For more content click the Read More button below.\nApplication examples from engineering, science, and statistics will be provided: The Gaussian distribution in source and channel coding, the exponential, Chi-square, and Gamma distributions in wireless communications and Bayesian statistics, the Rayleigh distribution in wireless communications, the Cauchy distribution in detection theory, the Poisson and Erlang distributions in traffic engineering, queuing theory and networking, the Gaussian, Laplacian and generalised Gaussian distributions in image processing, the Weibull distribution in high voltage engineering and electrical insulation, Markov chain in queuing theory, and first-order Markov process in predictive speech/image compression.This unit will introduce fundamental concepts of probability theory applied to engineering problems in a manner that combines intuition and mathematical precision. The treatment of probability includes elementary set operations, sample spaces and probability laws, conditional probability, independence, and notions of combinatorics. A discussion of discrete and continuous random variables, common distributions, functions, and expectations forms an important part of this unit. Transform methods, limit theorems, convergences, and bounding techniques are also covered. Special consideration is given to the law of large numbers and the central limit theorem. Markov chain, transition probabilities and steady state distribution will be discussed.\nApplication examples from engineering, science, and statistics will be provided: The Gaussian distribution in source and channel coding, the exponential, Chi-square, and Gamma distributions in wireless communications and Bayesian statistics, the Rayleigh distribution in wireless communications, the Cauchy distribution in detection theory, the Poisson and Erlang distributions in traffic engineering, queuing theory and networking, the Gaussian, Laplacian and generalised Gaussian distributions in image processing, the Weibull distribution in high voltage engineering and electrical insulation, Markov chain in queuing theory, and first-order Markov process in predictive speech/image compression.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -210,6 +215,7 @@
             "credit points": "6",
             "name": "Advanced engineering mathematics",
             "unit_details": {
+                "overview": "Overview This unit introduces advanced mathematical concepts required for all disciplines of engineering that extend on the concepts in ENG1005 Engineering mathematics.\nMajor concepts taught using engineering contexts include multivariable and vector calculus, Fourier series and partial differential equations. Specific topics include partial derivatives, double and triple integrals with change of \u2026 For more content click the Read More button below.This unit introduces advanced mathematical concepts required for all disciplines of engineering that extend on the concepts in ENG1005 Engineering mathematics.\nMajor concepts taught using engineering contexts include multivariable and vector calculus, Fourier series and partial differential equations. Specific topics include partial derivatives, double and triple integrals with change of coordinates, vector functions and operators, parametric curves and surfaces, periodic functions, Laplace transforms, ODE boundary value problems, partial differential equation solution techniques and applications.Read More about Overview",
                 "offerings": {
                     "NOV12-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -282,6 +288,7 @@
             "credit points": "6",
             "name": "Electrical energy systems",
             "unit_details": {
+                "overview": "Overview The unit begins by considering electrical machines, looking at DC machines, induction motors, synchronous motors and other types of motors under fixed and variable speed operation. Then thyristor rectifiers and switched power converters are presented, looking at their use for electrical energy conversion in general and variable speed motor control \u2026 For more content click the Read More button below.The unit begins by considering electrical machines, looking at DC machines, induction motors, synchronous motors and other types of motors under fixed and variable speed operation. Then thyristor rectifiers and switched power converters are presented, looking at their use for electrical energy conversion in general and variable speed motor control in particular. Finally, single and three phase AC networks, power factor correction, and electrical power generation, transmission and distribution networks are explored. Particular focus is given here to three phase transformers, transmission line modelling, quality of electrical supply, electrical protection systems, and power system control.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -320,6 +327,7 @@
             "credit points": "6",
             "name": "Computer systems",
             "unit_details": {
+                "overview": "Overview This unit provides an introduction to computer architecture using a modern microprocessor as an example. Practical considerations involved in interconnecting logic element are explored, along with software and hardware techniques for interfacing computers to peripheral devices. An introduction to communication protocols used to connect local peripheral devices to a microprocessor, \u2026 For more content click the Read More button below.This unit provides an introduction to computer architecture using a modern microprocessor as an example. Practical considerations involved in interconnecting logic element are explored, along with software and hardware techniques for interfacing computers to peripheral devices. An introduction to communication protocols used to connect local peripheral devices to a microprocessor, including RS232/RS422/RS485, CAN bus and i2C is provided. Real-time systems including concurrency, inter-process communications and scheduling are introduced.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -356,6 +364,7 @@
             "credit points": "6",
             "name": "Engineering electromagnetics",
             "unit_details": {
+                "overview": "Overview This unit explores electrostatic, magnetostatic and electromagnetic fields, and their use to create devices and systems. Mathematical concepts are used to describe the fields, and examine the basic laws governing the generation of fields and their interactions with dielectric and magnetic materials. This study results in Maxwell's field equations, and \u2026 For more content click the Read More button below.This unit explores electrostatic, magnetostatic and electromagnetic fields, and their use to create devices and systems. Mathematical concepts are used to describe the fields, and examine the basic laws governing the generation of fields and their interactions with dielectric and magnetic materials. This study results in Maxwell's field equations, and related Laplace, Poisson and continuity equations. The real life applications of electromagnetic fields in radio communications and devices such as scanners, printers and mass spectrometers are also explored in this unit. Finally, plane wave propagation is analysed briefly as an extension of Maxwell's field equations.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -394,6 +403,7 @@
             "credit points": "6",
             "name": "Information and networks",
             "unit_details": {
+                "overview": "Overview This unit provides an introduction to underlying technologies, major components and system-wide architectures of modern telecommunication systems. After introducing concepts of block and stream delivery, requirements of a telecommunications network and representation of analogue signals (e.g. voice and video) in digital form, the unit will cover all the major functions \u2026 For more content click the Read More button below.This unit provides an introduction to underlying technologies, major components and system-wide architectures of modern telecommunication systems. After introducing concepts of block and stream delivery, requirements of a telecommunications network and representation of analogue signals (e.g. voice and video) in digital form, the unit will cover all the major functions in layered architectures. Topics to be covered include multiplexing, basic line transmission and modulation, error protection and correction, packet switching, LAN protocols and the TCP/IP protocols on which the Internet is built. Particular emphasis is given to the major functions that combine to allow communication across key modern digital telecommunication systems such as the Internet, mobile telephony, digital TV and Digital Audio Broadcasting.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -432,6 +442,7 @@
             "credit points": "6",
             "name": "Analogue electronics",
             "unit_details": {
+                "overview": "Overview The unit consolidates MOS and BJT single ended amplifiers, and introduces the design of advanced analogue building blocks, such as differential amplifier circuits, current mirrors, reference voltage circuits, regulators and operational amplifiers. Opamp design and its corresponding frequency response, as well as ways to improve arising stability issues (e.g. using \u2026 For more content click the Read More button below.The unit consolidates MOS and BJT single ended amplifiers, and introduces the design of advanced analogue building blocks, such as differential amplifier circuits, current mirrors, reference voltage circuits, regulators and operational amplifiers. Opamp design and its corresponding frequency response, as well as ways to improve arising stability issues (e.g. using pole compensation) are discussed.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -473,6 +484,7 @@
             "credit points": "6",
             "name": "Professional practice",
             "unit_details": {
+                "overview": "Overview This unit will cover topics relevant to engineers working in a business environment, particularly in management, focusing on recent case studies. Areas covered include management of individuals, teams and organisations, management philosophy and practical techniques. Financial management will be discussed, including company objectives, accounting fundamentals, and financial planning and control. \u2026 For more content click the Read More button below.This unit will cover topics relevant to engineers working in a business environment, particularly in management, focusing on recent case studies. Areas covered include management of individuals, teams and organisations, management philosophy and practical techniques. Financial management will be discussed, including company objectives, accounting fundamentals, and financial planning and control. Marketing will follow, including business planning, quality and quality control. Relevant legal issues will be covered, including intellectual property, contract and negligence. This will be drawn together in discussing the role of the professional engineer, ethical behaviour and decision making.Read More about Overview",
                 "offerings": {
                     "S1-01-MALAYSIA-ON-CAMPUS": {
                         "location": [
@@ -511,6 +523,7 @@
             "credit points": "6",
             "name": "Control system design",
             "unit_details": {
+                "overview": "Overview This unit introduces core methods for the analysis and design of feedback controllers for dynamical systems. Linear time-invariant models of dynamical systems, and their representations based on differential equations, transfer functions, state space models, and time and frequency response are covered. The concepts of poles and zeros, forward transfer functions, \u2026 For more content click the Read More button below.This unit introduces core methods for the analysis and design of feedback controllers for dynamical systems. Linear time-invariant models of dynamical systems, and their representations based on differential equations, transfer functions, state space models, and time and frequency response are covered. The concepts of poles and zeros, forward transfer functions, and PID control will be developed. Stability of feedback systems, and classical root locus and frequency-response design approaches will be covered. Discrete-time/sampled data control systems are introduced, along with emulation design methods. The unit concludes with design methods based on state-space models, along with the concepts of canonical state-space representations, controllability and observability.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -555,6 +568,7 @@
             "credit points": "6",
             "name": "Engineering integrated design",
             "unit_details": {
+                "overview": "Overview This unit extends the level of complexity of electronic design by integrating and applying core knowledge in electrical and computer systems engineering. You will use linear and non-linear electronics, computer engineering and communications engineering to tackle a group project, apply project management skills and extend your experience of working in \u2026 For more content click the Read More button below.This unit extends the level of complexity of electronic design by integrating and applying core knowledge in electrical and computer systems engineering. You will use linear and non-linear electronics, computer engineering and communications engineering to tackle a group project, apply project management skills and extend your experience of working in groups. The project will extend the design processes introduced in the earlier units to a larger, more complex and less constrained problem that integrates multiple sub-disciplines of your course. The project will be complemented by lectures in project management, including working with teams, project management tools and techniques, and written and verbal communication. Frameworks for analysing the life cycles of systems are introduced. Tools and techniques to aid decision-making are provided.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -602,6 +616,7 @@
             "credit points": "6",
             "name": "Final year project A",
             "unit_details": {
+                "overview": "Overview The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course. This unit is the first part of a two-unit project.The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course. This unit is the first part of a two-unit project.",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -656,6 +671,7 @@
             "credit points": "6",
             "name": "Final year project B",
             "unit_details": {
+                "overview": "Overview This unit is a continuation of ENG4701 Final year project A. The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course.This unit is a continuation of ENG4701 Final year project A. The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course.",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -712,6 +728,7 @@
             "credit points": "6",
             "name": "Wireless communications",
             "unit_details": {
+                "overview": "Overview This unit is a study of the fundamentals of radio transmitters and receivers, the wireless radio channel and radio/wireless networks. An investigation into the configuration of wireless units to create communications systems and networks leads on to an appreciation of the diversity of wireless applications for personal and public use.This unit is a study of the fundamentals of radio transmitters and receivers, the wireless radio channel and radio/wireless networks. An investigation into the configuration of wireless units to create communications systems and networks leads on to an appreciation of the diversity of wireless applications for personal and public use.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [],
@@ -731,6 +748,7 @@
             "credit points": "6",
             "name": "Advanced control",
             "unit_details": {
+                "overview": "Overview This unit aims to firstly develop an understanding of key features of methods for mathematically modelling various categories of dynamical systems in terms of sets of dynamic and algebraic equations, ranging from engineering to biomedical systems. Secondly, you are shown how to write algorithms for efficient numerical solution of these \u2026 For more content click the Read More button below.This unit aims to firstly develop an understanding of key features of methods for mathematically modelling various categories of dynamical systems in terms of sets of dynamic and algebraic equations, ranging from engineering to biomedical systems. Secondly, you are shown how to write algorithms for efficient numerical solution of these equations. Computer-aided control systems design using optimal and robust control methods is then covered. Thirdly, you are introduced to Lyapunov and function analytic techniques for nonlinear systems stability analysis, and to nonlinear control design methods including feedback linearisation, sliding mode and passivity-based control techniques.Read More about Overview",
                 "offerings": {
                     "S1-01-MALAYSIA-ON-CAMPUS": {
                         "location": [
@@ -762,6 +780,7 @@
             "credit points": "6",
             "name": "Communications theory",
             "unit_details": {
+                "overview": "Overview This unit will cover aspects of physical layer communications which are relevant to modern communication systems. Digital modulation techniques, including quadrature modulation and orthogonal frequency division multiplexing (OFDM) will be covered. The effects of noise on bit error rates will be covered, along with techniques to reduce them, including matched \u2026 For more content click the Read More button below.This unit will cover aspects of physical layer communications which are relevant to modern communication systems. Digital modulation techniques, including quadrature modulation and orthogonal frequency division multiplexing (OFDM) will be covered. The effects of noise on bit error rates will be covered, along with techniques to reduce them, including matched filtering and equalisation. Information theory covers questions of capacity, diversity, and error correction coding. Finally the use of multiple input multiple output (MIMO) communication systems will be covered.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -792,6 +811,7 @@
             "credit points": "6",
             "name": "Optical communications",
             "unit_details": {
+                "overview": "Overview You will study the characteristics of key components that make up optical communications systems including lasers and advanced lightwave sources and direct modulation, optical modulators, optical fibres, optical amplifiers, filters and multiplexers, optical receivers and associated electronics. Secondly, you will use this knowledge to analyse and design optical communications systems. \u2026 For more content click the Read More button below.You will study the characteristics of key components that make up optical communications systems including lasers and advanced lightwave sources and direct modulation, optical modulators, optical fibres, optical amplifiers, filters and multiplexers, optical receivers and associated electronics. Secondly, you will use this knowledge to analyse and design optical communications systems. Examples will include local-area networks, metropolitan area networks, long-haul links and transcontinental networks.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [
@@ -815,6 +835,7 @@
             "credit points": "6",
             "name": "Telecommunications protocols",
             "unit_details": {
+                "overview": "Overview In this unit, you study the fundamentals of telecommunication network protocols by having the Internet's software architecture as its primary focus. Many protocols used in the application, transport, and network layers are examined and analysed. Client-server and peer-to-peer application architectures and their features are compared and contrasted. Reliable communication over \u2026 For more content click the Read More button below.In this unit, you study the fundamentals of telecommunication network protocols by having the Internet's software architecture as its primary focus. Many protocols used in the application, transport, and network layers are examined and analysed. Client-server and peer-to-peer application architectures and their features are compared and contrasted. Reliable communication over an unreliable network layer, connection establishment and teardown, and multiplexing issues are covered. Protocols for network security, techniques for providing confidentiality, authentication, non-repudiation and message integrity are also studied. Finally, protocols used for network management are analysed.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [
@@ -835,6 +856,7 @@
             "credit points": "6",
             "name": "Network performance",
             "unit_details": {
+                "overview": "Overview This unit addresses the fundamental concepts and analytical tools for modelling, predicting and improving the performance of telecommunication networks. It also introduces simulation methods. First, performance modelling of a packet switch is covered. Then, a comparative analysis of routing algorithms is covered from a graph theory perspective. Third, methods to \u2026 For more content click the Read More button below.This unit addresses the fundamental concepts and analytical tools for modelling, predicting and improving the performance of telecommunication networks. It also introduces simulation methods. First, performance modelling of a packet switch is covered. Then, a comparative analysis of routing algorithms is covered from a graph theory perspective. Third, methods to provide an integrated service to a set of traffic demands with different qualities of service are studied. Then, congestion in telecommunication networks is covered, and effectiveness of various congestion and flow control algorithms and protocols are investigated. The focus then shifts to individual links and nodes, and queuing theory is introduced and its applications in networks are analysed. Then, recent advances are studied to show how the analytical and simulation knowledge learnt in this unit could be applied in real life.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [
@@ -855,6 +877,7 @@
             "credit points": "6",
             "name": "Power system analysis",
             "unit_details": {
+                "overview": "Overview This unit aims to develop the foundation for exploring tools and methods to analyse electric power systems. It provides an introduction to main elements such as generators, transformers, transmission lines, and loads and their mathematical models. Then using these models, the unit presents analytical tools to analyse the power system \u2026 For more content click the Read More button below.This unit aims to develop the foundation for exploring tools and methods to analyse electric power systems. It provides an introduction to main elements such as generators, transformers, transmission lines, and loads and their mathematical models. Then using these models, the unit presents analytical tools to analyse the power system in steady state and under fault conditions. In particular, tools and techniques for power flow, symmetrical and unsymmetrical faults, voltage control, frequency control, and system stability will be studied in detail. Finally, electromagnetic transients in power systems will be introduced.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -891,6 +914,7 @@
             "credit points": "6",
             "name": "Power electronic converters",
             "unit_details": {
+                "overview": "Overview The unit presents a structured treatment of the design of switched-mode power electronic converters. The unit starts with passive diode rectifiers followed by thyristor rectifiers. Introducing various semi-conductor active switches, commutation cells and pulse width modulation techniques, various active power electronics converters including DC/DC buck and boost converters, flyback converters, \u2026 For more content click the Read More button below.The unit presents a structured treatment of the design of switched-mode power electronic converters. The unit starts with passive diode rectifiers followed by thyristor rectifiers. Introducing various semi-conductor active switches, commutation cells and pulse width modulation techniques, various active power electronics converters including DC/DC buck and boost converters, flyback converters, resonant converters, two-level DC/AC converters, and three-level DC/AC converters will be studied in detail. Finally, a few real-world applications such as variable speed drives and power filters are presented as examples.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -922,6 +946,7 @@
             "credit points": "6",
             "name": "Electrical energy - high voltage engineering",
             "unit_details": {
+                "overview": "Overview The unit introduces concepts of high voltage phenomena in the context of design and testing of electrical power plant. The unit describes sources of over voltage in power systems. It then presents fundamentals of high voltage insulation design and condition monitoring methods. It describes insulation performance characteristics and diagnostic methods \u2026 For more content click the Read More button below.The unit introduces concepts of high voltage phenomena in the context of design and testing of electrical power plant. The unit describes sources of over voltage in power systems. It then presents fundamentals of high voltage insulation design and condition monitoring methods. It describes insulation performance characteristics and diagnostic methods in plant such as generators, transformers and high voltage cables. The notions of insulation co-ordination and over voltage protection are also established. Additionally, the unit introduces static electricity phenomena, hazards they pose and technology applications they bring.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [],
@@ -941,6 +966,7 @@
             "credit points": "6",
             "name": "Large scale digital design",
             "unit_details": {
+                "overview": "Overview The unit aims to develop a fundamental understanding of the performance, specification and fabrication of large scale digital circuits. You will become experienced at the design, simulation, verification and debugging of complex large scale digital circuits using a Hardware Description Language (HDL) and current CAD tools with FPGA development boards. \u2026 For more content click the Read More button below.The unit aims to develop a fundamental understanding of the performance, specification and fabrication of large scale digital circuits. You will become experienced at the design, simulation, verification and debugging of complex large scale digital circuits using a Hardware Description Language (HDL) and current CAD tools with FPGA development boards. Two group design projects will be undertaken: one involving an HDL using FPGA devices and another involving custom VLSI CMOS design and simulationRead More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [],
@@ -961,6 +987,7 @@
             "credit points": "6",
             "name": "Real time embedded systems",
             "unit_details": {
+                "overview": "Overview The unit enables you to understand, analyse, specify, design and test embedded systems in terms of the hardware architecture, distributed systems and the software development that deploys a real-time kernel and the migration of software to hardware. The design, analysis and implementation of a real-time kernel will be studied that \u2026 For more content click the Read More button below.The unit enables you to understand, analyse, specify, design and test embedded systems in terms of the hardware architecture, distributed systems and the software development that deploys a real-time kernel and the migration of software to hardware. The design, analysis and implementation of a real-time kernel will be studied that includes scheduling policies, process creation and management, inter-process communication, efficient handling of I/O and distributed processor implementation issues. You will be involved in a design project that involves the hardware and real-time system design of an embedded system with hard deadlines using an FPGA development system.Read More about Overview",
                 "offerings": {
                     "S1-01-MALAYSIA-ON-CAMPUS": {
                         "location": [
@@ -988,6 +1015,7 @@
             "credit points": "6",
             "name": "Computer vision",
             "unit_details": {
+                "overview": "Overview This unit aims to develop an understanding of methods for extracting useful information (eg 3-D structure; object size, motion, shape, location and identity, etc) from images. It will allow you to understand how to construct computer vision systems for robotics, surveillance, medical imaging, and related application areas.This unit aims to develop an understanding of methods for extracting useful information (eg 3-D structure; object size, motion, shape, location and identity, etc) from images. It will allow you to understand how to construct computer vision systems for robotics, surveillance, medical imaging, and related application areas.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1026,6 +1054,7 @@
             "credit points": "6",
             "name": "Intelligent robotics",
             "unit_details": {
+                "overview": "Overview Intelligent robotics concerns the melding of artificial perception, strategic reasoning and robotic action in potentially unstructured and time-varying environments to fulfil useful physical tasks, whether in industry or for security, healthcare, search and rescue or civil defence etc. This unit covers topics underpinning the above requirements, including sensors, sensor fusion, \u2026 For more content click the Read More button below.Intelligent robotics concerns the melding of artificial perception, strategic reasoning and robotic action in potentially unstructured and time-varying environments to fulfil useful physical tasks, whether in industry or for security, healthcare, search and rescue or civil defence etc. This unit covers topics underpinning the above requirements, including sensors, sensor fusion, machine perception, environmental mapping/monitoring, path planning, localisation, mechanisms, artificial intelligence methodologies and application domains.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1066,6 +1095,7 @@
             "credit points": "6",
             "name": "Medical instrumentation",
             "unit_details": {
+                "overview": "Overview This unit shows how engineering principles are used in the design and construction of biomedical instrumentation. This includes the application of electrochemistry to biological membranes, application of cable theory to nerve axons, application of electronic design principles to the recording of biological electrical signals, application of quantitative optics to spectrometry. \u2026 For more content click the Read More button below.This unit shows how engineering principles are used in the design and construction of biomedical instrumentation. This includes the application of electrochemistry to biological membranes, application of cable theory to nerve axons, application of electronic design principles to the recording of biological electrical signals, application of quantitative optics to spectrometry. In addition, the operating principles of a wide range of medical and laboratory instruments will be explored, ranging from ECG machines, pressure transducers to cochlear and vision implants.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1095,6 +1125,7 @@
             "credit points": "6",
             "name": "Medical imaging technology",
             "unit_details": {
+                "overview": "Overview This unit will introduce a range of medical imaging technologies currently used in health care, covering aspects of technical design, medical image analysis, systems integration and emerging technologies. It introduces you to the wide range of imaging modalities with an emphasis on the design and technical development of each modality. \u2026 For more content click the Read More button below.This unit will introduce a range of medical imaging technologies currently used in health care, covering aspects of technical design, medical image analysis, systems integration and emerging technologies. It introduces you to the wide range of imaging modalities with an emphasis on the design and technical development of each modality. Future needs on medical imaging in health care and emerging medical imaging technologies will be covered. Image analysis and visualisation in the context of image-guided therapy, image-guided surgery, and virtual reality-based simulation will also be covered.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [
@@ -1118,6 +1149,7 @@
             "credit points": "6",
             "name": "Medical technology innovation",
             "unit_details": {
+                "overview": "Overview This unit provides an introduction to the process of design and innovation with particular reference to medical technology. The design, development and manufacture of medical technology are covered, taking into consideration safety and effectiveness issues, regulatory and legal issues, the patient equipment interface and the hospital or medical environment in \u2026 For more content click the Read More button below.This unit provides an introduction to the process of design and innovation with particular reference to medical technology. The design, development and manufacture of medical technology are covered, taking into consideration safety and effectiveness issues, regulatory and legal issues, the patient equipment interface and the hospital or medical environment in which the equipment is to be used. This will be achieved through case studies and development of a business plan.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1145,6 +1177,7 @@
             "credit points": "6",
             "name": "Advanced electromagnetics",
             "unit_details": {
+                "overview": "Overview The unit evaluates the propagation of time-harmonic electromagnetic waves in wireless and guided media using Maxwell's equations. The media covered include vacuum/air, radio frequency (RF) and microwave transmission lines, metallic waveguides, planar optical waveguides and optical fibres.\nThe unit also explores different types of antennas that can be used to \u2026 For more content click the Read More button below.The unit evaluates the propagation of time-harmonic electromagnetic waves in wireless and guided media using Maxwell's equations. The media covered include vacuum/air, radio frequency (RF) and microwave transmission lines, metallic waveguides, planar optical waveguides and optical fibres.\nThe unit also explores different types of antennas that can be used to generate electromagnetic waves. In addition to these, the unit covers concepts related to electromagnetic interference (EMI) and electromagnetic compatibility (EMC). Using these concepts, the unit explores practical problems such as interference and coupling in RF/microwave circuits and discusses solutions such as grounding, shielding and filtering. In each section of this unit, the learned theory is related to real-world applications to expand your understanding.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1176,6 +1209,7 @@
             "credit points": "6",
             "name": "Multimedia Technologies",
             "unit_details": {
+                "overview": "Overview This unit provides an understanding of the nature and limits of processing of media (image, video, audio) for telecommunications, storage, interpretation and analysis. It includes compression of multimedia from basic information theoretic concepts through to advanced video (e.g. MPEG), image (JPEG, JPEG2000) and audio (CELP, MP3, AAC, Dolby Digital) coding. \u2026 For more content click the Read More button below.This unit provides an understanding of the nature and limits of processing of media (image, video, audio) for telecommunications, storage, interpretation and analysis. It includes compression of multimedia from basic information theoretic concepts through to advanced video (e.g. MPEG), image (JPEG, JPEG2000) and audio (CELP, MP3, AAC, Dolby Digital) coding. XML-based metadata systems are used to illustrate concepts of content characterisation and discovery. The ability of modern network protocols to support media streaming is related directly to service requirements such as error and delay tolerance. Where media is intended for human consumption, the characteristics of human perception of image and sound determine minimum quality requirements, but also reveal limitations that can be exploited when compressing media data. Machine interpretation and analysis of multimedia is also investigated. Case studies in media analysis (e.g. Shazam), delivery (video on demand) and consumption (digital cinema) are used to illustrate the technologies investigated.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [
@@ -1196,6 +1230,7 @@
             "credit points": "6",
             "name": "Neural networks and deep learning",
             "unit_details": {
+                "overview": "Overview This unit introduces fundamentals of deep learning and how it can solve problems in many areas, such as image classification, filter design and natural language processing. Neural networks are first described and how training can be achieved with backpropagation. Various forms of deep neural networks are developed, such as multilayer \u2026 For more content click the Read More button below.This unit introduces fundamentals of deep learning and how it can solve problems in many areas, such as image classification, filter design and natural language processing. Neural networks are first described and how training can be achieved with backpropagation. Various forms of deep neural networks are developed, such as multilayer perceptrons, convolution neural networks and recurrent neural networks. The mathematics of stochastic optimisation is used to interpret and understand the behaviour and training of these networks. Programming approaches are discussed for training and deploying neural networks. Deep learning technologies and design examples are discussed in areas such as driverless cars, personal cognitive assistants and mastering of games such as GO.Read More about Overview",
                 "offerings": {
                     "S1-01-MALAYSIA-ON-CAMPUS": {
                         "location": [
@@ -1235,6 +1270,7 @@
             "credit points": "6",
             "name": "Organic electronics and micro devices",
             "unit_details": {
+                "overview": "Overview The unit introduces basic theory behind the organic electronics and micro technologies related to micro sensors, micro actuators and organic devices such as Organic LEDs (OLEDs). The topics include study of materials used in organic electronics and MEMS, study of their electrical and mechanical properties, basic structures in micro devices \u2026 For more content click the Read More button below.The unit introduces basic theory behind the organic electronics and micro technologies related to micro sensors, micro actuators and organic devices such as Organic LEDs (OLEDs). The topics include study of materials used in organic electronics and MEMS, study of their electrical and mechanical properties, basic structures in micro devices such as cantilever beams and comb structures, the fabrication techniques involved in manufacturing micro and nano structures, and measurement techniques suitable for characterising micro devices. Examples will include principles of physical sensors; piezoelectric effect based microsensors; chemical microsensors; OLED devices; MEMS and microsystems computer based simulations. An elementary part of the unit will be the laboratory exercises and project work to produce micro devices and construct suitable electronic circuits/simulate to demonstrate their applications.Read More about Overview",
                 "offerings": {
                     "S2-01-MALAYSIA-ON-CAMPUS": {
                         "location": [
@@ -1264,6 +1300,7 @@
             "credit points": "6",
             "name": "Solid state lighting",
             "unit_details": {
+                "overview": "Overview The unit introduces you to the new age of illumination using light-emitting diodes (LED) and their role in disruptive technologies such as human-centric lighting (HCL), horticultural lighting and visible light communications (VLC) alongside providing energy-efficient lighting. Topics include the basics of light, colour and human vision, radiometric and photometric descriptions \u2026 For more content click the Read More button below.\nLaboratories cover radiometric and photometric characterisation of light using a spectrophotometer, the use of standard illuminants, working with colour spaces, performing lumen and light spectrum measurements using an integrating sphere and the implementation of IoT-based smart lighting control.The unit introduces you to the new age of illumination using light-emitting diodes (LED) and their role in disruptive technologies such as human-centric lighting (HCL), horticultural lighting and visible light communications (VLC) alongside providing energy-efficient lighting. Topics include the basics of light, colour and human vision, radiometric and photometric descriptions of light, light quality measures, the characteristics of light-emitting diodes (LED), flicker, lifetime and reliability, LED drivers and the effects of light in the built environment in applications such as human wellbeing, plant growth and communication.\nLaboratories cover radiometric and photometric characterisation of light using a spectrophotometer, the use of standard illuminants, working with colour spaces, performing lumen and light spectrum measurements using an integrating sphere and the implementation of IoT-based smart lighting control.Read More about Overview",
                 "offerings": {
                     "S2-01-MALAYSIA-ON-CAMPUS": {
                         "location": [
@@ -1293,6 +1330,7 @@
             "credit points": "6",
             "name": "Internet of Things: Communication, data and security",
             "unit_details": {
+                "overview": "Overview This unit will cover aspects constituting the Internet of Things (IoT) including communications,\u00a0data analytics and cybersecurity. The unit covers network protocols, management and control standards. It will also cover fog computing and machine learning for data analytics, and the fundamentals of cybersecurity. The unit will focus on learning through \u2026 For more content click the Read More button below.This unit will cover aspects constituting the Internet of Things (IoT) including communications,\u00a0data analytics and cybersecurity. The unit covers network protocols, management and control standards. It will also cover fog computing and machine learning for data analytics, and the fundamentals of cybersecurity. The unit will focus on learning through Industrial IoT (IIoT) case studies related to critical infrastructures such as smart city, smart grids, healthcare and Industry 4.0.Read More about Overview",
                 "offerings": {
                     "S2-01-MALAYSIA-ON-CAMPUS": {
                         "location": [
@@ -1324,6 +1362,7 @@
             "credit points": "6",
             "name": "Advanced power electronics",
             "unit_details": {
+                "overview": "Overview This unit presents an extensive range of power electronic converter applications with a focus on renewable energy resources integration. The unit starts with modelling of DC/DC and DC/AC converters and then continues to design various voltage/current closed-loop controllers for these converters. The designed closed-loop control systems are then extended to \u2026 For more content click the Read More button below.This unit presents an extensive range of power electronic converter applications with a focus on renewable energy resources integration. The unit starts with modelling of DC/DC and DC/AC converters and then continues to design various voltage/current closed-loop controllers for these converters. The designed closed-loop control systems are then extended to applications of these converters in renewable energy grid integration contexts such as wind and solar resources. Additionally, other advanced applications of power electronic converters such as static compensators, active filters, power factor correctors, energy storage systems, grid forming inverters, etc. are introduced.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [],
@@ -1341,6 +1380,7 @@
             "credit points": "6",
             "name": "Real-time system design",
             "unit_details": {
+                "overview": "Overview The unit aims to enable you to understand, analyse, specify, design and test real-time systems using both hardware and software development. Migration between software and hardware will be considered as an approach to meet design criterion such as speed, throughput, energy usage and cost.\nThe design, analysis and implementation of \u2026 For more content click the Read More button below.\nYou will complete a major team design project that includes hardware and software design of a real-time system.The unit aims to enable you to understand, analyse, specify, design and test real-time systems using both hardware and software development. Migration between software and hardware will be considered as an approach to meet design criterion such as speed, throughput, energy usage and cost.\nThe design, analysis and implementation of real-time operating systems will be studied and will include scheduling policies, process creation and management, inter-process communication and synchronisation, efficient handling of I/O and communication.\nYou will complete a major team design project that includes hardware and software design of a real-time system.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1370,6 +1410,7 @@
             "credit points": "6",
             "name": "Advanced electronics design",
             "unit_details": {
+                "overview": "Overview This is an advanced unit in electronics design. You will be provided with an in-depth knowledge of radio frequency (RF) and microwave circuits and systems. The unit builds on your' basic electronic knowledge obtained from your undergraduate engineering degree to a more advanced analog and RF electronics, with more theory \u2026 For more content click the Read More button below.\nThe unit will teach you the detailed design principles of passive and active electronic devices at radio frequencies. You will learn to use CAD design software packages for assignments and projects. Important analogue and RF building components such as amplifiers, filters, oscillators, modulators, mixers and phase-locked loops will be taught. Topics such as noise and interference in electronic circuits will also be covered.\nYou will undertake a group project where RF/mixed-signal circuits will be designed, built and tested in the laboratory.This is an advanced unit in electronics design. You will be provided with an in-depth knowledge of radio frequency (RF) and microwave circuits and systems. The unit builds on your' basic electronic knowledge obtained from your undergraduate engineering degree to a more advanced analog and RF electronics, with more theory and applications of electronics.\nThe unit will teach you the detailed design principles of passive and active electronic devices at radio frequencies. You will learn to use CAD design software packages for assignments and projects. Important analogue and RF building components such as amplifiers, filters, oscillators, modulators, mixers and phase-locked loops will be taught. Topics such as noise and interference in electronic circuits will also be covered.\nYou will undertake a group project where RF/mixed-signal circuits will be designed, built and tested in the laboratory.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1397,6 +1438,7 @@
             "credit points": "6",
             "name": "Advanced signal processing",
             "unit_details": {
+                "overview": "Overview The unit introduces the fundamentals of statistical signal processing with emphasis on stochastic models, estimation theory, parametric and non-parametric modelling and least squares methods.\nAfter a review of basic probability and random processes, the use of stochastic models for real world signals is illustrated. A family of algorithms for the \u2026 For more content click the Read More button below.\nSpecifically, linear stochastic models are presented and the importance of correlation structure in deriving the parameters of such models is illustrated.\nThe unit also covers how parametric and non-parametric models as well as statistical techniques are used to extract information from data signals corrupted by noise. The concept of estimation from real world data is presented, as opposed to the basic analysis of signals, transfer functions and power spectra. In particular, the fundamentals of linear estimation theory and optimal filtering to design advanced signal processing algorithms are presented.The unit introduces the fundamentals of statistical signal processing with emphasis on stochastic models, estimation theory, parametric and non-parametric modelling and least squares methods.\nAfter a review of basic probability and random processes, the use of stochastic models for real world signals is illustrated. A family of algorithms for the creation, efficient representation and effective modelling is presented.\nSpecifically, linear stochastic models are presented and the importance of correlation structure in deriving the parameters of such models is illustrated.\nThe unit also covers how parametric and non-parametric models as well as statistical techniques are used to extract information from data signals corrupted by noise. The concept of estimation from real world data is presented, as opposed to the basic analysis of signals, transfer functions and power spectra. In particular, the fundamentals of linear estimation theory and optimal filtering to design advanced signal processing algorithms are presented.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1424,6 +1466,7 @@
             "credit points": "6",
             "name": "Wireless communications",
             "unit_details": {
+                "overview": "Overview This unit introduces the fundamentals of wireless communications and networking. You will learn about the characteristics of wireless channels, coding, modulation techniques, methods of combating fading including space, time and frequency diversity, multiple access techniques and cellular networks.\nA selection of more advanced topics will also be covered including MIMO \u2026 For more content click the Read More button below.This unit introduces the fundamentals of wireless communications and networking. You will learn about the characteristics of wireless channels, coding, modulation techniques, methods of combating fading including space, time and frequency diversity, multiple access techniques and cellular networks.\nA selection of more advanced topics will also be covered including MIMO systems, heterogeneous networks, cognitive and cooperative communications.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1451,6 +1494,7 @@
             "credit points": "6",
             "name": "Smart grids",
             "unit_details": {
+                "overview": "Overview The Smart Grid unit provides a comprehensive knowledge about the Smart Grid and how it is to be operated and protected for improving sustainability and energy savings. The core of the unit is intelligent infrastructure for Smart Grid and its heightening vulnerability, and how to protect it effectively.\nThe basic \u2026 For more content click the Read More button below.\nThe unit will conclude with defining concept, design and purpose of the Smart Grid, reviewing current and relevant technologies developed, assessing its vulnerabilities to a cyber-attack, and finding effective protective mechanisms for the grid.The Smart Grid unit provides a comprehensive knowledge about the Smart Grid and how it is to be operated and protected for improving sustainability and energy savings. The core of the unit is intelligent infrastructure for Smart Grid and its heightening vulnerability, and how to protect it effectively.\nThe basic economic fundamentals of power systems and conventional and renewable power generation in regulated and deregulated environment are introduced first. The basic concepts of intelligent control, application of intelligent agents in grid technology, and intelligent components commonly used in Smart Grids are extensively discussed afterward. Also included is how distribution networks adapt to intermittent energy sources (e.g. solar and wind) through the use of smart grids, emerging technologies and energy storage systems.\nThe unit will conclude with defining concept, design and purpose of the Smart Grid, reviewing current and relevant technologies developed, assessing its vulnerabilities to a cyber-attack, and finding effective protective mechanisms for the grid.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1487,6 +1531,7 @@
             "credit points": "6",
             "name": "Introduction to systems engineering",
             "unit_details": {
+                "overview": "Overview This unit introduces you to the fundamental principles of some basic systems comprising of mechanical, electrical, electronic, computing and electro-mechanical sub-systems, with an intention to introduce cross-links between them for an integrated design approach towards their application to the development of complex systems.\nSpecial emphasis will be made on introducing \u2026 For more content click the Read More button below.\nThis unit would outline the breadth of the knowledge that the mechatronics systems engineer must acquire regarding the features of diverse sub-systems and components that constitute the total system.This unit introduces you to the fundamental principles of some basic systems comprising of mechanical, electrical, electronic, computing and electro-mechanical sub-systems, with an intention to introduce cross-links between them for an integrated design approach towards their application to the development of complex systems.\nSpecial emphasis will be made on introducing sub-systems required for 'inception to completion' of mechatronic systems with practical design examples. The enabling sub-systems for an integrated approach such as sensors, actuators, mechanisms, controllers, hardware interfacing, as well as strategies for risk assessment, interface definition, system integration, human factors, measurement and analysis as required in mechatronics product design & development will also be introduced.\nThis unit would outline the breadth of the knowledge that the mechatronics systems engineer must acquire regarding the features of diverse sub-systems and components that constitute the total system.Read More about Overview",
                 "offerings": {
                     "S2-01-MALAYSIA-ON-CAMPUS": {
                         "location": [
@@ -1514,6 +1559,7 @@
             "credit points": "6",
             "name": "Optimisation estimation and numerical methods",
             "unit_details": {
+                "overview": "Overview This unit will introduce you to time series analysis, matrix decomposition methods and optimisation in three equal parts. Time series will introduce the concepts of stochastic processes, wide-sense stationarity, autocovariance functions and spectral density. This will lead to the analysis of ARMA (p,g) processes using MATLAB. Matrix decomposition includes singular \u2026 For more content click the Read More button below.This unit will introduce you to time series analysis, matrix decomposition methods and optimisation in three equal parts. Time series will introduce the concepts of stochastic processes, wide-sense stationarity, autocovariance functions and spectral density. This will lead to the analysis of ARMA (p,g) processes using MATLAB. Matrix decomposition includes singular value decomposition with applications including data compression, image processing, noise filtering and finding exact and approximate solutions of linear systems. Numerical methods for working efficiently with large matrices and handling ill-conditioned data will be discussed. Methods for unconstrained and constrained optimisation will be presented, with the use of MATLAB.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1543,6 +1589,7 @@
             "credit points": "6",
             "name": "Mechanics for biomedical engineering",
             "unit_details": {
+                "overview": "Overview Mechanics is the study of motion and the forces that cause motion. Biology is the study of living organisms. Biomechanics is, therefore, about using mechanics for understanding the motion of living things and the forces that cause them. Such an understanding is vital for a wide range of biomedical applications \u2026 For more content click the Read More button below.Mechanics is the study of motion and the forces that cause motion. Biology is the study of living organisms. Biomechanics is, therefore, about using mechanics for understanding the motion of living things and the forces that cause them. Such an understanding is vital for a wide range of biomedical applications including designing medical implants, medical imaging, orthopaedics,\u00a0sports training and therapy, forensics, computer-aided surgery, computational biomechanics, etc. This unit provides you with a foundational understanding of the concepts required for quantifying motion and forces and understanding their relationship in the context of biological materials and processes.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1579,6 +1626,7 @@
             "credit points": "6",
             "name": "Solar energy",
             "unit_details": {
+                "overview": "Overview This unit covers concepts associated with the solar energy industry including; the characteristics of solar radiation and solar collectors including efficiency evaluation and prediction of long-term performance; system modelling; energy storage; computer simulation and modelling of performance and the economics and financing of solar energy projects.This unit covers concepts associated with the solar energy industry including; the characteristics of solar radiation and solar collectors including efficiency evaluation and prediction of long-term performance; system modelling; energy storage; computer simulation and modelling of performance and the economics and financing of solar energy projects.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1610,6 +1658,7 @@
             "credit points": "6",
             "name": "Sensors and artificial perception",
             "unit_details": {
+                "overview": "Overview The unit provides an introduction to transducer principles and the background to classify them in terms of performance and characteristics. A range of commonly available sensors are considered. Electronic components and data acquisition/digital signal processing software used in sensor systems are examined. Advanced sensory systems and associated programming techniques are \u2026 For more content click the Read More button below.The unit provides an introduction to transducer principles and the background to classify them in terms of performance and characteristics. A range of commonly available sensors are considered. Electronic components and data acquisition/digital signal processing software used in sensor systems are examined. Advanced sensory systems and associated programming techniques are introduced using robotic systems as an example domain.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1646,6 +1695,7 @@
             "credit points": "6",
             "name": "Wireless communications",
             "unit_details": {
+                "overview": "Overview This unit is a study of the fundamentals of radio transmitters and receivers, the wireless radio channel and radio/wireless networks. An investigation into the configuration of wireless units to create communications systems and networks leads on to an appreciation of the diversity of wireless applications for personal and public use.This unit is a study of the fundamentals of radio transmitters and receivers, the wireless radio channel and radio/wireless networks. An investigation into the configuration of wireless units to create communications systems and networks leads on to an appreciation of the diversity of wireless applications for personal and public use.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [],
@@ -1665,6 +1715,7 @@
             "credit points": "6",
             "name": "Advanced control",
             "unit_details": {
+                "overview": "Overview This unit aims to firstly develop an understanding of key features of methods for mathematically modelling various categories of dynamical systems in terms of sets of dynamic and algebraic equations, ranging from engineering to biomedical systems. Secondly, you are shown how to write algorithms for efficient numerical solution of these \u2026 For more content click the Read More button below.This unit aims to firstly develop an understanding of key features of methods for mathematically modelling various categories of dynamical systems in terms of sets of dynamic and algebraic equations, ranging from engineering to biomedical systems. Secondly, you are shown how to write algorithms for efficient numerical solution of these equations. Computer-aided control systems design using optimal and robust control methods is then covered. Thirdly, you are introduced to Lyapunov and function analytic techniques for nonlinear systems stability analysis, and to nonlinear control design methods including feedback linearisation, sliding mode and passivity-based control techniques.Read More about Overview",
                 "offerings": {
                     "S1-01-MALAYSIA-ON-CAMPUS": {
                         "location": [
@@ -1696,6 +1747,7 @@
             "credit points": "6",
             "name": "Communications theory",
             "unit_details": {
+                "overview": "Overview This unit will cover aspects of physical layer communications which are relevant to modern communication systems. Digital modulation techniques, including quadrature modulation and orthogonal frequency division multiplexing (OFDM) will be covered. The effects of noise on bit error rates will be covered, along with techniques to reduce them, including matched \u2026 For more content click the Read More button below.This unit will cover aspects of physical layer communications which are relevant to modern communication systems. Digital modulation techniques, including quadrature modulation and orthogonal frequency division multiplexing (OFDM) will be covered. The effects of noise on bit error rates will be covered, along with techniques to reduce them, including matched filtering and equalisation. Information theory covers questions of capacity, diversity, and error correction coding. Finally the use of multiple input multiple output (MIMO) communication systems will be covered.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1726,6 +1778,7 @@
             "credit points": "6",
             "name": "Optical communications",
             "unit_details": {
+                "overview": "Overview You will study the characteristics of key components that make up optical communications systems including lasers and advanced lightwave sources and direct modulation, optical modulators, optical fibres, optical amplifiers, filters and multiplexers, optical receivers and associated electronics. Secondly, you will use this knowledge to analyse and design optical communications systems. \u2026 For more content click the Read More button below.You will study the characteristics of key components that make up optical communications systems including lasers and advanced lightwave sources and direct modulation, optical modulators, optical fibres, optical amplifiers, filters and multiplexers, optical receivers and associated electronics. Secondly, you will use this knowledge to analyse and design optical communications systems. Examples will include local-area networks, metropolitan area networks, long-haul links and transcontinental networks.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [
@@ -1749,6 +1802,7 @@
             "credit points": "6",
             "name": "Telecommunications protocols",
             "unit_details": {
+                "overview": "Overview In this unit, you study the fundamentals of telecommunication network protocols by having the Internet's software architecture as its primary focus. Many protocols used in the application, transport, and network layers are examined and analysed. Client-server and peer-to-peer application architectures and their features are compared and contrasted. Reliable communication over \u2026 For more content click the Read More button below.In this unit, you study the fundamentals of telecommunication network protocols by having the Internet's software architecture as its primary focus. Many protocols used in the application, transport, and network layers are examined and analysed. Client-server and peer-to-peer application architectures and their features are compared and contrasted. Reliable communication over an unreliable network layer, connection establishment and teardown, and multiplexing issues are covered. Protocols for network security, techniques for providing confidentiality, authentication, non-repudiation and message integrity are also studied. Finally, protocols used for network management are analysed.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [
@@ -1769,6 +1823,7 @@
             "credit points": "6",
             "name": "Network performance",
             "unit_details": {
+                "overview": "Overview This unit addresses the fundamental concepts and analytical tools for modelling, predicting and improving the performance of telecommunication networks. It also introduces simulation methods. First, performance modelling of a packet switch is covered. Then, a comparative analysis of routing algorithms is covered from a graph theory perspective. Third, methods to \u2026 For more content click the Read More button below.This unit addresses the fundamental concepts and analytical tools for modelling, predicting and improving the performance of telecommunication networks. It also introduces simulation methods. First, performance modelling of a packet switch is covered. Then, a comparative analysis of routing algorithms is covered from a graph theory perspective. Third, methods to provide an integrated service to a set of traffic demands with different qualities of service are studied. Then, congestion in telecommunication networks is covered, and effectiveness of various congestion and flow control algorithms and protocols are investigated. The focus then shifts to individual links and nodes, and queuing theory is introduced and its applications in networks are analysed. Then, recent advances are studied to show how the analytical and simulation knowledge learnt in this unit could be applied in real life.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [
@@ -1789,6 +1844,7 @@
             "credit points": "6",
             "name": "Power system analysis",
             "unit_details": {
+                "overview": "Overview This unit aims to develop the foundation for exploring tools and methods to analyse electric power systems. It provides an introduction to main elements such as generators, transformers, transmission lines, and loads and their mathematical models. Then using these models, the unit presents analytical tools to analyse the power system \u2026 For more content click the Read More button below.This unit aims to develop the foundation for exploring tools and methods to analyse electric power systems. It provides an introduction to main elements such as generators, transformers, transmission lines, and loads and their mathematical models. Then using these models, the unit presents analytical tools to analyse the power system in steady state and under fault conditions. In particular, tools and techniques for power flow, symmetrical and unsymmetrical faults, voltage control, frequency control, and system stability will be studied in detail. Finally, electromagnetic transients in power systems will be introduced.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1825,6 +1881,7 @@
             "credit points": "6",
             "name": "Power electronic converters",
             "unit_details": {
+                "overview": "Overview The unit presents a structured treatment of the design of switched-mode power electronic converters. The unit starts with passive diode rectifiers followed by thyristor rectifiers. Introducing various semi-conductor active switches, commutation cells and pulse width modulation techniques, various active power electronics converters including DC/DC buck and boost converters, flyback converters, \u2026 For more content click the Read More button below.The unit presents a structured treatment of the design of switched-mode power electronic converters. The unit starts with passive diode rectifiers followed by thyristor rectifiers. Introducing various semi-conductor active switches, commutation cells and pulse width modulation techniques, various active power electronics converters including DC/DC buck and boost converters, flyback converters, resonant converters, two-level DC/AC converters, and three-level DC/AC converters will be studied in detail. Finally, a few real-world applications such as variable speed drives and power filters are presented as examples.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1856,6 +1913,7 @@
             "credit points": "6",
             "name": "Electrical energy - high voltage engineering",
             "unit_details": {
+                "overview": "Overview The unit introduces concepts of high voltage phenomena in the context of design and testing of electrical power plant. The unit describes sources of over voltage in power systems. It then presents fundamentals of high voltage insulation design and condition monitoring methods. It describes insulation performance characteristics and diagnostic methods \u2026 For more content click the Read More button below.The unit introduces concepts of high voltage phenomena in the context of design and testing of electrical power plant. The unit describes sources of over voltage in power systems. It then presents fundamentals of high voltage insulation design and condition monitoring methods. It describes insulation performance characteristics and diagnostic methods in plant such as generators, transformers and high voltage cables. The notions of insulation co-ordination and over voltage protection are also established. Additionally, the unit introduces static electricity phenomena, hazards they pose and technology applications they bring.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [],
@@ -1875,6 +1933,7 @@
             "credit points": "6",
             "name": "Large scale digital design",
             "unit_details": {
+                "overview": "Overview The unit aims to develop a fundamental understanding of the performance, specification and fabrication of large scale digital circuits. You will become experienced at the design, simulation, verification and debugging of complex large scale digital circuits using a Hardware Description Language (HDL) and current CAD tools with FPGA development boards. \u2026 For more content click the Read More button below.The unit aims to develop a fundamental understanding of the performance, specification and fabrication of large scale digital circuits. You will become experienced at the design, simulation, verification and debugging of complex large scale digital circuits using a Hardware Description Language (HDL) and current CAD tools with FPGA development boards. Two group design projects will be undertaken: one involving an HDL using FPGA devices and another involving custom VLSI CMOS design and simulationRead More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [],
@@ -1895,6 +1954,7 @@
             "credit points": "6",
             "name": "Real time embedded systems",
             "unit_details": {
+                "overview": "Overview The unit enables you to understand, analyse, specify, design and test embedded systems in terms of the hardware architecture, distributed systems and the software development that deploys a real-time kernel and the migration of software to hardware. The design, analysis and implementation of a real-time kernel will be studied that \u2026 For more content click the Read More button below.The unit enables you to understand, analyse, specify, design and test embedded systems in terms of the hardware architecture, distributed systems and the software development that deploys a real-time kernel and the migration of software to hardware. The design, analysis and implementation of a real-time kernel will be studied that includes scheduling policies, process creation and management, inter-process communication, efficient handling of I/O and distributed processor implementation issues. You will be involved in a design project that involves the hardware and real-time system design of an embedded system with hard deadlines using an FPGA development system.Read More about Overview",
                 "offerings": {
                     "S1-01-MALAYSIA-ON-CAMPUS": {
                         "location": [
@@ -1922,6 +1982,7 @@
             "credit points": "6",
             "name": "Computer vision",
             "unit_details": {
+                "overview": "Overview This unit aims to develop an understanding of methods for extracting useful information (eg 3-D structure; object size, motion, shape, location and identity, etc) from images. It will allow you to understand how to construct computer vision systems for robotics, surveillance, medical imaging, and related application areas.This unit aims to develop an understanding of methods for extracting useful information (eg 3-D structure; object size, motion, shape, location and identity, etc) from images. It will allow you to understand how to construct computer vision systems for robotics, surveillance, medical imaging, and related application areas.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -1960,6 +2021,7 @@
             "credit points": "6",
             "name": "Intelligent robotics",
             "unit_details": {
+                "overview": "Overview Intelligent robotics concerns the melding of artificial perception, strategic reasoning and robotic action in potentially unstructured and time-varying environments to fulfil useful physical tasks, whether in industry or for security, healthcare, search and rescue or civil defence etc. This unit covers topics underpinning the above requirements, including sensors, sensor fusion, \u2026 For more content click the Read More button below.Intelligent robotics concerns the melding of artificial perception, strategic reasoning and robotic action in potentially unstructured and time-varying environments to fulfil useful physical tasks, whether in industry or for security, healthcare, search and rescue or civil defence etc. This unit covers topics underpinning the above requirements, including sensors, sensor fusion, machine perception, environmental mapping/monitoring, path planning, localisation, mechanisms, artificial intelligence methodologies and application domains.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -2000,6 +2062,7 @@
             "credit points": "6",
             "name": "Medical instrumentation",
             "unit_details": {
+                "overview": "Overview This unit shows how engineering principles are used in the design and construction of biomedical instrumentation. This includes the application of electrochemistry to biological membranes, application of cable theory to nerve axons, application of electronic design principles to the recording of biological electrical signals, application of quantitative optics to spectrometry. \u2026 For more content click the Read More button below.This unit shows how engineering principles are used in the design and construction of biomedical instrumentation. This includes the application of electrochemistry to biological membranes, application of cable theory to nerve axons, application of electronic design principles to the recording of biological electrical signals, application of quantitative optics to spectrometry. In addition, the operating principles of a wide range of medical and laboratory instruments will be explored, ranging from ECG machines, pressure transducers to cochlear and vision implants.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -2029,6 +2092,7 @@
             "credit points": "6",
             "name": "Medical imaging technology",
             "unit_details": {
+                "overview": "Overview This unit will introduce a range of medical imaging technologies currently used in health care, covering aspects of technical design, medical image analysis, systems integration and emerging technologies. It introduces you to the wide range of imaging modalities with an emphasis on the design and technical development of each modality. \u2026 For more content click the Read More button below.This unit will introduce a range of medical imaging technologies currently used in health care, covering aspects of technical design, medical image analysis, systems integration and emerging technologies. It introduces you to the wide range of imaging modalities with an emphasis on the design and technical development of each modality. Future needs on medical imaging in health care and emerging medical imaging technologies will be covered. Image analysis and visualisation in the context of image-guided therapy, image-guided surgery, and virtual reality-based simulation will also be covered.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [
@@ -2052,6 +2116,7 @@
             "credit points": "6",
             "name": "Medical technology innovation",
             "unit_details": {
+                "overview": "Overview This unit provides an introduction to the process of design and innovation with particular reference to medical technology. The design, development and manufacture of medical technology are covered, taking into consideration safety and effectiveness issues, regulatory and legal issues, the patient equipment interface and the hospital or medical environment in \u2026 For more content click the Read More button below.This unit provides an introduction to the process of design and innovation with particular reference to medical technology. The design, development and manufacture of medical technology are covered, taking into consideration safety and effectiveness issues, regulatory and legal issues, the patient equipment interface and the hospital or medical environment in which the equipment is to be used. This will be achieved through case studies and development of a business plan.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -2079,6 +2144,7 @@
             "credit points": "6",
             "name": "Advanced electromagnetics",
             "unit_details": {
+                "overview": "Overview The unit evaluates the propagation of time-harmonic electromagnetic waves in wireless and guided media using Maxwell's equations. The media covered include vacuum/air, radio frequency (RF) and microwave transmission lines, metallic waveguides, planar optical waveguides and optical fibres.\nThe unit also explores different types of antennas that can be used to \u2026 For more content click the Read More button below.The unit evaluates the propagation of time-harmonic electromagnetic waves in wireless and guided media using Maxwell's equations. The media covered include vacuum/air, radio frequency (RF) and microwave transmission lines, metallic waveguides, planar optical waveguides and optical fibres.\nThe unit also explores different types of antennas that can be used to generate electromagnetic waves. In addition to these, the unit covers concepts related to electromagnetic interference (EMI) and electromagnetic compatibility (EMC). Using these concepts, the unit explores practical problems such as interference and coupling in RF/microwave circuits and discusses solutions such as grounding, shielding and filtering. In each section of this unit, the learned theory is related to real-world applications to expand your understanding.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -2110,6 +2176,7 @@
             "credit points": "6",
             "name": "Multimedia Technologies",
             "unit_details": {
+                "overview": "Overview This unit provides an understanding of the nature and limits of processing of media (image, video, audio) for telecommunications, storage, interpretation and analysis. It includes compression of multimedia from basic information theoretic concepts through to advanced video (e.g. MPEG), image (JPEG, JPEG2000) and audio (CELP, MP3, AAC, Dolby Digital) coding. \u2026 For more content click the Read More button below.This unit provides an understanding of the nature and limits of processing of media (image, video, audio) for telecommunications, storage, interpretation and analysis. It includes compression of multimedia from basic information theoretic concepts through to advanced video (e.g. MPEG), image (JPEG, JPEG2000) and audio (CELP, MP3, AAC, Dolby Digital) coding. XML-based metadata systems are used to illustrate concepts of content characterisation and discovery. The ability of modern network protocols to support media streaming is related directly to service requirements such as error and delay tolerance. Where media is intended for human consumption, the characteristics of human perception of image and sound determine minimum quality requirements, but also reveal limitations that can be exploited when compressing media data. Machine interpretation and analysis of multimedia is also investigated. Case studies in media analysis (e.g. Shazam), delivery (video on demand) and consumption (digital cinema) are used to illustrate the technologies investigated.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [
@@ -2130,6 +2197,7 @@
             "credit points": "6",
             "name": "Neural networks and deep learning",
             "unit_details": {
+                "overview": "Overview This unit introduces fundamentals of deep learning and how it can solve problems in many areas, such as image classification, filter design and natural language processing. Neural networks are first described and how training can be achieved with backpropagation. Various forms of deep neural networks are developed, such as multilayer \u2026 For more content click the Read More button below.This unit introduces fundamentals of deep learning and how it can solve problems in many areas, such as image classification, filter design and natural language processing. Neural networks are first described and how training can be achieved with backpropagation. Various forms of deep neural networks are developed, such as multilayer perceptrons, convolution neural networks and recurrent neural networks. The mathematics of stochastic optimisation is used to interpret and understand the behaviour and training of these networks. Programming approaches are discussed for training and deploying neural networks. Deep learning technologies and design examples are discussed in areas such as driverless cars, personal cognitive assistants and mastering of games such as GO.Read More about Overview",
                 "offerings": {
                     "S1-01-MALAYSIA-ON-CAMPUS": {
                         "location": [
@@ -2169,6 +2237,7 @@
             "credit points": "6",
             "name": "Organic electronics and micro devices",
             "unit_details": {
+                "overview": "Overview The unit introduces basic theory behind the organic electronics and micro technologies related to micro sensors, micro actuators and organic devices such as Organic LEDs (OLEDs). The topics include study of materials used in organic electronics and MEMS, study of their electrical and mechanical properties, basic structures in micro devices \u2026 For more content click the Read More button below.The unit introduces basic theory behind the organic electronics and micro technologies related to micro sensors, micro actuators and organic devices such as Organic LEDs (OLEDs). The topics include study of materials used in organic electronics and MEMS, study of their electrical and mechanical properties, basic structures in micro devices such as cantilever beams and comb structures, the fabrication techniques involved in manufacturing micro and nano structures, and measurement techniques suitable for characterising micro devices. Examples will include principles of physical sensors; piezoelectric effect based microsensors; chemical microsensors; OLED devices; MEMS and microsystems computer based simulations. An elementary part of the unit will be the laboratory exercises and project work to produce micro devices and construct suitable electronic circuits/simulate to demonstrate their applications.Read More about Overview",
                 "offerings": {
                     "S2-01-MALAYSIA-ON-CAMPUS": {
                         "location": [
@@ -2198,6 +2267,7 @@
             "credit points": "6",
             "name": "Solid state lighting",
             "unit_details": {
+                "overview": "Overview The unit introduces you to the new age of illumination using light-emitting diodes (LED) and their role in disruptive technologies such as human-centric lighting (HCL), horticultural lighting and visible light communications (VLC) alongside providing energy-efficient lighting. Topics include the basics of light, colour and human vision, radiometric and photometric descriptions \u2026 For more content click the Read More button below.\nLaboratories cover radiometric and photometric characterisation of light using a spectrophotometer, the use of standard illuminants, working with colour spaces, performing lumen and light spectrum measurements using an integrating sphere and the implementation of IoT-based smart lighting control.The unit introduces you to the new age of illumination using light-emitting diodes (LED) and their role in disruptive technologies such as human-centric lighting (HCL), horticultural lighting and visible light communications (VLC) alongside providing energy-efficient lighting. Topics include the basics of light, colour and human vision, radiometric and photometric descriptions of light, light quality measures, the characteristics of light-emitting diodes (LED), flicker, lifetime and reliability, LED drivers and the effects of light in the built environment in applications such as human wellbeing, plant growth and communication.\nLaboratories cover radiometric and photometric characterisation of light using a spectrophotometer, the use of standard illuminants, working with colour spaces, performing lumen and light spectrum measurements using an integrating sphere and the implementation of IoT-based smart lighting control.Read More about Overview",
                 "offerings": {
                     "S2-01-MALAYSIA-ON-CAMPUS": {
                         "location": [
@@ -2227,6 +2297,7 @@
             "credit points": "6",
             "name": "Internet of Things: Communication, data and security",
             "unit_details": {
+                "overview": "Overview This unit will cover aspects constituting the Internet of Things (IoT) including communications,\u00a0data analytics and cybersecurity. The unit covers network protocols, management and control standards. It will also cover fog computing and machine learning for data analytics, and the fundamentals of cybersecurity. The unit will focus on learning through \u2026 For more content click the Read More button below.This unit will cover aspects constituting the Internet of Things (IoT) including communications,\u00a0data analytics and cybersecurity. The unit covers network protocols, management and control standards. It will also cover fog computing and machine learning for data analytics, and the fundamentals of cybersecurity. The unit will focus on learning through Industrial IoT (IIoT) case studies related to critical infrastructures such as smart city, smart grids, healthcare and Industry 4.0.Read More about Overview",
                 "offerings": {
                     "S2-01-MALAYSIA-ON-CAMPUS": {
                         "location": [
@@ -2258,6 +2329,7 @@
             "credit points": "6",
             "name": "Engineering technology for biomedical imaging and sensing",
             "unit_details": {
+                "overview": "Overview Introduction to biomedical engineering from the perspective of engineering-based technologies of sensing and imaging. Topics include: basis of light and radiation, principles of synchrotron operation, practical study at the Australian synchrotron, human physiology for engineers, principles of detection and sensing of signals, biomedically relevant properties and phenomena. During this time \u2026 For more content click the Read More button below.Introduction to biomedical engineering from the perspective of engineering-based technologies of sensing and imaging. Topics include: basis of light and radiation, principles of synchrotron operation, practical study at the Australian synchrotron, human physiology for engineers, principles of detection and sensing of signals, biomedically relevant properties and phenomena. During this time project teams are formed and project proposals are developed. Project work continues with groups and individuals combining projects, allocated resources, knowledge and skills to develop a biomedical sensing device.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [],
@@ -2275,6 +2347,7 @@
             "credit points": "6",
             "name": "Advanced power electronics",
             "unit_details": {
+                "overview": "Overview This unit presents an extensive range of power electronic converter applications with a focus on renewable energy resources integration. The unit starts with modelling of DC/DC and DC/AC converters and then continues to design various voltage/current closed-loop controllers for these converters. The designed closed-loop control systems are then extended to \u2026 For more content click the Read More button below.This unit presents an extensive range of power electronic converter applications with a focus on renewable energy resources integration. The unit starts with modelling of DC/DC and DC/AC converters and then continues to design various voltage/current closed-loop controllers for these converters. The designed closed-loop control systems are then extended to applications of these converters in renewable energy grid integration contexts such as wind and solar resources. Additionally, other advanced applications of power electronic converters such as static compensators, active filters, power factor correctors, energy storage systems, grid forming inverters, etc. are introduced.Read More about Overview",
                 "offerings": {},
                 "prerequisite": {
                     "OR": [],
@@ -2292,6 +2365,7 @@
             "credit points": "6",
             "name": "Real-time system design",
             "unit_details": {
+                "overview": "Overview The unit aims to enable you to understand, analyse, specify, design and test real-time systems using both hardware and software development. Migration between software and hardware will be considered as an approach to meet design criterion such as speed, throughput, energy usage and cost.\nThe design, analysis and implementation of \u2026 For more content click the Read More button below.\nYou will complete a major team design project that includes hardware and software design of a real-time system.The unit aims to enable you to understand, analyse, specify, design and test real-time systems using both hardware and software development. Migration between software and hardware will be considered as an approach to meet design criterion such as speed, throughput, energy usage and cost.\nThe design, analysis and implementation of real-time operating systems will be studied and will include scheduling policies, process creation and management, inter-process communication and synchronisation, efficient handling of I/O and communication.\nYou will complete a major team design project that includes hardware and software design of a real-time system.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -2321,6 +2395,7 @@
             "credit points": "6",
             "name": "Advanced electronics design",
             "unit_details": {
+                "overview": "Overview This is an advanced unit in electronics design. You will be provided with an in-depth knowledge of radio frequency (RF) and microwave circuits and systems. The unit builds on your' basic electronic knowledge obtained from your undergraduate engineering degree to a more advanced analog and RF electronics, with more theory \u2026 For more content click the Read More button below.\nThe unit will teach you the detailed design principles of passive and active electronic devices at radio frequencies. You will learn to use CAD design software packages for assignments and projects. Important analogue and RF building components such as amplifiers, filters, oscillators, modulators, mixers and phase-locked loops will be taught. Topics such as noise and interference in electronic circuits will also be covered.\nYou will undertake a group project where RF/mixed-signal circuits will be designed, built and tested in the laboratory.This is an advanced unit in electronics design. You will be provided with an in-depth knowledge of radio frequency (RF) and microwave circuits and systems. The unit builds on your' basic electronic knowledge obtained from your undergraduate engineering degree to a more advanced analog and RF electronics, with more theory and applications of electronics.\nThe unit will teach you the detailed design principles of passive and active electronic devices at radio frequencies. You will learn to use CAD design software packages for assignments and projects. Important analogue and RF building components such as amplifiers, filters, oscillators, modulators, mixers and phase-locked loops will be taught. Topics such as noise and interference in electronic circuits will also be covered.\nYou will undertake a group project where RF/mixed-signal circuits will be designed, built and tested in the laboratory.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -2348,6 +2423,7 @@
             "credit points": "6",
             "name": "Advanced signal processing",
             "unit_details": {
+                "overview": "Overview The unit introduces the fundamentals of statistical signal processing with emphasis on stochastic models, estimation theory, parametric and non-parametric modelling and least squares methods.\nAfter a review of basic probability and random processes, the use of stochastic models for real world signals is illustrated. A family of algorithms for the \u2026 For more content click the Read More button below.\nSpecifically, linear stochastic models are presented and the importance of correlation structure in deriving the parameters of such models is illustrated.\nThe unit also covers how parametric and non-parametric models as well as statistical techniques are used to extract information from data signals corrupted by noise. The concept of estimation from real world data is presented, as opposed to the basic analysis of signals, transfer functions and power spectra. In particular, the fundamentals of linear estimation theory and optimal filtering to design advanced signal processing algorithms are presented.The unit introduces the fundamentals of statistical signal processing with emphasis on stochastic models, estimation theory, parametric and non-parametric modelling and least squares methods.\nAfter a review of basic probability and random processes, the use of stochastic models for real world signals is illustrated. A family of algorithms for the creation, efficient representation and effective modelling is presented.\nSpecifically, linear stochastic models are presented and the importance of correlation structure in deriving the parameters of such models is illustrated.\nThe unit also covers how parametric and non-parametric models as well as statistical techniques are used to extract information from data signals corrupted by noise. The concept of estimation from real world data is presented, as opposed to the basic analysis of signals, transfer functions and power spectra. In particular, the fundamentals of linear estimation theory and optimal filtering to design advanced signal processing algorithms are presented.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -2375,6 +2451,7 @@
             "credit points": "6",
             "name": "Wireless communications",
             "unit_details": {
+                "overview": "Overview This unit introduces the fundamentals of wireless communications and networking. You will learn about the characteristics of wireless channels, coding, modulation techniques, methods of combating fading including space, time and frequency diversity, multiple access techniques and cellular networks.\nA selection of more advanced topics will also be covered including MIMO \u2026 For more content click the Read More button below.This unit introduces the fundamentals of wireless communications and networking. You will learn about the characteristics of wireless channels, coding, modulation techniques, methods of combating fading including space, time and frequency diversity, multiple access techniques and cellular networks.\nA selection of more advanced topics will also be covered including MIMO systems, heterogeneous networks, cognitive and cooperative communications.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -2402,6 +2479,7 @@
             "credit points": "6",
             "name": "Smart grids",
             "unit_details": {
+                "overview": "Overview The Smart Grid unit provides a comprehensive knowledge about the Smart Grid and how it is to be operated and protected for improving sustainability and energy savings. The core of the unit is intelligent infrastructure for Smart Grid and its heightening vulnerability, and how to protect it effectively.\nThe basic \u2026 For more content click the Read More button below.\nThe unit will conclude with defining concept, design and purpose of the Smart Grid, reviewing current and relevant technologies developed, assessing its vulnerabilities to a cyber-attack, and finding effective protective mechanisms for the grid.The Smart Grid unit provides a comprehensive knowledge about the Smart Grid and how it is to be operated and protected for improving sustainability and energy savings. The core of the unit is intelligent infrastructure for Smart Grid and its heightening vulnerability, and how to protect it effectively.\nThe basic economic fundamentals of power systems and conventional and renewable power generation in regulated and deregulated environment are introduced first. The basic concepts of intelligent control, application of intelligent agents in grid technology, and intelligent components commonly used in Smart Grids are extensively discussed afterward. Also included is how distribution networks adapt to intermittent energy sources (e.g. solar and wind) through the use of smart grids, emerging technologies and energy storage systems.\nThe unit will conclude with defining concept, design and purpose of the Smart Grid, reviewing current and relevant technologies developed, assessing its vulnerabilities to a cyber-attack, and finding effective protective mechanisms for the grid.Read More about Overview",
                 "offerings": {
                     "S2-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -2438,6 +2516,7 @@
             "credit points": "6",
             "name": "Energy efficiency and sustainability engineering",
             "unit_details": {
+                "overview": "Overview This unit explores the theory and practice of the supply of energy, energy management and auditing, and the design of sustainable energy facilities. It deals with the systems needed to create low-energy, sustainable buildings, including passive solar design, energy-efficient heating and air-conditioning, and combined heat and power.\nIn addition, it \u2026 For more content click the Read More button below.This unit explores the theory and practice of the supply of energy, energy management and auditing, and the design of sustainable energy facilities. It deals with the systems needed to create low-energy, sustainable buildings, including passive solar design, energy-efficient heating and air-conditioning, and combined heat and power.\nIn addition, it includes coverage of transport energy and energy economics. Case studies from a variety of energy-focused industries such as building services, environmental engineering, heating, ventilation, and air conditioning (HVAC) and architectural technology will be discussed.Read More about Overview",
                 "offerings": {
                     "S1-01-CLAYTON-ON-CAMPUS": {
                         "location": [
@@ -2474,6 +2553,7 @@
             "credit points": "6",
             "name": "Sustainable energy technologies",
             "unit_details": {
+                "overview": "Overview The unit is designed to provide you with a challenging and intellectually stimulating environment covering numerous aspects of current and future sustainable energy technologies.\nThe unit is intended to introduce and investigate present and emerging trends in the sustainable technologies, including clean fuels, renewable energy systems and hybrid energy systems. \u2026 For more content click the Read More button below.The unit is designed to provide you with a challenging and intellectually stimulating environment covering numerous aspects of current and future sustainable energy technologies.\nThe unit is intended to introduce and investigate present and emerging trends in the sustainable technologies, including clean fuels, renewable energy systems and hybrid energy systems. Case studies and discussions with leading energy researchers within the University and elsewhere with emphasis on system approach will be undertaken.Read More about Overview",
                 "offerings": {
                     "S2-01-MALAYSIA-ON-CAMPUS": {
                         "location": [
