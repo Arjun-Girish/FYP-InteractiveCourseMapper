@@ -1,6 +1,7 @@
 p {
     margin: 10px 0;
     font-weight: bold;
+    display: flex;
 }
 
 input {
@@ -47,9 +48,9 @@ input {
     color: #0165ac;
 }
 
-.left,
-.right {
-    width: 50%;
+.left, .right-search {
+    width: 400px;
+    height: 500px;
 }
 
 .cards {
@@ -65,3 +66,30 @@ input {
     margin: 0 20px 20px 10px;
     text-align: center;
 }
+
+.right{
+    height: 100%;
+}
+
+.back-button-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0165AC;
+    margin-left: 90px;
+    width: 100px;
+    max-width: 300px; /* Set a maximum width for the button */
+    height: 40px;
+    color: white;
+    border-style: none;
+    border-radius: 20px; /* Make the button rounded like a pill */
+    padding: 0 1.5rem; /* Adjust padding for an appealing look */
+}
+
+.back-button-search:hover{
+    background-color: #004b80;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  

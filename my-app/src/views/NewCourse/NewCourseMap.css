@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-html,
-body {
-  height: 100%;
+html, body {
+
   margin: 0;
   background-color: #eaeaea;
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('bg-banner2.jpg');  
@@ -19,19 +18,19 @@ input[type="checkbox"] {
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  height: calc(100% - 100px); /* Subtract the height of the header */
   box-sizing: border-box; /* Include padding in the total height calculation */
 }
-
 
 .form-container {
   display: flex;
   grid-template-rows: auto 1fr;
+  justify-content: center;
   padding: 0rem;
   border-radius: 30px; /* Soft edges */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
-  margin: 0 auto; /* Add margin to center the container */
-  background-color: white;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+    margin: 0 auto; /* Add margin to center the container */
+
+
 }
 
 .form{
@@ -107,6 +106,7 @@ input[type="checkbox"] {
   background-color: #004b80;
   transition: 0.5s;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .year-12-units-status{
@@ -116,14 +116,15 @@ input[type="checkbox"] {
 }
 
 .image-container{
-  width: 400px;
+  width: 0px;
   background-color: cornflowerblue;
   border-radius: 8px;
 
 }
 
 .form{
-  width: 400px;
+  width: 1000px;
+  height: 100%;
   background-color: white;
   margin-left: 2rem;
   border-radius: 8px;
@@ -134,4 +135,15 @@ input[type="checkbox"] {
   height: 100%;
   border-radius: 8px 0px 0px 8px;
   
+}
+
+.required-container{
+  display: flex;
+}
+
+.required{
+  color: rgb(201, 0, 0);
+  font-size: 12px;
+  margin-left: 3px;
+
 }

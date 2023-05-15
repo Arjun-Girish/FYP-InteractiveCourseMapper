@@ -3,16 +3,17 @@ import './NewCourseMap.css';
 import logo from './monash-m.logo.jpg';
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import Specialisation from "../../components/specialisation/Specialisation"
+import Specialisation from "../specialisation/Specialisation";
+
 const NewCourseMap = () => {
 
   const [userInfo,setUserInfo] = useState({
-    courseName: "",
-    commencementYear: "2018",
-    studyLoad: "full-time-study",
-    vceUnitsMaths: "",
-    vceUnitsPhysics: "",
-    specialisation: "",
+    courseName: null,
+    commencementYear: null,
+    studyLoad: null,
+    vceUnitsMaths: null,
+    vceUnitsPhysics: null,
+    specialisation: null,
 
   });
 
@@ -24,6 +25,11 @@ const NewCourseMap = () => {
   };
 
   const handleSubmit = (event) => {
+    
+    if (userInfo.courseName === "")
+    {
+      alert("?")
+        }
     console.log(userInfo);
   };
 
@@ -50,11 +56,20 @@ const NewCourseMap = () => {
 
             <form> 
 
-                <h1 className="course-name">Name your plan</h1>
+                <div className="required-container">
+                  <h1 className="course-name">Name your plan</h1> 
+                  <h1 className="required"> *(Required)</h1> 
+                </div>
+
                   <input type="text" className="plan-name" name="courseName" required onChange={handleChange}/>
 
-                <h1 className="year-commencement">Year of commencement</h1>
+                <div className="required-container">
+                  <h1 className="year-commencement">Year of commencement</h1>
+                  <h1 className="required"> *(Required)</h1> 
+                </div>
+
                   <select className="commencement-year" name="commencementYear" required onChange={handleChange}>
+                    <option value="blank"></option >
                     <option value="2018">2018</option >
                     <option value="2019">2019</option>
                     <option value="2020">2020</option>
@@ -79,7 +94,7 @@ const NewCourseMap = () => {
                     <label htmlFor="physics-34">VCE Physics 3/4</label>
                   </div>
 
-                    <button type="button" className="create-plan-button" onClick={()=>{handleSubmit(); history('/specialisation', {state: {userInfo}});}}>
+                    <button type="button" className="create-plan-button" disabled= {userInfo.courseName==null || userInfo.commencementYear == null} onClick={()=>{handleSubmit(); history('/specialisation', {state: {userInfo}});}}>
                       Submit
                     </button>
              </form>

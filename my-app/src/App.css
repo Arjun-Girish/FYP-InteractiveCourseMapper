@@ -1,8 +1,13 @@
 @import '~antd/dist/antd.css';
+
 .app-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+
 }
 
 .wrap .nav {
@@ -12,11 +17,14 @@
   background: rgb(9, 9, 170);
   color: #fff;
   font-weight: 500;
+  
 }
 
 .wrap .main {
   height: calc(100vh - 100px);
   overflow: auto;
+
+  
 }
 
 .wrap .footer {
@@ -55,6 +63,7 @@
   margin: auto;
   display: flex;
   justify-content: center;
+
 }
 
 .footer-container{

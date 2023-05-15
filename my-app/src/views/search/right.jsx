@@ -27,7 +27,7 @@ function Right({ updateEvent, event }) {
   };
   
   return (
-    <div className="right">
+    <div className="right-search">
       <p>Showing results for Semester 2:</p>
       <div className="cards">
 
@@ -41,9 +41,9 @@ function Right({ updateEvent, event }) {
             }}
           >
             <div style={{marginTop:'12px'}}>
-              <span style={{ fontSize: "16px" }}>{item.code}</span>
+              <span style={{ fontSize: "12px" }}>{item.code}</span>
               <br />
-              <span>{item.name}</span>
+              <span style={{ fontSize: "12px" }}>{item.name}</span>
             </div>
 
           </div>
