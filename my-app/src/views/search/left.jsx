@@ -16,6 +16,7 @@ export default function Left() {
     name: "",
     input3: "",
   });
+  
   const handleInputChange1 = (event) => {
     setInputValue({ ...inputValue, code: event.target.value });
   };

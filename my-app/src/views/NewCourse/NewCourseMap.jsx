@@ -7,7 +7,7 @@ import Specialisation from "../../components/specialisation/Specialisation"
 const NewCourseMap = () => {
 
   const [userInfo,setUserInfo] = useState({
-    courseName: "Default",
+    courseName: "",
     commencementYear: "2018",
     studyLoad: "full-time-study",
     vceUnitsMaths: "",
@@ -29,6 +29,7 @@ const NewCourseMap = () => {
 
 
 
+
   return(
     <div className="main-content">
 
@@ -37,7 +38,7 @@ const NewCourseMap = () => {
         <div className="form-container">
 
           <div className="image-container">
-            <img className = "new-course-logo" src={logo}></img>
+            <img className = "new-course-logo" alt = "monash-m-logo" src={logo}></img>
           </div>
 
           <div className="form"> 
@@ -65,7 +66,6 @@ const NewCourseMap = () => {
                 <h1 className="study-load" >Study load</h1>
                   <select className="study-load" name="studyLoad" required onChange={handleChange}>
                     <option value="full-time-study">Full-Time</option>
-                    <option value="part-time-study">Part-Time</option>
 
                   </select>
 
