@@ -8,7 +8,7 @@
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
     padding: 30px;
     height:100%;    
-    width: 1500px;
+    width: 100%;
     
 }
 
@@ -63,7 +63,6 @@
   align-items: center;
   justify-content: center;
   background-color: #0165AC;
-  margin: 30px auto; /* Set left and right margins to auto */
   width: 100px;
   max-width: 300px; /* Set a maximum width for the button */
   height: 40px;
@@ -73,8 +72,9 @@
   padding: 0 1.5rem; /* Adjust padding for an appealing look */
 }
 
-.submit_button:hover, .back-button{
+.submit_button:hover{
     background-color: #004b80;
+    text-decoration: underline;
     transition: 0.5s;
     cursor: pointer;
   }
@@ -83,14 +83,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0165AC;
+    background-color: white;
     width: 100px;
     max-width: 300px; /* Set a maximum width for the button */
     height: 40px;
-    color: white;
-    border-style: none;
+    color: #0165AC;
+    border-style: solid;
+    border-color: #0165AC;
     border-radius: 20px; /* Make the button rounded like a pill */
     padding: 0 1.5rem; /* Adjust padding for an appealing look */
-    margin-right: 800px;
   }
   
+.back-button:hover{
+    color: #004B80;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bottom-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px 0px 70px;
+}

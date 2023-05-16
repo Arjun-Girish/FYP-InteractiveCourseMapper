@@ -24,25 +24,26 @@ const [major, setMajor] = useState('');
 
 const [selected, setSelected] = useState(0);
 
-
   const handleColor = (row) => {
     setSelected(row.id);
   };
 
   const location = useLocation();
   const semesterStart = location.state.userInfo.commencementYear
+  const userInfoPass = location.state.userInfo
       
   const history = useNavigate();
 
+ 
+  
   const makeLayout = () => {
     
     return (
       
+      <div className="specialisation-container">
+
 
       <div className="search-container">
-              <button className="back-button" onClick={()=>{history('/')}}>Back</button>
-
-
         
             <div>
                 <h4 className="select-course"> Select your relevant course:</h4>
@@ -62,9 +63,14 @@ const [selected, setSelected] = useState(0);
               
             </div>
 
-              <button type ="submit" className="submit_button" onClick={() => history('/main', {state: {major, semesterStart}})}> Submit </button>
-
       </div> 
+
+      <div className="bottom-container">
+              <button className="back-button" onClick={()=>{history('/')}}>Back</button>
+              <button type ="submit" className="submit_button" disabled={major==""} onClick={(e) => history('/main', {state: {major, semesterStart,userInfoPass }})}> Submit </button>
+            </div>
+      </div>
+
         
     );
   }

@@ -3,6 +3,9 @@ import { Select } from "antd";
 import { CaretDownOutlined } from "@ant-design/icons";
 import { MyContext } from "./index";
 import "./index.css";
+import { useNavigate } from "react-router-dom";
+
+
 
 export default function Left() {
   const handleChange = (value) => {
@@ -28,6 +31,9 @@ export default function Left() {
     console.log(index);
     setValue({ [index]: inputValue[index] });
   };
+
+  const history = useNavigate();  
+
 
   return (
     <div className="left">
@@ -148,7 +154,15 @@ export default function Left() {
       >
         <CaretDownOutlined />
       </div>
+      
+
+      
       <button>search</button>
+
+      <button className="back-button-search" onClick={() => history(-1)}>Back</button>
+
+
+      
     </div>
   );
 }

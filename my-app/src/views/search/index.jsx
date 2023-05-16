@@ -13,16 +13,19 @@ export default function Index() {
   return (
 
     <div className="search-main">
-      <button className="back-button-search" onClick={() => history(-1)}>Back</button>
 
     <MyContext.Provider value={{ value, setValue }}>
       <div style={{ margin: "0 100px" }}>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <Left></Left>
+
           <Right></Right>
         </div>
+
       </div>
     </MyContext.Provider>
+
+
     </div>
   );
 }
