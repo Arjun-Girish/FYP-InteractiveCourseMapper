@@ -14,8 +14,7 @@ function App() {
       <Navbar />
 
       <div className="main">
-        <Routes />
-        
+        <Routes /> 
       </div>
 
       <div className="footer">
