@@ -1,10 +1,12 @@
-.home{
+.home {
     background-color: white;
     width: 1700px;
     width: 1100px;
     height: 650px;
-    border-radius: 8px; /* Soft edges */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+    border-radius: 8px;
+    /* Soft edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a shadow effect */
     padding-top: 30px;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -36,7 +38,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
 .homemain>div>div:nth-child(1) {
@@ -45,6 +47,10 @@
     line-height: 250px;
     text-align: center;
     border-right: 3px solid #000;
+}
+.ant-popover-buttons,
+.ant-popover-message-icon{
+    display: none;
 }
 
 .homemain>div .homecon {
@@ -90,11 +96,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     background-color: #eeece1;
     margin: 10px 10px 10px 10px;
     margin: 25px 0px 25px 0px;
     text-align: center;
-    
+    position: relative;
+
+}
+
+.homemain>div .homecon>div:nth-child(2)>div .state {
+    position: absolute;
+    right: 2px;
+    top: 2px;
 }
 
 .homemain>div .homecon>div:nth-child(2)>div:hover {
@@ -105,15 +119,17 @@
 }
 
 
-.homemain .homecon .cardF .error{
+.homemain .homecon .cardF .error {
     position: relative;
     background: pink;
 }
-.homemain .homecon .cardF .error .anticon{
+
+.homemain .homecon .cardF .error .anticon {
     position: absolute;
     left: 10px;
     top: 10px;
 }
+
 .homebottom {
     width: 80%;
     margin: 0 auto;
@@ -145,6 +161,7 @@
     font-size: 22px !important;
 }
 
+.bottom-div {
 .bottom-div{
     width: 100%;
     display: flex;
@@ -154,11 +171,21 @@
     float: right;
 }
 
-.create-plan-button:hover{
-  background-color: #004b80;
-  transition: 0.5s;
+.create-plan-button:hover {
+    background-color: #004b80;
+    transition: 0.5s;
 }
 
+.unit-title {
+    font-size: 12px;
+
+}
+
+.unit-code {
+    font-size: 12px;
+    font-weight: 700;
+
+}
 .unit-title{
     font-size: 12px;
     

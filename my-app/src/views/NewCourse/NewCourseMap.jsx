@@ -51,7 +51,7 @@ import Specialisation from "../../components/specialisation/Specialisation"
 const NewCourseMap = () => {
 
   const [userInfo,setUserInfo] = useState({
-    courseName: "Default",
+    courseName: "",
     commencementYear: "2018",
     studyLoad: "full-time-study",
     vceUnitsMaths: "",
@@ -70,6 +70,7 @@ const NewCourseMap = () => {
   const handleSubmit = (event) => {
     console.log(userInfo);
   };
+
 
 
 
@@ -160,7 +161,6 @@ const NewCourseMap = () => {
              </form  >
                   <select className="study-load" name="studyLoad" required onChange={handleChange}>
                     <option value="full-time-study">Full-Time</option>
-                    <option value="part-time-study">Part-Time</option>
 
                   </select>
 
