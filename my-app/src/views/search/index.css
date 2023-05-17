@@ -65,3 +65,99 @@ input {
     margin: 0 20px 20px 10px;
     text-align: center;
 }
+p {
+    margin: 10px 0;
+    font-weight: bold;
+    display: flex;
+}
+
+input {
+    border: 2px solid;
+    height: 28px;
+    width: 254px;
+}
+
+/* button {
+    width: 123px;
+    height: 32px;
+    background: #0165ac;
+    color: #fff;
+} */
+
+.ant-modal-content {
+    padding: 10px !important;
+}
+
+.ant-select-selector {
+    border: 2px solid !important;
+    border-radius: 0 !important;
+}
+
+.ant-select-arrow {
+    display: none !important;
+}
+
+.select {
+    display: inline-block;
+    width: 27px;
+    height: 29px;
+    vertical-align: top;
+    border-right: none;
+    line-height: 29px;
+    text-align: center;
+    position: relative;
+    right: 29px;
+
+
+}
+
+.select span {
+    color: #0165ac;
+}
+
+.left, .right-search {
+    width: 400px;
+    height: 500px;
+}
+
+.cards {
+    border-left: 2px solid;
+    height: 80%;
+}
+
+.cards>div {
+    width: 130px;
+    height: 70px;
+    background: #eeece1;
+    display: inline-block;
+    margin: 0 20px 20px 10px;
+    text-align: center;
+}
+
+.right{
+    height: 100%;
+}
+
+.back-button-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100px;
+    max-width: 300px; /* Set a maximum width for the button */
+    height: 40px;
+    color: #0165AC;
+    border-style: solid;
+    border-color: #0165AC;
+    border-radius: 20px; /* Make the button rounded like a pill */
+    padding: 0 1.5rem; /* Adjust padding for an appealing look */
+    margin-top: 30px;
+  }
+
+.back-button-search:hover{
+    background-color: #004b80;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  

@@ -7,18 +7,57 @@ import {Link, useLocation} from "react-router-dom";
 
 const Specialisation = (props) => {
 
+
+const degrees = [
+  { id: 1, title: "Aerospace Engineering" },
+  { id: 2, title: "Biomedical Engineering" },
+  { id: 3, title: "Chemical Engineering" },
+  { id: 4, title: "Electrical Engineering" },
+  { id: 5, title: "Electrical & Computer Systems Engineering" },
+  { id: 6, title: "Environmental Engineering" },
+  { id: 7, title: "Materials Engineering" },
+  { id: 8, title: "Mechanics Engineering" },
+  { id: 9, title: "Robotics & Mechatronics Engineering" },
+];
+
+const [major, setMajor] = useState('');
+
+const [selected, setSelected] = useState(0);
+  const [state, setState] = useState({
+    name: "bob",
+    color: "blue"
+  });
+
+  const handleColor = (row) => {
+    setSelected(row.id);
+  };
   const userInfo = {
     eng_major: '',
 }
 
+const degrees = [
+  { id: 1, title: "Aerospace Engineering" },
+  { id: 2, title: "Biomedical Engineering" },
+  { id: 3, title: "Chemical Engineering" },
+  { id: 4, title: "Electrical Engineering" },
+  { id: 5, title: "Electrical & Computer Systems Engineering" },
+  { id: 6, title: "Environmental Engineering" },
+  { id: 7, title: "Materials Engineering" },
+  { id: 8, title: "Mechanics Engineering" },
+  { id: 9, title: "Robotics & Mechatronics Engineering" },
+];
+
 const [major, setMajor] = useState('');
 
-const test = useState('');
-userInfo.eng_major = major;
+const [selected, setSelected] = useState(0);
+  const [state, setState] = useState({
+    name: "bob",
+    color: "blue"
+  });
 
-const handleClick = () => {
-}
-
+  const handleColor = (row) => {
+    setSelected(row.id);
+  };
 
   const location = useLocation();
   const semesterStart = location.state.userInfo.commencementYear
@@ -35,6 +74,17 @@ const handleClick = () => {
                 <h5 className="current-selection">Currently selected: {major}</h5>
             </div>
           
+            <div className = "course-container">
+              {degrees.map((degree) => (
+              <button className = "course-block"
+              key={degree.id}
+              onClick={()=> [handleColor(degree),setMajor(degree.title)]}
+              style={{ backgroundColor: degree.id === selected ? "#0165AC" : "", color: degree.id === selected ? "white" : ""}}
+              >
+                {degree.title}
+                </button>
+              ))}
+
             <div>
             <div className="semester-block">
                     <button className="course-block" onClick={(e)=> [setMajor('Aerospace Engineering',e),handleClick('Software Engineering',e)]} onChange={(e) => props.onChange(e.target.value)}>Aerospace Engineering</button>

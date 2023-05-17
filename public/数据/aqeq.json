@@ -1,0 +1,29 @@
+{
+"code": "ENG3111",
+"credit points":"",
+"name": "Signals and systems",
+"details":"",
+"overview": "",
+"offerings":[
+
+     {
+        "51-81-Clayton-On-Campus":{
+          "location":"Clayton",
+          "teaching_period": "First semester",
+          "Attendance mode": "On-campus"}
+        },
+     {
+        "52-81-Clayton-On-Campus":{
+          "location":"Clayton",
+          "teaching period": "Second semester",
+          "Attendance mode": "On-campus"}
+        }
+    ],
+"prerequisiste":{
+"OR":["ENG2131"],
+"AND" :[
+"ENG1003"
+],
+"prohibiton":[]
+}
+}

@@ -1,0 +1,106 @@
+@import '~antd/dist/antd.css';
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+
+}
+
+.wrap .nav {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: rgb(9, 9, 170);
+  color: #fff;
+  font-weight: 500;
+  
+}
+
+.wrap .main {
+  height: calc(100vh - 100px);
+  overflow: auto;
+
+  
+}
+
+.wrap .footer {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: rgb(9, 9, 170);
+  color: #fff;
+  font-weight: 500;
+}
+
+
+
+
+
+.main{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer-container{
+    font-family: 'Inter', sans-serif;
+    background-color: #0165AC;
+    display: flex;
+    height: 100px;
+    align-items: left;
+    padding-left: 30px;
+    overflow-x: hidden;
+}
+
+.designed-by{
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing:-0.2px; 
+    margin: 15px 0px 1px 0px;
+    color: white;
+
+}
+
+.student-name{
+    font-weight: 300;
+    font-size: 10px;
+    margin: 0px;
+    color: white;
+
+}
+
+
+a:visited { 
+    color: white; 
+}
+   
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+  
+
+a:visited { 
+    color: white; 
+}
+   
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+  
+.footer{
+  margin-top: auto;
+  
+}
