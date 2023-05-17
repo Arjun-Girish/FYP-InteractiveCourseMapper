@@ -3,6 +3,9 @@ import { Select } from "antd";
 import { CaretDownOutlined } from "@ant-design/icons";
 import { MyContext } from "./index";
 import "./index.css";
+import { useNavigate, useLocation } from "react-router-dom";
+
+
 
 export default function Left() {
   const handleChange = (value) => {
@@ -16,6 +19,13 @@ export default function Left() {
     name: "",
     input3: "",
   });
+
+  const location = useLocation();
+  const yearState = location.state.show
+  console.log(yearState)
+
+
+  
   const handleInputChange1 = (event) => {
     setInputValue({ ...inputValue, code: event.target.value });
   };
@@ -28,48 +38,52 @@ export default function Left() {
     setValue({ [index]: inputValue[index] });
   };
 
+  const history = useNavigate();  
+
+
   return (
     <div className="left">
       <p>Search by unit code</p>
+
+      <div className="form-container">
+
       <input type="text" onChange={handleInputChange1} />{" "}
-      <button
+      <button className = "left-search-button"
         onClick={() => {
           handleButtonClick("code");
         }}
       >
-        search
+        Search
       </button>
+
+      </div>
+
       <p>Search by Course title</p>
+
+      <div className="form-container">
+
       <input type="text" onChange={handleInputChange2} />{" "}
-      <button
+      <button className = "left-search-button"
         onClick={() => {
           handleButtonClick("name");
         }}
       >
-        search
+        Search
       </button>
+
+      </div>
+
       <p>Filter by</p>
       <span>Major & Minor</span>
       <br />
-      <Select
-        open={mode[0]}
-        // suffixIcon={<CaretDownOutlined />}
-        defaultValue=""
-        style={{
-          width: 238,
-        }}
-        onChange={handleChange}
-        options={[
-          {
-            value: "a",
-            label: "Major",
-          },
-          {
-            value: "b",
-            label: "Minor",
-          },
-        ]}
-      />
+
+      <select className="major-minor-option" name="major-minor-option" required onChange={handleChange}>
+        <option value="blank"></option >
+        <option value="major-option">Major</option >
+        <option value="minor-option">Minor</option>
+      </select>
+
+
       <div
         className="select"
         onClick={() => {
@@ -78,27 +92,15 @@ export default function Left() {
           setMode(newModes);
         }}
       >
-        <CaretDownOutlined />
       </div>
+
       <p>Teaching Period</p>
-      <Select
-        open={mode[1]}
-        defaultValue=""
-        style={{
-          width: 238,
-        }}
-        onChange={handleChange}
-        options={[
-          {
-            value: "a",
-            label: "Semester 1",
-          },
-          {
-            value: "b",
-            label: "Semester 2",
-          },
-        ]}
-      />
+     <select className="sem-option" name="sem-option" required onChange={handleChange}>
+        <option value="blank"></option >
+        <option value="sem1-option">Semester 1</option >
+        <option value="sem2-option">Semester 2</option>
+      </select>
+
       <div
         className="select"
         onClick={() => {
@@ -107,47 +109,20 @@ export default function Left() {
           setMode(newModes);
         }}
       >
-        <CaretDownOutlined />
       </div>
-      <p>Learning Outcomes</p>
-      <Select
-        open={mode[2]}
-        defaultValue=""
-        style={{
-          width: 238,
-        }}
-        onChange={handleChange}
-        options={[
-          {
-            value: "ja",
-            label: "a",
-          },
-          {
-            value: "b",
-            label: "b",
-          },
-          {
-            value: "Yiminghe",
-            label: "c",
-          },
-          {
-            value: "disabled",
-            label: "Disabled",
-            disabled: true,
-          },
-        ]}
-      />
-      <div
-        className="select"
-        onClick={() => {
-          const newModes = [...mode];
-          newModes[2] = !newModes[2];
-          setMode(newModes);
-        }}
-      >
-        <CaretDownOutlined />
+    
+      
+
+      
+      <div className="bottom-container-left">
+      <button className="back-button-search" onClick={() => history(-1, {state: yearState})}>Back</button>
+      <button className = "left-search-button" > Search</button>
+
       </div>
-      <button>search</button>
+
+
+
+      
     </div>
   );
 }

@@ -1,42 +1,34 @@
 import React, { useContext } from 'react'
 import './specialisation.css';
 import {useState} from "react";
-import {useNavigate } from "react-router-dom";
-import NewCourseMap from "../../views/NewCourse/NewCourseMap";
-import {Link, useLocation} from "react-router-dom";
 
 const Specialisation = (props) => {
-
-  const userInfo = {
-    eng_major: '',
-}
-
-const [major, setMajor] = useState('');
-
-const test = useState('');
-userInfo.eng_major = major;
-
-const handleClick = () => {
-}
-
-
-  const location = useLocation();
-  const semesterStart = location.state.userInfo.commencementYear
+    const userInfo = {
+          eng_major: '',
+    }
       
-  const history = useNavigate();
+    const [major, setMajor] = useState('');
 
+    const test = useState('');
+      userInfo.eng_major = major;
+
+
+
+    const handleClick = () => {
+      }
+      
   const makeLayout = () => {
     
     return (
       <div className="search-container">
         
             <div>
-                <h4 className="select-course"> Select your relevant course starting: {location.state.userInfo.commencementYear} </h4>
-                <h5 className="current-selection">Currently selected: {major}</h5>
+                <h4 className="select-course"> Select your relevant course</h4>
+                <h5 className="current-selection">Currently selected: {major} </h5>
             </div>
           
             <div>
-            <div className="semester-block">
+                <div className="semester-block">
                     <button className="course-block" onClick={(e)=> [setMajor('Aerospace Engineering',e),handleClick('Software Engineering',e)]} onChange={(e) => props.onChange(e.target.value)}>Aerospace Engineering</button>
                     <button className="course-block" onClick={(e)=> [setMajor('Chemical Engineering',e),handleClick('Chemical Engineering',e)]} onChange={(e) => props.onChange(e.target.value)}>Chemical Engineering </button>
                     <button className="course-block" onClick={(e)=> [setMajor('Civil Engineering',e),handleClick('Civil Engineering',e)]} onChange={(e) => props.onChange(e.target.value)}> Civil Engineering </button>
@@ -55,7 +47,9 @@ const handleClick = () => {
                 </div>
             </div>
 
-              <button type ="submit" className="submit_button" onClick={() => history('/main', {state: {major, semesterStart}})}> Submit </button>
+            <a href="/main">
+              <button className="submit_button">Submit</button>
+            </a>  
 
       </div> 
         
