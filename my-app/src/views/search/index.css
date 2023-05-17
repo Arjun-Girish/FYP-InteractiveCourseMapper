@@ -55,6 +55,8 @@ input {
 .cards {
     border-left: 2px solid;
     height: 80%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cards>div {
@@ -64,4 +66,22 @@ input {
     display: inline-block;
     margin: 0 20px 20px 10px;
     text-align: center;
+}
+
+.cards>div:hover {
+    cursor: pointer;
+    border-style: solid;
+    transition: 0.5s;
+    border-width: 1px;
+}
+
+.cards>div .unit-code {
+    width: 80%;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin: auto;
 }

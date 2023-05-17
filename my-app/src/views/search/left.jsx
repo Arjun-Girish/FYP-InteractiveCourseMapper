@@ -16,6 +16,7 @@ export default function Left() {
     name: "",
     input3: "",
   });
+
   const handleInputChange1 = (event) => {
     setInputValue({ ...inputValue, code: event.target.value });
   };
@@ -61,12 +62,12 @@ export default function Left() {
         onChange={handleChange}
         options={[
           {
-            value: "a",
-            label: "Major",
+            value: "3",
+            label: "state3",
           },
           {
-            value: "b",
-            label: "Minor",
+            value: "4",
+            label: "state4",
           },
         ]}
       />
