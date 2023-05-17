@@ -7,13 +7,19 @@
     width: 1000px;
     border-radius: 8px; /* Soft edges */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
-    padding: 50px;
+    padding: 30px;
 }
 
 .semester-block {
     display: flex;
 }
 
+.course-container{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .specialisation-name{
     color: black;
     background-color: white;

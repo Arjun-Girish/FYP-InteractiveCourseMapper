@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Modal, Button } from "antd";
 import { PlusOutlined, ExclamationCircleOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
-import { connect} from "react-redux";
+import { connect } from "react-redux";
 import { updateValue } from "../../store/actions";
 import "./index.css";
 
@@ -60,8 +60,8 @@ const Home = ({ updateValue, data, event }) => {
     }
     return true;
   };
-  const courseCheck = (events,id) => {
-    if(!events.prerequisiste) return false
+  const courseCheck = (events, id) => {
+    if (!events.prerequisiste) return false;
     if (JSON.stringify(events) !== "{}") {
       // 计算上一组数据在数组中的起始位置和结束位置
       const end = Math.ceil((id * 1 + 1) / 8 - 1) * 8;
@@ -70,13 +70,13 @@ const Home = ({ updateValue, data, event }) => {
         let res = checkDataOr(data.slice(start, end), events);
         let res1 = checkDataAND(data.slice(start, end), events);
         console.log(!(res && res1));
-        return !(res && res1)
+        return !(res && res1);
       }
     }
   };
   useEffect(() => {
     updateValue(event.id, event);
-  },[event]);
+  }, [event]);
   return (
     <div className="home">
       <div className="hometop">Specialisalion - Mechalronics Engineering</div>
@@ -85,8 +85,8 @@ const Home = ({ updateValue, data, event }) => {
           <div>2023</div>
           <div className="homecon">
             <div>
-              <div>Samesler 1</div>
-              <div>Samesler 2</div>
+              <div>Samester 1</div>
+              <div>Samester 2</div>
             </div>
             <div className="cardF">
               {data.slice(0, 8).map((item, index) => {
@@ -111,8 +111,8 @@ const Home = ({ updateValue, data, event }) => {
           <div>2024</div>
           <div className="homecon">
             <div>
-              <div>Samesler 1</div>
-              <div>Samesler 2</div>
+              <div>Samester 1</div>
+              <div>Samester 2</div>
             </div>
             <div className="cardF">
               {data.slice(8, 16).map((item, index) => {
@@ -120,11 +120,13 @@ const Home = ({ updateValue, data, event }) => {
                   <div
                     key={index}
                     onClick={() => showModal(item)}
-                    className={courseCheck(item,index+8) ? "error" : ""}
+                    className={courseCheck(item, index + 8) ? "error" : ""}
                   >
-                    {courseCheck(item,index+8) ?  (
+                    {courseCheck(item, index + 8) ? (
                       <ExclamationCircleOutlined onClick={showConfirm} />
-                    ):""}
+                    ) : (
+                      ""
+                    )}
                     <div style={{ fontSize: "16px" }}>{item.code}</div>
                     <div>{item.name}</div>
                   </div>
@@ -144,16 +146,22 @@ const Home = ({ updateValue, data, event }) => {
           <div>2025</div>
           <div className="homecon">
             <div>
-              <div>Samesler 1</div>
-              <div>Samesler 2</div>
+              <div>Samester 1</div>
+              <div>Samester 2</div>
             </div>
             <div className="cardF">
               {data.slice(16, 24).map((item, index) => {
                 return item.id ? (
-                  <div key={index} onClick={() => showModal(item)}  className={courseCheck(item,index+16) ? "error" : ""}>
-                    {courseCheck(item,index+16) ?  (
+                  <div
+                    key={index}
+                    onClick={() => showModal(item)}
+                    className={courseCheck(item, index + 16) ? "error" : ""}
+                  >
+                    {courseCheck(item, index + 16) ? (
                       <ExclamationCircleOutlined onClick={showConfirm} />
-                    ):""}
+                    ) : (
+                      ""
+                    )}
                     <div style={{ fontSize: "16px" }}>{item.code}</div>
                     <div>{item.name}</div>
                   </div>
@@ -173,16 +181,22 @@ const Home = ({ updateValue, data, event }) => {
           <div>2026</div>
           <div className="homecon">
             <div>
-              <div>Samesler 1</div>
-              <div>Samesler 2</div>
+              <div>Samester 1</div>
+              <div>Samester 2</div>
             </div>
             <div className="cardF">
               {data.slice(24, 32).map((item, index) => {
                 return item.id ? (
-                  <div key={index} onClick={() => showModal(item)}  className={courseCheck(item,index+24) ? "error" : ""}>
-                    {courseCheck(item,index+24) ?  (
+                  <div
+                    key={index}
+                    onClick={() => showModal(item)}
+                    className={courseCheck(item, index + 24) ? "error" : ""}
+                  >
+                    {courseCheck(item, index + 24) ? (
                       <ExclamationCircleOutlined onClick={showConfirm} />
-                    ):""}
+                    ) : (
+                      ""
+                    )}
                     <div style={{ fontSize: "16px" }}>{item.code}</div>
                     <div>{item.name}</div>
                   </div>
