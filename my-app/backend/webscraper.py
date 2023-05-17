@@ -15,9 +15,9 @@ class Webscraper:
 
     def extract_data(self, raw_text):
         code_CP = raw_text.split('arrow_forward')[1].split(' ')[0]
-        code = code_CP[:-3]
+        code = code_CP[:-1]
         name = raw_text.split("CP")[1]
-        credit_points = code_CP[-3:]
+        credit_points = code_CP[-1:]
         return {"code": code, "credit points": credit_points, "name": name}
 
     def extract_unit_data(self, raw_text):
@@ -59,7 +59,7 @@ class Webscraper:
         url = 'https://handbook.monash.edu/2023/courses/E3001'
         soup = self.get_page_content(url)
         minor_elements = soup.find_all("div", class_="css-m23545-Links--LinkGroupWrapper e1t6s54p1", filter="minor")
-        minors = [self.extract_minor_data(e.text.strip()) for e in minor_elements]
+        minors = [self.extract_data(e.text.strip()) for e in minor_elements]
 
         for minor in minors:
             minor_code = minor["code"]
@@ -69,6 +69,38 @@ class Webscraper:
             # Export to JSON
             with open(f'engineering-minors/{minor_code}.json', 'w') as json_file:
                 json.dump(minor, json_file, indent=4)
+
+        return minors
+    
+    def get_first_year_electives(self):
+        url = 'https://handbook.monash.edu/2023/courses/E3001'
+        soup = self.get_page_content(url)
+        first_year_electives_list = soup.find_all("div", class_="css-7ipnaa-Links--StyledLinkGroup e1t6s54p3")
+        if len(first_year_electives_list) > 1:
+            first_year_electives = first_year_electives_list[1]
+        else:
+            first_year_electives = None  # or however you want to handle this case
+        print(first_year_electives)
+        minors = [self.extract_data(e.text.strip()) for e in first_year_electives]
+
+        for minor in minors:
+            minor_code = minor["code"]
+            minor_units = self.get_unit_details(minor_code)
+            minor["units"] = minor_units
+
+        all_minors_data = []
+
+        for units in minors:
+            minor_code = units["code"]
+            minor_units = self.get_units(minor_code)
+            units["minor"] = minor_units
+
+            # Add the current minor data to the list
+            all_minors_data.append(units)
+
+        # After the loop, dump all the data into one JSON file
+        with open('electives.json', 'w') as json_file:
+            json.dump(all_minors_data, json_file, indent=4)
 
         return minors
 
@@ -237,5 +269,7 @@ class Webscraper:
 
 
 MonashHandbook = Webscraper()
-specialisations = MonashHandbook.get_ug_specialisation()
+# specialisations = MonashHandbook.get_ug_specialisation()
 # engineering_minors = MonashHandbook.get_eng_minors()
+first_year_electives = MonashHandbook.get_first_year_electives()
+
