@@ -8,6 +8,7 @@
     border-radius: 8px; /* Soft edges */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
     padding: 30px;
+    padding: 50px;
 }
 
 .semester-block {

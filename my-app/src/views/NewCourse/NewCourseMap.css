@@ -2,6 +2,9 @@
 
 html, body {
 
+html,
+body {
+  height: 100%;
   margin: 0;
   background-color: #eaeaea;
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('bg-banner2.jpg');  
@@ -32,6 +35,19 @@ input[type="checkbox"] {
     margin: 0 auto; /* Add margin to center the container */
 
 
+  height: calc(100% - 100px); /* Subtract the height of the header */
+  box-sizing: border-box; /* Include padding in the total height calculation */
+}
+
+
+.form-container {
+  display: flex;
+  grid-template-rows: auto 1fr;
+  padding: 0rem;
+  border-radius: 30px; /* Soft edges */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+  margin: 0 auto; /* Add margin to center the container */
+  background-color: white;
 }
 
 .form{
@@ -94,6 +110,9 @@ input[type="checkbox"] {
   justify-content: center;
   background-color: #0165AC;
   width: 100px;
+  margin: 30px auto; /* Set left and right margins to auto */
+  width: 100px;
+  max-width: 300px; /* Set a maximum width for the button */
   height: 40px;
   color: white;
   border-style: none;
@@ -116,6 +135,7 @@ input[type="checkbox"] {
 
 .image-container{
   width: 0px;
+  width: 400px;
   background-color: cornflowerblue;
   border-radius: 8px;
 
@@ -124,6 +144,7 @@ input[type="checkbox"] {
 .form{
   width: 1000px;
   height: 100%;
+  width: 400px;
   background-color: white;
   margin-left: 2rem;
   border-radius: 8px;
@@ -162,4 +183,5 @@ input[type="checkbox"] {
   font-style: italic;
   font-weight: 200;
 
+}
 }

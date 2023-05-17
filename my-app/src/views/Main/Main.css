@@ -1,6 +1,7 @@
 .home{
     background-color: white;
     width: 1700px;
+    width: 1100px;
     height: 650px;
     border-radius: 8px; /* Soft edges */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
@@ -20,6 +21,7 @@
 
 .homemain {
     width: 100%;
+    width: 80%;
     margin: 0 auto;
     overflow: auto;
     height: 650px;
@@ -27,7 +29,6 @@
     overflow-y: scroll;
     padding-right: 50px;
     background-color: white;
-
 
 }
 
@@ -75,12 +76,23 @@
 .homemain>div .homecon>div:nth-child(2)>div {
     width: 200px;
     height: 90px;
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.homemain>div .homecon>div:nth-child(2)>div {
+    width: 125px;
+    height: 65px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #eeece1;
     margin: 10px 10px 10px 10px;
+    margin: 25px 0px 25px 0px;
     text-align: center;
     
 }
@@ -138,6 +150,8 @@
     display: flex;
     align-items: center;
     margin-top: 40px;
+    display: inline;
+    float: right;
 }
 
 .create-plan-button:hover{

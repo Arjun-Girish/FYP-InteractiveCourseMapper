@@ -26,6 +26,11 @@ const Main = ({ updateValue, data, event }) => {
   const vceUnits = location.state.userInfoPass
   console.log(vceUnits.vceUnitsMaths)
 
+  const location = useLocation();
+  console.log(location.state.major)
+  console.log(location.state.semesterStart)
+  const yearStart = Number(location.state.semesterStart)
+  
   const handleOk = () => {
     setIsModalOpen(false);
   };
@@ -63,7 +68,6 @@ const Main = ({ updateValue, data, event }) => {
     }
     return false;
   };
-  
   const checkDataAND = (data, event) => {
     let andArr = event.prerequisiste.AND;
     let code = [];
@@ -77,7 +81,6 @@ const Main = ({ updateValue, data, event }) => {
     }
     return true;
   };
-
   const courseCheck = (events,id) => {
     if(!events.prerequisiste) return false
     if (JSON.stringify(events) !== "{}") {
@@ -441,6 +444,13 @@ const vceALLUnits = [
       <div className="hometop">Specialisation: {location.state.major}</div>
 
       
+  useEffect(() => {
+    updateValue(event.id, event);
+  },[event]);
+  return (
+    <div className="home-container">
+    
+      <div className="hometop">Specialisation: {location.state.major}</div>
         <div className="home">
         
         <div className="homemain">
@@ -583,6 +593,21 @@ const vceALLUnits = [
                   )
                 })}
 
+                {data.slice(0, 8).map((item, index) => {
+                  return item.id ? (
+                    <div key={index} onClick={() => showModal(item)}>
+                      <div style={{ fontSize: "16px" }}>{item.code}</div>
+                      <div>{item.name}</div>
+                    </div>
+                  ) : (
+                    <div
+                      key={index + new Date()}
+                      onClick={() => history(`/search/${index}`)}
+                    >
+                      <PlusOutlined></PlusOutlined>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
@@ -604,6 +629,18 @@ const vceALLUnits = [
                       <div className = "unit-code">{item.name}</div>
                       <div className = "unit-title">{item.unitTitle}</div>
 
+                {data.slice(8, 16).map((item, index) => {
+                  return item.id ? (
+                    <div
+                      key={index}
+                      onClick={() => showModal(item)}
+                      className={courseCheck(item,index+8) ? "error" : ""}
+                    >
+                      {courseCheck(item,index+8) ?  (
+                        <ExclamationCircleOutlined onClick={showConfirm} />
+                      ):""}
+                      <div style={{ fontSize: "16px" }}>{item.code}</div>
+                      <div>{item.name}</div>
                     </div>
                   ) : (
                     <div
@@ -611,14 +648,12 @@ const vceALLUnits = [
                       onClick={() => history(`/search/${index}`)}
                     >
 
+                      onClick={() => history(`/search/${index + 8}`)}
+                    >
                       <PlusOutlined></PlusOutlined>
                     </div>
                   );
                 })}
-
-            
-
-
               </div>
             </div>
           </div>
@@ -640,27 +675,31 @@ const vceALLUnits = [
                       <div className = "unit-code">{item.name}</div>
                       <div className = "unit-title">{item.unitTitle}</div>
 
+                {data.slice(16, 24).map((item, index) => {
+                  return item.id ? (
+                    <div key={index} onClick={() => showModal(item)}  className={courseCheck(item,index+16) ? "error" : ""}>
+                      {courseCheck(item,index+16) ?  (
+                        <ExclamationCircleOutlined onClick={showConfirm} />
+                      ):""}
+                      <div style={{ fontSize: "16px" }}>{item.code}</div>
+                      <div>{item.name}</div>
                     </div>
                   ) : (
                     <div
                       key={index + new Date()}
                       onClick={() => history(`/search/${index}`)}
+                      onClick={() => history(`/search/${index + 16}`)}
                     >
                       <PlusOutlined></PlusOutlined>
                     </div>
                   );
                 })}
-
-       
-
-
               </div>
             </div>
           </div>
           <div>
             <div>{yearStart+3}</div>
             <div className="homecon">
-              
               <div>
                 <div>Semester 1</div>
                 <div>Semester 2</div>
@@ -676,6 +715,14 @@ const vceALLUnits = [
                       <div className = "unit-code">{item.name}</div>
                       <div className = "unit-title">{item.unitTitle}</div>
 
+                {data.slice(24, 32).map((item, index) => {
+                  return item.id ? (
+                    <div key={index} onClick={() => showModal(item)}  className={courseCheck(item,index+24) ? "error" : ""}>
+                      {courseCheck(item,index+24) ?  (
+                        <ExclamationCircleOutlined onClick={showConfirm} />
+                      ):""}
+                      <div style={{ fontSize: "16px" }}>{item.code}</div>
+                      <div>{item.name}</div>
                     </div>
                   ) : (
                     <div
@@ -683,6 +730,8 @@ const vceALLUnits = [
                       onClick={() => history(`/search/${index}`)}
                     >
 
+                      onClick={() => history(`/search/${index + 32}`)}
+                    >
                       <PlusOutlined></PlusOutlined>
                     </div>
                   );
@@ -745,6 +794,9 @@ const vceALLUnits = [
 
           </div>}
 
+              </div>
+            </div>
+          </div>
         </div>
 
         <Modal
@@ -756,6 +808,7 @@ const vceALLUnits = [
           width={800}
         >
           <Card title={"i"} item={item}></Card>
+          <Card title={"Advanced engineering mathematics"} item={item}></Card>
         </Modal>
       </div>
 
@@ -782,6 +835,9 @@ const vceALLUnits = [
           
       </div>
     </div>
+    </div>
+        <button type ="submit" className="submit_button" onClick={() => history('/export')}> Submit </button>
+      </div>
     </div>
   );
 };
