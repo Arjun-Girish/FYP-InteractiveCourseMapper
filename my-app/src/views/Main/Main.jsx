@@ -11,6 +11,10 @@ import { connect } from "react-redux";
 import { updateValue } from "../../store/actions";
 import "./Main.css";
 import { Link, useLocation } from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
+import { useHistory } from 'react-router-dom';
+
+
 
 const Main = ({ updateValue, data, event }) => {
   const history = useNavigate();
@@ -670,6 +674,12 @@ const Main = ({ updateValue, data, event }) => {
     setItem(item);
     console.log(isModalOpen);
   };
+
+  const location = useLocation();
+  const yearStart = Number(location.state.semesterStart)
+  const vceUnits = location.state.userInfoPass
+  console.log(vceUnits.vceUnitsMaths)
+
   const location = useLocation();
   const yearStart = Number(location.state.semesterStart);
   const degree = location.state.major;
@@ -680,6 +690,10 @@ const Main = ({ updateValue, data, event }) => {
   const handleCancel = () => {
     setIsModalOpen(false);
   };
+
+
+  const [show, setShow] = useState();
+
 
   const showConfirm = (e) => {
     e.stopPropagation(); //阻止原生事件冒泡
@@ -825,6 +839,354 @@ const Main = ({ updateValue, data, event }) => {
   const confirm = () => {
     message.info("Clicked on Yes.");
   };
+const vceNONEUnits = [
+    {
+      id: 1,
+      box_id: 1,
+      semester_status: 3,
+      name: "ENG1012",
+      credit: "6",
+      unitTitle: "Engineering design",
+      unitInfo: []
+    },
+
+    {
+      id: 2,
+      box_id: 2,
+      semester_status: 3,
+      name: "ENG1013",
+      credit: "6",
+      unitTitle: "Engineering smart systems",
+      unitInfo: []
+    },
+
+
+    {
+      id: 3,
+      box_id: 3,
+      semester_status: 3,
+      name: "PHS1001",
+      credit: "6",
+      unitTitle: "Foundation Physics",
+      unitInfo: []
+    },
+
+    {
+      id: 4,
+      box_id: 4,
+      semester_status: 3,
+      name: "ENG1090",
+      credit: "6",
+      unitTitle: "Foundation mathematics",
+      unitInfo: []
+    },
+
+    {
+      id: 5,
+      box_id: 5,
+      semester_status: 3,
+      name: "ENG1011",
+      credit: "6",
+      unitTitle: "Engineering methods",
+      unitInfo: []
+    },
+
+    {
+      id: 6,
+      box_id: 6,
+      semester_status: 3,
+      name: "ENG1005",
+      credit: "6",
+      unitTitle: "Engineering mathematics",
+      unitInfo: []
+    },
+    
+    {
+      id: 7,
+      box_id: 7,
+      semester_status: 3,
+      name: "ENG1014",
+      credit: "6",
+      unitTitle: "Engineering numerical analysis",
+      unitInfo: []
+    },
+
+    {
+      id: 8,
+      box_id: 8,
+      semester_status: 3,
+      name: "Elective",
+      credit: "6",
+      unitTitle: "Elective",
+      unitInfo: [],
+    },
+]
+
+const vcePhysUnits = [
+    {
+      id: 1,
+      box_id: 1,
+      semester_status: 3,
+      name: "ENG1012",
+      credit: "6",
+      unitTitle: "Engineering design",
+      unitInfo: []
+    },
+
+    {
+      id: 2,
+      box_id: 2,
+      semester_status: 3,
+      name: "ENG1013",
+      credit: "6",
+      unitTitle: "Engineering smart systems",
+      unitInfo: []
+    },
+
+
+    {
+      id: 3,
+      box_id: 3,
+      semester_status: 3,
+      name: "ENG1090",
+      credit: "6",
+      unitTitle: "Foundation mathematics",
+      unitInfo: []
+    },
+
+    {
+      id: 4,
+      box_id: 4,
+      semester_status: 3,
+      name: "Elective",
+      credit: "6",
+      unitTitle: "Elective",
+      unitInfo: []
+    },
+
+    {
+      id: 5,
+      box_id: 5,
+      semester_status: 3,
+      name: "ENG1011",
+      credit: "6",
+      unitTitle: "Engineering methods",
+      unitInfo: []
+    },
+
+    {
+      id: 6,
+      box_id: 6,
+      semester_status: 3,
+      name: "ENG1005",
+      credit: "6",
+      unitTitle: "Engineering mathematics",
+      unitInfo: []
+    },
+    
+    {
+      id: 7,
+      box_id: 7,
+      semester_status: 3,
+      name: "ENG1014",
+      credit: "6",
+      unitTitle: "Engineering numerical analysis",
+      unitInfo: []
+    },
+
+    {
+      id: 8,
+      box_id: 8,
+      semester_status: 3,
+      name: "Elective",
+      credit: "6",
+      unitTitle: "Elective",
+      unitInfo: [],
+    },
+]
+
+const vceMathsUnits = [
+  {
+    id: 1,
+    box_id: 1,
+    semester_status: 3,
+    name: "ENG1005",
+    credit: "6",
+    unitTitle: "Engineering mathematics",
+    unitInfo: []
+  },
+
+  {
+    id: 2,
+    box_id: 2,
+    semester_status: 3,
+    name: "ENG1013",
+    credit: "6",
+    unitTitle: "Engineering smart systems",
+    unitInfo: []
+  },
+
+
+  {
+    id: 3,
+    box_id: 3,
+    semester_status: 3,
+    name: "PHS1001",
+    credit: "6",
+    unitTitle: "Foundation physics",
+    unitInfo: []
+  },
+
+  {
+    id: 4,
+    box_id: 4,
+    semester_status: 3,
+    name: "Elective",
+    credit: "6",
+    unitTitle: "Elective",
+    unitInfo: []
+  },
+
+  {
+    id: 5,
+    box_id: 5,
+    semester_status: 3,
+    name: "ENG1011",
+    credit: "6",
+    unitTitle: "Engineering methods",
+    unitInfo: []
+  },
+
+  {
+    id: 6,
+    box_id: 6,
+    semester_status: 3,
+    name: "ENG1012",
+    credit: "6",
+    unitTitle: "Engineering design",
+    unitInfo: []
+  },
+  
+  {
+    id: 7,
+    box_id: 7,
+    semester_status: 3,
+    name: "ENG1014",
+    credit: "6",
+    unitTitle: "Engineering numerical analysis",
+    unitInfo: []
+  },
+
+  {
+    id: 8,
+    box_id: 8,
+    semester_status: 3,
+    name: "Elective",
+    credit: "6",
+    unitTitle: "Elective",
+    unitInfo: [],
+  },
+]
+
+const vceALLUnits = [
+  {
+    id: 1,
+    box_id: 1,
+    semester_status: 3,
+    name: "ENG1013",
+    credit: "6",
+    unitTitle: "Engineering smart systems",
+    unitInfo: []
+  },
+
+  {
+    id: 2,
+    box_id: 2,
+    semester_status: 3,
+    name: "ENG1005",
+    credit: "6",
+    unitTitle: "Engineering mathematics",
+    unitInfo: []
+  },
+
+
+  {
+    id: 3,
+    box_id: 3,
+    semester_status: 3,
+    name: "ENG1014",
+    credit: "6",
+    unitTitle: "Engineering numerical analysis",
+    unitInfo: []
+  },
+
+  {
+    id: 4,
+    box_id: 4,
+    semester_status: 3,
+    name: "Elective",
+    credit: "6",
+    unitTitle: "Elective",
+    unitInfo: []
+  },
+
+  {
+    id: 5,
+    box_id: 5,
+    semester_status: 3,
+    name: "ENG1011",
+    credit: "6",
+    unitTitle: "Engineering methods",
+    unitInfo: []
+  },
+
+  {
+    id: 6,
+    box_id: 6,
+    semester_status: 3,
+    name: "ENG1012",
+    credit: "6",
+    unitTitle: "Engineering design",
+    unitInfo: []
+  },
+  
+  {
+    id: 7,
+    box_id: 7,
+    semester_status: 3,
+    name: "Elective",
+    credit: "6",
+    unitTitle: "Elective",
+    unitInfo: []
+  },
+
+  {
+    id: 8,
+    box_id: 8,
+    semester_status: 3,
+    name: "Elective",
+    credit: "6",
+    unitTitle: "Elective",
+    unitInfo: [],
+  },
+]
+
+
+
+
+  useEffect(() => {
+    updateValue(event.id, event);
+  },[event]);
+
+  return (
+    <div className="main-container">
+      
+
+    <div className="home-container">
+    
+      <div className="hometop">Specialisation: {location.state.major}</div>
+
+      
   useEffect(() => {
     updateValue(event.id, event);
   }, [event]);
@@ -895,6 +1257,151 @@ const Main = ({ updateValue, data, event }) => {
                         <PlusOutlined></PlusOutlined>
                       </div>
                     );
+                
+                {/* IF STUDENT HAS NOT COMPLETED VCE SPECIALIST MATHS OR PHYISCS */ }
+                {vceNONEUnits.slice(0, 8).map((item, index) => {
+                  if (vceUnits.vceUnitsMaths === null && vceUnits.vceUnitsPhysics === null )
+
+                  if (item.id == "8")
+
+                  return (
+                    <div key={index + new Date()}
+                    onClick={() => history(`/search/${index}`)}
+                  >
+                    <div style={{ fontSize: "5px" }}><h1>First Year technical elective</h1></div>
+                    <PlusOutlined></PlusOutlined>
+                  </div>
+                  )
+
+                  else return(
+                    <div key={index + new Date()}
+                    onClick={() => history(`/search/${index}`)}
+                  >
+                    <PlusOutlined></PlusOutlined>
+                  </div>
+                  )
+                })}
+
+                {/* IF STUDENT HAS NOT COMPLETED VCE SPECIALIST MATHS BUT COMPLETED PHYISCS */ }
+                {vcePhysUnits.slice(0, 8).map((item, index) => {
+                  if (vceUnits.vceUnitsMaths === null && vceUnits.vceUnitsPhysics)
+
+                  if (item.id == "4")
+
+                  return (
+                    <div key={index + new Date()}
+                    onClick={() => history(`/search/${index}`)}
+                  >
+                    <div style={{ fontSize: "5px" }}><h1>First Year technical elective</h1></div>
+                    <PlusOutlined></PlusOutlined>
+                  </div>
+                  )
+
+                  else if (item.id == "8")
+
+                  return (
+                    <div key={index + new Date()}
+                    onClick={() => history(`/search/${index}`)}
+                  >
+                    <div style={{ fontSize: "5px" }}><h1>Elective</h1></div>
+                    <PlusOutlined></PlusOutlined>
+                  </div>
+                  )
+
+                  else return(
+                    <div key={index + new Date()}
+                    onClick={() => history(`/search/${index}`)}
+                  >
+                    <PlusOutlined></PlusOutlined>
+                  </div>
+                  )
+                })}
+
+              {/* IF STUDENT HAS COMPLETED VCE SPECIALIST MATHS BUT NOTPHYISCS */ }
+              {vceMathsUnits.slice(0, 8).map((item, index) => {
+                  if (vceUnits.vceUnitsMaths && vceUnits.vceUnitsPhysics === null )
+
+                  if (item.id == "4")
+
+                  return (
+                    <div key={index + new Date()}
+                    onClick={() => history(`/search/${index}`)}
+                  >
+                    <div style={{ fontSize: "5px" }}><h1>First Year technical elective</h1></div>
+                    <PlusOutlined></PlusOutlined>
+                  </div>
+                  )
+
+                  else if (item.id == "8")
+
+                  return (
+                    <div key={index + new Date()}
+                    onClick={() => history(`/search/${index}`)}
+                  >
+                    <div style={{ fontSize: "5px" }}><h1>Elective</h1></div>
+                    <PlusOutlined></PlusOutlined>
+                  </div>
+                  )
+
+                  else return(
+                    <div key={index + new Date()}
+                    onClick={() => history(`/search/${index}`)}
+                  >
+                    <PlusOutlined></PlusOutlined>
+                  </div>
+                  )
+                })}
+
+
+           {/* IF STUDENT HAS COMPLETED BOTH VCE SPECIALIST MATHS & PHYISCS */ }
+           {vceALLUnits.slice(0, 8).map((item, index) => {
+                  if (vceUnits.vceUnitsMaths && vceUnits.vceUnitsPhysics )
+
+                  if (item.id == "4")
+
+                  return (
+                    <div key={index + new Date()}
+                    onClick={() => history(`/search/${index}`)}
+                  >
+                    <div style={{ fontSize: "5px" }}><h1>First Year technical elective</h1></div>
+                    <PlusOutlined></PlusOutlined>
+                  </div>
+                  )
+
+                  else if (item.id == "8" || item.id == "7")
+
+                  return (
+                    <div key={index + new Date()}
+                    onClick={() => history(`/search/${index}`)}
+                  >
+                    <div style={{ fontSize: "5px" }}><h1>Elective</h1></div>
+                    <PlusOutlined></PlusOutlined>
+                  </div>
+                  )
+
+                  else return(
+                    <div key={index + new Date()}
+                    onClick={() => history(`/search/${index}`)}
+                  >
+                    <PlusOutlined></PlusOutlined>
+                  </div>
+                  )
+                })}
+
+                {data.slice(0, 8).map((item, index) => {
+                  return item.id ? (
+                    <div key={index} onClick={() => showModal(item)}>
+                      <div style={{ fontSize: "16px" }}>{item.code}</div>
+                      <div>{item.name}</div>
+                    </div>
+                  ) : (
+                    <div
+                      key={index + new Date()}
+                      onClick={() => history(`/search/${index}`)}
+                    >
+                      <PlusOutlined></PlusOutlined>
+                    </div>
+                  );
                 })}
               </div>
             </div>
@@ -945,6 +1452,40 @@ const Main = ({ updateValue, data, event }) => {
                         <PlusOutlined></PlusOutlined>
                       </div>
                     );
+                   
+              {data.slice(8, 16).map((item, index) => {
+
+                  return item.id ? (
+                    <div key={index} onClick={() => showModal(item)}>
+
+                      <div style={{ fontSize: "16px" }}>{item.code}</div>
+                      <div className = "unit-code">{item.name}</div>
+                      <div className = "unit-title">{item.unitTitle}</div>
+
+                {data.slice(8, 16).map((item, index) => {
+                  return item.id ? (
+                    <div
+                      key={index}
+                      onClick={() => showModal(item)}
+                      className={courseCheck(item,index+8) ? "error" : ""}
+                    >
+                      {courseCheck(item,index+8) ?  (
+                        <ExclamationCircleOutlined onClick={showConfirm} />
+                      ):""}
+                      <div style={{ fontSize: "16px" }}>{item.code}</div>
+                      <div>{item.name}</div>
+                    </div>
+                  ) : (
+                    <div
+                      key={index + new Date()}
+                      onClick={() => history(`/search/${index}`)}
+                    >
+
+                      onClick={() => history(`/search/${index + 8}`)}
+                    >
+                      <PlusOutlined></PlusOutlined>
+                    </div>
+                  );
                 })}
               </div>
             </div>
@@ -995,6 +1536,34 @@ const Main = ({ updateValue, data, event }) => {
                         <PlusOutlined></PlusOutlined>
                       </div>
                     );
+    
+              {data.slice(16, 24).map((item, index) => {
+
+                  return item.id ? (
+                    <div key={index} onClick={() => showModal(item)}>
+
+                      <div style={{ fontSize: "16px" }}>{item.code}</div>
+                      <div className = "unit-code">{item.name}</div>
+                      <div className = "unit-title">{item.unitTitle}</div>
+
+                {data.slice(16, 24).map((item, index) => {
+                  return item.id ? (
+                    <div key={index} onClick={() => showModal(item)}  className={courseCheck(item,index+16) ? "error" : ""}>
+                      {courseCheck(item,index+16) ?  (
+                        <ExclamationCircleOutlined onClick={showConfirm} />
+                      ):""}
+                      <div style={{ fontSize: "16px" }}>{item.code}</div>
+                      <div>{item.name}</div>
+                    </div>
+                  ) : (
+                    <div
+                      key={index + new Date()}
+                      onClick={() => history(`/search/${index}`)}
+                      onClick={() => history(`/search/${index + 16}`)}
+                    >
+                      <PlusOutlined></PlusOutlined>
+                    </div>
+                  );
                 })}
               </div>
             </div>
@@ -1045,7 +1614,95 @@ const Main = ({ updateValue, data, event }) => {
                         <PlusOutlined></PlusOutlined>
                       </div>
                     );
+                  
+              {data.slice(24, 32).map((item, index) => {
+
+                  return item.id ? (
+                    <div key={index} onClick={() => showModal(item)}>
+
+                      <div style={{ fontSize: "16px" }}>{item.code}</div>
+                      <div className = "unit-code">{item.name}</div>
+                      <div className = "unit-title">{item.unitTitle}</div>
+
+                {data.slice(24, 32).map((item, index) => {
+                  return item.id ? (
+                    <div key={index} onClick={() => showModal(item)}  className={courseCheck(item,index+24) ? "error" : ""}>
+                      {courseCheck(item,index+24) ?  (
+                        <ExclamationCircleOutlined onClick={showConfirm} />
+                      ):""}
+                      <div style={{ fontSize: "16px" }}>{item.code}</div>
+                      <div>{item.name}</div>
+                    </div>
+                  ) : (
+                    <div
+                      key={index + new Date()}
+                      onClick={() => history(`/search/${index}`)}
+                    >
+
+                      onClick={() => history(`/search/${index + 32}`)}
+                    >
+                      <PlusOutlined></PlusOutlined>
+                    </div>
+                  );
                 })}
+
+          
+
+
+
+
+                
+              </div>
+            </div>
+            
+          </div>
+
+          <div>
+            
+       
+
+            
+          </div>
+
+          <button className = "add-button" onClick={() => setShow(true)}>
+            {show ? "Add Year" : "Add Year"}
+          </button>
+
+        {
+        show && <div className="new-year">
+          
+            
+          <div>{yearStart+4}</div>
+          <div className="homecon">
+            <div>
+              <div>Semester 1</div>
+              <div>Semester 2</div>
+            </div>
+            <div className="cardF">
+
+              {data.slice(0, 8).map((item, index) => {
+
+                return item.id ? (
+
+                  <div key={index} onClick={() => showModal(item)}>
+                      <div className = "unit-code">{item.code}</div>
+                  </div>
+                ) : (
+                  <div
+                    key={index + new Date()}
+                    onClick={() => history(`/search/${index}`)}
+                  >
+                    <PlusOutlined></PlusOutlined>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+
+
+          </div>}
+
               </div>
             </div>
           </div>
@@ -1072,6 +1729,35 @@ const Main = ({ updateValue, data, event }) => {
           {" "}
           Submit{" "}
         </button>
+          <Card title={"Advanced engineering mathematics"} item={item}></Card>
+        </Modal>
+      </div>
+
+      <div className = "bottom-div">
+        
+        <button className="back-button-main" onClick={() => history(-1)}>Back</button>
+
+        <div className="legend-container">
+
+          <div className="legend-pass"></div>
+          <h1 className = "legend-text"> Passed </h1>
+
+          <div className="legend-fail"></div>
+          <h1 className = "legend-text"> Failed </h1>
+
+          <div className="legend-in-progress"></div>
+          <h1 className = "legend-text"> In-Progress </h1>
+
+          <div className="legend-upcoming"></div>
+          <h1 className = "legend-text"> Upcoming </h1>
+        </div>
+
+          <button type ="submit" className="submit-button-main" onClick={() => history('/export')}> Submit </button>
+          
+      </div>
+    </div>
+    </div>
+        <button type ="submit" className="submit_button" onClick={() => history('/export')}> Submit </button>
       </div>
     </div>
   );
