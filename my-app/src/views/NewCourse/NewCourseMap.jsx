@@ -1,13 +1,57 @@
 import React, {useState} from "react";
 import './NewCourseMap.css';
 import logo from './monash-m.logo.jpg';
+import { useNavigate } from "react-router-dom";
+
+const NewCourseMap = () => {
+
+  const [userInfo,setUserInfo] = useState({
+    courseName: null,
+    commencementYear: null,
+    studyLoad: null,
+    vceUnitsMaths: null,
+    vceUnitsPhysics: null,
+    specialisation: null,
+  });
+
+  if (userInfo.vceUnitsPhysics === "on"){
+    userInfo.vceUnitsPhysics = true
+  }
+
+  if (userInfo.vceUnitsMaths === "on"){
+    userInfo.vceUnitsMaths = true
+  }
+
+
+  const history = useNavigate();
+    
+  const handleChange = (e) => {
+    setUserInfo({ ...userInfo, [e.target.name]: e.target.value });
+  };
+
+  const [error, setError] = useState(false);
+
+  const handleSubmit = (e) => {
+    console.log(userInfo);
+
+    if (userInfo.courseName==null|| userInfo.commencementYear==null)
+    {
+      setError(true)
+      history('/')
+    }
+
+    else {
+      history('/specialisation', {state: {userInfo}})
+      setError(false)
+    }
+
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import Specialisation from "../../components/specialisation/Specialisation"
 const NewCourseMap = () => {
 
   const [userInfo,setUserInfo] = useState({
-    courseName: "Default",
+    courseName: "",
     commencementYear: "2018",
     studyLoad: "full-time-study",
     vceUnitsMaths: "",
@@ -29,6 +73,7 @@ const NewCourseMap = () => {
 
 
 
+
   return(
     <div className="main-content">
 
@@ -37,6 +82,7 @@ const NewCourseMap = () => {
         <div className="form-container">
 
           <div className="image-container">
+            <img className = "new-course-logo" alt = "monash-m-logo" src={logo}></img>
             <img className = "new-course-logo" src={logo}></img>
           </div>
 
@@ -47,6 +93,25 @@ const NewCourseMap = () => {
 
             </div>  
 
+            <form onChange={handleChange}> 
+
+                <div className="required-container">
+                  <h1 className="course-name">Name your plan</h1> 
+                  {error?
+                  <label className="required"> *(Required)</label>:""}
+                </div>
+
+                  <input type="text" className="plan-name" name="courseName" required onChange={e=>handleChange} />
+
+                <div className="required-container">
+                  <h1 className="year-commencement">Year of commencement</h1>
+
+                  {error?
+                  <label className="required"> *(Required)</label>:""}
+                </div>
+
+                  <select className="commencement-year" name="commencementYear" required onChange={e=>handleChange}>
+                    <option value="blank"></option >
             <form> 
 
                 <h1 className="course-name">Name your plan</h1>
@@ -63,9 +128,39 @@ const NewCourseMap = () => {
                   </select>
 
                 <h1 className="study-load" >Study load</h1>
+                  <select className="study-load" name="studyLoad" required >
+                    <option value="full-time-study">Full-Time</option>
+
+                  </select>
+
+                  <div className="year-12-container">
+                    
+
+                <h1 className="year-12-units">Which Year 12 Unit(s) have you completed?</h1>
+                  <div className="checkbox-container">
+                    <input type="checkbox" id="maths-34" name="vceUnitsMaths" onChange={e=>handleChange}/>
+                    <label htmlFor="maths-34">VCE Specialist Mathemathics 3/4</label> 
+                    <p1 className = "required-12">* Study Score > 30 </p1>
+                  </div>
+                  <div className="checkbox-container">
+                    <input type="checkbox" id="physics-34" name="vceUnitsPhysics" onChange={e=>handleChange}/>
+                    <label htmlFor="physics-34">VCE Physics 3/4</label>  
+                    <p1 className = "required-12"> * Study Score > 25 </p1>
+                  </div>
+
+                  </div>
+
+
+                  <div className="button-container-course">
+
+                    <button type="button" className="create-plan-button" onClick={()=>{handleSubmit()}}>
+                      Submit
+                    </button>
+                  </div>
+                    
+             </form  >
                   <select className="study-load" name="studyLoad" required onChange={handleChange}>
                     <option value="full-time-study">Full-Time</option>
-                    <option value="part-time-study">Part-Time</option>
 
                   </select>
 

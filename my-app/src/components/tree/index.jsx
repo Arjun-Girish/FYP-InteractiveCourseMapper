@@ -1,7 +1,7 @@
 import { OrganizationGraph } from "@ant-design/graphs";
 
 const Tree = (props) => {
-  const {data}=props
+  const { data ,edges} = props;
   // const data = {
   //   id: "root",
   //   value: {
@@ -35,20 +35,22 @@ const Tree = (props) => {
   //     },
   //   ],
   // };
+  console.log(data, "--data");
   const config = {
     nodeCfg: {
       size: [80, 50],
       style: (node) => {
-        console.log(node,'--node');
-        return node.value?{
-          fill: "#eeece1",
-          stroke: "#eeece1",
-        }:{
-            fill: 'transparent',
-            width:1,
-            radius: 1.5,
-            stroke: "#000",
-        };
+        return node.value
+          ? {
+              fill: "#eeece1",
+              stroke: "#eeece1",
+            }
+          : {
+              fill: "transparent",
+              width: 1,
+              radius: 1.5,
+              stroke: "#000",
+            };
       },
       label: {
         style: (node, group, type) => {
@@ -67,10 +69,17 @@ const Tree = (props) => {
       },
     },
     edgeCfg: {
+      label: {
+        style: {
+          fill: "#aaa",
+          fontSize: 12,
+          fillOpacity: 1,
+        },
+      },
       type: "polyline",
       style: {
         stroke: "block",
-        lineWidth:'2',
+        lineWidth: "2",
         endArrow: false,
       },
     },

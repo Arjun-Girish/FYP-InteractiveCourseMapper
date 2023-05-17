@@ -5,7 +5,7 @@ import React from "react";
 import Tree from "../tree/";
 import { connect } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { updateValue,updateEvent } from "../../store/actions";
+import { updateValue, updateEvent } from "../../store/actions";
 const MyCard = (props) => {
   const history = useNavigate();
   const { title, item, updateValue } = props;
@@ -20,16 +20,17 @@ const MyCard = (props) => {
   const andPrereqs = item?.prerequisiste?.AND.map((prereq) => {
     return {
       value: {
+        id:'c2',
         name: prereq,
       },
     };
   });
   const edit = () => {
-    updateValue(item.id,{});
-    updateEvent({})
+    updateValue(item.id, {});
+    updateEvent({});
   };
   const change = () => {
-    history(`/search/${item.id}`)
+    history(`/search/${item.id}`);
   };
   const root = {
     id: "root",
@@ -42,21 +43,38 @@ const MyCard = (props) => {
   const children = [];
   if (orPrereqs?.length > 0) {
     children.push({
+      id: "c1",
       children: orPrereqs,
     });
   }
   if (andPrereqs?.length > 0) {
     children.push(...andPrereqs);
   }
+  const edges = [
+    {
+      source: "c1",
+      target: "0",
+      value: "or",
+    },
+    {
+      source: "c2",
+      target: "0",
+      value: "and",
+    },
+  ];
   root.children = children;
   return (
     <div className="card">
       <div className="header">
         <span className="title">{title}</span>
-        <Button size="small"
-        onClick={() => {
+        <Button
+          size="small"
+          onClick={() => {
             change();
-          }}>Change</Button>
+          }}
+        >
+          Change
+        </Button>
         <Button
           size="small"
           onClick={() => {
@@ -69,7 +87,7 @@ const MyCard = (props) => {
       <div className="context">
         <div className="top">
           <div className="left">
-            <Tree data={root}></Tree>
+            <Tree data={root} edges={edges}></Tree>
           </div>
           <div className="right">
             Summary Information <br />
@@ -112,5 +130,5 @@ const MyCard = (props) => {
 
 export default connect(
   (state) => ({ data: state.data }), //映射状态
-  { updateValue,updateEvent } //映射操作状态的方法
+  { updateValue, updateEvent } //映射操作状态的方法
 )(MyCard);
