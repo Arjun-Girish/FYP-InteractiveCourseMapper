@@ -1,0 +1,30 @@
+{
+"code": "ENG2131",
+"credit points":"",
+"name": "Electrical citcuits",
+"details":"",
+"overview": "",
+"offerings":[
+
+     {
+        "51-81-Clayton-On-Campus":{
+          "location":"Clayton",
+          "teaching_period": "First semester",
+          "Attendance mode": "On-campus"}
+        },
+     {
+        "52-81-Clayton-On-Campus":{
+          "location":"Clayton",
+          "teaching period": "Second semester",
+          "Attendance mode": "On-campus"}
+        }
+    ],
+"prerequisiste":{
+"OR":[
+"ENG1001",
+"ENG1003"],
+"AND" :[
+],
+"prohibiton":[]
+}
+}

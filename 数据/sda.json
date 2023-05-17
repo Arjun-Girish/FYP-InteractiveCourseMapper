@@ -1,0 +1,31 @@
+{
+"code": "FIT4171",
+"credit points":"",
+"name": "Databases",
+"details":"",
+"overview": "",
+"offerings":[
+
+     {
+        "51-81-Clayton-On-Campus":{
+          "location":"Clayton",
+          "teaching_period": "First semester",
+          "Attendance mode": "On-campus"}
+        },
+     {
+        "52-81-Clayton-On-Campus":{
+          "location":"Clayton",
+          "teaching period": "Second semester",
+          "Attendance mode": "On-campus"}
+        }
+    ],
+"prerequisiste":{
+"OR":[
+"ENG3111",
+"ENG1003"],
+"AND" :[
+"ENG1001"
+],
+"prohibiton":[]
+}
+}
