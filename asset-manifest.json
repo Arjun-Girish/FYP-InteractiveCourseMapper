@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/FYP-InteractiveCourseMapper/static/css/main.c03b9c6e.css",
-    "main.js": "/FYP-InteractiveCourseMapper/static/js/main.492fec47.js",
-    "static/js/787.2fe5556a.chunk.js": "/FYP-InteractiveCourseMapper/static/js/787.2fe5556a.chunk.js",
-    "static/media/logo.png": "/FYP-InteractiveCourseMapper/static/media/logo.f52f670fbd7adba9e93a.png",
+    "main.css": "/FYP-InteractiveCourseMapper/static/css/main.4cf7ca07.css",
+    "main.js": "/FYP-InteractiveCourseMapper/static/js/main.e6b70f28.js",
+    "static/js/787.b8e20621.chunk.js": "/FYP-InteractiveCourseMapper/static/js/787.b8e20621.chunk.js",
+    "static/media/logo.png": "/FYP-InteractiveCourseMapper/static/media/logo.28bbb0c3239570df854e.png",
     "static/media/monash-m.logo.jpg": "/FYP-InteractiveCourseMapper/static/media/monash-m.logo.0a4dbabf0ad3de64cad4.jpg",
     "index.html": "/FYP-InteractiveCourseMapper/index.html",
-    "main.c03b9c6e.css.map": "/FYP-InteractiveCourseMapper/static/css/main.c03b9c6e.css.map",
-    "main.492fec47.js.map": "/FYP-InteractiveCourseMapper/static/js/main.492fec47.js.map",
-    "787.2fe5556a.chunk.js.map": "/FYP-InteractiveCourseMapper/static/js/787.2fe5556a.chunk.js.map"
+    "main.4cf7ca07.css.map": "/FYP-InteractiveCourseMapper/static/css/main.4cf7ca07.css.map",
+    "main.e6b70f28.js.map": "/FYP-InteractiveCourseMapper/static/js/main.e6b70f28.js.map",
+    "787.b8e20621.chunk.js.map": "/FYP-InteractiveCourseMapper/static/js/787.b8e20621.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c03b9c6e.css",
-    "static/js/main.492fec47.js"
+    "static/css/main.4cf7ca07.css",
+    "static/js/main.e6b70f28.js"
   ]
 }
