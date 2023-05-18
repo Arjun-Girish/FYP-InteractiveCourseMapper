@@ -59,7 +59,7 @@ class Webscraper:
         url = 'https://handbook.monash.edu/2023/courses/E3001'
         soup = self.get_page_content(url)
         minor_elements = soup.find_all("div", class_="css-m23545-Links--LinkGroupWrapper e1t6s54p1", filter="minor")
-        minors = [self.extract_data(e.text.strip()) for e in minor_elements]
+        minors = [self.extract_minor_data(e.text.strip()) for e in minor_elements]
 
         for minor in minors:
             minor_code = minor["code"]
@@ -108,7 +108,7 @@ class Webscraper:
         print('CODE REACHED')
         url = 'https://handbook.monash.edu/2023/aos/' + unit
         soup = self.get_page_content(url)
-        unit_elements = soup.find_all("div", class_="css-m23545-Links--LinkGroupWrapper e1t6s54p1", filter="subject")
+        unit_elements = soup.find_all("div", class_="css-gzffxs-Links--LinkGroupWrapper e1t6s54p1", filter="subject")
         return [self.extract_unit_data(e.text.strip()) for e in unit_elements]
     # Use css-gzffxs-Links--LinkGroupWrapper e1t6s54p1 for minor units
     # Use css-m23545-Links--LinkGroupWrapper e1t6s54p1 for core/specialisation units
@@ -270,6 +270,6 @@ class Webscraper:
 
 MonashHandbook = Webscraper()
 # specialisations = MonashHandbook.get_ug_specialisation()
-# engineering_minors = MonashHandbook.get_eng_minors()
-first_year_electives = MonashHandbook.get_first_year_electives()
+engineering_minors = MonashHandbook.get_eng_minors()
+# first_year_electives = MonashHandbook.get_first_year_electives()
 
