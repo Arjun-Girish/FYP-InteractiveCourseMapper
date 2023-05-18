@@ -7,57 +7,70 @@ import {Link, useLocation} from "react-router-dom";
 
 const Specialisation = (props) => {
 
-  const userInfo = {
-    eng_major: '',
-}
+
+const degrees = [
+  { id: 1, title: "Aerospace Engineering" },
+  { id: 2, title: "Biomedical Engineering" },
+  { id: 3, title: "Chemical Engineering" },
+  { id: 4, title: "Electrical Engineering" },
+  { id: 5, title: "Civil Engineering" },
+  { id: 6, title: "Environmental Engineering" },
+  { id: 7, title: "Materials Engineering" },
+  { id: 8, title: "Mechanical Engineering" },
+  { id: 9, title: "Robotics & Mechatronics Engineering" },
+];
 
 const [major, setMajor] = useState('');
 
-const test = useState('');
-userInfo.eng_major = major;
+const [selected, setSelected] = useState(0);
 
-const handleClick = () => {
-}
-
+  const handleColor = (row) => {
+    setSelected(row.id);
+  };
 
   const location = useLocation();
   const semesterStart = location.state.userInfo.commencementYear
+  const userInfoPass = location.state.userInfo
       
   const history = useNavigate();
 
+ 
+  
   const makeLayout = () => {
     
     return (
+      
+      <div className="specialisation-container">
+
+
       <div className="search-container">
         
             <div>
-                <h4 className="select-course"> Select your relevant course starting: {location.state.userInfo.commencementYear} </h4>
+                <h4 className="select-course"> Select your relevant course:</h4>
                 <h5 className="current-selection">Currently selected: {major}</h5>
             </div>
           
-            <div>
-            <div className="semester-block">
-                    <button className="course-block" onClick={(e)=> [setMajor('Aerospace Engineering',e),handleClick('Software Engineering',e)]} onChange={(e) => props.onChange(e.target.value)}>Aerospace Engineering</button>
-                    <button className="course-block" onClick={(e)=> [setMajor('Chemical Engineering',e),handleClick('Chemical Engineering',e)]} onChange={(e) => props.onChange(e.target.value)}>Chemical Engineering </button>
-                    <button className="course-block" onClick={(e)=> [setMajor('Civil Engineering',e),handleClick('Civil Engineering',e)]} onChange={(e) => props.onChange(e.target.value)}> Civil Engineering </button>
-                </div>
-
-                <div className="semester-block">
-                    <button className="course-block" onClick={(e)=> [setMajor('Electrical Engineering',e),handleClick('Electrical Engineering',e)]}> Electrical Engineering </button>
-                    <button className="course-block" onClick={(e)=> [setMajor('Environmental Engineering',e),handleClick('Environmental Engineering',e)]}> Environmental Engineering </button>
-                    <button className="course-block" onClick={(e)=> [setMajor('X Engineering',e),handleClick('X Engineering',e)]}> X Engineering </button>
-                </div>
-
-                <div className="semester-block">
-                  <button className="course-block" onClick={(e)=> [setMajor('Mechanical Engineering',e),handleClick('Mechanical Engineering',e)]}> Mechanical Engineering </button>
-                  <button className="course-block" onClick={(e)=> [setMajor('Robotics & Mechatronics',e),handleClick('Robotics & Mechatronics',e)]}> Robotics & Mechatronics </button>
-                  <button className="course-block" onClick={(e)=> [setMajor('Software Engineering',e),handleClick('Software Engineering',e)]}>Software Engineering </button>
-                </div>
+            <div className = "course-container">
+              {degrees.map((degree) => (
+              <button className = "course-block"
+              key={degree.id}
+              onClick={()=> [handleColor(degree),setMajor(degree.title)]}
+              style={{ backgroundColor: degree.id === selected ? "#0165AC" : "", color: degree.id === selected ? "white" : ""}}
+              >
+                {degree.title}
+                </button>
+              ))}
+              
             </div>
 
-              <button type ="submit" className="submit_button" onClick={() => history('/main', {state: {major, semesterStart}})}> Submit </button>
-
       </div> 
+
+      <div className="bottom-container">
+              <button className="back-button" onClick={()=>{history('/')}}>Back</button>
+              <button type ="submit" className="submit_button" disabled={major==""} onClick={(e) => {history('/main', {state: {major, semesterStart,userInfoPass }}); localStorage.setItem("yearState", false)}}> Submit </button>
+            </div>
+      </div>
+
         
     );
   }

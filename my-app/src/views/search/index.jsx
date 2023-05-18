@@ -9,7 +9,7 @@ export default function Index() {
   return (
 
     <MyContext.Provider value={{ value, setValue }}>
-      <div style={{ margin: "0 100px" }}>
+      <div style={{ margin: "0 100px ", width:'100%' }}>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <Left></Left>
           <Right></Right>
