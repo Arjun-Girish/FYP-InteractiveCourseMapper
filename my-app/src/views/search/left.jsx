@@ -3,6 +3,7 @@ import { Select } from "antd";
 import { CaretDownOutlined } from "@ant-design/icons";
 import { MyContext } from "./index";
 import "./index.css";
+import { useNavigate, useLocation } from "react-router-dom";
 
 export default function Left() {
   const handleChange = (value) => {
@@ -16,6 +17,9 @@ export default function Left() {
     name: "",
     input3: "",
   });
+  
+  const history = useNavigate();  
+
   const handleInputChange1 = (event) => {
     setInputValue({ ...inputValue, code: event.target.value });
   };
@@ -30,28 +34,41 @@ export default function Left() {
 
   return (
     <div className="left">
-      <p>Search by unit code</p>
-      <input type="text" onChange={handleInputChange1} />{" "}
-      <button
-        onClick={() => {
-          handleButtonClick("code");
-        }}
-      >
-        search
-      </button>
-      <p>Search by Course title</p>
-      <input type="text" onChange={handleInputChange2} />{" "}
-      <button
-        onClick={() => {
-          handleButtonClick("name");
-        }}
-      >
-        search
-      </button>
-      <p>Filter by</p>
-      <span>Major & Minor</span>
-      <br />
-      <Select
+          <p>Search by unit code</p>
+
+          <div className="form-container">
+
+          <input type="text" onChange={handleInputChange1} />{" "}
+          <button className = "left-search-button"
+            onClick={() => {
+              handleButtonClick("code");
+            }}
+          >
+            Search
+          </button>
+
+          </div>
+
+          <p>Search by course title</p>
+
+        <div className="form-container">
+
+        <input type="text" onChange={handleInputChange2} />{" "}
+        <button className = "left-search-button"
+          onClick={() => {
+            handleButtonClick("name");
+          }}
+        >
+          Search
+        </button>
+
+        </div>
+
+        <p>Filter by</p>
+        <span>Major & Minor</span>
+        <br />
+
+      <Select className = "filter"
         open={mode[0]}
         // suffixIcon={<CaretDownOutlined />}
         defaultValue=""
@@ -109,45 +126,12 @@ export default function Left() {
       >
         <CaretDownOutlined />
       </div>
-      <p>Learning Outcomes</p>
-      <Select
-        open={mode[2]}
-        defaultValue=""
-        style={{
-          width: 238,
-        }}
-        onChange={handleChange}
-        options={[
-          {
-            value: "ja",
-            label: "a",
-          },
-          {
-            value: "b",
-            label: "b",
-          },
-          {
-            value: "Yiminghe",
-            label: "c",
-          },
-          {
-            value: "disabled",
-            label: "Disabled",
-            disabled: true,
-          },
-        ]}
-      />
-      <div
-        className="select"
-        onClick={() => {
-          const newModes = [...mode];
-          newModes[2] = !newModes[2];
-          setMode(newModes);
-        }}
-      >
-        <CaretDownOutlined />
+     
+      <div className="bottom-container-left">
+      <button className="back-button-search" onClick={() => history(-1)}>Back</button>
+      <button className = "left-search-button" > Search</button>
+
       </div>
-      <button>search</button>
     </div>
   );
 }
