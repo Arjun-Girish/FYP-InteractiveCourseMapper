@@ -9,15 +9,16 @@ const Specialisation = (props) => {
 
 
 const degrees = [
-  { id: 1, title: "Aerospace Engineering" },
-  { id: 2, title: "Biomedical Engineering" },
-  { id: 3, title: "Chemical Engineering" },
-  { id: 4, title: "Electrical Engineering" },
-  { id: 5, title: "Civil Engineering" },
-  { id: 6, title: "Environmental Engineering" },
-  { id: 7, title: "Materials Engineering" },
-  { id: 8, title: "Mechanical Engineering" },
-  { id: 9, title: "Robotics & Mechatronics Engineering" },
+  { id: 1, title: "Aerospace engineering" },
+  { id: 2, title: "Biomedical engineering" },
+  { id: 3, title: "Chemical engineering" },
+  { id: 4, title: "Electrical and computer systems egineering" },
+  { id: 5, title: "Civil engineering" },
+  { id: 6, title: "Environmental engineering" },
+  { id: 7, title: "Materials engineering" },
+  { id: 8, title: "Mechanical engineering" },
+  { id: 9, title: "Robotics and mechatronics engineering" },
+  { id: 10, title: "Software engineering" },
 ];
 
 const [major, setMajor] = useState('');

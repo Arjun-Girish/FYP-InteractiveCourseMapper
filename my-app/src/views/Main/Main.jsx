@@ -10,8 +10,8 @@ import { useNavigate } from "react-router-dom";
 import { connect } from "react-redux";
 import { updateValue, swapValue } from "../../store/actions";
 import "./Main.css";
-import { Link, useLocation } from "react-router-dom";
-import Sortable, { Swap } from "sortablejs";
+import { useLocation } from "react-router-dom";
+import {Sortable, Swap } from "sortablejs";
 
 const yearSem = ["2028", "2029", "2020", "2021"];
 Sortable.mount(new Swap());
@@ -949,8 +949,8 @@ const Main = ({ updateValue, data, event, swapValue }) => {
                     <div className="year-container" key={item}>
                       <div className="year-text">{yearStart + index}</div>
                       <div className="sem-container">
-                        <div>Samester 1</div>
-                        <div className="bottom">Samester 2</div>
+                        <div>Semester 1</div>
+                        <div className="bottom">Semester 2</div>
                         {index !== yearSem.length - 1 ? (
                           <span className="underline"></span>
                         ) : (
