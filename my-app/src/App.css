@@ -1,8 +1,13 @@
 @import '~antd/dist/antd.css';
+
 .app-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+
 }
 
 .wrap .nav {
@@ -12,11 +17,14 @@
   background: rgb(9, 9, 170);
   color: #fff;
   font-weight: 500;
+  
 }
 
 .wrap .main {
   height: calc(100vh - 100px);
   overflow: auto;
+
+  
 }
 
 .wrap .footer {
@@ -28,33 +36,15 @@
   font-weight: 500;
 }
 
-.header-container{
-  font-family: 'Inter', sans-serif;
-  max-width: 100%;
-  color: white;
-  background-color: #0165AC;
-  display: flex;
-  height: 100px;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 500px 0px 500px;
-  
-}
 
-.header-text{
-  font-weight: 400;
-  letter-spacing: -0.8px;
-  font-size: 22px;
-}
 
-.logo{
-  height: 150px;
-}
+
 
 .main{
   margin: auto;
   display: flex;
   justify-content: center;
+
 }
 
 .footer-container{

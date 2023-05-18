@@ -1,28 +1,38 @@
 import React, { useContext } from "react";
 // import { InfoCircleOutlined } from "@ant-design/icons";
 import { MyContext } from "./index";
-import { data } from "./data";
 import { connect } from "react-redux";
 import { useParams } from "react-router-dom";
 import { updateEvent } from "../../store/actions";
-function Right({ updateEvent, event }) {
+
+function Right({ updateEvent, event, data }) {
   const { value } = useContext(MyContext);
   const { id } = useParams();
-  console.log(value[Object.keys(value)[0]], "--value");
-  console.log(id, "--params");
+  const { name } = useParams();
+  console.log(value,'---value');
   const filteredList = data.filter((item) => {
     if (value[Object.keys(value)[0]] === "") {
       return "";
     }
-    return item[Object.keys(value)[0]].includes(value[Object.keys(value)[0]]);
+    return (
+      item[Object.keys(value)[0]]
+        .toLowerCase()
+        .includes(value[Object.keys(value)[0]].toLowerCase()) &&
+      item.state === value.state
+    );
   });
+
   const Change = (item) => {
-    item.id = id;
+    item.id = id * 1 + 1;
+    // item.name = name;
+    console.log(item, "updateEvent-------");
+    alert("unit added");
     updateEvent(item);
   };
+
   return (
     <div className="right">
-      <p>Showing results for Semester 2:</p>
+      <p className="right-text">Showing results for Semester 2:</p>
       <div className="cards">
         {filteredList?.map((item, index) => (
           <div
@@ -31,10 +41,11 @@ function Right({ updateEvent, event }) {
               Change(item);
             }}
           >
-            <div style={{marginTop:'12px'}}>
-              <span style={{ fontSize: "16px" }}>{item.code}</span>
-              <br />
-              <span>{item.name}</span>
+            <div style={{}}>
+              <div style={{ fontSize: "16px" }}>{item.code}</div>
+              <div className="unit-code" title={item.name}>
+                {item.name}
+              </div>
             </div>
           </div>
         ))}
@@ -42,7 +53,8 @@ function Right({ updateEvent, event }) {
     </div>
   );
 }
+
 export default connect(
-  (state) => ({ event: state.event }), //映射状态
+  (state) => ({data: state.data, event: state.event }), //映射状态
   { updateEvent } //映射操作状态的方法
 )(Right);

@@ -3,19 +3,28 @@ import { Select } from "antd";
 import { CaretDownOutlined } from "@ant-design/icons";
 import { MyContext } from "./index";
 import "./index.css";
+import { useNavigate, useLocation } from "react-router-dom";
 
 export default function Left() {
   const handleChange = (value) => {
     console.log(`selected ${value}`);
+    setNum(value * 1);
     setMode([false, false, false, false]);
   };
   let [mode, setMode] = useState([false, false, false, false]);
+  let [num, setNum] = useState(0);
   const { setValue } = useContext(MyContext);
   const [inputValue, setInputValue] = useState({
     code: "",
     name: "",
     input3: "",
   });
+  
+  const history = useNavigate(); 
+  
+  const location = useLocation();
+  const failedUnitVal = location.state.failedUnits
+
   const handleInputChange1 = (event) => {
     setInputValue({ ...inputValue, code: event.target.value });
   };
@@ -25,33 +34,46 @@ export default function Left() {
 
   const handleButtonClick = (index) => {
     console.log(index);
-    setValue({ [index]: inputValue[index] });
+    setValue({ [index]: inputValue[index],state: num });
   };
 
   return (
     <div className="left">
-      <p>Search by unit code</p>
-      <input type="text" onChange={handleInputChange1} />{" "}
-      <button
-        onClick={() => {
-          handleButtonClick("code");
-        }}
-      >
-        search
-      </button>
-      <p>Search by Course title</p>
-      <input type="text" onChange={handleInputChange2} />{" "}
-      <button
-        onClick={() => {
-          handleButtonClick("name");
-        }}
-      >
-        search
-      </button>
-      <p>Filter by</p>
-      <span>Major & Minor</span>
-      <br />
-      <Select
+          <p>Search by unit code</p>
+
+          <div className="form-container">
+
+          <input type="text" onChange={handleInputChange1} />{" "}
+          <button className = "left-search-button"
+            onClick={() => {
+              handleButtonClick("code");
+            }}
+          >
+            Search
+          </button>
+
+          </div>
+
+          <p>Search by course title</p>
+
+        <div className="form-container">
+
+        <input type="text" onChange={handleInputChange2} />{" "}
+        <button className = "left-search-button"
+          onClick={() => {
+            handleButtonClick("name");
+          }}
+        >
+          Search
+        </button>
+
+        </div>
+
+        <p>Filter by</p>
+        <span>Major & Minor</span>
+        <br />
+
+      <Select className = "filter"
         open={mode[0]}
         // suffixIcon={<CaretDownOutlined />}
         defaultValue=""
@@ -61,12 +83,12 @@ export default function Left() {
         onChange={handleChange}
         options={[
           {
-            value: "a",
-            label: "Major",
+            value: 3,
+            label: "state3",
           },
           {
-            value: "b",
-            label: "Minor",
+            value: 4,
+            label: "state4",
           },
         ]}
       />
@@ -109,45 +131,11 @@ export default function Left() {
       >
         <CaretDownOutlined />
       </div>
-      <p>Learning Outcomes</p>
-      <Select
-        open={mode[2]}
-        defaultValue=""
-        style={{
-          width: 238,
-        }}
-        onChange={handleChange}
-        options={[
-          {
-            value: "ja",
-            label: "a",
-          },
-          {
-            value: "b",
-            label: "b",
-          },
-          {
-            value: "Yiminghe",
-            label: "c",
-          },
-          {
-            value: "disabled",
-            label: "Disabled",
-            disabled: true,
-          },
-        ]}
-      />
-      <div
-        className="select"
-        onClick={() => {
-          const newModes = [...mode];
-          newModes[2] = !newModes[2];
-          setMode(newModes);
-        }}
-      >
-        <CaretDownOutlined />
+     
+      <div className="bottom-container-left">
+      <button className="back-button-search" onClick={() => history(-1, {state: failedUnitVal})}>Back</button>
+      <button className = "left-search-button" > Search</button>
       </div>
-      <button>search</button>
     </div>
   );
 }

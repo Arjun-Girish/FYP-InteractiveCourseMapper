@@ -10,7 +10,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <HashRouter>
-      {/* 调用Provider组件,其他组件才能从store中获取状态 */}
       <Provider store={store}>
         <App />
       </Provider>
