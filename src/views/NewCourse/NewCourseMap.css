@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #eaeaea;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('bg-banner2.jpg');  
+  background-size: 100% 100%; */
+}
+
+input[type="checkbox"] {
+  width: 14px; /* Adjust the width to your desired size */
+  height: 14px; /* Adjust the height to your desired size */
+  }
+
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  box-sizing: border-box; /* Include padding in the total height calculation */
+}
+
+.form-container {
+  display: flex;
+  grid-template-rows: auto 1fr;
+  justify-content: center;
+  padding: 0rem;
+  border-radius: 30px; /* Soft edges */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+    margin: 0 auto; /* Add margin to center the container */
+
+
+}
+
+.form{
+  padding: 2em;
+  
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.create-plan {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-left: -1rem; /* Add this line to align the title with the form-container */
+  color: #3c3c3c;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 40px;
+
+}
+
+.plan-name, .commencement-year, .study-load{
+    width: 96%;
+    height: 40px;
+    border-width: 1px;
+    border-color: #bebebe;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Make the button rounded like a pill */
+
+}
+
+.study-load{
+  width: 96%;
+  height: 40px;
+  border-width: 1px;
+  border-color: #bebebe;
+  margin-bottom: 10px;
+}
+
+.course-name, .year-commencement, .study-load, .year-12-units{
+  font-size: 17px;
+  color: #111111;
+  overflow: hidden;
+  
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center; /* Align the checkbox and label vertically */
+  margin-bottom: 10px; /* Add some space between the checkbox groups */
+}
+
+.checkbox-container label {
+  margin-left: 0.5rem; /* Add some space between the checkbox and the label */
+}
+
+.year-12-units{
+    margin-top: 10px;
+}
+
+.create-plan-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #006dae;
+  width: 120px;
+  height: 40px;
+  color: white;
+  border-style: none;
+  border-radius: 20px; /* Make the button rounded like a pill */
+  padding: 0 1.5rem; /* Adjust padding for an appealing look */
+}
+
+.create-plan-button:hover{
+  background-color: #0289d4;
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.year-12-units-status{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.image-container{
+  width: 0px;
+  background-color: cornflowerblue;
+  border-radius: 8px;
+
+}
+
+.form{
+  width: 1000px;
+  height: 100%;
+  background-color: white;
+  margin-left: 2rem;
+  border-radius: 8px;
+}
+
+.new-course-logo{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 0px 0px 8px;
+  
+}
+
+.required-container{
+  display: flex;
+}
+
+.required{
+  color: rgb(201, 0, 0);
+  font-size: 10px;
+  margin-left: 3px;
+  font-style: italic;
+  font-weight: 400;
+
+}
+
+.button-container-course{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.required-12{
+  color: rgb(201, 0, 0);
+  font-size: 10px;
+  margin-left: 5px;
+  font-style: italic;
+  font-weight: 400;
+
+}
