@@ -7,8 +7,8 @@ const Header = () => {
     <div className="header-container">
 
       <div className="header">
-      <img src={logo} className="logo-container"></img>
-      <h1 className="header-text"> Interactive Course Planner</h1>
+      <img src={logo} className="logo-container" alt={logo}></img>
+      <h1 className="header-text"> Monash Course Planner</h1>
       <div className="ghost"></div>
 
 
