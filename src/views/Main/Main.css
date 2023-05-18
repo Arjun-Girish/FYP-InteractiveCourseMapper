@@ -1,0 +1,369 @@
+.home {
+    font-family: 'Roboto';
+    background-color: white;
+    width: 1500px;
+    height: 650px;
+    border-radius: 8px;
+    /* Soft edges */
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.hometop {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.homemain {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    height: 650px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    padding-right: 100px;
+}
+
+.homemain-left {
+    width: 40%;
+}
+
+.homemain-left .year-container {
+    display: flex;
+}
+
+.homemain-left .year-container .year-text {
+    width: 35%;
+    height: 230px;
+    line-height: 230px;
+    text-align: center;
+    border-right: 3px solid #000;
+}
+
+.homemain-left .year-container .sem-container {
+    width: 300px;
+
+}
+
+.homemain-left .year-container .sem-container .underline {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #d9d9d9;
+
+}
+
+.homemain-left .year-container .sem-container div {
+    height: 115px;
+    line-height: 115px;
+    text-align: center;
+}
+
+
+.homemain-left .year-container .sem-container .bottom,
+.homemain-right .cardF .bottom {
+    /* margin-bottom: 10px; */
+}
+
+.homemain-right {
+    width: 1500px;
+}
+
+.homemain-right .cardF {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.homemain-right .cardF>div {
+    width: 200px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin: 12.5px 10px 12.5px 10px;
+    position: relative;
+    background: #eeece1;
+}
+
+.homemain-right .cardF>div:hover {
+    cursor: pointer;
+    border-style: solid;
+    transition: 0.5s;
+    border-width: 1px;
+}
+
+.homemain-right .cardF>div .state {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+
+.homemain-right .cardF>div .unit-code {
+    width: 80%;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.homemain-right .cardF .highlight {
+    background: #B7F8C7 !important;
+}
+
+.homemain-right .cardF .semerror {
+    position: relative;
+    color: red;
+}
+
+.homemain-right .cardF .error {
+    position: relative;
+    /* background: #ff0000 !important; */
+    border: 6px solid red;
+}
+
+.homemain-right .cardF .error .state1,
+.homemain-right .cardF .semerror .state1 {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+
+.ant-popover-buttons,
+.ant-popover-message-icon {
+    display: none;
+}
+
+.homebottom {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.homebottom>div:nth-child(1) {
+    width: 15%;
+    text-align: right;
+
+}
+
+.ant-modal-header {
+    border: none;
+    font-weight: bold;
+}
+
+.ant-modal-footer {
+    border: none !important;
+}
+
+.ant-modal-close-x {
+    margin: auto;
+}
+
+.ant-modal-title {
+    font-size: 22px !important;
+}
+
+.bottom-div {
+    display: inline;
+    float: right;
+}
+
+.create-plan-button:hover {
+    background-color: #004b80;
+    transition: 0.5s;
+}
+
+.main-whole-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bottom-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.create-plan-button:hover {
+    background-color: #004b80;
+    transition: 0.5s;
+}
+
+.unit-code {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.unit-title {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #006dae;
+    width: 100px;
+    max-width: 300px;
+    height: 50px;
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    padding: 0 1.5rem;
+    margin-left: 30px;
+}
+
+.add-button:hover {
+    background-color: #0289d4;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.submit-button-main {
+    align-items: center;
+    justify-content: center;
+    background-color: #0165AC;
+    width: 100px;
+    max-width: 300px;
+    height: 40px;
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    padding: 0 1.5rem;
+}
+
+.new-year {
+    margin-top: -49px;
+    background-color: white;
+}
+
+.back-button-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100px;
+    max-width: 300px;
+    /* Set a maximum width for the button */
+    height: 40px;
+    color: #0165AC;
+    border-style: solid;
+    border-color: #0165AC;
+    border-radius: 20px;
+    /* Make the button rounded like a pill */
+    padding: 0 1.5rem;
+    /* Adjust padding for an appealing look */
+}
+
+.back-button-main:hover {
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.legend-container {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.legend-pass,
+.legend-fail,
+.legend-in-progress,
+.legend-upcoming {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.legend-text {
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.legend-pass {
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+
+.legend-fail {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+
+.legend-in-progress {
+    background-color: rgba(255, 166, 0, 0.5);
+}
+
+
+.legend-upcoming {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.unit-tracker-container {
+    padding: 0px 0px 0px 30px;
+    width: 200px;
+    height: 570px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    border-left-style: solid;
+    border-width: 1px;
+}
+
+.main-container {
+    display: flex;
+
+}
+
+.unit-tracker-title {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.main-whole-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.failed-warning {
+    color: red;
+    font-size: 10px;
+    font-style: italic;
+    margin: 0px 0px 10px 0px;
+}
+
+.homemain>div .homecon>div:nth-child(2)>div {
+    width: 200px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeece1;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+
+}

@@ -1,0 +1,28 @@
+{
+"code": "ENG1003",
+"credit points":"",
+"name": "Robotics",
+"details":"",
+"overview": "",
+"offerings":[
+
+     {
+        "51-81-Clayton-On-Campus":{
+          "location":"Clayton",
+          "teaching_period": "First semester",
+          "Attendance mode": "On-campus"}
+        },
+     {
+        "52-81-Clayton-On-Campus":{
+          "location":"Clayton",
+          "teaching period": "Second semester",
+          "Attendance mode": "On-campus"}
+        }
+    ],
+"prerequisiste":{
+"OR":[],
+"AND" :[
+],
+"prohibiton":[]
+}
+}
