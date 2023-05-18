@@ -1,6 +1,7 @@
 {
   "name": "monash-course-planner",
   "version": "0.1.0",
+  "homepage": "https://arjun-girish.github.io/FYP-InteractiveCourseMapper",
   "private": true,
   "dependencies": {
     "@ant-design/charts": "^1.4.2",
