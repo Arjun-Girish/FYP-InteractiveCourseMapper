@@ -76,6 +76,7 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .cards>div:hover {

@@ -167,6 +167,7 @@ const MyCard = (props) => {
       },
     };
   });
+
   const andPrereqs = item.unit_details?.prerequisite?.AND.map((prereq) => {
     return {
       value: {
@@ -198,10 +199,12 @@ const MyCard = (props) => {
     children.push(...andPrereqs);
   }
   root.children = children;
+
   return (
     <div className="card">
-      <div className="header">
-        <span className="title">{title}</span>
+      <div className="header-popup-container">
+        <span className="title">{item.name}</span>
+
         <Button
           size="small"
           onClick={() => {
@@ -210,36 +213,64 @@ const MyCard = (props) => {
         >
           Change
         </Button>
-        <Button
+ {/*         <Button
           size="small"
           onClick={() => {
-            edit();
           }}
         >
           Edit
-        </Button>
+        </Button> */}
       </div>
       <div className="context">
         <div className="top">
-          <div className="left">
+          <div className="left-popup">
             <Tree data={root}></Tree>
           </div>
-          <div className="right">
-            Summary Information <br />
-            Department: Faculty of Engineering <br />
-            Campus:Clayton
-            <br />
-            Teaching Period : Sem 1 or Sem 2 <br />
-            Prohibition: MTH2010,MTH2015 <br />
-            EA competencies:
-            <br />
-            Major: ECSE
-            <br />
-            Electives:.-----
-            <br />
-            <Button type="primary" style={{ float: "right" }}>
+          <div className="right-popup">
+            <div className="right-title"> Summary Information </div>
+
+            <div className="right-unit-info-container">
+              <h1 className = "right-unit-info-header"> Campus: </h1> 
+              <p1 className= "right-unit-info-value">  Clayton </p1>
+            </div>
+
+            <div className="right-unit-info-container">
+              <h1 className = "right-unit-info-header"> Department: </h1> 
+              <p1 className= "right-unit-info-value">  Faculty of Engineering </p1>
+            </div>
+
+            <div className="right-unit-info-container">
+              <h1 className = "right-unit-info-header"> Teaching Period: </h1> 
+              <p1 className= "right-unit-info-value">    {item.sem == 0
+              ? "Semester 1 or Semester 2"
+              : item.sem == 1
+              ? "Semester 1"
+              : "Semester 2"}{" "}
+            <br /> </p1>
+            </div>
+
+            <div className="right-unit-info-container">
+              <h1 className = "right-unit-info-header"> Prohibition:  </h1> 
+              <p1 className= "right-unit-info-value">    {" OR: " +
+              item.unit_details.prohibition.OR +
+              "AND: " +
+              item.unit_details.prohibition.AND}{" "}
+          </p1>
+            </div>
+
+            <div className="right-unit-info-container">
+              <h1 className = "right-unit-info-header"> Major: </h1> 
+              <p1 className= "right-unit-info-value">  ECSE </p1>
+            </div>
+
+            <div className="right-unit-info-container">
+              <h1 className = "right-unit-info-header"> Electives: </h1> 
+              <p1 className= "right-unit-info-value">  () </p1>
+            </div>
+          
+            <Button type="primary" style={{ float: "left", "margin-top": "20px" }}>
               <a
-                href="https://www.baidu.com/"
+                href={`http://www.monash.edu.au/pubs/handbooks/units/${item.code}.html`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -249,14 +280,9 @@ const MyCard = (props) => {
           </div>
         </div>
 
-        <div className="bottom">
-          <strong>OVERVIEW</strong>
-          <br />
-          Aurther ordinarv differential equations:dvanced matrix alcsystems of
-          ODEhalf-range series. solution of ODEs.spectra.Furthefields
-          deldiveroence.curlandLaplacian; surfaPDESheat and wave
-          equations.superposition.of linear systems, numerical solution of ODEs
-          and simplePDEs.accuracy.introduction to PS and FE methods
+        <div className="bottom-popup-container">
+          <h1 className = "overview-header">Unit Overview</h1>
+          {item.overview}
         </div>
       </div>
     </div>

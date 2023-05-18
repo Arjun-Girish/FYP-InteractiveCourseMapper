@@ -681,10 +681,12 @@ const Main = ({ updateValue, data, event, swapValue }) => {
     setItem(item);
     console.log(isModalOpen);
   };
-  
+
   const location = useLocation();
   const yearStart = Number(location.state.semesterStart);
   const degree = location.state.major;
+
+
 
   const handleOk = () => {
     setIsModalOpen(false);
@@ -695,12 +697,19 @@ const Main = ({ updateValue, data, event, swapValue }) => {
 
   const [failedUnits, setFailedUnits] = useState([]);
 
-  const showConfirm = (e) => {
+
+  const showConfirm = (e, bool, bool1) => {
     e.stopPropagation(); //阻止原生事件冒泡
     Modal.confirm({
-      title: "Pre-Requisite required",
+      title: "Error",
       icon: <ExclamationCircleOutlined />,
-      content: "Pre-Requisite is not met!",
+      content: `${
+        bool && bool1
+          ? "Prerequisites have not been completed. This unit is not offered in this semester"
+          : bool
+          ? "Prerequisites have not been completed"
+          : "This unit is not offered in this semester"
+      }`,
       onOk() {
         console.log("OK");
       },
@@ -710,7 +719,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
     });
   };
   const checkDataOr = (data, event) => {
-    if (event.unit_details.prerequisite.OR.length == 0) {
+    if (event.unit_details.prerequisite.OR.length === 0) {
       return true;
     }
     for (let i = 0; i < event.unit_details.prerequisite.OR.length; i++) {
@@ -718,7 +727,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
       for (let j = 0; j < data.length; j++) {
         if (data[j].code === code) {
           if (data[j].study === "failed") {
-            break;
+            continue;
           }
           return true;
         }
@@ -732,7 +741,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
     let code = [];
     for (let j = 0; j < data.length; j++) {
       if (data[j].study === "failed") {
-        break;
+        continue;
       }
       code.push(data[j].code);
     }
@@ -759,9 +768,9 @@ const Main = ({ updateValue, data, event, swapValue }) => {
       if (id > 3) {
         let res = checkDataOr(data.slice(start, end), events);
         let res1 = checkDataAND(data.slice(start, end), events);
-        if (events.code === "MAE2402") {
-          console.log(start, end, "-start, end");
-          console.log(res && res1);
+        if (events.code === "MAE3401") {
+          // console.log(start, end, "-start, end");
+          // console.log(res && res1, res, res1);
         }
         return !(res && res1);
       } else {
@@ -775,6 +784,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
     }
   };
 
+  
   const color = {
     display: "inline-block",
     width: "15px",
@@ -785,6 +795,8 @@ const Main = ({ updateValue, data, event, swapValue }) => {
   //选择课程状态
   const handelColor = (item, index, state) => {
     console.log(item, state);
+    console.log("failed units: " + failedUnits)
+
 
     if (degree === "Aerospace Engineering") {
       item.study = state;
@@ -794,28 +806,25 @@ const Main = ({ updateValue, data, event, swapValue }) => {
       bioUnits[item.id - 1].study = state;
       // setBioUnits([...bioUnits]);
     }
-  
+
     /* Adding to failed Units Column */
-  if (state === "failed" && !failedUnits.includes(item.code))
-  {
-    console.log(item.name)
-    setFailedUnits(list => [...list, item.code])
-  }
-
-  /* Adding to passed Units Column */
-  if (state === "passed" || state === "progess" || state === "upcoming")
-  {
-    console.log(item.name)
-    const index1 = failedUnits.indexOf(item.code)
-    console.log(failedUnits[index1])
-
-    if (failedUnits[index1] === item.code)
-    {
-      failedUnits.splice(index1, 1)
+    if (state === "failed" && !failedUnits.includes(item.code)) {
+      console.log(item.name);
+      setFailedUnits((list) => [...list, item.code]);
     }
-  }
+
+    /* Adding to passed Units Column */
+    if (state === "passed" || state === "progess" || state === "upcoming" || state === "reset") {
+      console.log(item.name);
+      const index1 = failedUnits.indexOf(item.code);
+      console.log(failedUnits[index1]);
+
+      if (failedUnits[index1] === item.code) {
+        failedUnits.splice(index1, 1);
+      }
+    }
   };
-  
+
   const styleColor = (state) => {
     switch (state) {
       case "passed":
@@ -844,7 +853,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
         >
           <span
             className="passed color"
-            style={{ ...color, background: "#7fbf7f" }}
+            style={{ ...color, background: "#7fbf7f", "margin-right": "5px" }}
           ></span>
           <span>Passed</span>
         </div>
@@ -856,7 +865,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
         >
           <span
             className="failed color"
-            style={{ ...color, background: "#ff7f7f" }}
+            style={{ ...color, background: "#ff7f7f", "margin-right": "5px" }}
           ></span>
           <span>Failed</span>
         </div>
@@ -868,7 +877,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
         >
           <span
             className="progess color"
-            style={{ ...color, background: "#ffa500" }}
+            style={{ ...color, background: "#ffa500" , "margin-right": "5px"}}
           ></span>
           <span>ln-Progress</span>
         </div>
@@ -880,10 +889,11 @@ const Main = ({ updateValue, data, event, swapValue }) => {
         >
           <span
             className="upcoming color"
-            style={{ ...color, background: "#eeece1" }}
+            style={{ ...color, background: "#bfbfbf" , "margin-right": "5px"}}
           ></span>
           <span>Upcoming</span>
         </div>
+
       </div>
     );
   };
@@ -892,19 +902,32 @@ const Main = ({ updateValue, data, event, swapValue }) => {
     message.info("Clicked on Yes.");
   };
 
+  //sem
+  const semCheck = (item, index) => {
+    if (item.sem === 0) {
+      return true;
+    }
+    if ((Math.floor(index / 4) + 1) % 2 === 0) {
+      return item.sem === 2;
+    }
+    {
+      return item.sem === 1;
+    }
+  };
   useEffect(() => {
-    updateValue(event.id-1, event);
+    updateValue(event.id - 1, event);
     const sortable = Sortable.create(cardFRef.current, {
       animation: 150,
       easing: "cubic-bezier(1, 0, 0, 1)",
       swap: true, // Enable swap plugin
       swapClass: "highlight", // The class applied to the hovered swap item
       // sort: false, // To disable sorting: set sort to false
-      // draggable: ".draggable",
+      draggable: ".draggable",
+      filter: ".ignore-elements",
       onSort: (evt) => {
         const { oldIndex, newIndex } = evt;
         setTimeout(() => {
-          console.log(oldIndex, newIndex,'--oldIndex, newIndex');
+          console.log(oldIndex, newIndex, "--oldIndex, newIndex");
           swapValue(oldIndex, newIndex);
         }, 200);
       },
@@ -915,142 +938,160 @@ const Main = ({ updateValue, data, event, swapValue }) => {
 
   return (
     <div className="main-whole-container">
-          <div className="hometop">Specialisation: {location.state.major}</div>
-          <div className="main-container">
-
-    <div className="home-container">
-      <div className="home">
-      <div className="homemain">
-          <div className="homemain-left">
-            {yearSem.map((item, index) => {
-              return (
-                <div className="year-container" key={item}>
-                  <div className="year-text">{yearStart + index}</div>
-                  <div className="sem-container">
-                    <div>Samester 1</div>
-                    <div className="bottom">Samester 2</div>
-                    {index !== yearSem.length - 1 ? (
-                      <span className="underline"></span>
-                    ) : (
-                      ""
-                    )}
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-          <div className="homemain-right">
-            <div className="cardF" ref={cardFRef}>
-              {(degree === "Aerospace Engineering" ? data : bioUnits)
-                .slice(0, 32)
-                .map((item, index) => {
-                  return !(item.state === 2) ? (
-                    <div
-                      key={index + new Date()}
-                      onClick={() => showModal(item)}
-                      style={{ background: styleColor(item?.study) }}
-                      className={`${courseCheck(item, index) ? "error" : ""} ${
-                        Math.floor(index / 4) % 2 !== 0 ? "bottom" : ""
-                      }`}
-                    >
-                      {courseCheck(item, index) ? (
-                        <>
-                          <ExclamationCircleOutlined
-                            onClick={showConfirm}
-                            className="state1"
-                          />
-                        </>
-                      ) : (
-                        ""
-                      )}
-                      <span
-                        onClick={(e) => {
-                          e.stopPropagation();
-                        }}
-                      >
-                        <Popconfirm
-                          placement="rightTop"
-                          title={text(item, index)}
-                          onConfirm={confirm}
-                          okText=""
-                          cancelText=""
-                        >
-                          <MoreOutlined className="state" />
-                        </Popconfirm>
-                      </span>
-                      <div style={{ fontSize: "16px" }}>{item.code}</div>
-                      <div className="unit-code" title={item.name}>
-                        {item.name}
+      <div className="hometop">Specialisation: {location.state.major}</div>
+      <div className="main-container">
+        <div className="home-container">
+          <div className="home">
+            <div className="homemain">
+              <div className="homemain-left">
+                {yearSem.map((item, index) => {
+                  return (
+                    <div className="year-container" key={item}>
+                      <div className="year-text">{yearStart + index}</div>
+                      <div className="sem-container">
+                        <div>Samester 1</div>
+                        <div className="bottom">Samester 2</div>
+                        {index !== yearSem.length - 1 ? (
+                          <span className="underline"></span>
+                        ) : (
+                          ""
+                        )}
                       </div>
-                      <div className="unit-title">{item.unitTitle}</div>
-                    </div>
-                  ) : (
-                    <div
-                      className={`${
-                        Math.floor(index / 4) % 2 !== 0 ? "bottom" : ""
-                      }`}
-                      key={index + new Date()}
-                      onClick={() => history(`/search/${index}`)}
-                    >
-                      <PlusOutlined></PlusOutlined>
                     </div>
                   );
                 })}
+              </div>
+              <div className="homemain-right">
+                <div className="cardF" ref={cardFRef}>
+                  {(degree === "Aerospace Engineering" ? data : bioUnits)
+                    .slice(0, 32)
+                    .map((item, index) => {
+                      return !(item.state === 2) ? (
+                        <div
+                          key={index + new Date()}
+                          onClick={() => showModal(item)}
+                          style={{ background: styleColor(item?.study) }}
+                          className={`${
+                            courseCheck(item, index) ? "error" : ""
+                          } ${
+                            Math.floor(index / 4) % 2 !== 0 ? "bottom" : ""
+                          }  ${
+                            item?.study === "passed" || item?.study === "failed"
+                              ? "ignore-elements"
+                              : "draggable"
+                          } ${semCheck(item, index) ? "" : "semerror"}`}
+                        >
+                          {courseCheck(item, index) ||
+                          !semCheck(item, index) ? (
+                            <>
+                              <ExclamationCircleOutlined
+                                onClick={(e) =>
+                                  showConfirm(
+                                    e,
+                                    courseCheck(item, index),
+                                    !semCheck(item, index)
+                                  )
+                                }
+                                className="state1"
+                              />
+                            </>
+                          ) : (
+                            ""
+                          )}
+                          <span
+                            onClick={(e) => {
+                              e.stopPropagation();
+                            }}
+                          >
+                            <Popconfirm
+                              placement="rightTop"
+                              title={text(item, index)}
+                              onConfirm={confirm}
+                              okText=""
+                              cancelText=""
+                            >
+                              <MoreOutlined className="state" />
+                            </Popconfirm>
+                          </span>
+                          <div style={{ fontSize: "16px" }}>{item.code}</div>
+                          <div className="unit-code" title={item.name}>
+                            {item.name}
+                          </div>
+                          <div className="unit-title">{item.unitTitle}</div>
+                        </div>
+                      ) : (
+                        <div
+                          className={`${
+                            Math.floor(index / 4) % 2 !== 0 ? "bottom" : ""
+                          } draggable`}
+                          key={index + new Date()}
+                          onClick={() => history(`/search/${index}`,{state: {failedUnits}})}
+                        >
+                          <PlusOutlined></PlusOutlined>
+                        </div>
+                      );
+                    })}
+                </div>
+              </div>
             </div>
+
+            <Modal
+              title={item.code}
+              open={isModalOpen}
+              onOk={handleOk}
+              onCancel={handleCancel}
+              footer={[]}
+              width={800}
+            >
+              <Card title={"i"} item={item}></Card>
+            </Modal>
           </div>
         </div>
-        
 
-        <Modal
-          title={item.code}
-          open={isModalOpen}
-          onOk={handleOk}
-          onCancel={handleCancel}
-          footer={[]}
-          width={800}
-        >
-          <Card title={"i"} item={item}></Card>
-        </Modal>
-      </div>
-
-    </div>
-
-    <div className="unit-tracker-container">
+        <div className="unit-tracker-container">
           <h1 className="unit-tracker-title"> Failed Units </h1>
-          <p1 className="failed-warning"> *Please verify there are no units marked as failed before submission </p1>
+          <h1 className="failed-warning">
+            {" "}
+            *Please verify there are no units marked as failed before submission{" "}
+          </h1>
 
           {failedUnits.map((failedUnit) => (
-              <div className = "failed-unit">
-                {failedUnit}
-                </div>
-              ))}
+            <div className="failed-unit" key={failedUnit}>
+
+              {failedUnit}
+            </div>
+          ))}
+        </div>
       </div>
-      
-    </div>
-    <div className = "bottom-div">
-        
-        <button className="back-button-main" onClick={() => history(-1)}>Back</button>
+      <div className="bottom-div">
+        <button className="back-button-main" onClick={() => history(-1)}>
+          Back
+        </button>
 
         <div className="legend-container">
-
           <div className="legend-pass"></div>
-          <h1 className = "legend-text"> Passed </h1>
+          <h1 className="legend-text"> Passed </h1>
 
           <div className="legend-fail"></div>
-          <h1 className = "legend-text"> Failed </h1>
+          <h1 className="legend-text"> Failed </h1>
 
           <div className="legend-in-progress"></div>
-          <h1 className = "legend-text"> In-Progress </h1>
+          <h1 className="legend-text"> In-Progress </h1>
 
           <div className="legend-upcoming"></div>
-          <h1 className = "legend-text"> Upcoming </h1>
+          <h1 className="legend-text"> Upcoming </h1>
         </div>
 
-          <button type ="submit" className="submit-button-main" onClick={() => history('/export')}> Submit </button>
-      
+        <button
+          type="submit"
+          className="submit-button-main"
+          onClick={() => history("/export")}
+        >
+          {" "}
+          Submit{" "}
+        </button>
       </div>
     </div>
-
   );
 };
 

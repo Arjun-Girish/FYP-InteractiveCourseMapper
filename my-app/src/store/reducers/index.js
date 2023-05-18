@@ -5,6 +5,7 @@ let dataState = [
   {
     code: "ENG1013",
     state: 1,
+    sem: 1,
     "credit points": "6",
     name: "Engineering smart sysyems",
     overview:
@@ -47,6 +48,7 @@ let dataState = [
   {
     code: "ENG1005",
     state: 1,
+    sem: 0,
     "credit points": "6",
     name: "Engineering mathematics",
     overview:
@@ -88,6 +90,7 @@ let dataState = [
   {
     code: "ENG1014",
     state: 1,
+    sem: 0,
     "credit points": "6",
     name: "Engineering numerical analysis",
     overview:
@@ -135,6 +138,7 @@ let dataState = [
   {
     code: "ENG1011",
     state: 1,
+    sem: 0,
     "credit points": "6",
     name: "Engineering methods",
     overview:
@@ -177,6 +181,7 @@ let dataState = [
   {
     code: "ENG1012",
     state: 1,
+    sem: 0,
     "credit points": "6",
     name: "Engineering design",
     overview:
@@ -223,6 +228,7 @@ let dataState = [
   {
     code: "MEC2402",
     state: 1,
+    sem: 1,
     "credit points": "6",
     name: "Design methods",
     unit_details: {
@@ -256,6 +262,7 @@ let dataState = [
   {
     code: "MEC2403",
     state: 1,
+    sem: 1,
     "credit points": "6",
     name: "Mechanics of materials",
     unit_details: {
@@ -289,6 +296,7 @@ let dataState = [
   {
     code: "ENG2005",
     state: 1,
+    sem: 0,
     "credit points": "6",
     name: "Advanced engineering mathematics",
     unit_details: {
@@ -341,6 +349,7 @@ let dataState = [
   {
     code: "MAE2402",
     state: 1,
+    sem: 2,
     "credit points": "6",
     name: "Thermodynamics and gas dynamics",
     unit_details: {
@@ -368,6 +377,7 @@ let dataState = [
   {
     code: "MAE2404",
     state: 1,
+    sem: 2,
     "credit points": "6",
     name: "Aerodynamics 1",
     unit_details: {
@@ -395,6 +405,7 @@ let dataState = [
   {
     code: "MAE2505",
     state: 1,
+    sem: 2,
     "credit points": "6",
     name: "Aerospace dynamics",
     unit_details: {
@@ -427,6 +438,7 @@ let dataState = [
   {
     code: "MAE3401",
     state: 1,
+    sem: 1,
     "credit points": "6",
     name: "Aerodynamics 2",
     unit_details: {
@@ -455,6 +467,7 @@ let dataState = [
   {
     code: "MAE3404",
     state: 1,
+    sem: 1,
     "credit points": "6",
     name: "Flight vehicle dynamics",
     unit_details: {
@@ -482,6 +495,7 @@ let dataState = [
   {
     code: "MEC3456",
     state: 1,
+    sem: 1,
     "credit points": "6",
     name: "Engineering computational analysis",
     unit_details: {
@@ -520,6 +534,7 @@ let dataState = [
   {
     code: "MAE3405",
     state: 1,
+    sem: 2,
     "credit points": "6",
     name: "Aerospace propulsion",
     unit_details: {
@@ -547,6 +562,7 @@ let dataState = [
   {
     code: "MAE3408",
     state: 1,
+    sem: 2,
     "credit points": "6",
     name: "Aerospace control",
     unit_details: {
@@ -574,6 +590,7 @@ let dataState = [
   {
     code: "MAE3411",
     state: 1,
+    sem: 2,
     "credit points": "6",
     name: "Aerospace structural mechanics",
     unit_details: {
@@ -606,6 +623,7 @@ let dataState = [
   {
     code: "ENG4701",
     state: 1,
+    sem: 0,
     "credit points": "6",
     name: "Final year project A",
     unit_details: {
@@ -649,6 +667,7 @@ let dataState = [
   {
     code: "MAE4416",
     state: 1,
+    sem: 1,
     "credit points": "6",
     name: "Orbital mechanics and spaceflight dynamics",
     unit_details: {
@@ -676,6 +695,7 @@ let dataState = [
   {
     code: "MEC4404",
     state: 1,
+    sem: 1,
     "credit points": "6",
     name: "Professional practice",
     unit_details: {
@@ -714,6 +734,7 @@ let dataState = [
   {
     code: "ENG4702",
     state: 1,
+    sem: 0,
     "credit points": "6",
     name: "Final year project B",
     unit_details: {
@@ -756,6 +777,7 @@ let dataState = [
   {
     code: "MAE4426",
     state: 1,
+    sem: 2,
     "credit points": "6",
     name: "Finite element analysis and composite structures",
     unit_details: {
@@ -783,6 +805,7 @@ let dataState = [
   {
     code: "MAE4410",
     state: 1,
+    sem: 2,
     "credit points": "6",
     name: "Flight vehicle design",
     unit_details: {
@@ -810,6 +833,7 @@ let dataState = [
   {
     code: "MEC3459",
     state: 3,
+    sem: 2,
     "credit points": "6",
     name: "Materials selection for engineering design",
     unit_details: {
@@ -847,6 +871,7 @@ let dataState = [
   {
     code: "TRC3000",
     state: 3,
+    sem: 2,
     "credit points": "6",
     name: "Automation project",
     unit_details: {
@@ -875,6 +900,7 @@ let dataState = [
   {
     code: "TRC3500",
     state: 3,
+    sem: 1,
     "credit points": "6",
     name: "Sensors and artificial perception",
     unit_details: {
@@ -908,6 +934,7 @@ let dataState = [
   {
     code: "ECE4078",
     state: 3,
+    sem: 1,
     "credit points": "6",
     name: "Intelligent robotics",
     unit_details: {
@@ -941,6 +968,7 @@ let dataState = [
   {
     code: "MEC4447",
     state: 3,
+    sem: 1,
     "credit points": "6",
     name: "Computers in fluids and energy",
     unit_details: {
@@ -968,6 +996,7 @@ let dataState = [
   {
     code: "MEC4459",
     state: 3,
+    sem: 0,
     "credit points": "6",
     name: "Wind engineering",
     unit_details: {
@@ -989,6 +1018,7 @@ let dataState = [
   {
     code: "MEC5883",
     state: 3,
+    sem: 1,
     "credit points": "6",
     name: "Mechanical systems design",
     unit_details: {
@@ -1017,6 +1047,7 @@ let dataState = [
   {
     code: "MEC5884",
     state: 3,
+    sem: 2,
     "credit points": "6",
     name: "Sustainable engineering systems",
     unit_details: {
@@ -1045,6 +1076,7 @@ let dataState = [
   {
     code: "MEC5881",
     state: 3,
+    sem: 2,
     "credit points": "6",
     name: "Engineering systems performance analysis",
     unit_details: {
@@ -1078,6 +1110,7 @@ let dataState = [
   {
     code: "MEC5882",
     state: 3,
+    sem: 1,
     "credit points": "6",
     name: "Instrumentation, sensing and monitoring",
     unit_details: {
@@ -1106,6 +1139,7 @@ let dataState = [
   {
     code: "MEC4407",
     state: 3,
+    sem: 2,
     "credit points": "6",
     name: "Design project",
     unit_details: {
@@ -1138,6 +1172,7 @@ let dataState = [
   {
     code: "TRC4200",
     state: 3,
+    sem: 1,
     "credit points": "6",
     name: "Engineering cyber-physical systems",
     unit_details: {
@@ -1171,6 +1206,7 @@ let dataState = [
   {
     code: "MEC3416",
     state: 3,
+    sem: 1,
     "credit points": "6",
     name: "Machine design",
     unit_details: {
@@ -1204,6 +1240,7 @@ let dataState = [
   {
     code: "MAE3406",
     state: 3,
+    sem: 2,
     "credit points": "6",
     name: "Aerospace materials",
     unit_details: {
@@ -1227,6 +1264,158 @@ let dataState = [
       rules: null,
     },
     id: 45,
+  },
+  {
+    code: "CIV4100",
+    state: 4,
+    sem: 1,
+    "credit points": "6",
+    name: "Autonomous vehicle systems",
+    unit_details: {
+      offerings: {
+        "S1-01-CLAYTON-ON-CAMPUS": {
+          location: ["Clayton"],
+          teaching_period: "First semester",
+          Attendance_mode: ["On-campus"],
+        },
+      },
+      prerequisite: {
+        OR: ["ENG1014", "ENG1060"],
+        AND: ["ENG2005", "ENG2005"],
+      },
+      prohibition: {
+        OR: [],
+        AND: [],
+      },
+      rules:
+        "ADDITIONAL PREREQUISITE: 96 cp of engineering study (including ENG1060, ENG2005) ",
+    },
+    id: 46,
+  },
+  {
+    code: "ECE4076",
+    state: 4,
+    sem: 1,
+    "credit points": "6",
+    name: "Computer vision",
+    unit_details: {
+      offerings: {
+        "S1-01-CLAYTON-ON-CAMPUS": {
+          location: ["Clayton"],
+          teaching_period: "First semester",
+          Attendance_mode: ["On-campus"],
+        },
+        "S1-01-MALAYSIA-ON-CAMPUS": {
+          location: ["Malaysia"],
+          teaching_period: "First semester",
+          Attendance_mode: ["On-campus"],
+        },
+      },
+      prerequisite: {
+        OR: [],
+        AND: ["ECE2071"],
+      },
+      prohibition: {
+        OR: [],
+        AND: [],
+      },
+      rules: null,
+    },
+    id: 47,
+  },
+  {
+    code: "ECE4078",
+    state: 4,
+    sem: 2,
+    "credit points": "6",
+    name: "Intelligent robotics",
+    unit_details: {
+      offerings: {
+        "S2-01-CLAYTON-ON-CAMPUS": {
+          location: ["Clayton"],
+          teaching_period: "Second semester",
+          Attendance_mode: ["On-campus"],
+        },
+        "S2-01-MALAYSIA-ON-CAMPUS": {
+          location: ["Malaysia"],
+          teaching_period: "Second semester",
+          Attendance_mode: ["On-campus"],
+        },
+      },
+      prerequisite: {
+        OR: [],
+        AND: ["ECE2071"],
+      },
+      prohibition: {
+        OR: [],
+        AND: ["ECE5178"],
+      },
+      rules:
+        "PREREQUISITES: Or FIT1002 or TRC2400 or (FIT1029 and FIT1040)\nIf you are currently enrolled in E6013 Master of Applied Engineering, you are exempt from the prerequisite requirement. ",
+    },
+    id: 48,
+  },
+  {
+    code: "ECE4179",
+    state: 4,
+    sem: 2,
+    "credit points": "6",
+    name: "Neural networks and deep learning",
+    unit_details: {
+      offerings: {
+        "S1-01-MALAYSIA-ON-CAMPUS": {
+          location: ["Malaysia"],
+          teaching_period: "First semester",
+          Attendance_mode: ["On-campus"],
+        },
+        "S2-01-CLAYTON-ON-CAMPUS": {
+          location: ["Clayton"],
+          teaching_period: "Second semester",
+          Attendance_mode: ["On-campus"],
+        },
+      },
+      prerequisite: {
+        OR: [],
+        AND: ["ENG2005", "ECE2071"],
+      },
+      prohibition: {
+        OR: [],
+        AND: [],
+      },
+      rules: "Prerequisites: Or ENG2092 in place of ENG2005 ",
+    },
+    id: 49,
+  },
+  {
+    code: "ECE2071",
+    state: 4,
+    sem: 1,
+    "credit points": "6",
+    name: "Computer organisation and programming",
+    unit_details: {
+      offerings: {
+        "S1-01-CLAYTON-ON-CAMPUS": {
+          location: ["Clayton"],
+          teaching_period: "First semester",
+          Attendance_mode: ["On-campus"],
+        },
+        "S1-01-MALAYSIA-ON-CAMPUS": {
+          location: ["Malaysia"],
+          teaching_period: "First semester",
+          Attendance_mode: ["On-campus"],
+        },
+      },
+      prerequisite: {
+        OR: ["ENG1003", "ENG1013", "ENG1014"],
+        AND: [],
+      },
+      prohibition: {
+        OR: [],
+        AND: [],
+      },
+      rules: null,
+    },
+    id: 50,
   },
 ];
 

@@ -8,9 +8,11 @@ import { useNavigate, useLocation } from "react-router-dom";
 export default function Left() {
   const handleChange = (value) => {
     console.log(`selected ${value}`);
+    setNum(value * 1);
     setMode([false, false, false, false]);
   };
   let [mode, setMode] = useState([false, false, false, false]);
+  let [num, setNum] = useState(0);
   const { setValue } = useContext(MyContext);
   const [inputValue, setInputValue] = useState({
     code: "",
@@ -18,7 +20,10 @@ export default function Left() {
     input3: "",
   });
   
-  const history = useNavigate();  
+  const history = useNavigate(); 
+  
+  const location = useLocation();
+  const failedUnitVal = location.state.failedUnits
 
   const handleInputChange1 = (event) => {
     setInputValue({ ...inputValue, code: event.target.value });
@@ -29,7 +34,7 @@ export default function Left() {
 
   const handleButtonClick = (index) => {
     console.log(index);
-    setValue({ [index]: inputValue[index] });
+    setValue({ [index]: inputValue[index],state: num });
   };
 
   return (
@@ -78,12 +83,12 @@ export default function Left() {
         onChange={handleChange}
         options={[
           {
-            value: "a",
-            label: "Major",
+            value: 3,
+            label: "state3",
           },
           {
-            value: "b",
-            label: "Minor",
+            value: 4,
+            label: "state4",
           },
         ]}
       />
@@ -128,9 +133,8 @@ export default function Left() {
       </div>
      
       <div className="bottom-container-left">
-      <button className="back-button-search" onClick={() => history(-1)}>Back</button>
+      <button className="back-button-search" onClick={() => history(-1, {state: failedUnitVal})}>Back</button>
       <button className = "left-search-button" > Search</button>
-
       </div>
     </div>
   );

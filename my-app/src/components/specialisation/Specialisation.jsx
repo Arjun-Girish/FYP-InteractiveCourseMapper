@@ -67,7 +67,7 @@ const [selected, setSelected] = useState(0);
 
       <div className="bottom-container">
               <button className="back-button" onClick={()=>{history('/')}}>Back</button>
-              <button type ="submit" className="submit_button" disabled={major==""} onClick={(e) => {history('/main', {state: {major, semesterStart,userInfoPass }}); localStorage.setItem("yearState", false)}}> Submit </button>
+              <button type ="submit" className="submit_button" disabled={major===""} onClick={(e) => {history('/main', {state: {major, semesterStart,userInfoPass }}); localStorage.setItem("yearState", false)}}> Submit </button>
             </div>
       </div>
 

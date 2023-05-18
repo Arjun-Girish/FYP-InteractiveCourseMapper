@@ -8,7 +8,7 @@ const Header = () => {
 
       <div className="header">
       <img src={logo} className="logo-container"></img>
-      <h1 class="header-text"> Interactive Course Planner</h1>
+      <h1 className="header-text"> Interactive Course Planner</h1>
       <div className="ghost"></div>
 
 
