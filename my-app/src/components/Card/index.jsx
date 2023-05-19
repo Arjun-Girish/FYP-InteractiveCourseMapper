@@ -265,10 +265,6 @@ const MyCard = (props) => {
               <p className= "right-unit-info-header">  ECSE </p>
             </div>
 
-            <div className="right-unit-info-container">
-              <h1 className = "right-unit-info-header"> Electives: </h1> 
-              <p className= "right-unit-info-header">  () </p>
-            </div>
           
             <Button type="primary" style={{ float: "left", marginTop: "20px" }}>
               <a
