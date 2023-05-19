@@ -369,14 +369,14 @@ const Main = ({ updateValue, data, event, swapValue }) => {
   const showConfirm = (e, bool, bool1) => {
     e.stopPropagation(); //阻止原生事件冒泡
     Modal.confirm({
-      title: "Pre-Requisite required",
+      title: "Planning Error",
       icon: <ExclamationCircleOutlined />,
       content: `${
         bool && bool1
-          ? "prerequisite&&semester do not meet"
+          ? "Both prerequisite and semester do not meet"
           : bool
-          ? "prerequisite do not meet"
-          : "semester do not meet"
+          ? "Prerequisite do not meet"
+          : "Semester do not meet"
       }`,
       onOk() {
         console.log("OK");
