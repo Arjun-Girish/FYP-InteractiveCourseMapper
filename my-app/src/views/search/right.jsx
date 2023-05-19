@@ -3,31 +3,47 @@ import React, { useContext } from "react";
 import { MyContext } from "./index";
 import { connect } from "react-redux";
 import { useParams } from "react-router-dom";
-import { updateEvent } from "../../store/actions";
+import { swapValue, updateEvent } from "../../store/actions";
 
 function Right({ updateEvent, event, data }) {
   const { value } = useContext(MyContext);
   const { id } = useParams();
   const { name } = useParams();
-  console.log(value,'---value');
+  console.log(value, "--value");
+  // const filteredList = data.filter((item) => {
+  //   if (value[Object.keys(value)[0]] === "" && !value.state) {
+  //     return "";
+  //   }
+  //   return item[Object.keys(value)[0]]
+  //     .toLowerCase()
+  //     .includes(value[Object.keys(value)[0]].toLowerCase()) &&
+  //     typeof value.state == "number"
+  //     ? (value.state === 2
+  //       ? item.state >= 10
+  //       : value.state === 4
+  //       ? item.state == 3
+  //       : value.state === item.state)
+  //     : (item.sem === (value.state === "a" ? 1 : value.state === "b" ? 2 : 0));
+  // });
   const filteredList = data.filter((item) => {
-    if (value[Object.keys(value)[0]] === "") {
+    if (value[Object.keys(value)[0]] === "" && !value.state) {
       return "";
     }
     return (
       item[Object.keys(value)[0]]
-        .toLowerCase()
-        .includes(value[Object.keys(value)[0]].toLowerCase()) &&
-      item.state === value.state
+        ?.toLowerCase()
+        .includes(value[Object.keys(value)[0]].toLowerCase()) 
+        // &&
+      // (typeof value.state == "number"
+      //   ? value.state === item.state
+      //   : item.sem === (value.state === "a" ? 1 : value.state === "b" ? 2 : 0))
     );
   });
-
   const Change = (item) => {
-    item.id = id * 1 + 1;
+    // item.id = id * 1 + 1;
     // item.name = name;
-    console.log(item, "updateEvent-------");
     alert("unit added");
-    updateEvent(item);
+    updateEvent({ id, item });
   };
 
   return (
@@ -55,6 +71,6 @@ function Right({ updateEvent, event, data }) {
 }
 
 export default connect(
-  (state) => ({data: state.data, event: state.event }), //映射状态
+  (state) => ({ data: state.data, event: state.event }), //映射状态
   { updateEvent } //映射操作状态的方法
 )(Right);

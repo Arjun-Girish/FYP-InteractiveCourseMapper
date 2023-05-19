@@ -1,0 +1,24 @@
+@media print {
+    .noPrint {
+        display: none !important;
+    }
+
+    .home {
+        height: unset !important;
+    }
+
+    .homemain {
+        height: unset !important;
+        overflow-y: unset !important;
+        overflow-x: unset !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .main {
+        height: unset !important;
+    }
+    /* 横向 */
+    @page {
+        size: landscape;
+    }
+}

@@ -17,4 +17,4 @@ export const swapValue = (oldIndex, newIndex) => {
   };
 };
 
-export const updateEvent = (data) => ({ type: "item", data });
+export const updateEvent = ({id,item}) => ({ type: "item", data:{id,item} });
