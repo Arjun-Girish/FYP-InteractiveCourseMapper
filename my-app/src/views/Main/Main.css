@@ -1,3 +1,7 @@
+:root {
+    --card-width: 200px;
+}
+
 .home {
     font-family: 'Roboto';
     background-color: white;
@@ -39,8 +43,8 @@
 
 .homemain-left .year-container .year-text {
     width: 35%;
-    height: 230px;
-    line-height: 230px;
+    height: calc(var(--card-width)  + 50px);
+    line-height: calc(var(--card-width)  + 50px);
     text-align: center;
     border-right: 3px solid #000;
 }
@@ -59,15 +63,9 @@
 }
 
 .homemain-left .year-container .sem-container div {
-    height: 115px;
-    line-height: 115px;
+    height: calc(var(--card-width) / 2 + 25px);
+    line-height: calc(var(--card-width) / 2 + 25px);
     text-align: center;
-}
-
-
-.homemain-left .year-container .sem-container .bottom,
-.homemain-right .cardF .bottom {
-    /* margin-bottom: 10px; */
 }
 
 .homemain-right {
@@ -81,34 +79,65 @@
     height: 100%;
 }
 
-.homemain-right .cardF>div {
-    width: 200px;
-    height: 90px;
+.homemain-right .cardF .card {
+    width: var(--card-width);
+    min-height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    margin: 12.5px 10px 12.5px 10px;
+    margin: 12.5px 10px;
     position: relative;
-    background: #eeece1;
+    background-color: #cbeaf0;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.homemain-right .cardF>div:hover {
+/* .homemain-right .cardF>div:hover {
     cursor: pointer;
-    border-style: solid;
     transition: 0.5s;
-    border-width: 1px;
-}
 
-.homemain-right .cardF>div .state {
+} */
+
+.homemain-right .cardF .card .state {
     position: absolute;
-    right: 2px;
-    top: 2px;
+    right: 8px;
+    top: 8px;
+    transition: transform 0.3s;
 }
 
-.homemain-right .cardF>div .unit-code {
+.homemain-right .cardF .card .state::before {
+    content: "\22EE";
+    /* Unicode character for vertical ellipsis */
+}
+
+.homemain-right .cardF .card .state::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transform: translate(-50%, -50%) scale(0);
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+}
+
+.homemain-right .cardF .card .state:hover {
+    transform: scale(1.2);
+}
+
+.homemain-right .cardF .card .state:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-color: #ccc;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.homemain-right .cardF>div .unit-name {
     width: 80%;
     word-break: break-all;
     text-overflow: ellipsis;
@@ -117,6 +146,27 @@
     -webkit-line-clamp: 2;
     overflow: hidden;
 }
+
+.homemain-right .cardF>div .semester-offerings {
+    font-style:italic;
+    display: flex;
+    font-size: 5px;
+    justify-content: space-between;
+    width: 98%;
+    color: #413f3f;
+    position: absolute;
+    bottom: 2px;
+    margin-bottom: 3px;
+}
+
+.homemain-right .cardF>div .semester-offerings .offering{
+    margin-left: 8px;
+}
+.homemain-right .cardF>div .semester-offerings .credit-points{
+    margin-right: 8px;
+}
+
+
 
 .homemain-right .cardF .highlight {
     background: #B7F8C7 !important;
@@ -146,7 +196,7 @@
 }
 
 .homebottom {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -196,7 +246,8 @@
     width: 100%;
     display: flex;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .create-plan-button:hover {
@@ -204,12 +255,24 @@
     transition: 0.5s;
 }
 
-.unit-code {
+.unit-name {
+
     font-size: 12px;
     font-weight: 400;
 }
 
+.unit-code {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.three_dot {
+    font-size: 10px;
+    font-weight: bold;
+}
+
 .unit-title {
+    position: relative;
     font-size: 12px;
     font-weight: 600;
 }
@@ -281,7 +344,7 @@
 }
 
 .legend-container {
-    width: 100%;
+    width: 80%;
     height: 30px;
     display: flex;
     justify-content: center;

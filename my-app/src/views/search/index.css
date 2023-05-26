@@ -90,7 +90,7 @@ input {
 .right{
     height: 460px;
     width: 400px;
-    
+    overflow: auto;
 }
 
 .back-button-search{
