@@ -664,11 +664,13 @@ const Main = ({ updateValue, data, event, swapValue }) => {
                           ) : (
                             ""
                           )}
+
                           <span
                             onClick={(e) => {
                               e.stopPropagation();
-                            }}
-                          >
+                            }}>
+
+                            <div className="three_dot">
                             <Popconfirm
                               placement="rightTop"
                               title={text(item, index)}
@@ -678,7 +680,10 @@ const Main = ({ updateValue, data, event, swapValue }) => {
                             >
                               <MoreOutlined className="state" />
                             </Popconfirm>
+                            </div>
                           </span>
+                     
+
                           <div className="unit-code">{item.code}</div>
                           <div></div>
                           <div className="unit-name" title={item.name}>

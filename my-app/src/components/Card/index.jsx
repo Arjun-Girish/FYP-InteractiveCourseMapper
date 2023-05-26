@@ -234,17 +234,17 @@ const MyCard = (props) => {
 
             <div className="right-unit-info-container">
               <h1 className = "right-unit-info-header"> Campus: </h1> 
-              <p className= "right-unit-info-value">  Clayton </p>
+              <p className= "right-unit-info-header">  Clayton </p>
             </div>
 
             <div className="right-unit-info-container">
               <h1 className = "right-unit-info-header"> Department: </h1> 
-              <p className= "right-unit-info-value">  Faculty of Engineering </p>
+              <p className= "right-unit-info-header">  Faculty of Engineering </p>
             </div>
 
             <div className="right-unit-info-container">
               <h1 className = "right-unit-info-header"> Teaching Period: </h1> 
-              <p className= "right-unit-info-value">    {item.sem == 0
+              <p className= "right-unit-info-header">    {item.sem == 0
               ? "Semester 1 or Semester 2"
               : item.sem == 1
               ? "Semester 1"
@@ -254,22 +254,17 @@ const MyCard = (props) => {
 
             <div className="right-unit-info-container">
               <h1 className = "right-unit-info-header"> Prohibition:  </h1> 
-              <p className= "right-unit-info-value"> 
-              <span style={{color:'blue'}}>OR</span>:{item.unit_details?.prohibition.OR} 
-              <span style={{color:'red'}}>AND</span>:{item.unit_details?.prohibition.AND}
+              <p className= "right-unit-info-header"> 
+              <span style={{color:'blue'}}>OR</span><span>:{item.unit_details?.prohibition.OR}</span> 
           </p>
             </div>
-
             <div className="right-unit-info-container">
-              <h1 className = "right-unit-info-header"> Major: </h1> 
-              <p className= "right-unit-info-value">  ECSE </p>
+            <h1 className = "right-unit-info-header" style={{color:"white"}}> Prohibition:  </h1> 
+            <p className= "right-unit-info-header"> 
+              <span style={{color:'red'}}>AND</span>:{item.unit_details?.prohibition.AND}
+              </p>
             </div>
 
-            <div className="right-unit-info-container">
-              <h1 className = "right-unit-info-header"> Electives: </h1> 
-              <p className= "right-unit-info-value">  () </p>
-            </div>
-          
             <Button type="primary" style={{ float: "left", marginTop: "20px" }}>
               <a
                 href={`http://www.monash.edu.au/pubs/handbooks/units/${item.code}.html`}
