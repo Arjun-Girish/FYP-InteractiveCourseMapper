@@ -7,6 +7,14 @@ export const updateValue = (index, newValue) => {
     },
   };
 };
+export const semesterOne = (info) => {
+  return {
+    type: "SEMESTER_ONE",
+    data: {
+      info,
+    },
+  };
+};
 export const swapValue = (oldIndex, newIndex) => {
   return {
     type: "SWAP_VALUE",
@@ -17,4 +25,7 @@ export const swapValue = (oldIndex, newIndex) => {
   };
 };
 
-export const updateEvent = (data) => ({ type: "item", data });
+export const updateEvent = ({ id, item }) => ({
+  type: "item",
+  data: { id, item },
+});

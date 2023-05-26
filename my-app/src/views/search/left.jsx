@@ -6,24 +6,26 @@ import "./index.css";
 import { useNavigate, useLocation } from "react-router-dom";
 
 export default function Left() {
-  const handleChange = (value) => {
-    console.log(`selected ${value}`);
-    setNum(value * 1);
+  const { state } = useLocation();
+  const { setValue } = useContext(MyContext);
+  let [mode, setMode] = useState([false, false, false, false]);
+  let [num, setNum] = useState(state);
+  let [search, setSeach] = useState({});
+  const handleChange = (mode, value) => {
+    console.log("selected", mode, value);
+    // setNum(value);
+    search[mode] = value;
+    setSeach(search);
     setMode([false, false, false, false]);
   };
-  let [mode, setMode] = useState([false, false, false, false]);
-  let [num, setNum] = useState(0);
-  const { setValue } = useContext(MyContext);
+
   const [inputValue, setInputValue] = useState({
     code: "",
     name: "",
     input3: "",
   });
-  
-  const history = useNavigate(); 
-  
-  const location = useLocation();
-  const failedUnitVal = location.state.failedUnits
+
+  const history = useNavigate();
 
   const handleInputChange1 = (event) => {
     setInputValue({ ...inputValue, code: event.target.value });
@@ -33,62 +35,99 @@ export default function Left() {
   };
 
   const handleButtonClick = (index) => {
-    console.log(index);
-    setValue({ [index]: inputValue[index],state: num });
+    console.log({ [index]: inputValue[index], state: num });
+    setValue({ [index]: inputValue[index], state: num });
   };
-
+  const handelSearch = () => {
+    setValue({ code: '', state: search });
+  };
   return (
     <div className="left">
-          <p>Search by unit code</p>
+      <p>Search by unit code</p>
 
-          <div className="form-container">
+      <div className="form-container">
+        <input type="text" onChange={handleInputChange1} />{" "}
+        <button
+          className="left-search-button"
+          onClick={() => {
+            handleButtonClick("code");
+          }}
+        >
+          Search
+        </button>
+      </div>
 
-          <input type="text" onChange={handleInputChange1} />{" "}
-          <button className = "left-search-button"
-            onClick={() => {
-              handleButtonClick("code");
-            }}
-          >
-            Search
-          </button>
+      <p>Search by course title</p>
 
-          </div>
-
-          <p>Search by course title</p>
-
-        <div className="form-container">
-
+      <div className="form-container">
         <input type="text" onChange={handleInputChange2} />{" "}
-        <button className = "left-search-button"
+        <button
+          className="left-search-button"
           onClick={() => {
             handleButtonClick("name");
           }}
         >
           Search
         </button>
+      </div>
 
-        </div>
+      <p>Filter by</p>
+      <span>Minor or elective</span>
+      <br />
 
-        <p>Filter by</p>
-        <span>Major & Minor</span>
-        <br />
-
-      <Select className = "filter"
+      <Select
+        className="filter"
         open={mode[0]}
         // suffixIcon={<CaretDownOutlined />}
         defaultValue=""
         style={{
           width: 238,
         }}
-        onChange={handleChange}
+        onChange={(value) => handleChange("sta", value)}
         options={[
           {
-            value: 3,
-            label: "state3",
+            value: 10,
+            label: "Engineering Technical elective",
           },
           {
-            value: 4,
-            label: "state4",
+            value: 11,
+            label: "Artificial intelligence in engineering",
+          },
+          {
+            value: 12,
+            label: "Civil engineering",
+          },
+          {
+            value: 13,
+            label: "Computational engineering",
+          },
+          {
+            value: 14,
+            label: "Engineering entrepreneurship",
+          },
+          {
+            value: 15,
+            label: "Environmental engineering",
+          },
+          {
+            value: 16,
+            label: "Mining engineering",
+          },
+          {
+            value: 17,
+            label: "Micro and nano technologies",
+          },
+          {
+            value: 18,
+            label: "Renewable energy engineering",
+          },
+          {
+            value: 19,
+            label: "Smart manufacturing",
+          },
+          {
+            value: 20,
+            label: "Sustainable engineering",
           },
         ]}
       />
@@ -105,11 +144,11 @@ export default function Left() {
       <p>Teaching Period</p>
       <Select
         open={mode[1]}
-        defaultValue=""
+        defaultValue="c"
         style={{
           width: 238,
         }}
-        onChange={handleChange}
+        onChange={(value) => handleChange("sem", value)}
         options={[
           {
             value: "a",
@@ -118,6 +157,10 @@ export default function Left() {
           {
             value: "b",
             label: "Semester 2",
+          },
+          {
+            value: "c",
+            label: "All Semester",
           },
         ]}
       />
@@ -131,10 +174,15 @@ export default function Left() {
       >
         <CaretDownOutlined />
       </div>
-     
+
       <div className="bottom-container-left">
-      <button className="back-button-search" onClick={() => history(-1, {state: failedUnitVal})}>Back</button>
-      <button className = "left-search-button" > Search</button>
+        <button className="back-button-search" onClick={() => history(-1)}>
+          Back
+        </button>
+        <button className="left-search-button" onClick={handelSearch}>
+          {" "}
+          Search
+        </button>
       </div>
     </div>
   );
