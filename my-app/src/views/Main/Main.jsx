@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom";
 import { connect } from "react-redux";
 import { updateValue, swapValue } from "../../store/actions";
 import "./Main.css";
+import "./print.css";
 import { Link, useLocation } from "react-router-dom";
 import Sortable, { Swap } from "sortablejs";
 
@@ -23,337 +24,6 @@ const Main = ({ updateValue, data, event, swapValue }) => {
   const cardFRef = useRef(null);
 
   //数据
-  // const [aeroUnits, setAeroUnits] = useState([
-  //   {
-  //     id: "",
-  //     box_id: 1,
-  //     semester_status: 3,
-  //     name: "ENG1013",
-  //     credit: "6",
-  //     unitTitle: "Engineering smart systems",
-  //     unitInfo: [],
-  //     prerequisite: {
-  //       OR: ["ENG1814", "ENG1060"],
-  //       AND: ["ENG1005"],
-  //       prohibiton: [],
-  //     },
-  //   },
-
-  //   {
-  //     id: "",
-  //     box_id: 2,
-  //     semester_status: 3,
-  //     name: "ENG1005",
-  //     credit: "6",
-  //     unitTitle: "Engineering Mathamatics",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: "",
-  //     box_id: 3,
-  //     semester_status: 3,
-  //     name: "ENG1014",
-  //     credit: "6",
-  //     unitTitle: "Engineering numerical analysis",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: "",
-  //     box_id: 4,
-  //     semester_status: 3,
-  //     name: "Elective",
-  //     credit: "6",
-  //     unitTitle: "First year elective",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: "",
-  //     box_id: 5,
-  //     semester_status: 3,
-  //     name: "ENG1012",
-  //     credit: "6",
-  //     unitTitle: "Engineering design",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: "",
-  //     box_id: 6,
-  //     semester_status: 3,
-  //     name: "ENG1011",
-  //     credit: "6",
-  //     unitTitle: "Engineering methods",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: "",
-  //     box_id: 7,
-  //     semester_status: 3,
-  //     name: "Elective",
-  //     credit: "6",
-  //     unitTitle: "Level 1,2,3 elective",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: "",
-  //     box_id: 8,
-  //     semester_status: 3,
-  //     name: "Elective",
-  //     credit: "6",
-  //     unitTitle: "Level 1,2,3 elective",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 9,
-  //     box_id: 9,
-  //     semester_status: 1,
-  //     name: "MEC2402",
-  //     credit: "6",
-  //     unitTitle: "Design methods",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 10,
-  //     box_id: 10,
-  //     semester_status: 1,
-  //     name: "MEC2403",
-  //     credit: "6",
-  //     unitTitle: "Mechanics of materials",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 11,
-  //     box_id: 11,
-  //     semester_status: 3,
-  //     name: "ENG2005",
-  //     credit: "6",
-  //     unitTitle: "Advanced engineering mathematics",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: "",
-  //     box_id: 12,
-  //     semester_status: 3,
-  //     name: "Elective",
-  //     credit: "6",
-  //     unitTitle: "Level 1,2,3 elective",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 13,
-  //     box_id: 13,
-  //     semester_status: 2,
-  //     name: "MAE2402",
-  //     credit: "6",
-  //     unitTitle: "Thermodynamics and gas dynamics",
-  //     unitInfo: [],
-  //     prerequisite: {
-  //       OR: ["ENG1814", "ENG1060"],
-  //       AND: ["ENG1005"],
-  //       prohibiton: [],
-  //     },
-  //   },
-
-  //   {
-  //     id: 14,
-  //     box_id: 14,
-  //     semester_status: 2,
-  //     name: "MAE2404",
-  //     credit: "6",
-  //     unitTitle: "Aerodynamics 1",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 15,
-  //     box_id: 15,
-  //     semester_status: 2,
-  //     name: "MAE2505",
-  //     credit: "6",
-  //     unitTitle: "Aerospace dynamics",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: "",
-  //     box_id: 16,
-  //     semester_status: 3,
-  //     name: "Elective",
-  //     credit: "6",
-  //     unitTitle: "Level 1,2,3 elective",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 17,
-  //     box_id: 17,
-  //     semester_status: 1,
-  //     name: "MAE3401",
-  //     credit: "6",
-  //     unitTitle: "Aerodynamics 2",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 18,
-  //     box_id: 18,
-  //     semester_status: 1,
-  //     name: "MAE3404",
-  //     credit: "6",
-  //     unitTitle: "Flight vehicle dynamics",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 19,
-  //     box_id: 19,
-  //     semester_status: 1,
-  //     name: "MEC3456",
-  //     credit: "6",
-  //     unitTitle: "Engineering computational analysis",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: "",
-  //     box_id: 20,
-  //     semester_status: 3,
-  //     name: "Elective",
-  //     credit: "6",
-  //     unitTitle: "Level 1,2,3 elective",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 21,
-  //     box_id: 21,
-  //     semester_status: 2,
-  //     name: "MAE3405",
-  //     credit: "6",
-  //     unitTitle: "Aerospace propulsion",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 22,
-  //     box_id: 22,
-  //     semester_status: 2,
-  //     name: "MAE3408",
-  //     credit: "6",
-  //     unitTitle: "Aerospace control",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 23,
-  //     box_id: 23,
-  //     semester_status: 2,
-  //     name: "MAE3411",
-  //     credit: "6",
-  //     unitTitle: "Aerospace structural mechanics",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: "",
-  //     box_id: 24,
-  //     semester_status: 3,
-  //     name: "Elective",
-  //     credit: "6",
-  //     unitTitle: "Level 1,2,3 elective",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 25,
-  //     box_id: 25,
-  //     semester_status: 3,
-  //     name: "ENG4701",
-  //     credit: "6",
-  //     unitTitle: "Final year project A",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 26,
-  //     box_id: 26,
-  //     semester_status: 1,
-  //     name: "MAE4416",
-  //     credit: "6",
-  //     unitTitle: "Orbital mechanics and spaceflight dynamics",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 27,
-  //     box_id: 27,
-  //     semester_status: 1,
-  //     name: "MEC4404",
-  //     credit: "6",
-  //     unitTitle: "Professional practice",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: "",
-  //     box_id: 28,
-  //     semester_status: 3,
-  //     name: "Elective",
-  //     credit: "6",
-  //     unitTitle: "Level 1,2,3 elective",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 29,
-  //     box_id: 29,
-  //     semester_status: 3,
-  //     name: "ENG4702",
-  //     credit: "6",
-  //     unitTitle: "Final year project B",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 30,
-  //     box_id: 30,
-  //     semester_status: 2,
-  //     name: "MAE4426",
-  //     credit: "6",
-  //     unitTitle: "Finite element analysis and composite structures",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: 31,
-  //     box_id: 31,
-  //     semester_status: 2,
-  //     name: "MAE4410",
-  //     credit: "6",
-  //     unitTitle: "Flight vehicle design",
-  //     unitInfo: [],
-  //   },
-
-  //   {
-  //     id: "",
-  //     box_id: 32,
-  //     semester_status: 3,
-  //     name: "Elective",
-  //     credit: "6",
-  //     unitTitle: "Level 1,2,3 elective",
-  //     unitInfo: [],
-  //   },
-  // ]);
   const [bioUnits, setBioUnits] = useState([
     {
       id: 1,
@@ -676,17 +346,15 @@ const Main = ({ updateValue, data, event, swapValue }) => {
     },
   ]);
 
-  const showModal = (item) => {
+  const showModal = (data, index) => {
     setIsModalOpen(true);
-    setItem(item);
+    setItem({ data, index });
     console.log(isModalOpen);
   };
 
   const location = useLocation();
   const yearStart = Number(location.state.semesterStart);
   const degree = location.state.major;
-
-
 
   const handleOk = () => {
     setIsModalOpen(false);
@@ -697,7 +365,6 @@ const Main = ({ updateValue, data, event, swapValue }) => {
 
   const [failedUnits, setFailedUnits] = useState([]);
 
-
   const showConfirm = (e, bool, bool1) => {
     e.stopPropagation(); //阻止原生事件冒泡
     Modal.confirm({
@@ -705,9 +372,9 @@ const Main = ({ updateValue, data, event, swapValue }) => {
       icon: <ExclamationCircleOutlined />,
       content: `${
         bool && bool1
-          ? "Prerequisites have not been completed. This unit is not offered in this semester"
+          ? "Prerequisites have not been completed."+"This unit is not offered in this semester"
           : bool
-          ? "Prerequisites have not been completed"
+          ? "Prerequisites have not been completed."
           : "This unit is not offered in this semester"
       }`,
       onOk() {
@@ -719,11 +386,11 @@ const Main = ({ updateValue, data, event, swapValue }) => {
     });
   };
   const checkDataOr = (data, event) => {
-    if (event.unit_details.prerequisite.OR.length === 0) {
+    if (event.unit_details?.prerequisite?.OR.length === 0) {
       return true;
     }
-    for (let i = 0; i < event.unit_details.prerequisite.OR.length; i++) {
-      const code = event.unit_details.prerequisite.OR[i];
+    for (let i = 0; i < event.unit_details?.prerequisite?.OR.length; i++) {
+      const code = event.unit_details?.prerequisite?.OR[i];
       for (let j = 0; j < data.length; j++) {
         if (data[j].code === code) {
           if (data[j].study === "failed") {
@@ -737,7 +404,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
   };
 
   const checkDataAND = (data, event) => {
-    let andArr = event.unit_details.prerequisite.AND;
+    let andArr = event.unit_details?.prerequisite?.AND;
     let code = [];
     for (let j = 0; j < data.length; j++) {
       if (data[j].study === "failed") {
@@ -757,10 +424,12 @@ const Main = ({ updateValue, data, event, swapValue }) => {
     //state 数据
     // const datas = degree === "Aerospace Engineering" ? data : bioUnits;
     if (
-      events.unit_details.prerequisite.OR.length === 0 &&
-      events.unit_details.prerequisite.AND.length === 0
-    )
+      (events.unit_details?.prerequisite?.OR.length === 0 &&
+        events.unit_details?.prerequisite?.AND.length === 0) ||
+      !events.unit_details
+    ) {
       return false;
+    }
     if (JSON.stringify(events) !== "{}") {
       // 计算上一组数据在数组中的起始位置和结束位置
       const end = Math.ceil((id * 1 + 1) / 4 - 1) * 4;
@@ -775,8 +444,8 @@ const Main = ({ updateValue, data, event, swapValue }) => {
         return !(res && res1);
       } else {
         if (
-          events.unit_details.prerequisite.OR.length !== 0 ||
-          events.unit_details.prerequisite.OR.length !== 0
+          events.unit_details?.prerequisite?.OR.length !== 0 ||
+          events.unit_details?.prerequisite?.OR.length !== 0
         ) {
           return true;
         }
@@ -784,7 +453,6 @@ const Main = ({ updateValue, data, event, swapValue }) => {
     }
   };
 
-  
   const color = {
     display: "inline-block",
     width: "15px",
@@ -795,8 +463,6 @@ const Main = ({ updateValue, data, event, swapValue }) => {
   //选择课程状态
   const handelColor = (item, index, state) => {
     console.log(item, state);
-    console.log("failed units: " + failedUnits)
-
 
     if (degree === "Aerospace Engineering") {
       item.study = state;
@@ -814,7 +480,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
     }
 
     /* Adding to passed Units Column */
-    if (state === "passed" || state === "progess" || state === "upcoming" || state === "reset") {
+    if (state === "passed" || state === "progess" || state === "upcoming") {
       console.log(item.name);
       const index1 = failedUnits.indexOf(item.code);
       console.log(failedUnits[index1]);
@@ -840,7 +506,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
         return "#bfbfbf";
 
       default:
-        return "#eeece1";
+        return "#f0ecd8";
     }
   };
   const text = (item, index) => {
@@ -853,7 +519,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
         >
           <span
             className="passed color"
-            style={{ ...color, background: "#7fbf7f", "margin-right": "5px" }}
+            style={{ ...color, background: "#7fbf7f" }}
           ></span>
           <span>Passed</span>
         </div>
@@ -865,7 +531,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
         >
           <span
             className="failed color"
-            style={{ ...color, background: "#ff7f7f", "margin-right": "5px" }}
+            style={{ ...color, background: "#ff7f7f" }}
           ></span>
           <span>Failed</span>
         </div>
@@ -877,7 +543,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
         >
           <span
             className="progess color"
-            style={{ ...color, background: "#ffa500" , "margin-right": "5px"}}
+            style={{ ...color, background: "#ffa500" }}
           ></span>
           <span>ln-Progress</span>
         </div>
@@ -889,11 +555,10 @@ const Main = ({ updateValue, data, event, swapValue }) => {
         >
           <span
             className="upcoming color"
-            style={{ ...color, background: "#bfbfbf" , "margin-right": "5px"}}
+            style={{ ...color, background: "#eeece1" }}
           ></span>
           <span>Upcoming</span>
         </div>
-
       </div>
     );
   };
@@ -915,7 +580,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
     }
   };
   useEffect(() => {
-    updateValue(event.id - 1, event);
+    updateValue(event.id, event.item);
     const sortable = Sortable.create(cardFRef.current, {
       animation: 150,
       easing: "cubic-bezier(1, 0, 0, 1)",
@@ -966,10 +631,10 @@ const Main = ({ updateValue, data, event, swapValue }) => {
                   {(degree === "Aerospace Engineering" ? data : bioUnits)
                     .slice(0, 32)
                     .map((item, index) => {
-                      return !(item.state === 2) ? (
+                      return !(item.state === 2 || item.state === 4) ? (
                         <div
                           key={index + new Date()}
-                          onClick={() => showModal(item)}
+                          onClick={() => showModal(item, index)}
                           style={{ background: styleColor(item?.study) }}
                           className={`${
                             courseCheck(item, index) ? "error" : ""
@@ -979,7 +644,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
                             item?.study === "passed" || item?.study === "failed"
                               ? "ignore-elements"
                               : "draggable"
-                          } ${semCheck(item, index) ? "" : "semerror"}`}
+                          } ${semCheck(item, index) ? "" : "semerror"} card`}
                         >
                           {courseCheck(item, index) ||
                           !semCheck(item, index) ? (
@@ -998,11 +663,13 @@ const Main = ({ updateValue, data, event, swapValue }) => {
                           ) : (
                             ""
                           )}
+
                           <span
                             onClick={(e) => {
                               e.stopPropagation();
-                            }}
-                          >
+                            }}>
+
+                            <div className="three_dot">
                             <Popconfirm
                               placement="rightTop"
                               title={text(item, index)}
@@ -1012,22 +679,50 @@ const Main = ({ updateValue, data, event, swapValue }) => {
                             >
                               <MoreOutlined className="state" />
                             </Popconfirm>
+                            </div>
                           </span>
-                          <div style={{ fontSize: "16px" }}>{item.code}</div>
-                          <div className="unit-code" title={item.name}>
+                     
+
+                          <div className="unit-code">{item.code}</div>
+                          <div></div>
+                          <div className="unit-name" title={item.name}>
                             {item.name}
                           </div>
                           <div className="unit-title">{item.unitTitle}</div>
+
+                          <div className="semester-offerings">
+                            <span className="offering">
+                              {item.sem == 0
+                                ? "S1,S2"
+                                : item.sem == 1
+                                ? "S1"
+                                : "S2"}
+                            </span>
+                            <span className="credit-points">
+                              {item["credit points"]}CP
+                            </span>
+                          </div>
                         </div>
                       ) : (
                         <div
                           className={`${
                             Math.floor(index / 4) % 2 !== 0 ? "bottom" : ""
-                          } draggable`}
+                          } draggable card`}
                           key={index + new Date()}
-                          onClick={() => history(`/search/${index}`,{state: {failedUnits}})}
+                          onClick={() =>
+                            history(`/search/${index}`, { state: item.state })
+                          }
                         >
-                          <PlusOutlined></PlusOutlined>
+                          <div style={{ fontSize: "14px", color: "#169bd5" }}>
+                            {" "}
+                            Click to Add
+                          </div>
+                          {/* <PlusOutlined></PlusOutlined> */}
+                          {item.state === 2
+                            ? "Minor or Technical elective"
+                            : item.state === 4
+                            ? "First Year elective"
+                            : ""}
                         </div>
                       );
                     })}
@@ -1043,7 +738,7 @@ const Main = ({ updateValue, data, event, swapValue }) => {
               footer={[]}
               width={800}
             >
-              <Card title={"i"} item={item}></Card>
+              <Card title={"i"} item={item.data} index={item.index}></Card>
             </Modal>
           </div>
         </div>
@@ -1057,13 +752,12 @@ const Main = ({ updateValue, data, event, swapValue }) => {
 
           {failedUnits.map((failedUnit) => (
             <div className="failed-unit" key={failedUnit}>
-
               {failedUnit}
             </div>
           ))}
         </div>
       </div>
-      <div className="bottom-div">
+      <div className="bottom-div noPrint">
         <button className="back-button-main" onClick={() => history(-1)}>
           Back
         </button>
@@ -1085,10 +779,11 @@ const Main = ({ updateValue, data, event, swapValue }) => {
         <button
           type="submit"
           className="submit-button-main"
-          onClick={() => history("/export")}
+          // onClick={() => history("/export")}
+          onClick={() => window.print()}
         >
           {" "}
-          Submit{" "}
+          Save{" "}
         </button>
       </div>
     </div>

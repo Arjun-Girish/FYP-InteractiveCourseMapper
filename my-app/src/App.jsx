@@ -1,23 +1,22 @@
 import "./App.css";
 import Routes from "./router/routes";
-import logo from './logo.png';
-import {Link} from 'react-router-dom';
+import logo from "./logo.png";
+import { Link } from "react-router-dom";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    
     <div className="app-container">
       <Header />
       <Navbar />
 
       <div className="main">
-        <Routes /> 
+        <Routes />
       </div>
 
-      <div className="footer">
+      <div className="footer noPrint">
         <Footer />
       </div>
     </div>

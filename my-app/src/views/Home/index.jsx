@@ -85,8 +85,8 @@ const Home = ({ updateValue, data, event }) => {
           <div>2023</div>
           <div className="homecon">
             <div>
-              <div>Samesler 1</div>
-              <div>Samesler 2</div>
+              <div>Semester 1</div>
+              <div>Semester 2</div>
             </div>
             <div className="cardF">
               {data.slice(0, 8).map((item, index) => {
@@ -111,8 +111,8 @@ const Home = ({ updateValue, data, event }) => {
           <div>2024</div>
           <div className="homecon">
             <div>
-              <div>Samesler 1</div>
-              <div>Samesler 2</div>
+              <div>Semester 1</div>
+              <div>Semester 2</div>
             </div>
             <div className="cardF">
               {data.slice(8, 16).map((item, index) => {
@@ -144,8 +144,8 @@ const Home = ({ updateValue, data, event }) => {
           <div>2025</div>
           <div className="homecon">
             <div>
-              <div>Samesler 1</div>
-              <div>Samesler 2</div>
+              <div>Semester 1</div>
+              <div>Semester 2</div>
             </div>
             <div className="cardF">
               {data.slice(16, 24).map((item, index) => {
@@ -173,8 +173,8 @@ const Home = ({ updateValue, data, event }) => {
           <div>2026</div>
           <div className="homecon">
             <div>
-              <div>Samesler 1</div>
-              <div>Samesler 2</div>
+              <div>Semester 1</div>
+              <div>Semester 2</div>
             </div>
             <div className="cardF">
               {data.slice(24, 32).map((item, index) => {

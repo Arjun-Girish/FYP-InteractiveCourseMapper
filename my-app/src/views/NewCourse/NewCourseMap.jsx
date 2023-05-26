@@ -2,8 +2,9 @@ import React, {useState} from "react";
 import './NewCourseMap.css';
 import logo from './monash-m.logo.jpg';
 import { useNavigate } from "react-router-dom";
-
-const NewCourseMap = () => {
+import { semesterOne } from "../../store/actions";
+import { connect } from "react-redux";
+const NewCourseMap = ({semesterOne}) => {
 
   const [userInfo,setUserInfo] = useState({
     courseName: null,
@@ -34,7 +35,7 @@ const NewCourseMap = () => {
 
   const handleSubmit = (e) => {
     console.log(userInfo);
-
+    semesterOne(userInfo)
     if (userInfo.courseName==null)
     {
       setError1(true)
@@ -135,13 +136,13 @@ const NewCourseMap = () => {
                   <div className="checkbox-container">
                     <input type="checkbox" id="maths-34" name="vceUnitsMaths" onChange={e=>handleChange}/>
                     <label className="checkbox-vce">VCE Specialist Mathematics 3/4</label> 
-                    <p1 className = "required-12">* Study Score > 30 </p1>
+                    <p className = "required-12">* Study Score > 30 </p>
                   </div>
 
                   <div className="checkbox-container">
                     <input type="checkbox" id="physics-34" name="vceUnitsPhysics" onChange={e=>handleChange}/>
                     <label className="checkbox-vce">VCE Physics 3/4</label>  
-                    <p1 className = "required-12"> * Study Score > 25 </p1>
+                    <p className = "required-12"> * Study Score > 25 </p>
                   </div>
 
                   </div>
@@ -166,4 +167,7 @@ const NewCourseMap = () => {
  
 }
 
-export default NewCourseMap
+export default connect(
+  (state) => ({ data: state.data }), //映射状态
+  { semesterOne } //映射操作状态的方法
+)(NewCourseMap);
