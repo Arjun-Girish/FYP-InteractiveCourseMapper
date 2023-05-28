@@ -24,7 +24,7 @@ function Right({ updateEvent, event, data }) {
           ? item.state >= 10
           : value.state === 4
           ? item.state === 3
-          : value.state === item.state
+          : item.state ===3 || item.state >=10
         : item.sem ===
             (value.state.sem === "a" ? 1 : value.state.sem === "b" ? 2 : 0) &&
           item.state === value.state.sta)
