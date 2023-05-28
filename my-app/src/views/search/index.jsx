@@ -7,10 +7,15 @@ import "./index.css";
 export default function Index() {
   const [value, setValue] = useState({ code: "" });
   return (
-
     <MyContext.Provider value={{ value, setValue }}>
-      <div style={{ margin: "0 100px ", width:'100%' }}>
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div style={{ margin: "0 100px ", width: "100%" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            height: "460px",
+          }}
+        >
           <Left></Left>
           <Right></Right>
         </div>

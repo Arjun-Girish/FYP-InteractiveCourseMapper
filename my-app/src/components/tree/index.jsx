@@ -116,7 +116,7 @@
 import { OrganizationGraph } from "@ant-design/graphs";
 
 const Tree = (props) => {
-  const {data}=props
+  const { data } = props;
   // const data = {
   //   id: "root",
   //   value: {
@@ -150,19 +150,30 @@ const Tree = (props) => {
   //     },
   //   ],
   // };
+  console.log(data, "---data");
   const config = {
     nodeCfg: {
       size: [80, 50],
       style: (node) => {
-        return node.value?{
-          fill: "#eeece1",
-          stroke: "#eeece1",
-        }:{
-            fill: 'transparent',
-            width:1,
-            radius: 1.5,
-            stroke: "#000",
-        };
+        console.log(node, !node.children, "---node");
+        return node.value
+          ? node.value.id === 2
+            ? {
+                fill: "#eeece1",
+                stroke: "blue",
+              }
+            : !node.children
+            ? {
+                fill: "#eeece1",
+                stroke: "red",
+              }
+            : { fill: "#eeece1", stroke: "#eeece1" }
+          : {
+              fill: "transparent",
+              width: 1,
+              radius: 1.5,
+              stroke: "#000",
+            };
       },
       label: {
         style: (node, group, type) => {
@@ -182,16 +193,28 @@ const Tree = (props) => {
     },
     edgeCfg: {
       type: "polyline",
-      style: {
-        stroke: "block",
-        lineWidth:'2',
-        endArrow: false,
+      style: (edge) => {
+        return {
+          stroke: "block",
+          lineWidth: "2",
+          endArrow: false,
+        };
       },
+      //       style: (edge) => {
+      //         const stroke = edge.target === "1" ? "#aaa" : "#www";
+      //         return { stroke, lineWidth: "2" };
+      //       },
     },
     layout: {
       direction: "BT",
     },
   };
-  return <OrganizationGraph data={data} {...config} behaviors={['drag-canvas', 'zoom-canvas']} />;
+  return (
+    <OrganizationGraph
+      data={data}
+      {...config}
+      behaviors={["drag-canvas", "zoom-canvas"]}
+    />
+  );
 };
 export default Tree;
