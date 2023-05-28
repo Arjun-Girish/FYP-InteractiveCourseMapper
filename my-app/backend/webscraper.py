@@ -15,9 +15,9 @@ class Webscraper:
 
     def extract_data(self, raw_text):
         code_CP = raw_text.split('arrow_forward')[1].split(' ')[0]
-        code = code_CP[:-1]
+        code = code_CP[:-3] # Change -1 to -3 for UG specialisation
         name = raw_text.split("CP")[1]
-        credit_points = code_CP[-1:]
+        credit_points = code_CP[-3:] # Change -1 to -3 for UG specialisation
         return {"code": code, "credit points": credit_points, "name": name}
 
     def extract_unit_data(self, raw_text):
@@ -42,7 +42,15 @@ class Webscraper:
         url = 'https://handbook.monash.edu/2023/courses/E3001'
         soup = self.get_page_content(url)
         spec_elements = soup.find_all("div", class_="css-m23545-Links--LinkGroupWrapper e1t6s54p1", filter="ug_specialisation")
-        specialisations = [self.extract_data(e.text.strip()) for e in spec_elements]
+        specialisations = [
+            {"code": "SFTWRENG01", "credit points": "144", "name": "Software engineering"}]
+        #[self.extract_data(e.text.strip()) for e in spec_elements]
+        # {"code": "AEROENG04", "credit points": "144", "name": "Aerospace engineering"},
+        # #     {"code": "BIOMDENG03", "credit points": "144", "name": "Biomedical engineering"},
+        #  {"code": "CHEMENG04", "credit points": "144", "name": "Chemical engineering"},
+        #     {"code": "CIVILENG03", "credit points": "144", "name": "Civil engineering"},
+        #     {"code": "ECSYSENG04", "credit points": "144", "name": "Electrical and computer systems engineering"},
+        # {"code": "ENVIRENG03", "credit points": "144", "name": "Environmental engineering"},
 
         for spec in specialisations:
             spec_code = spec["code"]
@@ -108,7 +116,7 @@ class Webscraper:
         print('CODE REACHED')
         url = 'https://handbook.monash.edu/2023/aos/' + unit
         soup = self.get_page_content(url)
-        unit_elements = soup.find_all("div", class_="css-gzffxs-Links--LinkGroupWrapper e1t6s54p1", filter="subject")
+        unit_elements = soup.find_all("div", class_="css-m23545-Links--LinkGroupWrapper e1t6s54p1", filter="subject")
         return [self.extract_unit_data(e.text.strip()) for e in unit_elements]
     # Use css-gzffxs-Links--LinkGroupWrapper e1t6s54p1 for minor units
     # Use css-m23545-Links--LinkGroupWrapper e1t6s54p1 for core/specialisation units
@@ -205,6 +213,7 @@ class Webscraper:
                 # Code to retrieve units outside requisite group.
                     unit_code_divs = requisite_element.find_all("div", class_=lambda x: x and "StyledAILinkHeaderSection__content1" in x)
                     span_tags = requisite_element.find_all("span")
+                    unit_code = None
 
                     if unit_code_divs:
                         unit_code = unit_code_divs[-1].text.strip()
@@ -269,7 +278,7 @@ class Webscraper:
 
 
 MonashHandbook = Webscraper()
-# specialisations = MonashHandbook.get_ug_specialisation()
-engineering_minors = MonashHandbook.get_eng_minors()
+specialisations = MonashHandbook.get_ug_specialisation()
+# engineering_minors = MonashHandbook.get_eng_minors()
 # first_year_electives = MonashHandbook.get_first_year_electives()
 
