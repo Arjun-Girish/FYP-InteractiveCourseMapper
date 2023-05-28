@@ -1,0 +1,2231 @@
+{
+    "code": "ROBMCTRN03",
+    "credit points": "144",
+    "name": "Robotics and mechatronics engineering",
+    "core_units": [
+        {
+            "code": "ECE2071",
+            "credit points": "6",
+            "name": "Computer organisation and programming",
+            "unit_details": {
+                "overview": "Overview This unit provides an introduction to computers and CPU organisation, assemblers and compilers, and algorithm design for engineering problems and embedded computer systems. It covers the language C and its implementation on a typical computer, including standard data types, arrays, control statements, functions, including ways of parameter passing, C library \u2026 For more content click the Read More button below.This unit provides an introduction to computers and CPU organisation, assemblers and compilers, and algorithm design for engineering problems and embedded computer systems. It covers the language C and its implementation on a typical computer, including standard data types, arrays, control statements, functions, including ways of parameter passing, C library functions, pointers, strings, arrays of pointers, structures, linked lists and binary tree data structures, dynamic memory allocations, and calls to assembly language programs. Object-oriented programming is introduced. Software engineering is covered as the methodology of software development and lifecycle models. Operating system concepts are introduced. The unit also includes an introduction to programmable logic controllers (PLCs).Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1003",
+                        "ENG1013",
+                        "ENG1014"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ECE2131",
+            "credit points": "6",
+            "name": "Electrical circuits",
+            "unit_details": {
+                "overview": "Overview This unit provides foundation knowledge for analogue circuit analysis and design. You will be introduced to the fundamentals of linear electronic circuit analysis and design. At the completion of the unit, you will develop skills in using state of the art prototyping and measurement tools for linear electronic circuit analysis \u2026 For more content click the Read More button below.\nThe unit will provide a grounding in circuit theory leading to solutions of electrical networks with node and mesh analysis, equivalent sources, two-port representations and simulation. AC analysis with phasors, first and second-order transient responses will be included. Frequency and time response will be developed with Laplace transform techniques.This unit provides foundation knowledge for analogue circuit analysis and design. You will be introduced to the fundamentals of linear electronic circuit analysis and design. At the completion of the unit, you will develop skills in using state of the art prototyping and measurement tools for linear electronic circuit analysis and design. The topics covered in this course include sinusoidal steady-state analysis using phasors and complex impedances, feedback concepts, solid-state electronics, solid-state diodes and diode circuits, field-effect transistors, bipolar junction transistors and operational amplifiers.\nThe unit will provide a grounding in circuit theory leading to solutions of electrical networks with node and mesh analysis, equivalent sources, two-port representations and simulation. AC analysis with phasors, first and second-order transient responses will be included. Frequency and time response will be developed with Laplace transform techniques.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1013",
+                        "ENG1002"
+                    ],
+                    "AND": [
+                        "ENG1005",
+                        "ENG1005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2031"
+                    ]
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ENG2005",
+            "credit points": "6",
+            "name": "Advanced engineering mathematics",
+            "unit_details": {
+                "overview": "Overview This unit introduces advanced mathematical concepts required for all disciplines of engineering that extend on the concepts in ENG1005 Engineering mathematics.\nMajor concepts taught using engineering contexts include multivariable and vector calculus, Fourier series and partial differential equations. Specific topics include partial derivatives, double and triple integrals with change of \u2026 For more content click the Read More button below.This unit introduces advanced mathematical concepts required for all disciplines of engineering that extend on the concepts in ENG1005 Engineering mathematics.\nMajor concepts taught using engineering contexts include multivariable and vector calculus, Fourier series and partial differential equations. Specific topics include partial derivatives, double and triple integrals with change of coordinates, vector functions and operators, parametric curves and surfaces, periodic functions, Laplace transforms, ODE boundary value problems, partial differential equation solution techniques and applications.Read More about Overview",
+                "offerings": {
+                    "NOV12-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "November teaching period",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1014",
+                        "ENG1060"
+                    ],
+                    "AND": [
+                        "ENG1005",
+                        "ENG1005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [
+                        "MTH2010",
+                        "MTH2015"
+                    ],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MEC2402",
+            "credit points": "6",
+            "name": "Design methods",
+            "unit_details": {
+                "overview": "Overview This unit will help you to develop a systematic method of capturing design requirements, tools for ideation, estimation and decision-making. Primary and secondary manufacturing processes, assembly techniques. Engineering graphics for problem-solving, manufacturing communication and ideation. Report writing, teamwork in solving design problems involving the integration of mechanical elements in prototype \u2026 For more content click the Read More button below.This unit will help you to develop a systematic method of capturing design requirements, tools for ideation, estimation and decision-making. Primary and secondary manufacturing processes, assembly techniques. Engineering graphics for problem-solving, manufacturing communication and ideation. Report writing, teamwork in solving design problems involving the integration of mechanical elements in prototype conception, construction and testing.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MAE2412"
+                    ]
+                },
+                "rules": "Prerequisite: 12 engineering credit points at level 1\nE6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "ECE2072",
+            "credit points": "6",
+            "name": "Digital systems",
+            "unit_details": {
+                "overview": "Overview This unit introduces you to modern logic design techniques, hardware used and common representations. Topics include two and multi-level combinational logic, decoders, multiplexers, arithmetic circuits, programmable and steering logic, flip-flops, registers, counters, RAM and ROM. Using this hardware the design component will include finite state machine design and applications to \u2026 For more content click the Read More button below.This unit introduces you to modern logic design techniques, hardware used and common representations. Topics include two and multi-level combinational logic, decoders, multiplexers, arithmetic circuits, programmable and steering logic, flip-flops, registers, counters, RAM and ROM. Using this hardware the design component will include finite state machine design and applications to computer data path control. This will incorporate simple analogue and digital I/O interfacing. Programmable logic devices will be covered, and the use of a hardware description language for describing, synthesising and testing digital logic. Laboratories cover logic design, implementation, and testing.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite: 24 credit points from the Faculty of Engineering or the Faculty of Information Technology\nE6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "TRC2201",
+            "credit points": "6",
+            "name": "Mechanics",
+            "unit_details": {
+                "overview": "Overview Kinematics: position, velocity and acceleration; relative motion analysis and applications for particles and rigid bodies. Dynamics: the translational and rotational motion of free and constrained forces, their origin and significance; equation of motion, the principle of impulse and momentum, principles of work and energy, analysis of planar motion, fundamentals of \u2026 For more content click the Read More button below.Kinematics: position, velocity and acceleration; relative motion analysis and applications for particles and rigid bodies. Dynamics: the translational and rotational motion of free and constrained forces, their origin and significance; equation of motion, the principle of impulse and momentum, principles of work and energy, analysis of planar motion, fundamentals of mechanical vibrations. Strength of materials: stress and strain in 2D and 3D space, Hookes law, shear force and bending moments, moments of area, deflection of beams, equilibrium and compatibility equations, stress and strain transformation, Mohr circle, simple failure criteria, elastic instability - buckling.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MEC2401"
+                    ]
+                },
+                "rules": "Prerequisite: Completion of 42 credit points "
+            }
+        },
+        {
+            "code": "ECE3161",
+            "credit points": "6",
+            "name": "Analogue electronics",
+            "unit_details": {
+                "overview": "Overview The unit consolidates MOS and BJT single ended amplifiers, and introduces the design of advanced analogue building blocks, such as differential amplifier circuits, current mirrors, reference voltage circuits, regulators and operational amplifiers. Opamp design and its corresponding frequency response, as well as ways to improve arising stability issues (e.g. using \u2026 For more content click the Read More button below.The unit consolidates MOS and BJT single ended amplifiers, and introduces the design of advanced analogue building blocks, such as differential amplifier circuits, current mirrors, reference voltage circuits, regulators and operational amplifiers. Opamp design and its corresponding frequency response, as well as ways to improve arising stability issues (e.g. using pole compensation) are discussed.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ECE2131",
+                        "ECE2031"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "ECE3062"
+                    ]
+                },
+                "rules": "E6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "TRC3200",
+            "credit points": "6",
+            "name": "Dynamical systems",
+            "unit_details": {
+                "overview": "Overview Instruction on the basics of dynamics of mechatronic systems, incorporating electromagnetics into advanced dynamics analysis via d'Alembert's Principle and the virtual power method, Hamilton's and Lagrange's equations, and bond graphs. Focus on applications of dynamics in mechatronics, with kinematics and dynamics of robotic structures, magneto-electro-mechanical transducers, motors and electrical circuits. \u2026 For more content click the Read More button below.Instruction on the basics of dynamics of mechatronic systems, incorporating electromagnetics into advanced dynamics analysis via d'Alembert's Principle and the virtual power method, Hamilton's and Lagrange's equations, and bond graphs. Focus on applications of dynamics in mechatronics, with kinematics and dynamics of robotic structures, magneto-electro-mechanical transducers, motors and electrical circuits. Reinforcement of concepts using computer analysis on simple mechatronic systems.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "TRC2201",
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MEC3453"
+                    ]
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "TRC3500",
+            "credit points": "6",
+            "name": "Sensors and artificial perception",
+            "unit_details": {
+                "overview": "Overview The unit provides an introduction to transducer principles and the background to classify them in terms of performance and characteristics. A range of commonly available sensors are considered. Electronic components and data acquisition/digital signal processing software used in sensor systems are examined. Advanced sensory systems and associated programming techniques are \u2026 For more content click the Read More button below.The unit provides an introduction to transducer principles and the background to classify them in terms of performance and characteristics. A range of commonly available sensors are considered. Electronic components and data acquisition/digital signal processing software used in sensor systems are examined. Advanced sensory systems and associated programming techniques are introduced using robotic systems as an example domain.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisites: (ECE2031 or ECE2131 or ECE2061) and (ECE2071 or FIT1008 or (FIT1029 and FIT1040)) "
+            }
+        },
+        {
+            "code": "TRC3600",
+            "credit points": "6",
+            "name": "Modelling and control",
+            "unit_details": {
+                "overview": "Overview This unit commences with the modeling of various dynamic engineering systems, followed by the analysis of their transient and steady-state responses. More sophisticated analytical methods such as root locus and frequency response will be explored and will build the foundation for controller design in the future. Modeling via state-space methods \u2026 For more content click the Read More button below.This unit commences with the modeling of various dynamic engineering systems, followed by the analysis of their transient and steady-state responses. More sophisticated analytical methods such as root locus and frequency response will be explored and will build the foundation for controller design in the future. Modeling via state-space methods will also be briefly covered.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [
+                        "MAE3408",
+                        "MEC3457"
+                    ],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "TRC4002",
+            "credit points": "6",
+            "name": "Professional practice",
+            "unit_details": {
+                "overview": "Overview This unit provides an introduction to aspects of management relevant to the needs of the professional mechatronics engineer. You will be introduced to a range of topics including the role of a manager, organizations, financial management, marketing and planning, legal issues and professional ethics.This unit provides an introduction to aspects of management relevant to the needs of the professional mechatronics engineer. You will be introduced to a range of topics including the role of a manager, organizations, financial management, marketing and planning, legal issues and professional ethics.",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "ECE4099"
+                    ]
+                },
+                "rules": "PREREQUISITE: Completion of 96 credit points in engineering study. "
+            }
+        },
+        {
+            "code": "TRC4800",
+            "credit points": "6",
+            "name": "Robotics",
+            "unit_details": {
+                "overview": "Overview The unit will cover the fundamentals of robotics and robotic automation. The contents include spatial descriptions and transformations, manipulator forward and inverse kinematics, differential relationships and the Jacobian. Manipulator dynamics. Problem specification and solution preparation. Manipulator and end-effector configuration and design. Manipulator position control, involving sensing and actuation. Robotics in \u2026 For more content click the Read More button below.The unit will cover the fundamentals of robotics and robotic automation. The contents include spatial descriptions and transformations, manipulator forward and inverse kinematics, differential relationships and the Jacobian. Manipulator dynamics. Problem specification and solution preparation. Manipulator and end-effector configuration and design. Manipulator position control, involving sensing and actuation. Robotics in manufacturing and automation. Task Planning and techniques for modelling, simulation and programming of robotic tasks. Computational geometry for design and manufacture. Introduction to autonomous systems.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "TRC3600",
+                        "MEC3457"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MEC4456"
+                    ]
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ENG4701",
+            "credit points": "6",
+            "name": "Final year project A",
+            "unit_details": {
+                "overview": "Overview The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course. This unit is the first part of a two-unit project.The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course. This unit is the first part of a two-unit project.",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITE: 18 credit points at level three in engineering or FIT-coded study\nCOREQUISITE: ENG0001 (Clayton-based students) "
+            }
+        },
+        {
+            "code": "ENG4702",
+            "credit points": "6",
+            "name": "Final year project B",
+            "unit_details": {
+                "overview": "Overview This unit is a continuation of ENG4701 Final year project A. The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course.This unit is a continuation of ENG4701 Final year project A. The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course.",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG4701"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ECE2111",
+            "credit points": "6",
+            "name": "Signals and systems",
+            "unit_details": {
+                "overview": "Overview This unit provides foundations for the electrical engineering areas of control, signal processing and communications. The unit introduces concepts of continuous-time and discrete-time signals, their sampling and aliasing issues. Complex numbers, in particular, complex exponentials are introduced along with their representation as phasors, leading to periodic waveforms, Fourier series and \u2026 For more content click the Read More button below.This unit provides foundations for the electrical engineering areas of control, signal processing and communications. The unit introduces concepts of continuous-time and discrete-time signals, their sampling and aliasing issues. Complex numbers, in particular, complex exponentials are introduced along with their representation as phasors, leading to periodic waveforms, Fourier series and the signal frequency spectrum. Modification of spectra will be described using FIR filters, discrete-time systems, the unit-sample response, discrete convolution, linear time-invariant systems, convolution integrals, the continuous-time Fourier transform, windowing, DFT, FFT, time-frequency spectrum analysis, spectrogram, and Laplace Transform. Connecting frequency response and time response completes the unit.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1014",
+                        "ENG1060"
+                    ],
+                    "AND": [
+                        "ENG1005",
+                        "ENG1005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2011"
+                    ]
+                },
+                "rules": "E6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "MAE2505",
+            "credit points": "6",
+            "name": "Aerospace dynamics",
+            "unit_details": {
+                "overview": "Overview This unit develops your physical and analytical understanding of concepts of time, space,\u00a0coordinate systems, particles, rigid bodies, forces, work, energy, mechanical vibration and\u00a0Newton's Laws of Motion, translating into the ability to formulate and analyse the motion of\u00a0spacecraft and aircraft under the influence of forces such as lift, \u2026 For more content click the Read More button below.This unit develops your physical and analytical understanding of concepts of time, space,\u00a0coordinate systems, particles, rigid bodies, forces, work, energy, mechanical vibration and\u00a0Newton's Laws of Motion, translating into the ability to formulate and analyse the motion of\u00a0spacecraft and aircraft under the influence of forces such as lift, drag, thrust and gravity. You will be taught the fundamentals of kinematics and kinetics of rigid bodies and systems of particles\u00a0and to carry out dynamic analysis of satellites and orbital spacecraft and aircraft. You will be\u00a0introduced to properties of the Earth's atmosphere, the forces acting on aircraft and their impact on aircraft performance, resulting in the development of equations for steady level flight, steady\u00a0climbing and descending flight. This unit is core to understanding the control and manoeuvring of\u00a0spacecraft and aircraft.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1011",
+                        "ENG1001"
+                    ],
+                    "AND": [
+                        "ENG1005",
+                        "ENG1005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [
+                        "MEC2401",
+                        "MAE2406"
+                    ],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MEC2407",
+            "credit points": "6",
+            "name": "Electromechanics",
+            "unit_details": {
+                "overview": "Overview Introduction to the design, analysis, and practical manufacture of electromechanical systems, incorporating basic analog DC/AC and digital electrical circuit theory, simple semiconductor and amplifying components, transformers, and sensors and actuators. Mathematics of electromechanical systems is provided, including Laplace transforms and complex algebra. Computational and assignment work (via practicals) to be \u2026 For more content click the Read More button below.Introduction to the design, analysis, and practical manufacture of electromechanical systems, incorporating basic analog DC/AC and digital electrical circuit theory, simple semiconductor and amplifying components, transformers, and sensors and actuators. Mathematics of electromechanical systems is provided, including Laplace transforms and complex algebra. Computational and assignment work (via practicals) to be integrated to give you complete understanding of specific examples using modern microelectronic components, sensors, and actuators.Read More about Overview",
+                "offerings": {
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "TRC2001",
+            "credit points": "6",
+            "name": "Introduction to systems engineering",
+            "unit_details": {
+                "overview": "Overview This unit introduces you to the fundamental principles of some basic systems comprising of mechanical, electrical, electronic, computing and electro-mechanical sub-systems, with an intention to introduce cross-links between them for an integrated design approach towards their application to the development of complex systems.\nSpecial emphasis will be made on introducing \u2026 For more content click the Read More button below.\nThis unit would outline the breadth of the knowledge that the mechatronics systems engineer must acquire regarding the features of diverse sub-systems and components that constitute the total system.This unit introduces you to the fundamental principles of some basic systems comprising of mechanical, electrical, electronic, computing and electro-mechanical sub-systems, with an intention to introduce cross-links between them for an integrated design approach towards their application to the development of complex systems.\nSpecial emphasis will be made on introducing sub-systems required for 'inception to completion' of mechatronic systems with practical design examples. The enabling sub-systems for an integrated approach such as sensors, actuators, mechanisms, controllers, hardware interfacing, as well as strategies for risk assessment, interface definition, system integration, human factors, measurement and analysis as required in mechatronics product design & development will also be introduced.\nThis unit would outline the breadth of the knowledge that the mechatronics systems engineer must acquire regarding the features of diverse sub-systems and components that constitute the total system.Read More about Overview",
+                "offerings": {
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite: 24 credit pointsProhibition: TRC2000 "
+            }
+        },
+        {
+            "code": "ECE3051",
+            "credit points": "6",
+            "name": "Electrical energy systems",
+            "unit_details": {
+                "overview": "Overview The unit begins by considering electrical machines, looking at DC machines, induction motors, synchronous motors and other types of motors under fixed and variable speed operation. Then thyristor rectifiers and switched power converters are presented, looking at their use for electrical energy conversion in general and variable speed motor control \u2026 For more content click the Read More button below.The unit begins by considering electrical machines, looking at DC machines, induction motors, synchronous motors and other types of motors under fixed and variable speed operation. Then thyristor rectifiers and switched power converters are presented, looking at their use for electrical energy conversion in general and variable speed motor control in particular. Finally, single and three phase AC networks, power factor correction, and electrical power generation, transmission and distribution networks are explored. Particular focus is given here to three phase transformers, transmission line modelling, quality of electrical supply, electrical protection systems, and power system control.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2131"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "E6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "ECE3073",
+            "credit points": "6",
+            "name": "Computer systems",
+            "unit_details": {
+                "overview": "Overview This unit provides an introduction to computer architecture using a modern microprocessor as an example. Practical considerations involved in interconnecting logic element are explored, along with software and hardware techniques for interfacing computers to peripheral devices. An introduction to communication protocols used to connect local peripheral devices to a microprocessor, \u2026 For more content click the Read More button below.This unit provides an introduction to computer architecture using a modern microprocessor as an example. Practical considerations involved in interconnecting logic element are explored, along with software and hardware techniques for interfacing computers to peripheral devices. An introduction to communication protocols used to connect local peripheral devices to a microprocessor, including RS232/RS422/RS485, CAN bus and i2C is provided. Real-time systems including concurrency, inter-process communications and scheduling are introduced.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisites:\u00a0ECE2072 and one of: ECE2071, FIT1008, FIT1029 and FIT1040 Prohibitions:\u00a0ECE3703, GSE2303, GSE3802, TEC3174, TRC3300 "
+            }
+        },
+        {
+            "code": "ECE3141",
+            "credit points": "6",
+            "name": "Information and networks",
+            "unit_details": {
+                "overview": "Overview This unit provides an introduction to underlying technologies, major components and system-wide architectures of modern telecommunication systems. After introducing concepts of block and stream delivery, requirements of a telecommunications network and representation of analogue signals (e.g. voice and video) in digital form, the unit will cover all the major functions \u2026 For more content click the Read More button below.This unit provides an introduction to underlying technologies, major components and system-wide architectures of modern telecommunication systems. After introducing concepts of block and stream delivery, requirements of a telecommunications network and representation of analogue signals (e.g. voice and video) in digital form, the unit will cover all the major functions in layered architectures. Topics to be covered include multiplexing, basic line transmission and modulation, error protection and correction, packet switching, LAN protocols and the TCP/IP protocols on which the Internet is built. Particular emphasis is given to the major functions that combine to allow communication across key modern digital telecommunication systems such as the Internet, mobile telephony, digital TV and Digital Audio Broadcasting.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2041"
+                    ]
+                },
+                "rules": "Prerequisite: VCE specialist mathematics and physics or equivalent units "
+            }
+        },
+        {
+            "code": "MEC3010",
+            "credit points": "6",
+            "name": "Micro and nanotechnologies: Fabrication and applications",
+            "unit_details": {
+                "overview": "Overview This unit aims to develop an understanding of micro and nanotechnology methods and techniques in a cleanroom environment, the design of process chains and the applications of devices that are currently being manufactured using them.\nMicro and nanofabrication form the basis of manufacturing any modern miniaturised system from computer chips \u2026 For more content click the Read More button below.\nThis unit studies the theoretical aspects of micro and nanotechnologies and how these techniques are employed to design manufacturing strategies of micro and nano-systems, considering real case studies of such devices.This unit aims to develop an understanding of micro and nanotechnology methods and techniques in a cleanroom environment, the design of process chains and the applications of devices that are currently being manufactured using them.\nMicro and nanofabrication form the basis of manufacturing any modern miniaturised system from computer chips to sensors and actuators in smartphones, tablets, cars and other vehicles, and diagnostic systems, biomedical devices and devices for environmental monitoring.\nThis unit studies the theoretical aspects of micro and nanotechnologies and how these techniques are employed to design manufacturing strategies of micro and nano-systems, considering real case studies of such devices.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITE:\u00a0Completion of 18 credit points of level 2 engineering study "
+            }
+        },
+        {
+            "code": "MEC3416",
+            "credit points": "6",
+            "name": "Machine design",
+            "unit_details": {
+                "overview": "Overview In this integrative level 3 unit, students of mechanical engineering programs are introduced to the design of machine elements covering bearings, shafts, welds, fasteners, gears etc. This leads to an examination of techniques for improving engineering designs based on economic and functional considerations. Geometric and economic tolerancing is further explored. \u2026 For more content click the Read More button below.In this integrative level 3 unit, students of mechanical engineering programs are introduced to the design of machine elements covering bearings, shafts, welds, fasteners, gears etc. This leads to an examination of techniques for improving engineering designs based on economic and functional considerations. Geometric and economic tolerancing is further explored. The use of solid modelling software to simulate the behaviour of mechanical devices and produce engineering drawings is introduced. The integration of design skills and related engineering studies is covered through a group exercise to design a mechanical device.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITE: Completion of 18 credit points of level 2 engineering study\nE6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "MEC3448",
+            "credit points": "6",
+            "name": "Engineering technologies",
+            "unit_details": {
+                "overview": "Overview This unit introduces a range of fundamental technologies, processes and manufacturing methods used in the creation of engineering artefacts and explains their relative merits and limitations. 3D Computer-Aided Design and Manufacturing (CAD/CAM) tools are utilised to design and manufacture using rapid prototyping and additive techniques.This unit introduces a range of fundamental technologies, processes and manufacturing methods used in the creation of engineering artefacts and explains their relative merits and limitations. 3D Computer-Aided Design and Manufacturing (CAD/CAM) tools are utilised to design and manufacture using rapid prototyping and additive techniques.Read More about Overview",
+                "offerings": {
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1001",
+                        "ENG1011"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MEC2408"
+                    ]
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MEC3459",
+            "credit points": "6",
+            "name": "Materials selection for engineering design",
+            "unit_details": {
+                "overview": "Overview This unit introduces you to materials available for the fabrication of engineering components and structures. You will be instructed on the fundamentals of the role of composition and structure of materials in their mechanical properties that are important for engineering design. You will also learn how the materials with undesirable \u2026 For more content click the Read More button below.This unit introduces you to materials available for the fabrication of engineering components and structures. You will be instructed on the fundamentals of the role of composition and structure of materials in their mechanical properties that are important for engineering design. You will also learn how the materials with undesirable microstructure can lead to premature failures, particularly as a result of their interaction with aggressive environment. The knowledge thus developed will provide a basis for advanced learning on a systematic approach to materials selection as well as the methods by which the materials with the desired mechanical properties can be processed. Case studies will be presented to highlight the importance of selecting appropriate materials for engineering design.Read More about Overview",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "MAE2401",
+                        "MEC2403",
+                        "TRC2201"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [
+                        "MAE3406",
+                        "CHE2167"
+                    ],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MEC3602",
+            "credit points": "6",
+            "name": "Biomedical microsystems",
+            "unit_details": {
+                "overview": "Overview This interdisciplinary unit will present the fundamental basis of biomedical microsystems for applications in small-scale engineering, biological sciences, and medicine. Selected topics include the fundamentals of miniaturization, microfabrication and material properties, microscopy methods, sensing and detection methods using microsystems, along with relevant applications and medical device regulations and standards. Biomedical \u2026 For more content click the Read More button below.This interdisciplinary unit will present the fundamental basis of biomedical microsystems for applications in small-scale engineering, biological sciences, and medicine. Selected topics include the fundamentals of miniaturization, microfabrication and material properties, microscopy methods, sensing and detection methods using microsystems, along with relevant applications and medical device regulations and standards. Biomedical microsystems are rapidly emerging as a dominant part of the biomedical industry, and these disciplines are central to biomedical engineering.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG1005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITES: Completion of 36 credit points in engineering study (including ENG1005) "
+            }
+        },
+        {
+            "code": "ECE4032",
+            "credit points": "6",
+            "name": "Advanced control",
+            "unit_details": {
+                "overview": "Overview This unit aims to firstly develop an understanding of key features of methods for mathematically modelling various categories of dynamical systems in terms of sets of dynamic and algebraic equations, ranging from engineering to biomedical systems. Secondly, you are shown how to write algorithms for efficient numerical solution of these \u2026 For more content click the Read More button below.This unit aims to firstly develop an understanding of key features of methods for mathematically modelling various categories of dynamical systems in terms of sets of dynamic and algebraic equations, ranging from engineering to biomedical systems. Secondly, you are shown how to write algorithms for efficient numerical solution of these equations. Computer-aided control systems design using optimal and robust control methods is then covered. Thirdly, you are introduced to Lyapunov and function analytic techniques for nonlinear systems stability analysis, and to nonlinear control design methods including feedback linearisation, sliding mode and passivity-based control techniques.Read More about Overview",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ECE3062",
+                        "ECE4132",
+                        "TRC3600"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "If you are currently enrolled in\u00a0E6013 Master of Applied Engineering, you are exempt from the prerequisites requirement. "
+            }
+        },
+        {
+            "code": "ECE4044",
+            "credit points": "6",
+            "name": "Telecommunications protocols",
+            "unit_details": {
+                "overview": "Overview In this unit, you study the fundamentals of telecommunication network protocols by having the Internet's software architecture as its primary focus. Many protocols used in the application, transport, and network layers are examined and analysed. Client-server and peer-to-peer application architectures and their features are compared and contrasted. Reliable communication over \u2026 For more content click the Read More button below.In this unit, you study the fundamentals of telecommunication network protocols by having the Internet's software architecture as its primary focus. Many protocols used in the application, transport, and network layers are examined and analysed. Client-server and peer-to-peer application architectures and their features are compared and contrasted. Reliable communication over an unreliable network layer, connection establishment and teardown, and multiplexing issues are covered. Protocols for network security, techniques for providing confidentiality, authentication, non-repudiation and message integrity are also studied. Finally, protocols used for network management are analysed.Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [
+                        "ECE3141",
+                        "ECE2041"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ECE4045",
+            "credit points": "6",
+            "name": "Network performance",
+            "unit_details": {
+                "overview": "Overview This unit addresses the fundamental concepts and analytical tools for modelling, predicting and improving the performance of telecommunication networks. It also introduces simulation methods. First, performance modelling of a packet switch is covered. Then, a comparative analysis of routing algorithms is covered from a graph theory perspective. Third, methods to \u2026 For more content click the Read More button below.This unit addresses the fundamental concepts and analytical tools for modelling, predicting and improving the performance of telecommunication networks. It also introduces simulation methods. First, performance modelling of a packet switch is covered. Then, a comparative analysis of routing algorithms is covered from a graph theory perspective. Third, methods to provide an integrated service to a set of traffic demands with different qualities of service are studied. Then, congestion in telecommunication networks is covered, and effectiveness of various congestion and flow control algorithms and protocols are investigated. The focus then shifts to individual links and nodes, and queuing theory is introduced and its applications in networks are analysed. Then, recent advances are studied to show how the analytical and simulation knowledge learnt in this unit could be applied in real life.Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [
+                        "ECE2041",
+                        "ECE3141"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition:\u00a0ECE5045 "
+            }
+        },
+        {
+            "code": "ECE4053",
+            "credit points": "6",
+            "name": "Power system analysis",
+            "unit_details": {
+                "overview": "Overview This unit aims to develop the foundation for exploring tools and methods to analyse electric power systems. It provides an introduction to main elements such as generators, transformers, transmission lines, and loads and their mathematical models. Then using these models, the unit presents analytical tools to analyse the power system \u2026 For more content click the Read More button below.This unit aims to develop the foundation for exploring tools and methods to analyse electric power systems. It provides an introduction to main elements such as generators, transformers, transmission lines, and loads and their mathematical models. Then using these models, the unit presents analytical tools to analyse the power system in steady state and under fault conditions. In particular, tools and techniques for power flow, symmetrical and unsymmetrical faults, voltage control, frequency control, and system stability will be studied in detail. Finally, electromagnetic transients in power systems will be introduced.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisites\nECE2131\u00a0and\u00a0ECE3051\nProhibitions\nECE5507, ECE5053, ECE5503 "
+            }
+        },
+        {
+            "code": "ECE4055",
+            "credit points": "6",
+            "name": "Power electronic converters",
+            "unit_details": {
+                "overview": "Overview The unit presents a structured treatment of the design of switched-mode power electronic converters. The unit starts with passive diode rectifiers followed by thyristor rectifiers. Introducing various semi-conductor active switches, commutation cells and pulse width modulation techniques, various active power electronics converters including DC/DC buck and boost converters, flyback converters, \u2026 For more content click the Read More button below.The unit presents a structured treatment of the design of switched-mode power electronic converters. The unit starts with passive diode rectifiers followed by thyristor rectifiers. Introducing various semi-conductor active switches, commutation cells and pulse width modulation techniques, various active power electronics converters including DC/DC buck and boost converters, flyback converters, resonant converters, two-level DC/AC converters, and three-level DC/AC converters will be studied in detail. Finally, a few real-world applications such as variable speed drives and power filters are presented as examples.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2131"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "ECE5155"
+                    ]
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ECE4063",
+            "credit points": "6",
+            "name": "Large scale digital design",
+            "unit_details": {
+                "overview": "Overview The unit aims to develop a fundamental understanding of the performance, specification and fabrication of large scale digital circuits. You will become experienced at the design, simulation, verification and debugging of complex large scale digital circuits using a Hardware Description Language (HDL) and current CAD tools with FPGA development boards. \u2026 For more content click the Read More button below.The unit aims to develop a fundamental understanding of the performance, specification and fabrication of large scale digital circuits. You will become experienced at the design, simulation, verification and debugging of complex large scale digital circuits using a Hardware Description Language (HDL) and current CAD tools with FPGA development boards. Two group design projects will be undertaken: one involving an HDL using FPGA devices and another involving custom VLSI CMOS design and simulationRead More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2131",
+                        "ECE2072"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisites:\u00a0Or (ECE2061 or TRC2500) and ECE2072 Prohibitions: ECE4604. ECE5063, ECE5604 "
+            }
+        },
+        {
+            "code": "ECE4076",
+            "credit points": "6",
+            "name": "Computer vision",
+            "unit_details": {
+                "overview": "Overview This unit aims to develop an understanding of methods for extracting useful information (eg 3-D structure; object size, motion, shape, location and identity, etc) from images. It will allow you to understand how to construct computer vision systems for robotics, surveillance, medical imaging, and related application areas.This unit aims to develop an understanding of methods for extracting useful information (eg 3-D structure; object size, motion, shape, location and identity, etc) from images. It will allow you to understand how to construct computer vision systems for robotics, surveillance, medical imaging, and related application areas.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2071"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ECE4078",
+            "credit points": "6",
+            "name": "Intelligent robotics",
+            "unit_details": {
+                "overview": "Overview Intelligent robotics concerns the melding of artificial perception, strategic reasoning and robotic action in potentially unstructured and time-varying environments to fulfil useful physical tasks, whether in industry or for security, healthcare, search and rescue or civil defence etc. This unit covers topics underpinning the above requirements, including sensors, sensor fusion, \u2026 For more content click the Read More button below.Intelligent robotics concerns the melding of artificial perception, strategic reasoning and robotic action in potentially unstructured and time-varying environments to fulfil useful physical tasks, whether in industry or for security, healthcare, search and rescue or civil defence etc. This unit covers topics underpinning the above requirements, including sensors, sensor fusion, machine perception, environmental mapping/monitoring, path planning, localisation, mechanisms, artificial intelligence methodologies and application domains.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2071"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "ECE5178"
+                    ]
+                },
+                "rules": "PREREQUISITES: Or FIT1002 or TRC2400 or (FIT1029 and FIT1040)\nIf you are currently enrolled in\u00a0E6013 Master of Applied Engineering, you are exempt from the prerequisite requirement. "
+            }
+        },
+        {
+            "code": "ECE4081",
+            "credit points": "6",
+            "name": "Medical instrumentation",
+            "unit_details": {
+                "overview": "Overview This unit shows how engineering principles are used in the design and construction of biomedical instrumentation. This includes the application of electrochemistry to biological membranes, application of cable theory to nerve axons, application of electronic design principles to the recording of biological electrical signals, application of quantitative optics to spectrometry. \u2026 For more content click the Read More button below.This unit shows how engineering principles are used in the design and construction of biomedical instrumentation. This includes the application of electrochemistry to biological membranes, application of cable theory to nerve axons, application of electronic design principles to the recording of biological electrical signals, application of quantitative optics to spectrometry. In addition, the operating principles of a wide range of medical and laboratory instruments will be explored, ranging from ECG machines, pressure transducers to cochlear and vision implants.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2131"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ECE4146",
+            "credit points": "6",
+            "name": "Multimedia technologies",
+            "unit_details": {
+                "overview": "Overview This unit provides an understanding of the nature and limits of processing of media (image, video, audio) for telecommunications, storage, interpretation and analysis. It includes compression of multimedia from basic information theoretic concepts through to advanced video (e.g. MPEG), image (JPEG, JPEG2000) and audio (CELP, MP3, AAC, Dolby Digital) coding. \u2026 For more content click the Read More button below.This unit provides an understanding of the nature and limits of processing of media (image, video, audio) for telecommunications, storage, interpretation and analysis. It includes compression of multimedia from basic information theoretic concepts through to advanced video (e.g. MPEG), image (JPEG, JPEG2000) and audio (CELP, MP3, AAC, Dolby Digital) coding. XML-based metadata systems are used to illustrate concepts of content characterisation and discovery. The ability of modern network protocols to support media streaming is related directly to service requirements such as error and delay tolerance. Where media is intended for human consumption, the characteristics of human perception of image and sound determine minimum quality requirements, but also reveal limitations that can be exploited when compressing media data. Machine interpretation and analysis of multimedia is also investigated. Case studies in media analysis (e.g. Shazam), delivery (video on demand) and consumption (digital cinema) are used to illustrate the technologies investigated.Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [
+                        "ECE3141",
+                        "ECE2041"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ECE4179",
+            "credit points": "6",
+            "name": "Neural networks and deep learning",
+            "unit_details": {
+                "overview": "Overview This unit introduces fundamentals of deep learning and how it can solve problems in many areas, such as image classification, filter design and natural language processing. Neural networks are first described and how training can be achieved with backpropagation. Various forms of deep neural networks are developed, such as multilayer \u2026 For more content click the Read More button below.This unit introduces fundamentals of deep learning and how it can solve problems in many areas, such as image classification, filter design and natural language processing. Neural networks are first described and how training can be achieved with backpropagation. Various forms of deep neural networks are developed, such as multilayer perceptrons, convolution neural networks and recurrent neural networks. The mathematics of stochastic optimisation is used to interpret and understand the behaviour and training of these networks. Programming approaches are discussed for training and deploying neural networks. Deep learning technologies and design examples are discussed in areas such as driverless cars, personal cognitive assistants and mastering of games such as GO.Read More about Overview",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005",
+                        "ECE2071"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisites: Or ENG2092 in place of ENG2005 "
+            }
+        },
+        {
+            "code": "ENG4700",
+            "credit points": "6",
+            "name": "Engineering technology for biomedical imaging and sensing",
+            "unit_details": {
+                "overview": "Overview Introduction to biomedical engineering from the perspective of engineering-based technologies of sensing and imaging. Topics include: basis of light and radiation, principles of synchrotron operation, practical study at the Australian synchrotron, human physiology for engineers, principles of detection and sensing of signals, biomedically relevant properties and phenomena. During this time \u2026 For more content click the Read More button below.Introduction to biomedical engineering from the perspective of engineering-based technologies of sensing and imaging. Topics include: basis of light and radiation, principles of synchrotron operation, practical study at the Australian synchrotron, human physiology for engineers, principles of detection and sensing of signals, biomedically relevant properties and phenomena. During this time project teams are formed and project proposals are developed. Project work continues with groups and individuals combining projects, allocated resources, knowledge and skills to develop a biomedical sensing device.Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite: Completion of 90 credit points "
+            }
+        },
+        {
+            "code": "MEC4416",
+            "credit points": "6",
+            "name": "Momentum, energy & mass transport in engineering systems",
+            "unit_details": {
+                "overview": "Overview Unsteady heat conduction, numerical solutions to multi-dimensional conduction problems. Derivation of general governing equations for fluid flow, heat transfer and mass transfer. Free and forced convection heat transfer in laminar and turbulent flow regimes. Fundamentals of mass transfer. Introduction to two-phase heat transfer. Applications to mechanical engineering systems: fuel cells \u2026 For more content click the Read More button below.Unsteady heat conduction, numerical solutions to multi-dimensional conduction problems. Derivation of general governing equations for fluid flow, heat transfer and mass transfer. Free and forced convection heat transfer in laminar and turbulent flow regimes. Fundamentals of mass transfer. Introduction to two-phase heat transfer. Applications to mechanical engineering systems: fuel cells and alternative energy devices, heat pipes in electronics cooling, micro-scale heat transfer and bioheat transfer.Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [
+                        "MEC4408",
+                        "CHE2163",
+                        "MEC3454",
+                        "CHE2161"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MEC4417",
+            "credit points": "6",
+            "name": "Refrigeration and air conditioning",
+            "unit_details": {
+                "overview": "Overview Review of mass and energy conservation and transfer processes; psychrometry and moist air properties; factors influencing human comfort; calculation of building thermal loads; simulation packages for calculating building loads; air conditioning systems; fans, pumps, ducts, etc in air conditioning plant; control systems in air conditioning plant; vapour compression and absorption \u2026 For more content click the Read More button below.Review of mass and energy conservation and transfer processes; psychrometry and moist air properties; factors influencing human comfort; calculation of building thermal loads; simulation packages for calculating building loads; air conditioning systems; fans, pumps, ducts, etc in air conditioning plant; control systems in air conditioning plant; vapour compression and absorption refrigeration; air conditioning and refrigeration in transportation; industrial fieldwork.Read More about Overview",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "MEC3451",
+                        "MEC2405"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "If you are currently enrolled in\u00a0E6013 Master of Applied Engineering, you are exempt from the prerequisites requirement. "
+            }
+        },
+        {
+            "code": "MEC4425",
+            "credit points": "6",
+            "name": "Micro/nano solid and fluid mechanics",
+            "unit_details": {
+                "overview": "Overview Introducing micro and nano-technology in the design of next-generation microelectromechanical systems, microfluidic devices and biomedical applications. Basic concepts and physics of small-scale systems are covered. Topics include: scaling effects, nanofabrication techniques, continuum mechanical theories, low Reynolds number flows, capillary effects and interfacial flows, flows in channels of arbitrary dimensions, convective-diffusive \u2026 For more content click the Read More button below.Introducing micro and nano-technology in the design of next-generation microelectromechanical systems, microfluidic devices and biomedical applications. Basic concepts and physics of small-scale systems are covered. Topics include: scaling effects, nanofabrication techniques, continuum mechanical theories, low Reynolds number flows, capillary effects and interfacial flows, flows in channels of arbitrary dimensions, convective-diffusive mass transport, electro hydrodynamics including classical double layer theory, electrophoresis, electro-osmosis, dielectric polarisation and dielectrophoresis. The course also focuses on device applications, specifically MEMS sensors and actuators and lab-on-chip devices, through hands-on laboratory sessions (held at Melbourne Centre for Nanofabrication).Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite: Or 120 points of engineering study and TRC2200, TRC3200 "
+            }
+        },
+        {
+            "code": "MEC4426",
+            "credit points": "6",
+            "name": "Computer-aided design",
+            "unit_details": {
+                "overview": "Overview Finite element analysis (FEA) in computer-aided design; finite element formulation; first-order and second-order elements; stiffness matrix; integration points and stress recovery; convergence and mesh refinement; FEA of plane stress and plane strain problems; FEA of axisymmetric problems; FEA of nonlinear materials; FEA of contact problems; FEA of large deformation problems; \u2026 For more content click the Read More button below.Finite element analysis (FEA) in computer-aided design; finite element formulation; first-order and second-order elements; stiffness matrix; integration points and stress recovery; convergence and mesh refinement; FEA of plane stress and plane strain problems; FEA of axisymmetric problems; FEA of nonlinear materials; FEA of contact problems; FEA of large deformation problems; FEA of dynamic problems; FEA of fracture mechanics.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "MEC3455",
+                        "MAE2401",
+                        "TRC2201"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MAE3426"
+                    ]
+                },
+                "rules": "Prerequisite:And 96 credit points of engineering study. "
+            }
+        },
+        {
+            "code": "MEC4428",
+            "credit points": "6",
+            "name": "Advanced dynamics",
+            "unit_details": {
+                "overview": "Overview Focus on advanced kinematics and dynamics with a variety of applications in fluid and solid mechanics, robotics and electromechanical systems. Study of how kinematic constraints are incorporated into forming the governing equations and their relationship with constraint forces. Dynamics incorporating collisions. Using rotating coordinate systems to solve dynamics problems. Two- \u2026 For more content click the Read More button below.Focus on advanced kinematics and dynamics with a variety of applications in fluid and solid mechanics, robotics and electromechanical systems. Study of how kinematic constraints are incorporated into forming the governing equations and their relationship with constraint forces. Dynamics incorporating collisions. Using rotating coordinate systems to solve dynamics problems. Two- and three-dimensional rigid body dynamics. Consideration of nonlinearities in the dynamic response of everyday structures. Instruction on advanced topics in analytical dynamics, incorporating D'Alembert's principle, Hamilton's principle and the general Lagrange equations. Reinforcement of concepts through computer analysis using Matlab or Mathematica.Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [
+                        "MEC3453",
+                        "MAE3404",
+                        "TRC3200"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MEC4444",
+            "credit points": "6",
+            "name": "Introduction to engineering acoustics",
+            "unit_details": {
+                "overview": "Overview Fundamentals of sound and sound propagation, wave equation, Helmholtz equation, absorption, impedance and intensity, silencers. Transmission from one medium to another, applications and optimisation. Transmission through walls, mass law, coincidence and resonance. Sound transmission in the atmosphere, inverse square law, excess attenuation. Radiation of sound, directivity. Sound in enclosed spaces. \u2026 For more content click the Read More button below.Fundamentals of sound and sound propagation, wave equation, Helmholtz equation, absorption, impedance and intensity, silencers. Transmission from one medium to another, applications and optimisation. Transmission through walls, mass law, coincidence and resonance. Sound transmission in the atmosphere, inverse square law, excess attenuation. Radiation of sound, directivity. Sound in enclosed spaces. Noise sources, noise reduction techniques, noise legislation and regulation, acceptable noise levels, hearing conservation, measurement and analysis of noise, design for low noise.Read More about Overview",
+                "offerings": {
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "MEC3453",
+                        "TRC3200"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "If you are currently enrolled in\u00a0E6013 Master of Applied Engineering, you are exempt from the prerequisites requirement. "
+            }
+        },
+        {
+            "code": "MEC4446",
+            "credit points": "6",
+            "name": "Composite structures",
+            "unit_details": {
+                "overview": "Overview Specific modulus and specific strength; 3D stress and 3D strain tensors; anisotropic elasticity; composite lamina and composite laminate; hygrothermal strain and hygrothermal stress analysis of composite structures; failure theories for a composite lamina; micromechanical analysis of a composite lamina; classical lamination theory for composite laminate, failure analysis of composite laminates, \u2026 For more content click the Read More button below.Specific modulus and specific strength; 3D stress and 3D strain tensors; anisotropic elasticity; composite lamina and composite laminate; hygrothermal strain and hygrothermal stress analysis of composite structures; failure theories for a composite lamina; micromechanical analysis of a composite lamina; classical lamination theory for composite laminate, failure analysis of composite laminates, design of composite laminates, finite element analysis of composite materials and structures.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MAE4426"
+                    ]
+                },
+                "rules": "Prerequisite: 120 credit points of engineering study "
+            }
+        },
+        {
+            "code": "MEC4801",
+            "credit points": "6",
+            "name": "Non-destructive testing and inspection",
+            "unit_details": {
+                "overview": "Overview This unit explores various established techniques such as dye penetration, magnetic particle, eddy current, ultrasonic and radiography for non-destructive testing (NDT) and contrasts them with destructive methods. Industry standards for NDT and acceptance standards will be included. Case studies from a variety of industries which include microelectronics, aerospace, marine, railway \u2026 For more content click the Read More button below.This unit explores various established techniques such as dye penetration, magnetic particle, eddy current, ultrasonic and radiography for non-destructive testing (NDT) and contrasts them with destructive methods. Industry standards for NDT and acceptance standards will be included. Case studies from a variety of industries which include microelectronics, aerospace, marine, railway and petrochemical industries will be discussed.Read More about Overview",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite\nMust have passed 96 credit points from Engineering or Science "
+            }
+        },
+        {
+            "code": "MEC4802",
+            "credit points": "6",
+            "name": "Sustainable engineering and design with nanomaterials",
+            "unit_details": {
+                "overview": "Overview Sustainable engineering and design with nanomaterials explores the selection, design and characterising of nanomaterials in developing sustainable engineering solutions that are verified using the life cycle assessment tool to enable you to design nanomaterials which are beneficial to the social and economic advancement. Examples include mineral nanotubes, titanium dioxide nanoparticles, \u2026 For more content click the Read More button below.Sustainable engineering and design with nanomaterials explores the selection, design and characterising of nanomaterials in developing sustainable engineering solutions that are verified using the life cycle assessment tool to enable you to design nanomaterials which are beneficial to the social and economic advancement. Examples include mineral nanotubes, titanium dioxide nanoparticles, carbon nanotubes, polymer nanocomposites, and bionanocomposites. The ability to design nanomaterials are developed through an appreciation of the theory and working principles of various preparation methods and characterisation techniques.Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "MEC3459"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "TRC4200",
+            "credit points": "6",
+            "name": "Engineering cyber-physical systems",
+            "unit_details": {
+                "overview": "Overview The unit aims to impart knowledge, skills, and experience required to prepare graduates for the impending digital transformation driving the convergence of technologies that result in Cyber-Physical Systems (CPS). An introduction will be given to Cyber-Physical Systems (CPS). The evolution of key technologies, transformation to digital chains and the need \u2026 For more content click the Read More button below.The unit aims to impart knowledge, skills, and experience required to prepare graduates for the impending digital transformation driving the convergence of technologies that result in Cyber-Physical Systems (CPS). An introduction will be given to Cyber-Physical Systems (CPS). The evolution of key technologies, transformation to digital chains and the need to seamlessly combine organisational and technological issues into a single framework will be discussed. A real-life scenario will be used to motivate you to apply CPS technologies to design and develop Smart Systems in any domain of their specialisation and interest. Using the concept of Learning Factories (LF) - a platform to impart experience-based knowledge - the developed solution will be built and tested as a group project.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "MEC3457",
+                        "MAE3408",
+                        "MEC2402",
+                        "ECE3091"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Additional prerequisite:\nCompletion of 96 credit points of engineering study which includes the prerequisite units mentioned. "
+            }
+        },
+        {
+            "code": "TRC4802",
+            "credit points": "6",
+            "name": "Thermo-fluids and power systems",
+            "unit_details": {
+                "overview": "Overview This unit provides the discipline basis for applications in energy, power and motive force where fluids are involved. It also provides a basic level of knowledge and problem-solving capability in heat transfer. These disciplines are central to mechanical engineering and, as a consequence, are essential knowledge for mechatronic engineers whose \u2026 For more content click the Read More button below.This unit provides the discipline basis for applications in energy, power and motive force where fluids are involved. It also provides a basic level of knowledge and problem-solving capability in heat transfer. These disciplines are central to mechanical engineering and, as a consequence, are essential knowledge for mechatronic engineers whose designs usually have mechanical elements.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [
+                        "MEC2404",
+                        "MEC2405",
+                        "TRC2200"
+                    ],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "TRC4902",
+            "credit points": "6",
+            "name": "Mechatronics and manufacturing",
+            "unit_details": {
+                "overview": "Overview This unit aims to develop an understanding of the mechatronic engineer's role in the manufacturing industry, manufacturing processes including 3D printing, fundamentals and automation using a CNC controller. Different manufacturing systems: cellular and flexible manufacturing systems will be analysed. Recent advancement in the industry: Industry 4.0 and digital twins will \u2026 For more content click the Read More button below.This unit aims to develop an understanding of the mechatronic engineer's role in the manufacturing industry, manufacturing processes including 3D printing, fundamentals and automation using a CNC controller. Different manufacturing systems: cellular and flexible manufacturing systems will be analysed. Recent advancement in the industry: Industry 4.0 and digital twins will be introduced. Modern manufacturing management will be presented and discussed to improve quality and productivity by removing non-value added processes to reduce the production cycle and increase the product life-cycle. This will include lean manufacturing, agile manufacturing and virtual manufacturing. This unit also includes the design of flexible manufacturing systems which is capable of producing a variety of products. The manufacturing support systems such as process planning and control and computer-aided process planning using a variant technique and a generative process planning technique with Artificial Intelligence (AI) will be covered in this unit. Finally, the design of flexible manufacturing systems for a variety of products will be studied to reduce production lot size and the design of assembly manufacturing lines will be optimised.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "MEC2402",
+                        "TRC3000"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "If you are currently enrolled in\u00a0E6013 Master of Applied Engineering, you are exempt from the prerequisites requirement. "
+            }
+        },
+        {
+            "code": "ECE5881",
+            "credit points": "6",
+            "name": "Real-time system design",
+            "unit_details": {
+                "overview": "Overview The unit aims to enable you to understand, analyse, specify, design and test real-time systems using both hardware and software development. Migration between software and hardware will be considered as an approach to meet design criterion such as speed, throughput, energy usage and cost.\nThe design, analysis and implementation of \u2026 For more content click the Read More button below.\nYou will complete a major team design project that includes hardware and software design of a real-time system.The unit aims to enable you to understand, analyse, specify, design and test real-time systems using both hardware and software development. Migration between software and hardware will be considered as an approach to meet design criterion such as speed, throughput, energy usage and cost.\nThe design, analysis and implementation of real-time operating systems will be studied and will include scheduling policies, process creation and management, inter-process communication and synchronisation, efficient handling of I/O and communication.\nYou will complete a major team design project that includes hardware and software design of a real-time system.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "ECE4075"
+                    ]
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes you have the necessary foundational knowledge equivalent to ECE2071 and ECE2072. "
+            }
+        },
+        {
+            "code": "ECE5882",
+            "credit points": "6",
+            "name": "Advanced electronics design",
+            "unit_details": {
+                "overview": "Overview This is an advanced unit in electronics design. You will be provided with an in-depth knowledge of radio frequency (RF) and microwave circuits and systems. The unit builds on your' basic electronic knowledge obtained from your undergraduate engineering degree to a more advanced analog and RF electronics, with more theory \u2026 For more content click the Read More button below.\nThe unit will teach you the detailed design principles of passive and active electronic devices at radio frequencies. You will learn to use CAD design software packages for assignments and projects. Important analogue and RF building components such as amplifiers, filters, oscillators, modulators, mixers and phase-locked loops will be taught. Topics such as noise and interference in electronic circuits will also be covered.\nYou will undertake a group project where RF/mixed-signal circuits will be designed, built and tested in the laboratory.This is an advanced unit in electronics design. You will be provided with an in-depth knowledge of radio frequency (RF) and microwave circuits and systems. The unit builds on your' basic electronic knowledge obtained from your undergraduate engineering degree to a more advanced analog and RF electronics, with more theory and applications of electronics.\nThe unit will teach you the detailed design principles of passive and active electronic devices at radio frequencies. You will learn to use CAD design software packages for assignments and projects. Important analogue and RF building components such as amplifiers, filters, oscillators, modulators, mixers and phase-locked loops will be taught. Topics such as noise and interference in electronic circuits will also be covered.\nYou will undertake a group project where RF/mixed-signal circuits will be designed, built and tested in the laboratory.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes you have the necessary foundational knowledge equivalent to ECE3161. "
+            }
+        },
+        {
+            "code": "ECE5883",
+            "credit points": "6",
+            "name": "Advanced signal processing",
+            "unit_details": {
+                "overview": "Overview The unit introduces the fundamentals of statistical signal processing with emphasis on stochastic models, estimation theory, parametric and non-parametric modelling and least squares methods.\nAfter a review of basic probability and random processes, the use of stochastic models for real world signals is illustrated. A family of algorithms for the \u2026 For more content click the Read More button below.\nSpecifically, linear stochastic models are presented and the importance of correlation structure in deriving the parameters of such models is illustrated.\nThe unit also covers how parametric and non-parametric models as well as statistical techniques are used to extract information from data signals corrupted by noise. The concept of estimation from real world data is presented, as opposed to the basic analysis of signals, transfer functions and power spectra. In particular, the fundamentals of linear estimation theory and optimal filtering to design advanced signal processing algorithms are presented.The unit introduces the fundamentals of statistical signal processing with emphasis on stochastic models, estimation theory, parametric and non-parametric modelling and least squares methods.\nAfter a review of basic probability and random processes, the use of stochastic models for real world signals is illustrated. A family of algorithms for the creation, efficient representation and effective modelling is presented.\nSpecifically, linear stochastic models are presented and the importance of correlation structure in deriving the parameters of such models is illustrated.\nThe unit also covers how parametric and non-parametric models as well as statistical techniques are used to extract information from data signals corrupted by noise. The concept of estimation from real world data is presented, as opposed to the basic analysis of signals, transfer functions and power spectra. In particular, the fundamentals of linear estimation theory and optimal filtering to design advanced signal processing algorithms are presented.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes you have the necessary foundational knowledge equivalent to\u00a0ECE2111 and ECE2191\n\u00a0 "
+            }
+        },
+        {
+            "code": "ECE5884",
+            "credit points": "6",
+            "name": "Wireless communications",
+            "unit_details": {
+                "overview": "Overview This unit introduces the fundamentals of wireless communications and networking. You will learn about the characteristics of wireless channels, coding, modulation techniques, methods of combating fading including space, time and frequency diversity, multiple access techniques and cellular networks.\nA selection of more advanced topics will also be covered including MIMO \u2026 For more content click the Read More button below.This unit introduces the fundamentals of wireless communications and networking. You will learn about the characteristics of wireless channels, coding, modulation techniques, methods of combating fading including space, time and frequency diversity, multiple access techniques and cellular networks.\nA selection of more advanced topics will also be covered including MIMO systems, heterogeneous networks, cognitive and cooperative communications.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline.\u00a0The unit assumes you have the necessary foundational knowledge equivalent to ECE3141 "
+            }
+        },
+        {
+            "code": "ECE5886",
+            "credit points": "6",
+            "name": "Smart grids",
+            "unit_details": {
+                "overview": "Overview The Smart Grid unit provides a comprehensive knowledge about the Smart Grid and how it is to be operated and protected for improving sustainability and energy savings. The core of the unit is intelligent infrastructure for Smart Grid and its heightening vulnerability, and how to protect it effectively.\nThe basic \u2026 For more content click the Read More button below.\nThe unit will conclude with defining concept, design and purpose of the Smart Grid, reviewing current and relevant technologies developed, assessing its vulnerabilities to a cyber-attack, and finding effective protective mechanisms for the grid.The Smart Grid unit provides a comprehensive knowledge about the Smart Grid and how it is to be operated and protected for improving sustainability and energy savings. The core of the unit is intelligent infrastructure for Smart Grid and its heightening vulnerability, and how to protect it effectively.\nThe basic economic fundamentals of power systems and conventional and renewable power generation in regulated and deregulated environment are introduced first. The basic concepts of intelligent control, application of intelligent agents in grid technology, and intelligent components commonly used in Smart Grids are extensively discussed afterward. Also included is how distribution networks adapt to intermittent energy sources (e.g. solar and wind) through the use of smart grids, emerging technologies and energy storage systems.\nThe unit will conclude with defining concept, design and purpose of the Smart Grid, reviewing current and relevant technologies developed, assessing its vulnerabilities to a cyber-attack, and finding effective protective mechanisms for the grid.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "MEC5881",
+            "credit points": "6",
+            "name": "Engineering systems performance analysis",
+            "unit_details": {
+                "overview": "Overview This unit complements systems design. The unit will integrate fundamental concepts in solid and fluid mechanics and dynamics and, in so doing, will highlight the roles they play in determining the performance of an engineering system.\nYou will use advanced computational tools to study how these concepts are crucial to \u2026 For more content click the Read More button below.This unit complements systems design. The unit will integrate fundamental concepts in solid and fluid mechanics and dynamics and, in so doing, will highlight the roles they play in determining the performance of an engineering system.\nYou will use advanced computational tools to study how these concepts are crucial to competitive economic performance and to the long-term sustainability of an engineered system.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "T3-57-OS-CHI-SEU-ON-CAMPUS": {
+                        "location": [
+                            "Suzhou"
+                        ],
+                        "teaching_period": "Term 3",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "MEC5882",
+            "credit points": "6",
+            "name": "Instrumentation, sensing and monitoring",
+            "unit_details": {
+                "overview": "Overview Advanced instrumentation and sensing necessitate a multi-disciplinary approach in order to monitor engineering systems as diverse as renewable energy, aerospace, buildings, transportation, telecommunications and biomedical devices.\nThe monitoring and assessment techniques are founded on the fundamentals of mechanical engineering, electrical and electronic engineering and information technology.\nThe unit covers the \u2026 For more content click the Read More button below.\nData visualisation will also be discussed. The unit will explore frequency of monitoring in relation to the volume of data collected and strategies for data reduction.Advanced instrumentation and sensing necessitate a multi-disciplinary approach in order to monitor engineering systems as diverse as renewable energy, aerospace, buildings, transportation, telecommunications and biomedical devices.\nThe monitoring and assessment techniques are founded on the fundamentals of mechanical engineering, electrical and electronic engineering and information technology.\nThe unit covers the exploration of strategies for efficient instrumentation of engineering assets. You will use a range of sensing technologies to gather real-time information and use industry-standard approaches to data analyses, characterisation, fault assessment and reporting methodologies at various stages of product design and product development.\nData visualisation will also be discussed. The unit will explore frequency of monitoring in relation to the volume of data collected and strategies for data reduction.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "MEC5883",
+            "credit points": "6",
+            "name": "Mechanical systems design",
+            "unit_details": {
+                "overview": "Overview This unit will emphasise engineering design with a focus on designing a system rather than the individual components of a system. In this way, the unit will integrate mechanical design with material selection, manufacture, and control systems, and\u00a0the needs of in-service monitoring to optimise system performance. Quality management systems, \u2026 For more content click the Read More button below.\nThis unit uses case studies, group work and design projects as key learning methodologies to integrate theoretical knowledge with practical outcomes. You can expect a strong practical focus with extensive use of computer-aided design and analysis software.This unit will emphasise engineering design with a focus on designing a system rather than the individual components of a system. In this way, the unit will integrate mechanical design with material selection, manufacture, and control systems, and\u00a0the needs of in-service monitoring to optimise system performance. Quality management systems, lean techniques and lifecycle assessment will be applied to the proposed product or service to understand system variability, maximise and maintain value-creation and assess environmental impacts.\nThis unit uses case studies, group work and design projects as key learning methodologies to integrate theoretical knowledge with practical outcomes. You can expect a strong practical focus with extensive use of computer-aided design and analysis software.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "MEC5884",
+            "credit points": "6",
+            "name": "Sustainable engineering systems",
+            "unit_details": {
+                "overview": "Overview Sustainable engineering systems are optimised to use resources in a sustainable way - such that the demand of the systems does not deplete the supply of resources and in fact can contribute to that supply.\nThis unit involves a rethink in the way we engineer. At one level, it can \u2026 For more content click the Read More button below.Sustainable engineering systems are optimised to use resources in a sustainable way - such that the demand of the systems does not deplete the supply of resources and in fact can contribute to that supply.\nThis unit involves a rethink in the way we engineer. At one level, it can involve water harvesting, co-generation of power or the use of alternative/renewable power sources but at a more fundamental level, it requires us to design smart, adaptive structures and devices.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "MEC5885",
+            "credit points": "6",
+            "name": "Energy efficiency and sustainability engineering",
+            "unit_details": {
+                "overview": "Overview This unit explores the theory and practice of the supply of energy, energy management and auditing, and the design of sustainable energy facilities. It deals with the systems needed to create low-energy, sustainable buildings, including passive solar design, energy-efficient heating and air-conditioning, and combined heat and power.\nIn addition, it \u2026 For more content click the Read More button below.This unit explores the theory and practice of the supply of energy, energy management and auditing, and the design of sustainable energy facilities. It deals with the systems needed to create low-energy, sustainable buildings, including passive solar design, energy-efficient heating and air-conditioning, and combined heat and power.\nIn addition, it includes coverage of transport energy and energy economics. Case studies from a variety of energy-focused industries such as building services, environmental engineering, heating, ventilation, and air conditioning (HVAC) and architectural technology will be discussed.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "MEC5886",
+            "credit points": "6",
+            "name": "Sustainable energy technologies",
+            "unit_details": {
+                "overview": "Overview The unit is designed to provide you with a challenging and intellectually stimulating environment covering numerous aspects of current and future sustainable energy technologies.\nThe unit is intended to introduce and investigate present and emerging trends in the sustainable technologies, including clean fuels, renewable energy systems and hybrid energy systems. \u2026 For more content click the Read More button below.The unit is designed to provide you with a challenging and intellectually stimulating environment covering numerous aspects of current and future sustainable energy technologies.\nThe unit is intended to introduce and investigate present and emerging trends in the sustainable technologies, including clean fuels, renewable energy systems and hybrid energy systems. Case studies and discussions with leading energy researchers within the University and elsewhere with emphasis on system approach will be undertaken.Read More about Overview",
+                "offerings": {
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MEC6886"
+                    ]
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "MEC5888",
+            "credit points": "6",
+            "name": "Renewable energy systems",
+            "unit_details": {
+                "overview": "Overview This unit examines the thermodynamics of renewable energy systems (principally solar, wind, tidal, hydro, biomass and variants of these); their efficiency; the design of such systems and their selection for differing environments around the globe; reliability of the energy source; trends in renewable energy systems; and the associated environmental and \u2026 For more content click the Read More button below.This unit examines the thermodynamics of renewable energy systems (principally solar, wind, tidal, hydro, biomass and variants of these); their efficiency; the design of such systems and their selection for differing environments around the globe; reliability of the energy source; trends in renewable energy systems; and the associated environmental and economic factors. The unit also examines the regulatory environment as a predictor for the uptake of renewable energy systems.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MEC6888"
+                    ]
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "MEC5891",
+            "credit points": "6",
+            "name": "Design for additive manufacturing",
+            "unit_details": {
+                "overview": "Overview Additive manufacturing allows components to be produced with reduced weight, reduced part count, less scrap, and increased complexity compared to conventional manufacturing processes. However, components must be redesigned to take advantage of these advantages. This unit introduces you to the principles of design for additive manufacturing; the optimisation of designs; \u2026 For more content click the Read More button below.Additive manufacturing allows components to be produced with reduced weight, reduced part count, less scrap, and increased complexity compared to conventional manufacturing processes. However, components must be redesigned to take advantage of these advantages. This unit introduces you to the principles of design for additive manufacturing; the optimisation of designs; and the practical design-to-product workflow.Read More about Overview",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-OS-CHI-SEU-ON-CAMPUS": {
+                        "location": [
+                            "Suzhou"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MEC6891"
+                    ]
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "TRC5901",
+            "credit points": "6",
+            "name": "Advanced artificial intelligence",
+            "unit_details": {
+                "overview": "Overview This unit aims to introduce the applications of artificial intelligence, such as deep learning techniques, to solve real-world problems related to the manufacturing and services sectors. Focusing on the design of deep learning frameworks, their use in computer vision tasks like image classification and object detection will be explored and \u2026 For more content click the Read More button below.This unit aims to introduce the applications of artificial intelligence, such as deep learning techniques, to solve real-world problems related to the manufacturing and services sectors. Focusing on the design of deep learning frameworks, their use in computer vision tasks like image classification and object detection will be explored and discussed. This unit will also cover structured query language for database management, natural language processing for sentiment analysis and time series classification and forecasting.Read More about Overview",
+                "offerings": {
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "The unit assumes that you have basic programming skills. You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge.\n\u00a0 "
+            }
+        }
+    ]
+}
