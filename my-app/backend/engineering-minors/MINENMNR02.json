@@ -1,0 +1,250 @@
+{
+    "code": "MINENMNR02",
+    "credit points": "24",
+    "name": "Mining engineering",
+    "units": [
+        {
+            "code": "RSE3010",
+            "credit points": "6",
+            "name": "Mine geotechnical engineering",
+            "unit_details": {
+                "overview": "Overview This unit provides you with an overview of the principles and practical application of rock mechanics to excavation design and design implementation (construction management). This includes; behaviour of intact rock and rock mass, in-situ stress and measurement, rock mass classification schemes, the time-dependent and dynamic behaviour of rock, ground support \u2026 For more content click the Read More button below.This unit provides you with an overview of the principles and practical application of rock mechanics to excavation design and design implementation (construction management). This includes; behaviour of intact rock and rock mass, in-situ stress and measurement, rock mass classification schemes, the time-dependent and dynamic behaviour of rock, ground support and reinforcement, geotechnical instrumentation and empirical excavation techniques.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CIV2242"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition:\u00a0MNE3010 "
+            }
+        },
+        {
+            "code": "RSE3020",
+            "credit points": "6",
+            "name": "Resource estimation",
+            "unit_details": {
+                "overview": "Overview The mineral inventory of a company is quantified through resource or reserve estimates with associated error levels that, in many cases, are unknown. The estimation procedure used by a geologist or engineer should incorporate efforts to minimise errors and assumptions at every level of decision.\nThis unit focuses on resource \u2026 For more content click the Read More button below.The mineral inventory of a company is quantified through resource or reserve estimates with associated error levels that, in many cases, are unknown. The estimation procedure used by a geologist or engineer should incorporate efforts to minimise errors and assumptions at every level of decision.\nThis unit focuses on resource and reserve estimation of mineral ores and hydrocarbon deposits, with particular focus on the influence of the in situ geological conditions. You will learn the basics of resource and reserve reporting with particular reference to applicable industry codes. Resource modelling will be taught through computer applications with special consideration of geostatistical techniques.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition:\u00a0MNE3020 "
+            }
+        },
+        {
+            "code": "RSE3040",
+            "credit points": "6",
+            "name": "Mining systems",
+            "unit_details": {
+                "overview": "Overview This unit covers underground and surface mining methods and equipment selection for the optimum performance of underground and surface operations. The unit provides a detailed understanding of mining processes and systems engineering along with their key drivers in modern open-cut and underground operations. For each of the mining methods explored \u2026 For more content click the Read More button below.This unit covers underground and surface mining methods and equipment selection for the optimum performance of underground and surface operations. The unit provides a detailed understanding of mining processes and systems engineering along with their key drivers in modern open-cut and underground operations. For each of the mining methods explored consideration is given to the mining cycle and access design - eg shafts and/or declines and materials handling. Through practical applications, you will explore the selection of optimal mining systems. For each of the mining systems covered, core risk identification and mitigation are considered.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibitions: MNE3040 and MNE3050 "
+            }
+        },
+        {
+            "code": "RSE3060",
+            "credit points": "6",
+            "name": "Rock breakage",
+            "unit_details": {
+                "overview": "Overview This unit will address the mechanics and practical applications and current technologies in rock breakage through machine excavation and drilling and blasting. The machine excavation includes fundamentals of rock cutting, cutting with discs and design of cutter heads along with the assessment of rock cuttability applicable to soft and hard \u2026 For more content click the Read More button below.This unit will address the mechanics and practical applications and current technologies in rock breakage through machine excavation and drilling and blasting. The machine excavation includes fundamentals of rock cutting, cutting with discs and design of cutter heads along with the assessment of rock cuttability applicable to soft and hard rock underground spaces, such as civil and water drainage tunnels and subways. The drilling and blasting component includes the impact of blasting not on the behaviour of rock mass properties, structure and discontinuities and rock breakage and fragmentation. Drilling and blasting techniques will be explored in relation to design, safety, security, environmental impacts and relevant legislation. This will be done in the context of mine-to-mill.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CIV2242"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition: MNE3060 "
+            }
+        },
+        {
+            "code": "RSE3020",
+            "credit points": "6",
+            "name": "Resource estimation",
+            "unit_details": {
+                "overview": "Overview The mineral inventory of a company is quantified through resource or reserve estimates with associated error levels that, in many cases, are unknown. The estimation procedure used by a geologist or engineer should incorporate efforts to minimise errors and assumptions at every level of decision.\nThis unit focuses on resource \u2026 For more content click the Read More button below.The mineral inventory of a company is quantified through resource or reserve estimates with associated error levels that, in many cases, are unknown. The estimation procedure used by a geologist or engineer should incorporate efforts to minimise errors and assumptions at every level of decision.\nThis unit focuses on resource and reserve estimation of mineral ores and hydrocarbon deposits, with particular focus on the influence of the in situ geological conditions. You will learn the basics of resource and reserve reporting with particular reference to applicable industry codes. Resource modelling will be taught through computer applications with special consideration of geostatistical techniques.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition:\u00a0MNE3020 "
+            }
+        },
+        {
+            "code": "RSE3030",
+            "credit points": "6",
+            "name": "Ventilation for surface and underground spaces",
+            "unit_details": {
+                "overview": "Overview This unit provides the fundamentals of ventilation for surface and underground spaces, including properties of air, gas, heat, dust and pollutants control, principles of airflow, ventilation network theory, as well as surface and underground ventilation systems design, with the emphasis on analysis and practical application.This unit provides the fundamentals of ventilation for surface and underground spaces, including properties of air, gas, heat, dust and pollutants control, principles of airflow, ventilation network theory, as well as surface and underground ventilation systems design, with the emphasis on analysis and practical application.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "CIV2263",
+                        "MEC2404",
+                        "CHE2161"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition:\u00a0MNE3030 "
+            }
+        },
+        {
+            "code": "RSE3040",
+            "credit points": "6",
+            "name": "Mining systems",
+            "unit_details": {
+                "overview": "Overview This unit covers underground and surface mining methods and equipment selection for the optimum performance of underground and surface operations. The unit provides a detailed understanding of mining processes and systems engineering along with their key drivers in modern open-cut and underground operations. For each of the mining methods explored \u2026 For more content click the Read More button below.This unit covers underground and surface mining methods and equipment selection for the optimum performance of underground and surface operations. The unit provides a detailed understanding of mining processes and systems engineering along with their key drivers in modern open-cut and underground operations. For each of the mining methods explored consideration is given to the mining cycle and access design - eg shafts and/or declines and materials handling. Through practical applications, you will explore the selection of optimal mining systems. For each of the mining systems covered, core risk identification and mitigation are considered.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibitions: MNE3040 and MNE3050 "
+            }
+        },
+        {
+            "code": "RSE4010",
+            "credit points": "6",
+            "name": "Mine planning and scheduling",
+            "unit_details": {
+                "overview": "Overview This unit deals with the theoretical principles and practical methodologies associated with mine planning and scheduling. Mine planning is an interactive process that includes elements of design, scheduling and evaluation. As part of the planning process, a range of issues has to be considered including, short and long-term planning, mine \u2026 For more content click the Read More button below.This unit deals with the theoretical principles and practical methodologies associated with mine planning and scheduling. Mine planning is an interactive process that includes elements of design, scheduling and evaluation. As part of the planning process, a range of issues has to be considered including, short and long-term planning, mine optimisation, cut-off grade analysis and mine evaluation. The unit applies mine planning and scheduling techniques to a case-study project in current state-of-the-art software.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "RSE3020",
+                        "RSE3040"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite: Or MNE3020 and MNE3040 Prohibition:\u00a0MNE4010 "
+            }
+        }
+    ]
+}

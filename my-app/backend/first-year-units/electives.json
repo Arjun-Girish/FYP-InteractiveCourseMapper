@@ -1,0 +1,744 @@
+[
+    {
+        "code": "BMS1021",
+        "credit points": "6",
+        "name": "Cells, tissues and organisms",
+        "units": {
+            "overview": "Overview This unit introduces the student to the fundamental units of life (the cells) and explores how cells come together to form primary tissues which subsequently combine to form the organ systems and ultimately the living organism.\nCellular structure and metabolism is studied including the chemical constituents of living cells and \u2026 For more content click the Read More button below.\nThe unit also introduces students to the microbial world and explores the structure and function of the immune system and how the body develops an immune response.This unit introduces the student to the fundamental units of life (the cells) and explores how cells come together to form primary tissues which subsequently combine to form the organ systems and ultimately the living organism.\nCellular structure and metabolism is studied including the chemical constituents of living cells and the biological reactions that take place in them. Basic developmental biology concepts associated with the patterning of the body plan and embryological origins of cells and tissues are introduced.\nThe unit also introduces students to the microbial world and explores the structure and function of the immune system and how the body develops an immune response.Read More about Overview",
+            "offerings": {
+                "S1-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "First semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [
+                    "BIO1011",
+                    "BIO1022"
+                ],
+                "AND": []
+            },
+            "rules": "Corequisite: Must be enrolled in one of the following:\n\nBachelor of Biomedical Science (including double degree programs)\nBachelor of Biomedical Science (Scholar Program)\nBachelor of Engineering (honours) (including double degree programs)\n "
+        },
+        "minor": []
+    },
+    {
+        "code": "CHE1010",
+        "credit points": "6",
+        "name": "Grand challenges in chemical engineering: Delivering sustainable food, water and energy",
+        "units": {
+            "overview": "Overview Providing food, water and energy to the world's people in an environmentally sustainable manner is an engineering grand challenge that must be solved in a concerted manner. New scientific discovery and engineering processes are urgently needed, and chemical engineering must provide key solutions in all three areas. This unit will \u2026 For more content click the Read More button below.\nThe basic principles of the discipline will be introduced, including heat and material transfer, thermodynamics, fluid dynamics, (bio)chemical reactions engineering and process design/control. Chemical engineering concepts will be developed within workshops and practicals complemented with practical laboratory experience. There will also be an opportunity for activities where, within\u00a0teams, you will design chemical engineering solutions to important issues or opportunities.\nThis unit is aimed at all engineering students and may be of special interest to those attracted to environmental engineering, biological engineering, civil engineering (water specialisation) and chemical engineering.Providing food, water and energy to the world's people in an environmentally sustainable manner is an engineering grand challenge that must be solved in a concerted manner. New scientific discovery and engineering processes are urgently needed, and chemical engineering must provide key solutions in all three areas. This unit will explore the core concepts and applications of sustainable chemical engineering through interesting case studies drawn from food, water and energy engineering presented by a mix of academic specialists and industry representatives in each area.\nThe basic principles of the discipline will be introduced, including heat and material transfer, thermodynamics, fluid dynamics, (bio)chemical reactions engineering and process design/control. Chemical engineering concepts will be developed within workshops and practicals complemented with practical laboratory experience. There will also be an opportunity for activities where, within\u00a0teams, you will design chemical engineering solutions to important issues or opportunities.\nThis unit is aimed at all engineering students and may be of special interest to those attracted to environmental engineering, biological engineering, civil engineering (water specialisation) and chemical engineering.Read More about Overview",
+            "offerings": {
+                "S2-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": []
+            },
+            "rules": "PREREQUISITES:\nAustralian VCE Mathematical methods (Units 3 & 4) or VCE Specialist mathematics (Units 3 & 4) or equivalent.\nCO-REQUISITE:\u00a0\nYou must be enrolled in the Bachelor of Engineering (Honours) or an engineering double degree or with permission from the Faculty of Engineering. "
+        },
+        "minor": []
+    },
+    {
+        "code": "CHM1011",
+        "credit points": "6",
+        "name": "Chemistry 1",
+        "units": {
+            "overview": "Overview This unit has been designed such that some previous understanding of chemistry is beneficial, but the unit is underpinned by a support structure for those who are relatively new to the subject. On completion of this unit, you will have gained an understanding of the main chemical principles underpining chemical \u2026 For more content click the Read More button below.This unit has been designed such that some previous understanding of chemistry is beneficial, but the unit is underpinned by a support structure for those who are relatively new to the subject. On completion of this unit, you will have gained an understanding of the main chemical principles underpining chemical element, chemical reactivity and equilibria.\u00a0 A number of important topics including atomic structure, bonding and reaction stoichiometry will be introduced to prepare you for a deeper exploration of chemistry. The concepts developed within the workshops and tutorials are complemented through a laboratory program where you will have the opportunity to use a variety of analytical techniques and design your own experiments to solve a range of chemical problems.Read More about Overview",
+            "offerings": {
+                "S1-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "First semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": []
+            },
+            "rules": "PROHIBITION: CHM1051 "
+        },
+        "minor": []
+    },
+    {
+        "code": "CHM1051",
+        "credit points": "6",
+        "name": "Chemistry 1 advanced",
+        "units": {
+            "overview": "Overview This unit has been designed for students who have demonstrated a strong aptitude for chemistry during secondary studies. On completion of this unit, you will be able to apply their understanding of the main chemical principles underpinning chemical elements, chemical reactivity and equilibria. A number of important topics including atomic \u2026 For more content click the Read More button below.This unit has been designed for students who have demonstrated a strong aptitude for chemistry during secondary studies. On completion of this unit, you will be able to apply their understanding of the main chemical principles underpinning chemical elements, chemical reactivity and equilibria. A number of important topics including atomic structure, bonding and reaction stoichiometry will be developed to prepare students for a deeper exploration of chemistry. The concepts developed within the workshops are complemented through an extended laboratory program where you will have the opportunity to use a variety of analytical techniques and design your own experiments to solve a range of chemical problems.Read More about Overview",
+            "offerings": {
+                "OCT-MY-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "October intake teaching period, Malaysia campus",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S1-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "First semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S1-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "First semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S2-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": []
+            },
+            "rules": "PREREQUISITE:\u00a0VCE Units 3 and 4 Chemistry (raw study score >=37)\u00a0Or ATAR >=90 PROHIBITION: CHM1011, CHM1031 "
+        },
+        "minor": []
+    },
+    {
+        "code": "ENE1621",
+        "credit points": "6",
+        "name": "Environmental engineering",
+        "units": {
+            "overview": "Overview Introduce concepts of sustainable development, the demands of population and economic growth, industrialisation and urbanisation, energy demand and usage, and human environmental disturbance. Two environmental case studies will be covered in detail, designed to illustrate by way of example many of the considerations that underpin many environmental issues/conflicts/ethics. These are \u2026 For more content click the Read More button below.Introduce concepts of sustainable development, the demands of population and economic growth, industrialisation and urbanisation, energy demand and usage, and human environmental disturbance. Two environmental case studies will be covered in detail, designed to illustrate by way of example many of the considerations that underpin many environmental issues/conflicts/ethics. These are climate change and sustainable cities. The multi-disciplinary nature of environmental problems is emphasised together with the need to understand and communicate with other professional and community groups.Read More about Overview",
+            "offerings": {
+                "S1-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "First semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": []
+            },
+            "rules": null
+        },
+        "minor": []
+    },
+    {
+        "code": "ENG1021",
+        "credit points": "6",
+        "name": "Spatial communication in engineering",
+        "units": {
+            "overview": "Overview This unit introduces the fundamentals of spatial communication in engineering. This project-oriented unit includes an introduction to engineering drawing, spatial measurement, and spatial visualisation. You will work with various spatial visualisation tools. Starting from hand sketching, you will learn how to produce engineering drawings, collect spatial data, and develop spatial \u2026 For more content click the Read More button below.This unit introduces the fundamentals of spatial communication in engineering. This project-oriented unit includes an introduction to engineering drawing, spatial measurement, and spatial visualisation. You will work with various spatial visualisation tools. Starting from hand sketching, you will learn how to produce engineering drawings, collect spatial data, and develop spatial visualisations.Read More about Overview",
+            "offerings": {
+                "S2-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S2-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": []
+            },
+            "rules": null
+        },
+        "minor": []
+    },
+    {
+        "code": "ENG1051",
+        "credit points": "6",
+        "name": "Materials for energy and sustainability",
+        "units": {
+            "overview": "Overview The key engineering challenge in the 21st century and beyond is the efficient use of energy and the Earth's resources. Energy supply drives our daily life, and there exist challenges in all of clean energy, renewable energy, energy transmission, energy storage, light materials, and energy-efficient manufacturing. In addition, the physical \u2026 For more content click the Read More button below.\nIn this unit, the fundamentals of the structure, design, and application of materials are covered. Attributes such as modulus, strength, toughness, chemical stability, electrical, magnetic, and thermal properties are explained in terms of atomic bonding, crystal defects and polycrystalline microstructure - and how this relates to end users.\nA particular focus will be given to \"processing-structure-property\" relationships, which is at the core of Materials Engineering, with the subjects' concepts elaborated in the context of materials for the efficient use of energy and other resources. Examples will include aerospace materials and functional materials, amongst others.The key engineering challenge in the 21st century and beyond is the efficient use of energy and the Earth's resources. Energy supply drives our daily life, and there exist challenges in all of clean energy, renewable energy, energy transmission, energy storage, light materials, and energy-efficient manufacturing. In addition, the physical infrastructure on which our daily lives depend requires the sustainable use of the finite resources at our disposal. All of these issues are Materials Engineering issues.\nIn this unit, the fundamentals of the structure, design, and application of materials are covered. Attributes such as modulus, strength, toughness, chemical stability, electrical, magnetic, and thermal properties are explained in terms of atomic bonding, crystal defects and polycrystalline microstructure - and how this relates to end users.\nA particular focus will be given to \"processing-structure-property\" relationships, which is at the core of Materials Engineering, with the subjects' concepts elaborated in the context of materials for the efficient use of energy and other resources. Examples will include aerospace materials and functional materials, amongst others.Read More about Overview",
+            "offerings": {
+                "S2-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": []
+            },
+            "rules": "PREREQUISITES:\nAustralian VCE Mathematical methods (Units 3 & 4) or VCE Specialist mathematics (Units 3 & 4) or equivalent\nAND\u00a0\nAustralian VCE Chemistry (Units 3 & 4) or\u00a0Australian VCE Physics (Units 3 & 4) or equivalent "
+        },
+        "minor": []
+    },
+    {
+        "code": "ENG1811",
+        "credit points": "6",
+        "name": "Engineering Industry 4.0 Design",
+        "units": {
+            "overview": "Overview This unit is designed to provide an introduction to Industry 4.0 by covering four of the nine pillars of\u00a0the Industry 4.0 \u2013 IoT, cloud computing, big data analytics and augmented reality. Each pillar will\u00a0be introduced and linked to demonstrate how a cyber-physical system can drive an Industry 4.0\u00a0\u2026 For more content click the Read More button below.This unit is designed to provide an introduction to Industry 4.0 by covering four of the nine pillars of\u00a0the Industry 4.0 \u2013 IoT, cloud computing, big data analytics and augmented reality. Each pillar will\u00a0be introduced and linked to demonstrate how a cyber-physical system can drive an Industry 4.0\u00a0system. You will work in a small team to design an IoT prototype, which integrates cloud\u00a0computing and augmented reality technology that meets a contemporary need in engineering.Read More about Overview",
+            "offerings": {
+                "S1-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "First semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S2-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": []
+            },
+            "rules": "PREREQUISITES:\nAustralian VCE Mathematical methods (Units 3 & 4) or VCE Specialist mathematics (Units 3 & 4) or equivalent. "
+        },
+        "minor": []
+    },
+    {
+        "code": "FIT1056",
+        "credit points": "6",
+        "name": "Collaborative engineering for web applications",
+        "units": {
+            "overview": "Overview Some might describe engineering through a purely mathematical lens; however, it necessarily includes a liberal application of domain specific knowledge (engineering fields) and technology (hardware and software) to solve problems, especially at scale. Large-scale software projects are a critical part of all engineering fields in industry. Perhaps a chemical engineering \u2026 For more content click the Read More button below.Some might describe engineering through a purely mathematical lens; however, it necessarily includes a liberal application of domain specific knowledge (engineering fields) and technology (hardware and software) to solve problems, especially at scale. Large-scale software projects are a critical part of all engineering fields in industry. Perhaps a chemical engineering firm might need a system to simulate biochemical reactions to find better ways for producing green hydrogen. Or a civil engineering firm might need to identify the relationship between changes to playground designs and their impact on safety. Through this unit, you will work on a large-scale software project (web application) in remote teams working independently and collaboratively. The project will give you an appreciation of how large software projects can be decomposed into smaller segments, built and integrated into individual systems. You also gain an understanding of the abilities and limitations of such systems (within the context of web development) and learn methodological processes that support this. You will develop programming skills for web development (HTML, CSS and Javascript). Some prior programming knowledge would be advantageous, but not required.Read More about Overview",
+            "offerings": {
+                "S2-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S2-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": [
+                    "ENG1003"
+                ]
+            },
+            "rules": null
+        },
+        "minor": []
+    },
+    {
+        "code": "MAT1830",
+        "credit points": "6",
+        "name": "Discrete mathematics for computer science",
+        "units": {
+            "overview": "Overview This unit introduces fundamental discrete mathematics topics including combinatorics, sets, relations and functions; methods of logic and proof, especially proof by induction; probability theory, Bayes' theorem; recursion; recurrence relations; trees and other graphs. It establishes the mathematical basis required for studies in Computer Science and Software Engineering.This unit introduces fundamental discrete mathematics topics including combinatorics, sets, relations and functions; methods of logic and proof, especially proof by induction; probability theory, Bayes' theorem; recursion; recurrence relations; trees and other graphs. It establishes the mathematical basis required for studies in Computer Science and Software Engineering.Read More about Overview",
+            "offerings": {
+                "OCT-MY-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "October intake teaching period, Malaysia campus",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S1-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "First semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S1-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "First semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S2-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": [
+                    "ITI9004"
+                ]
+            },
+            "rules": "Prerequisite: VCE Specialist Mathematics or Mathematical Methods units 3 and 4 with a raw study score of at least 25 or Further maths with a raw study score of at least 35. Prohibition:\u00a0MAT1077, MTH1112 "
+        },
+        "minor": []
+    },
+    {
+        "code": "PHS1002",
+        "credit points": "6",
+        "name": "Physics for engineering",
+        "units": {
+            "overview": "Overview This unit relates key principles of physics to engineering and technology, and shows how physics, including quantum and nano-science, creates useful new technologies. In the Newtonian mechanics topics you will explore the traditional concepts of dynamics, such as energy, momentum and angular momentum, and explore their connections and applications to \u2026 For more content click the Read More button below.This unit relates key principles of physics to engineering and technology, and shows how physics, including quantum and nano-science, creates useful new technologies. In the Newtonian mechanics topics you will explore the traditional concepts of dynamics, such as energy, momentum and angular momentum, and explore their connections and applications to a variety of systems, including rocket propulsion, precession and planetary orbits. Within the Electromagnetism topics you will learn about electric and magnetic fields and their effects, as well as explore techniques for determining these fields and understanding their nature as light. In the Quantum physics topic you will explore modern physics concepts such as the uncertainty principle, the probabilistic interpretation of wave functions and atomic models and stimulated emission and explore their connection to technologies like the atomic force microscope\u00a0and lasers. During the activities for the practical component you will develop measurement, analysis, and communication skills.Read More about Overview",
+            "offerings": {
+                "OCT-MY-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "October intake teaching period, Malaysia campus",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S1-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "First semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S2-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": []
+            },
+            "rules": "COREQUISITE: Recommend MTH1030 or ENG1005.Note: supporting mathematics studies are required for progression towards the Astrophysics and Physics majors. PREREQUISITE: PHS1001 or PHS1080 or PHS1031 or BMS1031 or VCE Physics (raw study score 25 or above), and ENG1090 or MTH1010 or VCE Mathematical Methods (raw study score 25 or above). PROHIBITION: PHS1011, PHS1022, ENG1081 "
+        },
+        "minor": []
+    },
+    {
+        "code": "RSE1010",
+        "credit points": "6",
+        "name": "Natural resources engineering",
+        "units": {
+            "overview": "Overview This unit provides basic fundamental and practical aspects of resources engineering and introduces the activities which are involved in a resources engineering project. Resources engineers improve and maintain the sustainability of the earth's resources through efficient design and application of technology. The unit highlights the key concepts associated with the \u2026 For more content click the Read More button below.\nThe unit includes optional field trips, one during the mid-session break and another one towards the end of the semester so that students can observe the practical aspects of resources engineering and better understand the works that are involved in a resources operation. The field trips include both renewable energy and mining operations These are important as resources engineering is a practice-oriented field in which both fundamentals and practice must be used in an integrated manner for successful outcomes.This unit provides basic fundamental and practical aspects of resources engineering and introduces the activities which are involved in a resources engineering project. Resources engineers improve and maintain the sustainability of the earth's resources through efficient design and application of technology. The unit highlights the key concepts associated with the resources industry through two modules, including mining and renewable energy, and demonstrates the strong link between the mining and renewable energy sectors.\nThe unit includes optional field trips, one during the mid-session break and another one towards the end of the semester so that students can observe the practical aspects of resources engineering and better understand the works that are involved in a resources operation. The field trips include both renewable energy and mining operations These are important as resources engineering is a practice-oriented field in which both fundamentals and practice must be used in an integrated manner for successful outcomes.Read More about Overview",
+            "offerings": {
+                "S2-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": []
+            },
+            "rules": null
+        },
+        "minor": []
+    },
+    {
+        "code": "ECE2072",
+        "credit points": "6",
+        "name": "Digital systems",
+        "units": {
+            "overview": "Overview This unit introduces you to modern logic design techniques, hardware used and common representations. Topics include two and multi-level combinational logic, decoders, multiplexers, arithmetic circuits, programmable and steering logic, flip-flops, registers, counters, RAM and ROM. Using this hardware the design component will include finite state machine design and applications to \u2026 For more content click the Read More button below.This unit introduces you to modern logic design techniques, hardware used and common representations. Topics include two and multi-level combinational logic, decoders, multiplexers, arithmetic circuits, programmable and steering logic, flip-flops, registers, counters, RAM and ROM. Using this hardware the design component will include finite state machine design and applications to computer data path control. This will incorporate simple analogue and digital I/O interfacing. Programmable logic devices will be covered, and the use of a hardware description language for describing, synthesising and testing digital logic. Laboratories cover logic design, implementation, and testing.Read More about Overview",
+            "offerings": {
+                "S2-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S2-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": []
+            },
+            "rules": "Prerequisite: 24 credit points from the Faculty of Engineering or the Faculty of Information Technology\nE6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+        },
+        "minor": []
+    },
+    {
+        "code": "ENG2801",
+        "credit points": "6",
+        "name": "Leadership and innovation",
+        "units": {
+            "overview": "Overview This unit develops problem-solving skills related to two important aspects of a successful engineering career: leadership and innovation. Innovation topics adopt a systematic approach to design solutions to lead technological change in the industry. Leadership topics adopt a systematic approach to cope with challenging situations in the leadership process. The \u2026 For more content click the Read More button below.This unit develops problem-solving skills related to two important aspects of a successful engineering career: leadership and innovation. Innovation topics adopt a systematic approach to design solutions to lead technological change in the industry. Leadership topics adopt a systematic approach to cope with challenging situations in the leadership process. The systematic approach uses practical tools to analyse the current state of the problem, recommend general solution(s) based on relevant methodology and theories, and design specific solution(s) to solve problems. These practical tools are useful for continuous improvements and development of problem solving skills for both technical and non-technical problems.Read More about Overview",
+            "offerings": {
+                "OCT-MY-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "October intake teaching period, Malaysia campus",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S1-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "First semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S2-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": []
+            },
+            "rules": null
+        },
+        "minor": []
+    },
+    {
+        "code": "FIT2085",
+        "credit points": "6",
+        "name": "Introduction to computer science for engineers",
+        "units": {
+            "overview": "Overview This unit introduces students to core problem-solving, analytical skills, and methodologies useful for developing flexible, robust, and maintainable software. In doing this, it covers a range of conceptual levels, from fundamental algorithms and data structures, down to their efficient implementation as well as complexity. Topics include data types, data structures, \u2026 For more content click the Read More button below.This unit introduces students to core problem-solving, analytical skills, and methodologies useful for developing flexible, robust, and maintainable software. In doing this, it covers a range of conceptual levels, from fundamental algorithms and data structures, down to their efficient implementation as well as complexity. Topics include data types, data structures, algorithms, algorithmic complexity, recursion, and their practical applications.Read More about Overview",
+            "offerings": {
+                "S1-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "First semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S1-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "First semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S2-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S2-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [
+                    "ENG1003",
+                    "ENG1013",
+                    "ENG1014"
+                ],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": [
+                    "FIT1008",
+                    "FIT1054"
+                ]
+            },
+            "rules": null
+        },
+        "minor": []
+    },
+    {
+        "code": "MAE2505",
+        "credit points": "6",
+        "name": "Aerospace dynamics",
+        "units": {
+            "overview": "Overview This unit develops your physical and analytical understanding of concepts of time, space,\u00a0coordinate systems, particles, rigid bodies, forces, work, energy, mechanical vibration and\u00a0Newton's Laws of Motion, translating into the ability to formulate and analyse the motion of\u00a0spacecraft and aircraft under the influence of forces such as lift, \u2026 For more content click the Read More button below.This unit develops your physical and analytical understanding of concepts of time, space,\u00a0coordinate systems, particles, rigid bodies, forces, work, energy, mechanical vibration and\u00a0Newton's Laws of Motion, translating into the ability to formulate and analyse the motion of\u00a0spacecraft and aircraft under the influence of forces such as lift, drag, thrust and gravity. You will be taught the fundamentals of kinematics and kinetics of rigid bodies and systems of particles\u00a0and to carry out dynamic analysis of satellites and orbital spacecraft and aircraft. You will be\u00a0introduced to properties of the Earth's atmosphere, the forces acting on aircraft and their impact on aircraft performance, resulting in the development of equations for steady level flight, steady\u00a0climbing and descending flight. This unit is core to understanding the control and manoeuvring of\u00a0spacecraft and aircraft.Read More about Overview",
+            "offerings": {
+                "S2-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [
+                    "ENG1011",
+                    "ENG1001"
+                ],
+                "AND": [
+                    "ENG1005",
+                    "ENG1005"
+                ]
+            },
+            "prohibition": {
+                "OR": [
+                    "MEC2401",
+                    "MAE2406"
+                ],
+                "AND": []
+            },
+            "rules": null
+        },
+        "minor": []
+    },
+    {
+        "code": "MEC2404",
+        "credit points": "6",
+        "name": "Mechanics of fluids",
+        "units": {
+            "overview": "Overview This unit develops your physical understanding of fluid statics and fluid flow and the interaction of fluid forces with solids.\nTopics include hydrostatics, Reynolds transport theorem, continuity and momentum equations, control volume analysis, the Bernoulli equation, viscous pipe flow, pumps, dimensional analysis, boundary layers, flow measurement techniques and applications of \u2026 For more content click the Read More button below.This unit develops your physical understanding of fluid statics and fluid flow and the interaction of fluid forces with solids.\nTopics include hydrostatics, Reynolds transport theorem, continuity and momentum equations, control volume analysis, the Bernoulli equation, viscous pipe flow, pumps, dimensional analysis, boundary layers, flow measurement techniques and applications of fluid forces in flow - lift and drag.Read More about Overview",
+            "offerings": {
+                "S2-01-CLAYTON-ON-CAMPUS": {
+                    "location": [
+                        "Clayton"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                },
+                "S2-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [
+                    "MAE2404",
+                    "CHE2161"
+                ],
+                "AND": []
+            },
+            "rules": "Prerequisite: 24 credit points "
+        },
+        "minor": []
+    },
+    {
+        "code": "MEC2811",
+        "credit points": "6",
+        "name": "Manufacturing processes",
+        "units": {
+            "overview": "Overview This unit focuses on manufacturing processes that can be scaled up for volume production. This includes casting, CNC machining, powder metallurgy and metal forming. For each of these processes, you will learn about each of their strengths, limitations, cost and sustainability aspects. This will enable you to objectively select an \u2026 For more content click the Read More button below.This unit focuses on manufacturing processes that can be scaled up for volume production. This includes casting, CNC machining, powder metallurgy and metal forming. For each of these processes, you will learn about each of their strengths, limitations, cost and sustainability aspects. This will enable you to objectively select an appropriate technique for a particular set of requirements. You will also learn to design components that leverage the strengths of each of the different processes to optimally achieve the desired outcomes. You will also have the opportunity to work o a project that put these into practice and gain some hands-on experience.Read More about Overview",
+            "offerings": {
+                "S1-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "First semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [
+                    "ENG1011",
+                    "ENG1001"
+                ],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": []
+            },
+            "rules": null
+        },
+        "minor": []
+    },
+    {
+        "code": "TRC2001",
+        "credit points": "6",
+        "name": "Introduction to systems engineering",
+        "units": {
+            "overview": "Overview This unit introduces you to the fundamental principles of some basic systems comprising of mechanical, electrical, electronic, computing and electro-mechanical sub-systems, with an intention to introduce cross-links between them for an integrated design approach towards their application to the development of complex systems.\nSpecial emphasis will be made on introducing \u2026 For more content click the Read More button below.\nThis unit would outline the breadth of the knowledge that the mechatronics systems engineer must acquire regarding the features of diverse sub-systems and components that constitute the total system.This unit introduces you to the fundamental principles of some basic systems comprising of mechanical, electrical, electronic, computing and electro-mechanical sub-systems, with an intention to introduce cross-links between them for an integrated design approach towards their application to the development of complex systems.\nSpecial emphasis will be made on introducing sub-systems required for 'inception to completion' of mechatronic systems with practical design examples. The enabling sub-systems for an integrated approach such as sensors, actuators, mechanisms, controllers, hardware interfacing, as well as strategies for risk assessment, interface definition, system integration, human factors, measurement and analysis as required in mechatronics product design & development will also be introduced.\nThis unit would outline the breadth of the knowledge that the mechatronics systems engineer must acquire regarding the features of diverse sub-systems and components that constitute the total system.Read More about Overview",
+            "offerings": {
+                "S2-01-MALAYSIA-ON-CAMPUS": {
+                    "location": [
+                        "Malaysia"
+                    ],
+                    "teaching_period": "Second semester",
+                    "Attendance_mode": [
+                        "On-campus"
+                    ]
+                }
+            },
+            "prerequisite": {
+                "OR": [],
+                "AND": []
+            },
+            "prohibition": {
+                "OR": [],
+                "AND": []
+            },
+            "rules": "Prerequisite: 24 credit pointsProhibition: TRC2000 "
+        },
+        "minor": []
+    }
+]

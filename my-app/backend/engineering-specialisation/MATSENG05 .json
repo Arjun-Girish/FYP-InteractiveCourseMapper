@@ -1,0 +1,1151 @@
+{
+    "code": "MATSENG05 ",
+    "credit points": "144",
+    "name": "Materials engineering",
+    "core_units": [
+        {
+            "code": "ENG2005",
+            "credit points": "6",
+            "name": "Advanced engineering mathematics",
+            "unit_details": {
+                "overview": "Overview This unit introduces advanced mathematical concepts required for all disciplines of engineering that extend on the concepts in ENG1005 Engineering mathematics.\nMajor concepts taught using engineering contexts include multivariable and vector calculus, Fourier series and partial differential equations. Specific topics include partial derivatives, double and triple integrals with change of \u2026 For more content click the Read More button below.This unit introduces advanced mathematical concepts required for all disciplines of engineering that extend on the concepts in ENG1005 Engineering mathematics.\nMajor concepts taught using engineering contexts include multivariable and vector calculus, Fourier series and partial differential equations. Specific topics include partial derivatives, double and triple integrals with change of coordinates, vector functions and operators, parametric curves and surfaces, periodic functions, Laplace transforms, ODE boundary value problems, partial differential equation solution techniques and applications.Read More about Overview",
+                "offerings": {
+                    "NOV12-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "November teaching period",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1014",
+                        "ENG1060"
+                    ],
+                    "AND": [
+                        "ENG1005",
+                        "ENG1005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [
+                        "MTH2010",
+                        "MTH2015"
+                    ],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MTE2101",
+            "credit points": "6",
+            "name": "Atomic-scale structure of materials",
+            "unit_details": {
+                "overview": "Overview This unit will explore the structure of materials on the atomic scale and the techniques used to characterise this structure. The arrangements of atoms within solids will be explored in detail, with a focus on crystalline materials. The topic of crystallography will be formally explored, including crystal structures, lattices, motifs, \u2026 For more content click the Read More button below.This unit will explore the structure of materials on the atomic scale and the techniques used to characterise this structure. The arrangements of atoms within solids will be explored in detail, with a focus on crystalline materials. The topic of crystallography will be formally explored, including crystal structures, lattices, motifs, symmetry elements and the stereographic projection. There will also be an introduction to defects in crystalline materials, including vacancies, interstitials, dislocations and grain boundaries. The unit will then go on to explore methods for studying such structures and features, discussing diffraction of X\u2010Rays, electrons and light and imaging techniques which underpin the operation of microscopes used to study atomic structure.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE2541"
+                    ]
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MTE2102",
+            "credit points": "6",
+            "name": "Phase equilibria and phase transformations",
+            "unit_details": {
+                "overview": "Overview This unit will focus on the microstructure of materials, considering how the stability of different phases of materials depends on basic thermodynamic functions. Phase diagrams and the key concepts of Gibbs energy and chemical potential are used to explain the equilibrium between phases and to predict the microstructures of materials. \u2026 For more content click the Read More button below.This unit will focus on the microstructure of materials, considering how the stability of different phases of materials depends on basic thermodynamic functions. Phase diagrams and the key concepts of Gibbs energy and chemical potential are used to explain the equilibrium between phases and to predict the microstructures of materials. The mechanisms of new phase formation are discussed in terms of both the driving forces and kinetics of formation, including the role of atomic diffusion. What happens when the thermodynamically stable microstructural state cannot develop is discussed and metastable microstructures are considered in detail. Throughout the unit, technologically important materials systems are used to illustrate these concepts.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1014",
+                        "ENG1060"
+                    ],
+                    "AND": [
+                        "ENG1005",
+                        "ENG1005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "E6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the corequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "MTE2103",
+            "credit points": "6",
+            "name": "Mechanical properties of materials",
+            "unit_details": {
+                "overview": "Overview This unit will deal with elastic, plastic and fracture behaviour of solid materials. Some basic mechanics will be introduced, including descriptions of the stress and strain distributions in axial and torsional loading of bars and bending of beams. Elastic properties, including Young\u2019s Modulus and Poisson ratio, will be introduced and \u2026 For more content click the Read More button below.This unit will deal with elastic, plastic and fracture behaviour of solid materials. Some basic mechanics will be introduced, including descriptions of the stress and strain distributions in axial and torsional loading of bars and bending of beams. Elastic properties, including Young\u2019s Modulus and Poisson ratio, will be introduced and linked to the structures of various types of materials (metals, polymers, and composites). Plastic deformation will explore the importance of dislocations in yielding, and deformation via twinning will also be introduced. In both cases, there will be significant attention to how deformation can be prevented and materials can be strengthened. Finally, the unit will cover failure of materials via some selected mechanisms, including brittle fracture and fatigue.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1001",
+                        "ENG1011"
+                    ],
+                    "AND": [
+                        "ENG1005",
+                        "ENG1005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE2546"
+                    ]
+                },
+                "rules": "E6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the corequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "MTE2201",
+            "credit points": "6",
+            "name": "Polymers",
+            "unit_details": {
+                "overview": "Overview This unit will focus on the relationships between processing, structure and properties in polymeric materials. Beginning with the mechanisms for the formation of polymeric chains, the molecular\u2010scale structures will then be described in detail and the links to important mechanical properties explored. There will be coverage of how the properties \u2026 For more content click the Read More button below.This unit will focus on the relationships between processing, structure and properties in polymeric materials. Beginning with the mechanisms for the formation of polymeric chains, the molecular\u2010scale structures will then be described in detail and the links to important mechanical properties explored. There will be coverage of how the properties change with\u00a0temperature and timescale, and the important technological applications of a wide range of polymeric materials will be described as well as environmental aspects. Finally, the unit will introduce a number of analysis methods which are crucial for characterising the properties of polymers.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE2545",
+                        "MTE3546"
+                    ]
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MTE2202",
+            "credit points": "6",
+            "name": "Functional materials 1",
+            "unit_details": {
+                "overview": "Overview This unit will focus on the \u2018smart\u2019 functional roles of the materials in devices which depend on their electrical and optical properties. Examples of such devices covered are pn junction rectifiers, bipolar junction transistors, field-effect transistors (FET), dynamic random access memories (DRAM), solar cells, light-emitting diodes (LED), optical fibres and \u2026 For more content click the Read More button below.This unit will focus on the \u2018smart\u2019 functional roles of the materials in devices which depend on their electrical and optical properties. Examples of such devices covered are pn junction rectifiers, bipolar junction transistors, field-effect transistors (FET), dynamic random access memories (DRAM), solar cells, light-emitting diodes (LED), optical fibres and the Peltier cooler. The functional materials will be studied at the microscopic (atomic and/or molecular) level in order to gain an understanding of the device operation. The particular focus of this unit is on the electronic properties of materials (metals, semiconductors and insulators) based on their energy band structures. The classical and wave-mechanical models of metals are introduced along with the Fermi energy, density of states, forbidden band and Brillouin zones, to describe the behaviour of free electrons in solids. Semiconductor fabrication processes such as single crystal growth, film deposition and microlithography will also be introduced briefly.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE2544"
+                    ]
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MTE3101",
+            "credit points": "6",
+            "name": "Materials in a complex world 1: People, projects and data",
+            "unit_details": {
+                "overview": "Overview This unit will explore the importance and use of quantitative data and modelling in materials engineering, including experimental design, data acquisition, interpretation and communication of results. It also launches a program of professional skills training, aimed at preparing and equipping you for professional careers in engineering and related fields. These \u2026 For more content click the Read More button below.\nAttention will be given to handling imperfections within datasets and dealing with error and uncertainty, including frequentist and Bayesian statistics. You will develop programming skills and learn how to use key computational tools and programming techniques. Professional skillsaspects will include interpersonal skills, intercultural awareness, giving and receiving constructive feedback, effectively working in diverse teams with clear roles and planning, and managing successful projects. The key area of appropriate ethical professional conduct will also be addressed. Work carried out in this unit will begin to form the basis of a portfolio of materials project work.This unit will explore the importance and use of quantitative data and modelling in materials engineering, including experimental design, data acquisition, interpretation and communication of results. It also launches a program of professional skills training, aimed at preparing and equipping you for professional careers in engineering and related fields. These skills are developed through performing an extended experimental modelling and data analysis project.\nAttention will be given to handling imperfections within datasets and dealing with error and uncertainty, including frequentist and Bayesian statistics. You will develop programming skills and learn how to use key computational tools and programming techniques. Professional skillsaspects will include interpersonal skills, intercultural awareness, giving and receiving constructive feedback, effectively working in diverse teams with clear roles and planning, and managing successful projects. The key area of appropriate ethical professional conduct will also be addressed. Work carried out in this unit will begin to form the basis of a portfolio of materials project work.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "ADDITIONAL PREREQUISITE: Completion of 24 credit points of MTE-coded units at level 2 or higher "
+            }
+        },
+        {
+            "code": "MTE3102",
+            "credit points": "6",
+            "name": "Plasticity of metals and alloys",
+            "unit_details": {
+                "overview": "Overview This unit introduces the most important mechanical properties of engineering alloys and explores the relationship between these properties, the microstructure, and the mechanisms of plastic deformation. The properties considered will include the yield strength, strain hardening, ultimate tensile strength, fracture, creep, fatigue and wear.\nParticular emphasis is placed on the \u2026 For more content click the Read More button below.\nYou will develop a detailed and quantitative understanding of the relationship between the\u00a0mechanical properties of engineering alloys and their microstructure and learn how to design\u00a0microstructures to optimise different properties.This unit introduces the most important mechanical properties of engineering alloys and explores the relationship between these properties, the microstructure, and the mechanisms of plastic deformation. The properties considered will include the yield strength, strain hardening, ultimate tensile strength, fracture, creep, fatigue and wear.\nParticular emphasis is placed on the role of dislocations and twins as the dominant actors controlling plastic deformation in metals and alloys. The interaction between dislocation/twins and the microstructure is emphasised.\nYou will develop a detailed and quantitative understanding of the relationship between the\u00a0mechanical properties of engineering alloys and their microstructure and learn how to design\u00a0microstructures to optimise different properties.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "MTE2101",
+                        "MTE2541",
+                        "MTE2546"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE3542"
+                    ]
+                },
+                "rules": "E6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite and corequisite rules if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "MTE3103",
+            "credit points": "6",
+            "name": "Materials life cycle",
+            "unit_details": {
+                "overview": "Overview This unit will cover different aspects related to an industrial material\u2019s lifecycle, from its production to application in service, and culminating in its end-of-life. It will delve into fundamental sciences that govern interactions of materials with environments, and compare methods typically used to extend service lives of common industrial materials. \u2026 For more content click the Read More button below.This unit will cover different aspects related to an industrial material\u2019s lifecycle, from its production to application in service, and culminating in its end-of-life. It will delve into fundamental sciences that govern interactions of materials with environments, and compare methods typically used to extend service lives of common industrial materials. Various methods used to process materials after their service, such as recycling, biodegradation, downcycling\u00a0and landfill will be compared in the context of environmental/economic sustainability.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "MTE2101",
+                        "MTE2541"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE3541"
+                    ]
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MTE3201",
+            "credit points": "6",
+            "name": "Materials in a complex world 2: Characterisation, identification and selection",
+            "unit_details": {
+                "overview": "Overview This unit will focus on materials selection in manufactured products. This will primarily be\u00a0achieved via a product disassembly project (\"lawnmower project\"), which aims to identify\u00a0materials and their processing routes, to analyse why those choices have been made and to propose alternatives, combining simple economic analyses, sustainability, societal and \u2026 For more content click the Read More button below.This unit will focus on materials selection in manufactured products. This will primarily be\u00a0achieved via a product disassembly project (\"lawnmower project\"), which aims to identify\u00a0materials and their processing routes, to analyse why those choices have been made and to propose alternatives, combining simple economic analyses, sustainability, societal and other\u00a0considerations alongside the technical engineering properties. Professional skills in this unit will\u00a0focus on concise and effective written communication, across a range of formats and media.\u00a0You will also develop skills in interpreting, assessing and critiquing data, information and\u00a0conclusions presented by others. There will be coverage of the economic considerations of\u00a0materials projects such as quality, risk, value and productivity. Project work undertaken in this unit will continue to build towards a professional portfolio.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "MTE2101",
+                        "MTE2541"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE4571"
+                    ]
+                },
+                "rules": "PREREQUISITES: In addition to (MTE2101 or MTE2541), you must also have completed 18 credit points of other level 2 MTE-coded units\nCOREQUISITES: Completion of two units from (MTE2201, MTE3203, MTE2545, MTE3546) "
+            }
+        },
+        {
+            "code": "MTE3202",
+            "credit points": "6",
+            "name": "Functional materials 2",
+            "unit_details": {
+                "overview": "Overview This unit is designed to cover a range of electronic and magnetic materials for advanced device\u00a0applications such as information storage, energy storage, efficient power electronics and\u00a0spintronics. Specific topics to be covered are electrical and electronic properties of different\u00a0classes of materials such as dielectrics, ferroelectrics, superconductors and materials; \u2026 For more content click the Read More button below.This unit is designed to cover a range of electronic and magnetic materials for advanced device\u00a0applications such as information storage, energy storage, efficient power electronics and\u00a0spintronics. Specific topics to be covered are electrical and electronic properties of different\u00a0classes of materials such as dielectrics, ferroelectrics, superconductors and materials; magnetic\u00a0properties - microscopic origin of magnetism in specific classes of materials, domains, technical\u00a0magnetization, coercivity and core loss, spin-dependent magneto-transport; and nanosize effects.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "MTE2101",
+                        "MTE2541"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE3545"
+                    ]
+                },
+                "rules": "E6011 Master of Professional Engineering - You are exempt from the prerequisite and corequisite rules if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "MTE3203",
+            "credit points": "6",
+            "name": "Introduction to ceramics: Properties, processing and applications",
+            "unit_details": {
+                "overview": "Overview Ceramics are one of the most diverse material classes in the world. With origins in basic pottery,\u00a0dating back more than 20,000 years, dramatic advances in their properties and their\u00a0applications have been made over the past century. This unit will provide an introduction to ceramics for engineering. In the \u2026 For more content click the Read More button below.Ceramics are one of the most diverse material classes in the world. With origins in basic pottery,\u00a0dating back more than 20,000 years, dramatic advances in their properties and their\u00a0applications have been made over the past century. This unit will provide an introduction to ceramics for engineering. In the contexts of traditional and modern ceramics, you will learn\u00a0about their history, their general compositions and how these impact the resulting structural,\u00a0mechanical, optical, thermal and electrical properties. The dependence of these properties on\u00a0their manufacturing processes will be discussed. This will enable an understanding of why and\u00a0how such ceramics are used in applications that are well established, such as concrete and\u00a0glass, and those that are emerging, like fuel cells and photovoltaics.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "MTE2101",
+                        "MTE2541",
+                        "MTE2546"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE3546"
+                    ]
+                },
+                "rules": "E6011 Master of Professional Engineering - You are exempt from the prerequisite rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "MTE4101",
+            "credit points": "6",
+            "name": "Integrated design project",
+            "unit_details": {
+                "overview": "Overview This unit will focus on the role of materials in the design and synthesis of products and systems,\u00a0achieved via the execution of a group project which will aim to present a solution to a real-world\u00a0problem. Project management strands of the unit will focus on the key aspects of \u2026 For more content click the Read More button below.This unit will focus on the role of materials in the design and synthesis of products and systems,\u00a0achieved via the execution of a group project which will aim to present a solution to a real-world\u00a0problem. Project management strands of the unit will focus on the key aspects of quality management and risk. The unit also aims to support the development of communication skills,\u00a0with emphasis in this unit on oral communication, both formal and informal. Technical skills\u00a0covered include CAD, material selection, design for manufacturing and assembly, physical and virtual prototyping, as well as developing materials construction and workshop skills. The project\u00a0work in this unit will form a key part of a graduate-level professional portfolio.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "MTE3101"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [
+                        "MTE4571",
+                        "ENG4105"
+                    ],
+                    "AND": []
+                },
+                "rules": "PREREQUISITE: In addition to MTE3101, you must have complete 24 credit points of level 3 or 4 MTE-coded units. "
+            }
+        },
+        {
+            "code": "MTE4102",
+            "credit points": "6",
+            "name": "Advanced materials processing and manufacturing",
+            "unit_details": {
+                "overview": "Overview This unit covers advanced processing and manufacturing technologies of metals, ceramics,\u00a0polymers and composites. The first part of this unit introduces the processing of cast and wrought\u00a0metals, including casting, thermomechanical processing, welding and additive manufacturing of metallic materials. It also includes processing-microstructure-property relationships in the\u00a0products produced by each \u2026 For more content click the Read More button below.This unit covers advanced processing and manufacturing technologies of metals, ceramics,\u00a0polymers and composites. The first part of this unit introduces the processing of cast and wrought\u00a0metals, including casting, thermomechanical processing, welding and additive manufacturing of metallic materials. It also includes processing-microstructure-property relationships in the\u00a0products produced by each of these processing technologies. The second part of the unit\u00a0introduces ceramic processing technologies including green body shaping, solid-state sintering, liquid phase sintering and hot-pressing. It also examines additive manufacturing, sol-gel\u00a0processing and thin-film growth for ceramic materials and the processing-microstructure property\u00a0relationships for each of the technologies included. The third part deals with the processing\u00a0and properties of polymers and shows how these aspects determine their use in particular\u00a0applications. The rheology of polymers is discussed and the factors controlling viscosity are\u00a0described and related to polymer processing. Designing with polymers for specific properties,\u00a0processes and applications is included. For composites, the types of matrices and fibres/fillers are described as well as composite fabrication and the effect of reinforcement on properties.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "MTE3546",
+                        "MTE3546"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE4572",
+                        "MTE4573"
+                    ]
+                },
+                "rules": "E6011 Master of Professional Engineering - You are exempt from the prerequisite and corequisite rules if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "MTE4201",
+            "credit points": "6",
+            "name": "Materials in a complex world 3: Impact in society",
+            "unit_details": {
+                "overview": "Overview In this unit, we will move beyond the role of the engineer as a designer, and examine the role of\u00a0an engineer as a strategist within a technical organisation and within society as a whole. Project\u00a0management aspects covered in this unit will include enterprise & entrepreneurship, economicsand markets, materials \u2026 For more content click the Read More button below.\nThe unit will include a major team-based project, addressing a problem in the broad area of\u00a0materials sustainability. You will apply the knowledge gained in class to propose and justify\u00a0strategic actions that could be taken by your team. You will be expected to integrate technical and non-technical concepts into your team\u2019s major project. At the end of the unit, your team will\u00a0produce a strategic plan to address the problem, which will form a key part of your professional\u00a0portfolio upon graduation.In this unit, we will move beyond the role of the engineer as a designer, and examine the role of\u00a0an engineer as a strategist within a technical organisation and within society as a whole. Project\u00a0management aspects covered in this unit will include enterprise & entrepreneurship, economicsand markets, materials flow, the carbon economy, regulation and social responsibility. You will\u00a0participate in a complex real-world engineering project and interact with key stakeholders in an\u00a0area of significance for the role of materials engineering in society. The interrelationship between innovation and invention and the generation and nature of intellectual property within a\u00a0business context will be covered.\nThe unit will include a major team-based project, addressing a problem in the broad area of\u00a0materials sustainability. You will apply the knowledge gained in class to propose and justify\u00a0strategic actions that could be taken by your team. You will be expected to integrate technical and non-technical concepts into your team\u2019s major project. At the end of the unit, your team will\u00a0produce a strategic plan to address the problem, which will form a key part of your professional\u00a0portfolio upon graduation.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "MTE3201"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITE: In addition to MTE3201, you must have completed 24 credit points of level 3 or 4 MTE-coded units. "
+            }
+        },
+        {
+            "code": "ENG4701",
+            "credit points": "6",
+            "name": "Final year project A",
+            "unit_details": {
+                "overview": "Overview The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course. This unit is the first part of a two-unit project.The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course. This unit is the first part of a two-unit project.",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITE: 18 credit points at level three in engineering or FIT-coded study\nCOREQUISITE: ENG0001 (Clayton-based students) "
+            }
+        },
+        {
+            "code": "ENG4702",
+            "credit points": "6",
+            "name": "Final year project B",
+            "unit_details": {
+                "overview": "Overview This unit is a continuation of ENG4701 Final year project A. The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course.This unit is a continuation of ENG4701 Final year project A. The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course.",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG4701"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MTE3204",
+            "credit points": "6",
+            "name": "Biomaterials 1",
+            "unit_details": {
+                "overview": "Overview Classifications of biomaterials covering metallic, polymeric, ceramic and composite materials; typical structures and properties for biomedical applications. Definitions of biocompatibility and critical design criteria of biomedical devices. Introduction to basic human anatomy, cell and biomolecule structure and function, and cellular fate processes. Fundamentals of cell-biomaterial interactions and the response of \u2026 For more content click the Read More button below.Classifications of biomaterials covering metallic, polymeric, ceramic and composite materials; typical structures and properties for biomedical applications. Definitions of biocompatibility and critical design criteria of biomedical devices. Introduction to basic human anatomy, cell and biomolecule structure and function, and cellular fate processes. Fundamentals of cell-biomaterial interactions and the response of living tissues to implanted biomaterials, including inflammatory responses and blood compatibility. Assessment of biocompatibility of biomaterials, sterilisation procedures and an introduction to ethical and regularity issues with biomedical devices.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE2548"
+                    ]
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ENG4001",
+            "credit points": "6",
+            "name": "Special studies in engineering 1",
+            "unit_details": {
+                "overview": "Overview This unit comprises a special technical research study in a field of engineering, under the guidance of an academic supervisor with a topic negotiated and agreed between you and the Faculty of Engineering. The unit is offered as a vehicle to enable an excellent student to undertake in-depth studies that \u2026 For more content click the Read More button below.\nThis unit should not\u00a0be taken concurrently with a final year project unit.This unit comprises a special technical research study in a field of engineering, under the guidance of an academic supervisor with a topic negotiated and agreed between you and the Faculty of Engineering. The unit is offered as a vehicle to enable an excellent student to undertake in-depth studies that would otherwise not fit within the scope of a standard fourth level. it might take the form of a laboratory research project or another form that allows you to meet the learning outcomes. You will be expected to prepare a proposal for the study and then take responsibility for the implementation of that plan, including compliance with any ethical and OHS requirements. You should meet at least weekly with your supervisor but will be expected to maintain high levels of self-management while interacting professionally with other staff members as needed.\nThis unit should not\u00a0be taken concurrently with a final year project unit.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite:\n\nCompletion of 96 credit points of engineering study and a WAM >78%\nThis unit can only be undertaken with the permission of the relevant department Director of Education in consultation with the proposed academic supervisor.\n "
+            }
+        },
+        {
+            "code": "ENG4700",
+            "credit points": "6",
+            "name": "Engineering technology for biomedical imaging and sensing",
+            "unit_details": {
+                "overview": "Overview Introduction to biomedical engineering from the perspective of engineering-based technologies of sensing and imaging. Topics include: basis of light and radiation, principles of synchrotron operation, practical study at the Australian synchrotron, human physiology for engineers, principles of detection and sensing of signals, biomedically relevant properties and phenomena. During this time \u2026 For more content click the Read More button below.Introduction to biomedical engineering from the perspective of engineering-based technologies of sensing and imaging. Topics include: basis of light and radiation, principles of synchrotron operation, practical study at the Australian synchrotron, human physiology for engineers, principles of detection and sensing of signals, biomedically relevant properties and phenomena. During this time project teams are formed and project proposals are developed. Project work continues with groups and individuals combining projects, allocated resources, knowledge and skills to develop a biomedical sensing device.Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite: Completion of 90 credit points "
+            }
+        },
+        {
+            "code": "MTE4590",
+            "credit points": "6",
+            "name": "Modelling of materials",
+            "unit_details": {
+                "overview": "Overview An introduction to the computational/modelling approaches currently available in materials science and engineering is provided. The reasons for using modelling approaches are discussed and the different types of models available are outlined. For each of the length scales important in understanding material behaviour (nano-, micro-, meso- and macro-), the available \u2026 For more content click the Read More button below.An introduction to the computational/modelling approaches currently available in materials science and engineering is provided. The reasons for using modelling approaches are discussed and the different types of models available are outlined. For each of the length scales important in understanding material behaviour (nano-, micro-, meso- and macro-), the available modelling techniques are outlined and their principles, methods of implementation, advantages, disadvantages and perceived future developments are discussed. Examples of modelling approaches will be selected from all classes of materials. The general methodology used for constructing models is emphasised.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005",
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MTE4592",
+            "credit points": "6",
+            "name": "Advanced ceramics and applications",
+            "unit_details": {
+                "overview": "Overview The first part of this unit will focus on structural ceramics including zirconium oxides, silicon nitride, sialons, silicon carbide and ceramic particulate and fibre reinforced composites, their processing and applications. The crystal structures of the different materials and their properties will be correlated. Examples include cutting tools, wear parts and \u2026 For more content click the Read More button below.The first part of this unit will focus on structural ceramics including zirconium oxides, silicon nitride, sialons, silicon carbide and ceramic particulate and fibre reinforced composites, their processing and applications. The crystal structures of the different materials and their properties will be correlated. Examples include cutting tools, wear parts and advanced refractories. The second part of the unit will introduce functional ceramics, predominantly those used in electrical or electronic applications, their microstructure and nanostructure. Examples include thermistors, varistors, capacitors, multi-layer substrates, piezoelectric and electro-optic transducers, and gas sensors.Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "MTE3546"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MTE4593",
+            "credit points": "6",
+            "name": "Materials and sustainability",
+            "unit_details": {
+                "overview": "Overview This unit provides an introduction to the political, social and environmental background to materials usage. Major technologies relating to the production, sustainable use and recycling of metals, plastics, glass, electronics, paper and ceramic materials are discussed. Various options involving materials substitution, reclamation, energy recovery and disposal are critically evaluated. The \u2026 For more content click the Read More button below.This unit provides an introduction to the political, social and environmental background to materials usage. Major technologies relating to the production, sustainable use and recycling of metals, plastics, glass, electronics, paper and ceramic materials are discussed. Various options involving materials substitution, reclamation, energy recovery and disposal are critically evaluated. The unit considers the economics of materials production, as well as 'cradle-to-grave' analyses of materials, including products and byproducts of the nuclear fuel cycle. In particular, it looks at various life-cycle analysis techniques. We will examine the impact of population, affluence and technology changes on population and ecological footprints with the arrival of the current \"Anthropocene Era\".Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE5193"
+                    ]
+                },
+                "rules": "PREREQUISITE: Completion of 96 credit points in engineering study "
+            }
+        },
+        {
+            "code": "MTE4594",
+            "credit points": "6",
+            "name": "Engineering alloy design, processing and selection",
+            "unit_details": {
+                "overview": "Overview Engineering alloys play a vital role in modern society. In almost all structural applications the principle loads are carried by engineering alloys. The reasons underlying this choice are discussed and the general methodology used to choose a material for use in a new application is presented. The link between processing, \u2026 For more content click the Read More button below.Engineering alloys play a vital role in modern society. In almost all structural applications the principle loads are carried by engineering alloys. The reasons underlying this choice are discussed and the general methodology used to choose a material for use in a new application is presented. The link between processing, microstructure and properties is emphasized. A selection of engineering alloys, including steels (carbon, alloy, stainless, dual-phase, TRIP/TWIP), cast irons, aluminium, magnesium, titanium, nickel and cobalt-based superalloys and zirconium alloys, is discussed. The state-of-the-art approaches to the design and development of new alloys for the 21st century are outlined.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "MTE3542",
+                        "MTE3102"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MTE4595",
+            "credit points": "6",
+            "name": "Corrosion mechanisms and protection methods",
+            "unit_details": {
+                "overview": "Overview This unit covers the manifestations and types of corrosion usually found in the field in areas such as marine, chemical, manufacture, transport and offshore industries.\nEmphasis will be placed on identification and recognition of the types of corrosion likely to occur and then develop strategies to mitigate corrosion. The mechanisms \u2026 For more content click the Read More button below.\nCorrosion mitigation mechanisms will be discussed. This includes materials selection, cathodic protection, coatings and inhibitors. The unit will also cover cement and concrete, including reinforced concrete and topics related to durability of non-metals.This unit covers the manifestations and types of corrosion usually found in the field in areas such as marine, chemical, manufacture, transport and offshore industries.\nEmphasis will be placed on identification and recognition of the types of corrosion likely to occur and then develop strategies to mitigate corrosion. The mechanisms of corrosion in some environments will also be studies. This includes stress corrosion cracking, microbiologically induced corrosion and corrosion in reinforced concrete structures.\nCorrosion mitigation mechanisms will be discussed. This includes materials selection, cathodic protection, coatings and inhibitors. The unit will also cover cement and concrete, including reinforced concrete and topics related to durability of non-metals.Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [
+                        "MTE3541",
+                        "MTE3103"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite: Or by permission "
+            }
+        },
+        {
+            "code": "MTE4596",
+            "credit points": "6",
+            "name": "Biomaterials 2",
+            "unit_details": {
+                "overview": "Overview Biocompatibility is explored and is related to the foreign body response. The importance of the interfacial properties of biomaterials is covered and includes factors affecting cellular response and protein adsorption. Polymers and ceramics used in medicine are reviewed with examples including the total hip joint replacement (TFJR), heart valves, catheters \u2026 For more content click the Read More button below.Biocompatibility is explored and is related to the foreign body response. The importance of the interfacial properties of biomaterials is covered and includes factors affecting cellular response and protein adsorption. Polymers and ceramics used in medicine are reviewed with examples including the total hip joint replacement (TFJR), heart valves, catheters and vascular grafts and hydrogels used in ophthalmology. Drug delivery devices are reviewed and include degradation mechanisms and kinetics. Biomaterials with biological recognition and smart biomaterials will be studied. Biosensors and examples in bionanotechnology will be investigated. Tissue engineering and scaffold manufacture are covered and the use of stem cells for regenerative medicine reviewed.Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite: Must have completed 96 credit points of engineering study "
+            }
+        },
+        {
+            "code": "MTE4597",
+            "credit points": "6",
+            "name": "Engineering with nanomaterials",
+            "unit_details": {
+                "overview": "Overview This unit aims to develop an understanding of synthetic methods, properties and applications of nanomaterials and nanofabrication techniques. The nanomaterials include zero-dimensional nanoparticles, one-dimensional nanostructures (nanotubes, nanorods, nanowires and nanofibres), two-dimensional thin films and three-dimensional nanocomposites. Principles of nanofabrication such as lithography, self-assembly and biomimicry will be introduced. The unit \u2026 For more content click the Read More button below.This unit aims to develop an understanding of synthetic methods, properties and applications of nanomaterials and nanofabrication techniques. The nanomaterials include zero-dimensional nanoparticles, one-dimensional nanostructures (nanotubes, nanorods, nanowires and nanofibres), two-dimensional thin films and three-dimensional nanocomposites. Principles of nanofabrication such as lithography, self-assembly and biomimicry will be introduced. The unit will stress the rational design of properties of nanostructured materials and how they may be exploited for every day applications, ranging from food packaging and sunscreens to sensors and energy-related areas.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "MTE2541",
+                        "MTE2101",
+                        "CHE3172"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE5197"
+                    ]
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MTE4598",
+            "credit points": "6",
+            "name": "Electron microscopy",
+            "unit_details": {
+                "overview": "Overview This unit will reveal how electron microscopy can be used to determine the structure and chemistry of a material from the micron to the atomic scale. It will cover methods for the determination of atomic structure, chemical composition and bonding, 3D structures, surface morphology and topography, orientation-relationships and electronic and \u2026 For more content click the Read More button below.This unit will reveal how electron microscopy can be used to determine the structure and chemistry of a material from the micron to the atomic scale. It will cover methods for the determination of atomic structure, chemical composition and bonding, 3D structures, surface morphology and topography, orientation-relationships and electronic and magnetic structures. These methods will be illustrated with applications, for example, to nanomaterials, alloys, ceramics, catalysts, polymers and electronic materials. The course will cover the theory, methodology and application of both scanning and transmission electron microscopy and will incorporate practical sessions in front of electron microscopes.Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "MTE2541",
+                        "MTE3547"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MTE5881",
+            "credit points": "6",
+            "name": "Applied crystallography in advanced materials characterisation",
+            "unit_details": {
+                "overview": "Overview The scattering of different types of radiation from crystalline materials gives fundamental insight into materials properties at various length scales, beginning with atomic structure and culminating in interatomic bonding. The unit will be taught as a series of modules covering essential knowledge in each area of diffraction (X-ray diffraction, electron \u2026 For more content click the Read More button below.\nThe unit explores the complementarity of the different techniques and radiations through strategically aligned laboratory classes. The data collected in each lab session, from different experiments and instruments, will be combined throughout the course of the unit with the aim of solving a real materials science problem that is of current interest or a hot topic.\nApproximately 50% of this unit is based on the flipped classroom, and data analysis from laboratory sessions will be carried out in workshop-style sessions using the knowledge and instruction gained from the online modules.The scattering of different types of radiation from crystalline materials gives fundamental insight into materials properties at various length scales, beginning with atomic structure and culminating in interatomic bonding. The unit will be taught as a series of modules covering essential knowledge in each area of diffraction (X-ray diffraction, electron diffraction, and neutron diffraction), including a solid coverage of crystallography and how it is applied in all of the characterisation techniques that reside within each of these areas of diffraction.\nThe unit explores the complementarity of the different techniques and radiations through strategically aligned laboratory classes. The data collected in each lab session, from different experiments and instruments, will be combined throughout the course of the unit with the aim of solving a real materials science problem that is of current interest or a hot topic.\nApproximately 50% of this unit is based on the flipped classroom, and data analysis from laboratory sessions will be carried out in workshop-style sessions using the knowledge and instruction gained from the online modules.Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "MTE5882",
+            "credit points": "6",
+            "name": "Advanced polymeric materials",
+            "unit_details": {
+                "overview": "Overview Polymers are a ubiquitous part of our everyday life. Advances in polymer synthesis, processing and engineering have led to new applications exploiting the unique properties of polymers to realise advanced technologies far removed from their initial application.\nBuilding on a review of the fundamentals of polymer science, this unit will \u2026 For more content click the Read More button below.Polymers are a ubiquitous part of our everyday life. Advances in polymer synthesis, processing and engineering have led to new applications exploiting the unique properties of polymers to realise advanced technologies far removed from their initial application.\nBuilding on a review of the fundamentals of polymer science, this unit will explore the use of polymers in a range of novel applications from biomedical applications to optoelectronic devices. Different classes of polymers will be discussed including conjugated polymers, block co-polymers and biopolymers with a view to linking the physical properties of the polymer chain to the functionality of the technological application.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [
+                        "MTE4572",
+                        "MTE6882"
+                    ],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "MTE5883",
+            "credit points": "6",
+            "name": "Environmental durability and protection of metals and engineering materials",
+            "unit_details": {
+                "overview": "Overview This unit covers the manifestations and types of corrosion usually found in the field in areas such as marine, chemical, manufacture, transport and offshore industries.\nEmphasis will be placed on identification and recognition of the types of corrosion likely to occur and then develop strategies to mitigate corrosion. The mechanisms \u2026 For more content click the Read More button below.\nCorrosion mitigation mechanisms will be discussed. This includes materials selection, cathodic protection, coatings and inhibitors. The unit will also cover cement and concrete, including reinforced concrete and topics related to durability of non-metals.This unit covers the manifestations and types of corrosion usually found in the field in areas such as marine, chemical, manufacture, transport and offshore industries.\nEmphasis will be placed on identification and recognition of the types of corrosion likely to occur and then develop strategies to mitigate corrosion. The mechanisms of corrosion in some environments will also be studies. This includes stress corrosion cracking, microbiologically-induced corrosion and corrosion in reinforced concrete structures.\nCorrosion mitigation mechanisms will be discussed. This includes materials selection, cathodic protection, coatings and inhibitors. The unit will also cover cement and concrete, including reinforced concrete and topics related to durability of non-metals.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE4595"
+                    ]
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "MTE5884",
+            "credit points": "6",
+            "name": "Advanced photovoltaics and energy storage",
+            "unit_details": {
+                "overview": "Overview Materials and principles for energy production, storage and conversion will be covered in detail. Topics include light harvesting materials, solar power conversion efficiency, interaction of light with matter, commercial and emerging photovoltaic technologies, concentrator PV, electrochemical methods, primary and secondary batteries, supercapacitors, photocatalysis, water splitting and fuels cells.Materials and principles for energy production, storage and conversion will be covered in detail. Topics include light harvesting materials, solar power conversion efficiency, interaction of light with matter, commercial and emerging photovoltaic technologies, concentrator PV, electrochemical methods, primary and secondary batteries, supercapacitors, photocatalysis, water splitting and fuels cells.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "MTE5885",
+            "credit points": "6",
+            "name": "Biomaterials and biomechanics",
+            "unit_details": {
+                "overview": "Overview The aim of this unit is to link the requirements of clinical medicine to engineering through advanced materials design and fabrication in the framework of new medical devices, therapeutics and diagnostics. Topics covered in the unit include cell biology and biomechanics at the cellular level, biocompatibility, tissue engineering and other \u2026 For more content click the Read More button below.The aim of this unit is to link the requirements of clinical medicine to engineering through advanced materials design and fabrication in the framework of new medical devices, therapeutics and diagnostics. Topics covered in the unit include cell biology and biomechanics at the cellular level, biocompatibility, tissue engineering and other composite material/cell applications, The use of stem cells in conjunction with materials and the use of materials to guide cellular fates and properties is of high relevance. A detailed study of medical additive manufacturing (3D printing) in metals, polymers and cells will be provided. Strong connection to how materials can contribute to solutions that address unmet clinical need will be made throughout the unit.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE6885"
+                    ]
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "MTE5886",
+            "credit points": "6",
+            "name": "Additive manufacturing of metallic materials",
+            "unit_details": {
+                "overview": "Overview Additive Manufacturing (AM) of metallic materials is an integral part of modern manufacturing. AM allows to produce complex engineering products from a powder stock using a layer by layer deposition. This unit will provide an overview of existing additive manufacturing processes such as 'selective laser melting', 'electron beam melting' and \u2026 For more content click the Read More button below.\nThe first part of the unit will focus on powder metallurgy covering aspects of powder production, blending and characterisation. The second part of the unit will investigate different additive manufacturing processes and establish a relationship between processing parameters, resulting microstructure and mechanical properties of 3D printed materials. Furthermore, various post-processing techniques for additive manufactured products will be reviewed.\nExamples of the use of these technologies for the design and fabrication of production parts for aerospace and biomedical application will be critically assessed. You will undertake a 3D printing project and obtain practical skills in computer-aided design and 3D printing of metals.Additive Manufacturing (AM) of metallic materials is an integral part of modern manufacturing. AM allows to produce complex engineering products from a powder stock using a layer by layer deposition. This unit will provide an overview of existing additive manufacturing processes such as 'selective laser melting', 'electron beam melting' and 'direct energy deposition'.\nThe first part of the unit will focus on powder metallurgy covering aspects of powder production, blending and characterisation. The second part of the unit will investigate different additive manufacturing processes and establish a relationship between processing parameters, resulting microstructure and mechanical properties of 3D printed materials. Furthermore, various post-processing techniques for additive manufactured products will be reviewed.\nExamples of the use of these technologies for the design and fabrication of production parts for aerospace and biomedical application will be critically assessed. You will undertake a 3D printing project and obtain practical skills in computer-aided design and 3D printing of metals.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "T3-57-OS-CHI-SEU-ON-CAMPUS": {
+                        "location": [
+                            "Suzhou"
+                        ],
+                        "teaching_period": "Term 3",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE6886"
+                    ]
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "MTE5887",
+            "credit points": "6",
+            "name": "Additive manufacturing of polymeric and functional materials",
+            "unit_details": {
+                "overview": "Overview Additive Manufacturing (AM) of polymeric materials is an important manufacturing platform for the fabrication of functional and customisable engineered products. This unit will provide an overview of existing additive manufacturing processes such as 'fused deposition modelling', 'stereolithography', 'polymer jetting' and 'powder bed fusion'. Each of these technologies relies on the \u2026 For more content click the Read More button below.Additive Manufacturing (AM) of polymeric materials is an important manufacturing platform for the fabrication of functional and customisable engineered products. This unit will provide an overview of existing additive manufacturing processes such as 'fused deposition modelling', 'stereolithography', 'polymer jetting' and 'powder bed fusion'. Each of these technologies relies on the appropriate selection of a polymer and the fundamentals of different classes of polymeric materials will be reviewed. Advantages and drawbacks of existing and emerging AM technologies will also be discussed. The unit will also investigate examples of the use of these technologies for the design and fabrication of functional polymeric parts. You will obtain practical skills in 3D printing of polymers, computer-aided design and processing of polymers for additive manufacturing.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-OS-CHI-SEU-ON-CAMPUS": {
+                        "location": [
+                            "Suzhou"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE6887"
+                    ]
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        }
+    ]
+}

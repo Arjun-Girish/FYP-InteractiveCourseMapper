@@ -1,0 +1,326 @@
+{"Foundational skills": {
+    "credit points": "12",
+    "units": [
+        {
+            "code": "PHS1001",
+            "credit points": "6",
+            "name": "Foundation physics",
+            "overview":"The unit introduces fundamental principles of Newtonian mechanics, electricity and magnetism, waves and oscillations, and quantum physics. The unit explores these concepts in the context of current technology in areas such as transportation and communication. You will also discover how these ideas link to current research in Physics. The unit further introduces the concepts of experimental design, measurement, and analysis that form the basis of the evidence-based approach that is the foundation of scientific discoveries and theories.",
+            "unit_details": {
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": ["PHS1011", "PHS1031", "BMS1031"]
+                },
+                "corequisite":{
+                    "OR": ["MTH1020", "ENG1090"]
+                },
+                "rules": "COREQUISITE: Recommended: MTH1020 or ENG1090 PROHIBITION: PHS1011, PHS1031, BMS1031"
+            }
+        },
+        {
+            "code": "ENG1090",
+            "credit points": "6",
+            "name": "Foundation mathematics",
+            "overview":"This unit introduces foundational mathematics required for all disciplines of engineering. It is equivalent to the Victorian Certificate of Education (VCE) Specialist Mathematics and a prerequisite for ENG1005. Major concepts taught using engineering contexts include functions and their properties, complex numbers, vectors, differentiation, integration and application.",
+            "unit_details": {
+                "offerings": {
+                    "NOV12-CLAYTON-ON-CAMPUS":{
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "November teaching period",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": ["MTH1020"]
+                },
+                "corequisite":{
+                    "OR": []
+                },
+                "rules": "Prerequisite: Mathematical Methods (CAS)"
+            }
+        }
+    ]
+},
+"Engineering fundamentals":{
+    "credit points": "12",
+    "units": [
+        {
+            "code": "ENG1014",
+            "credit points": "6",
+            "name": "Engineering numerical analysis",
+            "overview":"This unit introduces computing fundamentals in the context of dynamical systems. Programming structures including arrays, loops, conditional statements, and functions will be presented through the MATLAB environment. This use of MATLAB will initially focus on the analysis of physical systems involving linear and rotational motions that can be solved analytically. These systems will be analysed via kinematic, kinetic, and energy-based methods. The unit will then examine a wider range of complex engineering and dynamical systems that do not exhibit analytical solutions. Problems related to these systems will be solved using numerical methods for linear regression, root-finding, integration, ordinary differential equations, and systems of linear equations. The underlying assumptions and uncertainties associated with the models and numerical methods will be emphasised.",
+            "unit_details": {
+                "offerings": {
+                    "NOV12-CLAYTON-ON-CAMPUS":{
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "November teaching period",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": ["ENG1060"]
+                },
+                "corequisite":{
+                    "OR": [""],
+                    "AND": ["ENG1005"]
+                },
+                "rules": "PREREQUISITES: Australian VCE Mathematical methods (Units 3 & 4) or VCE Specialist mathematics (Units 3 & 4) or equivalent AND Australian VCE Physics (Units 3 & 4) or equivalent (Recommended). CO-REQUISITE: You must be enrolled in the Bachelor of Engineering (Honours) or an engineering double degree or with permission from the Faculty of Engineering."
+            }
+        },
+        {
+            "code": "ENG1005",
+            "credit points": "6",
+            "name": "Engineering mathematics",
+            "overview":"This unit introduces foundational mathematical concepts required for all disciplines of engineering and assumes that you have prerequisite knowledge equivalent to Victorian Certificate of Education (VCE) Specialist Mathematics or ENG1090 Foundation Mathematics. Major concepts taught using engineering contexts include linear algebra, calculus and ordinary differential equations. Specific topics include vector algebra, linear systems of equations, matrix algebra, eigenvalues and eigenvectors, sequences and series in single and higher dimensions, multivariate functions, critical points and first and second order linear ordinary differential equations.",
+            "unit_details": {
+                "offerings": {
+                    "NOV12-CLAYTON-ON-CAMPUS":{
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "November teaching period",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": ["MTH1030","MTH1035"],
+                    "AND": []
+                },
+                "corequisite":{
+                    "OR": []
+                },
+                "rules": "Prerequisite: You must have passed ENG1090 or VCE Specialist Mathematics Units 3 and 4 with a raw study score of at least 30 (or an equivalent qualification and score). If you enrol in this unit and do not meet one of these prerequisites you will be discontinued."
+            }
+        }
+    ]
+},
+"Engineering design":{
+    "credit points": "18",
+    "units": [
+        {
+            "code": "ENG1011",
+            "credit points": "6",
+            "name": "Engineering methods",
+            "overview":"This unit develops methods for analysing complex problems. The basics of statics and material properties are introduced and used to analyse structures such as beams, cantilevers and truss sections. This knowledge is used to design, analyse, build and test a structural component. Simplifications are implicit in the methods used in this analysis. These simplifications will be examined carefully and scrutinised in a broader cross-disciplinary context through problems related to the system being designed. The methods considered will include: the use of simplifications, assumptions, constraints, boundary conditions and levels of required precision. The outcome of the structural analysis and testing will be compared and the suitability of the simplifications used will be scrutinised. You will gain knowledge about the methods engineers use to address complex problems across disciplines. Alongside this “engineering thinking”, you will also gain insight into the role of different specialisations of engineering in society. Communication and teamwork skills will be developed through teamwork tasks.",
+            "unit_details": {
+                "offerings": {
+                    "NOV12-CLAYTON-ON-CAMPUS":{
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "November teaching period",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": ["ENG1001"]
+                },
+                "corequisite":{
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITES: Australian VCE Mathematical methods (Units 3 & 4) or VCE Specialist mathematics (Units 3 & 4) or equivalent AND Australian VCE Physics (Units 3 & 4) or equivalent (Recommended). CO-REQUISITE: You must be enrolled in the Bachelor of Engineering (Honours) or an engineering double degree or with permission from the Faculty of Engineering."
+            }
+        },
+        {
+            "code": "ENG1012",
+            "credit points": "6",
+            "name": "Engineering design",
+            "overview":"This unit covers the engineering design process, which is a method used by engineers from all disciplines to determine a solution to a problem or address a need. You will use design thinking models to define the problem, create innovative conceptual designs, prototype possible design solutions, refine several designs to a single final design, and determine the specifications of the final design. In order to simulate a real-world experience, you are required to determine the role of the stakeholders in the project, and consider the economic, environmental, Indigenous, social and ethical aspects of your proposal. You will be working in a team throughout the semester to gain the communication skills which are highly desired by industries. You will be required to reflect on your work to help improve your interpersonal and teamwork skills contributing to your personal growth. You will also consider the value of engineering ethics and the Code of Ethics whilst learning the engineering design process. Engineers need to submit proposals and pitch their ideas to stakeholders within communities and their team members. They will give presentations to their peers, to their project managers, and to possible stakeholders to develop these presentation skills. On completion of this unit, you should be able to participate in multidisciplinary conversations about the engineering design process.",
+            "unit_details": {
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": ["ENG1002"]
+                },
+                "corequisite":{
+                    "OR": []
+                },
+                "rules": "PREREQUISITES: Australian VCE Mathematical methods (Units 3 & 4) or VCE Specialist mathematics (Units 3 & 4) or equivalent AND Australian VCE Physics (Units 3 & 4) or equivalent (Recommended). CO-REQUISITE: You must be enrolled in the Bachelor of Engineering (Honours) or an engineering double degree or with permission from the Faculty of Engineering."
+            }
+        },
+        {
+            "code": "ENG1013",
+            "credit points": "6",
+            "name": "Engineering smart sysyems",
+            "overview":"Smart systems are critical to the future of engineering. This unit will introduce the fundamentals required for these systems from the perspective of software, electrical, electronic and mechatronics engineering. Theory underpinning systems approach, analogue and digital circuit design and Python programming will be presented. The fundamental stages in the software and hardware development life cycle will be introduced, including requirements analysis, functional analysis, design integration and verification. Concepts such as Boolean Logic, Ohms and Kirchhoffs Laws, Nodal Analysis and Thevenin Equivalence will also be introduced. These will be used to analyse and design solutions that contain electrical components including capacitors, semiconductor devices such as diodes, transistors and basic microcontrollers. The contribution of each topic to a contemporary engineering application will be demonstrated. These concepts will be practised through hands-on projects carried out in teams. Communication and teamwork skills will be developed through team-based tasks.",
+            "unit_details": {
+                "offerings": {
+                    "NOV12-CLAYTON-ON-CAMPUS":{
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "November teaching period",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": ["ENG1002","ENG1003"]
+                },
+                "corequisite":{
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITES: Australian VCE Mathematical methods (Units 3 & 4) or VCE Specialist mathematics (Units 3 & 4) or equivalent AND Australian VCE Physics (Units 3 & 4) or equivalent (Recommended). CO-REQUISITE: You must be enrolled in the Bachelor of Engineering (Honours) or an engineering double degree or with permission from the Faculty of Engineering."
+            }
+        }
+    ]
+}
+}

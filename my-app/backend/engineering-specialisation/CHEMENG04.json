@@ -1,0 +1,1695 @@
+{
+    "code": "CHEMENG04",
+    "credit points": "144",
+    "name": "Chemical engineering",
+    "core_units": [
+        {
+            "code": "CHM1011",
+            "credit points": "6",
+            "name": "Chemistry 1",
+            "unit_details": {
+                "overview": "Overview This unit has been designed such that some previous understanding of chemistry is beneficial, but the unit is underpinned by a support structure for those who are relatively new to the subject. On completion of this unit, you will have gained an understanding of the main chemical principles underpining chemical \u2026 For more content click the Read More button below.This unit has been designed such that some previous understanding of chemistry is beneficial, but the unit is underpinned by a support structure for those who are relatively new to the subject. On completion of this unit, you will have gained an understanding of the main chemical principles underpining chemical element, chemical reactivity and equilibria.\u00a0 A number of important topics including atomic structure, bonding and reaction stoichiometry will be introduced to prepare you for a deeper exploration of chemistry. The concepts developed within the workshops and tutorials are complemented through a laboratory program where you will have the opportunity to use a variety of analytical techniques and design your own experiments to solve a range of chemical problems.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PROHIBITION: CHM1051 "
+            }
+        },
+        {
+            "code": "CHE2161",
+            "credit points": "6",
+            "name": "Mechanics of fluids",
+            "unit_details": {
+                "overview": "Overview This unit develops your physical understanding of fluid statics and fluid flow and the interaction of fluid forces with solids.\nTopics include hydrostatics, Reynolds transport theorem, continuity and momentum equations, control volume analysis, the Bernoulli equation, viscous pipe flow, pumps, dimensional analysis, boundary layers, flow measurement techniques and applications of \u2026 For more content click the Read More button below.This unit develops your physical understanding of fluid statics and fluid flow and the interaction of fluid forces with solids.\nTopics include hydrostatics, Reynolds transport theorem, continuity and momentum equations, control volume analysis, the Bernoulli equation, viscous pipe flow, pumps, dimensional analysis, boundary layers, flow measurement techniques and applications of fluid forces in flow - lift and drag.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [
+                        "MAE2404",
+                        "MEC2404"
+                    ],
+                    "AND": []
+                },
+                "rules": "Prerequisite: 48 credit points\nE6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "CHE2162",
+            "credit points": "6",
+            "name": "Material and energy balances",
+            "unit_details": {
+                "overview": "Overview This unit will introduce you to the fundamentals of material and energy balances through a systematic treatment of single and multiple-unit operations, reactive and non-reactive processes, recycle and bypass, extent of reactions, equations of state, vapour-liquid phase equilibrium, solid-liquid phase equilibrium, internal energy and enthalpy changes for process fluids undergoing \u2026 For more content click the Read More button below.This unit will introduce you to the fundamentals of material and energy balances through a systematic treatment of single and multiple-unit operations, reactive and non-reactive processes, recycle and bypass, extent of reactions, equations of state, vapour-liquid phase equilibrium, solid-liquid phase equilibrium, internal energy and enthalpy changes for process fluids undergoing specified changes in temperature, pressure, phase, reactions and chemical compositions and computer-aided simulation of process flow diagrams. A process simulation software will be used to aid in the solution of more complex systems.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHE2163",
+            "credit points": "6",
+            "name": "Heat and mass transfer",
+            "unit_details": {
+                "overview": "Overview \nIntroduce fundamentals and applications of heat and mass transfer.\nDevelop an understanding of the mechanisms and mathematical representation of conduction, convection and radiation heat transfer and convective mass transfer.\nGain an appreciation for the analogies between heat and mass transfer using dimensional analysis.\nUnderstand and apply concepts of local and \u2026 For more content click the Read More button below.\nCalculation of overall heat transfer coefficient and heat transfer area using Log Mean Temperature Difference (LMTD) and Number of Transfer Unit (NTU) method.\nGain an understanding of molecular diffusion in gases, solids, and liquids, and convective mass transfer between two fluids in contact, and develop methods to use these concepts in problem solving.\nPerform experiments to illustrate the concepts of heat and mass transfer.\n\nIntroduce fundamentals and applications of heat and mass transfer.\nDevelop an understanding of the mechanisms and mathematical representation of conduction, convection and radiation heat transfer and convective mass transfer.\nGain an appreciation for the analogies between heat and mass transfer using dimensional analysis.\nUnderstand and apply concepts of local and overall heat and mass transfer coefficients.\nCalculation of overall heat transfer coefficient and heat transfer area using Log Mean Temperature Difference (LMTD) and Number of Transfer Unit (NTU) method.\nGain an understanding of molecular diffusion in gases, solids, and liquids, and convective mass transfer between two fluids in contact, and develop methods to use these concepts in problem solving.\nPerform experiments to illustrate the concepts of heat and mass transfer.\nRead More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHE2164",
+            "credit points": "6",
+            "name": "Thermodynamics 1",
+            "unit_details": {
+                "overview": "Overview Introduce fundamentals and applications of classical thermodynamics. Understand the concepts of heat, work, energy, and entropy, the First and Second Laws of Thermodynamics and their application. Introduction to the Carnot cycle and the concept of irreversibility. Understand the use of property diagrams in solving heat engine and heat pump cycles. \u2026 For more content click the Read More button below.Introduce fundamentals and applications of classical thermodynamics. Understand the concepts of heat, work, energy, and entropy, the First and Second Laws of Thermodynamics and their application. Introduction to the Carnot cycle and the concept of irreversibility. Understand the use of property diagrams in solving heat engine and heat pump cycles. Understand the operation and analysis of the Brayton, Otto, Diesel and Rankine cycles. Introduction to the analysis of refrigeration and heat pump cycles. Perform experiments to illustrate the concepts of Thermodynamics. Simple combustion processes. Renewable energy and its use in heating and electricity generation and environmental benefits.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [
+                        "MEC2405",
+                        "MAE2402"
+                    ],
+                    "AND": []
+                },
+                "rules": "Prerequisite - Completion of 24 credit points of units owned by the Faculty of Engineering. Students enrolled in E3008 are exempt. "
+            }
+        },
+        {
+            "code": "ENG2005",
+            "credit points": "6",
+            "name": "Advanced engineering mathematics",
+            "unit_details": {
+                "overview": "Overview This unit introduces advanced mathematical concepts required for all disciplines of engineering that extend on the concepts in ENG1005 Engineering mathematics.\nMajor concepts taught using engineering contexts include multivariable and vector calculus, Fourier series and partial differential equations. Specific topics include partial derivatives, double and triple integrals with change of \u2026 For more content click the Read More button below.This unit introduces advanced mathematical concepts required for all disciplines of engineering that extend on the concepts in ENG1005 Engineering mathematics.\nMajor concepts taught using engineering contexts include multivariable and vector calculus, Fourier series and partial differential equations. Specific topics include partial derivatives, double and triple integrals with change of coordinates, vector functions and operators, parametric curves and surfaces, periodic functions, Laplace transforms, ODE boundary value problems, partial differential equation solution techniques and applications.Read More about Overview",
+                "offerings": {
+                    "NOV12-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "November teaching period",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1014",
+                        "ENG1060"
+                    ],
+                    "AND": [
+                        "ENG1005",
+                        "ENG1005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [
+                        "MTH2010",
+                        "MTH2015"
+                    ],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHE3161",
+            "credit points": "6",
+            "name": "Chemistry and chemical thermodynamics",
+            "unit_details": {
+                "overview": "Overview This unit covers thermodynamics from a chemical engineering viewpoint. Content will cover basic concepts and the use of: thermodynamic functions such as free energy, enthalpy, and entropy; estimation of properties of pure compounds and mixtures; description of solution thermodynamics and its applications, equilibrium phase diagrams and chemical reaction equilibria.This unit covers thermodynamics from a chemical engineering viewpoint. Content will cover basic concepts and the use of: thermodynamic functions such as free energy, enthalpy, and entropy; estimation of properties of pure compounds and mixtures; description of solution thermodynamics and its applications, equilibrium phase diagrams and chemical reaction equilibria.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CHE2164"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "E6011 Master of Professional Engineering - You are exempt from the prerequisite rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "CHE3162",
+            "credit points": "6",
+            "name": "Process control",
+            "unit_details": {
+                "overview": "Overview This unit provides a thorough introduction to process control and simulation. The unit begins with understanding disturbances, why disturbances need to be controlled and possible responses of various systems to a disturbance. The selection of which variables to control, which variables to manipulate and approaches to interactions are covered, together \u2026 For more content click the Read More button below.This unit provides a thorough introduction to process control and simulation. The unit begins with understanding disturbances, why disturbances need to be controlled and possible responses of various systems to a disturbance. The selection of which variables to control, which variables to manipulate and approaches to interactions are covered, together with the most important types of control loops and computer control systems. Topics include common control scenarios - feed back, feed forward, and cascade systems; ratio control; tuning of PID controllers; single loop and multiple loop systems; interactions and decoupling; process simulation and advanced process control.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG2005",
+                        "ENG2005"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "E6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "CHE3164",
+            "credit points": "6",
+            "name": "Reaction engineering",
+            "unit_details": {
+                "overview": "Overview This unit aims to develop a fundamental understanding of chemical reaction kinetics and reactor design, including:\n1. Fundamentals of design of ideal reactors\n2. Rate laws, collection and analysis of rate data, stoichiometry\n3. Isothermal reactor design\n4. Multiple reactions, reaction mechanisms and pathways\n5. An introduction to bio-reaction engineering\n\u2026 For more content click the Read More button below.\n7. Catalysis and catalytic reactors, catalyst deactivation and regeneration.This unit aims to develop a fundamental understanding of chemical reaction kinetics and reactor design, including:\n1. Fundamentals of design of ideal reactors\n2. Rate laws, collection and analysis of rate data, stoichiometry\n3. Isothermal reactor design\n4. Multiple reactions, reaction mechanisms and pathways\n5. An introduction to bio-reaction engineering\n6. Non-isothermal reactor design including reactive chemical hazards and safety in reactors with exothermic reactions\n7. Catalysis and catalytic reactors, catalyst deactivation and regeneration.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CHE2163",
+                        "CHE2164"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "E6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "CHE3165",
+            "credit points": "6",
+            "name": "Separation processes",
+            "unit_details": {
+                "overview": "Overview A comprehensive treatment of the fundamentals of separation processes of interest to the chemical industry is covered. The fundamental principles of mass transfer are introduced and extended to include principles of interfacial mass transfer and simultaneous heat and mass transfer. General mass and energy balances are derived for equilibrium staged \u2026 For more content click the Read More button below.A comprehensive treatment of the fundamentals of separation processes of interest to the chemical industry is covered. The fundamental principles of mass transfer are introduced and extended to include principles of interfacial mass transfer and simultaneous heat and mass transfer. General mass and energy balances are derived for equilibrium staged processes. The applications of these principles are made to the unit operations of distillation (binary and multi-component), liquid-liquid extraction, gas-liquid absorption and stripping, adsorption and ion-exchange, and membrane separation processes.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CHE2162",
+                        "CHE2163"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "E6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "CHE3166",
+            "credit points": "6",
+            "name": "Process design",
+            "unit_details": {
+                "overview": "Overview This unit will develop four important inter-related themes associated with the detailed design of chemical equipment and processes. These themes are process safety, mechanical integrity, equipment selection, and process operability (including piping and instrumentation). These themes will be developed using a mixture of lectures, practice classes and a team-based detailed \u2026 For more content click the Read More button below.This unit will develop four important inter-related themes associated with the detailed design of chemical equipment and processes. These themes are process safety, mechanical integrity, equipment selection, and process operability (including piping and instrumentation). These themes will be developed using a mixture of lectures, practice classes and a team-based detailed design project.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CHE2163",
+                        "CHE2164"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "E6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "CHE3167",
+            "credit points": "6",
+            "name": "Transport phenomena and numerical methods",
+            "unit_details": {
+                "overview": "Overview Fundamental principles of transport phenomena, Newton's law of viscosity, Fourier's law of heat conduction and Fick's law of diffusion. Transfer coefficients (viscosity, thermal conductivity and diffusivity). Newtonian and Non-Newtonian fluids, conservation laws (mass, momentum and energy) and steady state shell mass, momentum and energy balances. Numerical solution of partial differential \u2026 For more content click the Read More button below.Fundamental principles of transport phenomena, Newton's law of viscosity, Fourier's law of heat conduction and Fick's law of diffusion. Transfer coefficients (viscosity, thermal conductivity and diffusivity). Newtonian and Non-Newtonian fluids, conservation laws (mass, momentum and energy) and steady state shell mass, momentum and energy balances. Numerical solution of partial differential equations, classification of equations (finite differences and finite elements) and incorporation of boundary conditions into numerical solutions. Utilise computer packages to solve complex, realistic chemical engineering problems in fluid flow and transport phenomena.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "MTH2010",
+                        "MTH2032",
+                        "MTH2015",
+                        "MTH2032",
+                        "ENG2005"
+                    ],
+                    "AND": [
+                        "CHE2161",
+                        "CHE2161"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHE4161",
+            "credit points": "6",
+            "name": "Engineer in society",
+            "unit_details": {
+                "overview": "Overview An introduction to the role of engineers in the context of their employment in industry and their interaction with the wider community. You will obtain an understanding of triple-bottom-line reporting as a driver for management, involving financial, environmental and the social impact of business. Financial management will include project management, \u2026 For more content click the Read More button below.An introduction to the role of engineers in the context of their employment in industry and their interaction with the wider community. You will obtain an understanding of triple-bottom-line reporting as a driver for management, involving financial, environmental and the social impact of business. Financial management will include project management, project risk, market analysis, project costing and finance and financial indicators. Environmental management will look at the approval process for new projects and ongoing environmental improvement strategies. Social management will look at company organisation, the role of unions, occupational health and safety law and safety management.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite: 96 credit points of engineering study "
+            }
+        },
+        {
+            "code": "CHE4162",
+            "credit points": "6",
+            "name": "Particle technology",
+            "unit_details": {
+                "overview": "Overview This unit provides a thorough introduction to particle technology. The unit begins with understanding particle characterisation, the fluid mechanics of single and multi-particle systems and particulate fluidisation. The physics underlying powder flow will be covered to enable introductory hopper design. Common powder processing operations will be studied, selected from powder \u2026 For more content click the Read More button below.This unit provides a thorough introduction to particle technology. The unit begins with understanding particle characterisation, the fluid mechanics of single and multi-particle systems and particulate fluidisation. The physics underlying powder flow will be covered to enable introductory hopper design. Common powder processing operations will be studied, selected from powder mixing/segregation, sedimentation, dewatering and size enlargement.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CHE2161"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition:\u00a0CHE3104 "
+            }
+        },
+        {
+            "code": "CHE4170",
+            "credit points": "1",
+            "name": "Design project",
+            "unit_details": {
+                "overview": "Overview You will work in a team on the design and evaluation of a process plant for a specified duty. This is a capstone design unit drawing together the skills and knowledge previously developed in the areas of detailed design of chemical equipment and processes, process safety, mechanical integrity, equipment selection, \u2026 For more content click the Read More button below.You will work in a team on the design and evaluation of a process plant for a specified duty. This is a capstone design unit drawing together the skills and knowledge previously developed in the areas of detailed design of chemical equipment and processes, process safety, mechanical integrity, equipment selection, process operability (including piping and instrumentation), environmental impact and economic evaluation.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "CHE4161",
+                        "CHE4164"
+                    ],
+                    "AND": [
+                        "CHE4164",
+                        "CHE4164"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Co-requisite: ENG0001 (for Clayton students) "
+            }
+        },
+        {
+            "code": "ENG4701",
+            "credit points": "6",
+            "name": "Final year project A",
+            "unit_details": {
+                "overview": "Overview The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course. This unit is the first part of a two-unit project.The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course. This unit is the first part of a two-unit project.",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITE: 18 credit points at level three in engineering or FIT-coded study\nCOREQUISITE: ENG0001 (Clayton-based students) "
+            }
+        },
+        {
+            "code": "ENG4702",
+            "credit points": "6",
+            "name": "Final year project B",
+            "unit_details": {
+                "overview": "Overview This unit is a continuation of ENG4701 Final year project A. The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course.This unit is a continuation of ENG4701 Final year project A. The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course.",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG4701"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHE2166",
+            "credit points": "6",
+            "name": "Introduction to process simulation",
+            "unit_details": {
+                "overview": "Overview This unit will introduce the role and use of simulation tools in process design and develop knowledge of process simulation methods and approaches that can be used in a variety of chemical engineering design problems in a wide range of industries. The unit will also introduce concepts associated to utility \u2026 For more content click the Read More button below.This unit will introduce the role and use of simulation tools in process design and develop knowledge of process simulation methods and approaches that can be used in a variety of chemical engineering design problems in a wide range of industries. The unit will also introduce concepts associated to utility systems, electricity generation and principles of sustainability including environmental, economic and social impact. You will develop knowledge and skills through open-ended projects.Read More about Overview",
+                "offerings": {
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1002",
+                        "ENG1012"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisites:Or ENG1010 "
+            }
+        },
+        {
+            "code": "CHE2167",
+            "credit points": "6",
+            "name": "Process material selection",
+            "unit_details": {
+                "overview": "Overview This unit introduces the basic concepts of materials properties and their selection for use in both the natural environment where they will be installed and the operating and process environment.\nThe underlying philosophy of this unit will be used to compare different material selection options. The unit will include a \u2026 For more content click the Read More button below.This unit introduces the basic concepts of materials properties and their selection for use in both the natural environment where they will be installed and the operating and process environment.\nThe underlying philosophy of this unit will be used to compare different material selection options. The unit will include a fundamental understanding of static stress loading. It will include material degradation processes which may limit material life such as corrosion, embrittlement processes and oxidation processes. Through open-ended problems, you will develop technical knowledge and professional skills.Read More about Overview",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [
+                        "MEC3459",
+                        "MAE3406"
+                    ],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHE2871",
+            "credit points": "6",
+            "name": "Biochemistry for engineers",
+            "unit_details": {
+                "overview": "Overview This unit focuses on the study of living cells and biological molecules with an emphasis on their applications in chemical and pharmaceutical industries. Topics to be covered include cell biology and structure, fundamental biochemistry of proteins and enzymes, metabolic pathways and biosynthesis of metabolites, molecular biology including central dogma, genetic \u2026 For more content click the Read More button below.This unit focuses on the study of living cells and biological molecules with an emphasis on their applications in chemical and pharmaceutical industries. Topics to be covered include cell biology and structure, fundamental biochemistry of proteins and enzymes, metabolic pathways and biosynthesis of metabolites, molecular biology including central dogma, genetic code, protein synthesis and practical examples of industrial applications.Read More about Overview",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [
+                        "BTH2741",
+                        "BCH2011"
+                    ],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHE2873",
+            "credit points": "6",
+            "name": "Introduction to chemical processes",
+            "unit_details": {
+                "overview": "Overview This unit introduces the chemical processes that form the basis of the petrochemical and oleochemical industries. It gives you a flavour of how these chemical processes are developed by combining the knowledge of \"chemistry\" and \"process\". You will develop knowledge and skills in synthesising chemical processes through a mix of \u2026 For more content click the Read More button below.This unit introduces the chemical processes that form the basis of the petrochemical and oleochemical industries. It gives you a flavour of how these chemical processes are developed by combining the knowledge of \"chemistry\" and \"process\". You will develop knowledge and skills in synthesising chemical processes through a mix of lectures, case studies and hands-on experience in operating a pilot plant.Read More about Overview",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHM2951",
+            "credit points": "6",
+            "name": "Environmental chemistry - water",
+            "unit_details": {
+                "overview": "Overview A fundamental understanding of the principles underlying aquatic chemistry and their application in the study of aquatic processes. Includes: equilibria, activity and solubility; acid-base and carbonate equilibria, coordination chemistry and complexation, trace metal speciation, aquatic colloid and surface chemistry, estuarine processes and lake biogeochemistry, physico-chemical features of estuaries, rivers and \u2026 For more content click the Read More button below.A fundamental understanding of the principles underlying aquatic chemistry and their application in the study of aquatic processes. Includes: equilibria, activity and solubility; acid-base and carbonate equilibria, coordination chemistry and complexation, trace metal speciation, aquatic colloid and surface chemistry, estuarine processes and lake biogeochemistry, physico-chemical features of estuaries, rivers and lakes, light and heat in aquatic systems, major ions in natural waters, redox equilibria, dissolved gases, biogeochemical cycling of nutrients and contaminants, eutrophication. The practical component covers common major analytical techniques and two field excursions.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITE: 6 credit points level one Chemistry "
+            }
+        },
+        {
+            "code": "ECE2071",
+            "credit points": "6",
+            "name": "Computer organisation and programming",
+            "unit_details": {
+                "overview": "Overview This unit provides an introduction to computers and CPU organisation, assemblers and compilers, and algorithm design for engineering problems and embedded computer systems. It covers the language C and its implementation on a typical computer, including standard data types, arrays, control statements, functions, including ways of parameter passing, C library \u2026 For more content click the Read More button below.This unit provides an introduction to computers and CPU organisation, assemblers and compilers, and algorithm design for engineering problems and embedded computer systems. It covers the language C and its implementation on a typical computer, including standard data types, arrays, control statements, functions, including ways of parameter passing, C library functions, pointers, strings, arrays of pointers, structures, linked lists and binary tree data structures, dynamic memory allocations, and calls to assembly language programs. Object-oriented programming is introduced. Software engineering is covered as the methodology of software development and lifecycle models. Operating system concepts are introduced. The unit also includes an introduction to programmable logic controllers (PLCs).Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1003",
+                        "ENG1013",
+                        "ENG1014"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ECE2131",
+            "credit points": "6",
+            "name": "Electrical circuits",
+            "unit_details": {
+                "overview": "Overview This unit provides foundation knowledge for analogue circuit analysis and design. You will be introduced to the fundamentals of linear electronic circuit analysis and design. At the completion of the unit, you will develop skills in using state of the art prototyping and measurement tools for linear electronic circuit analysis \u2026 For more content click the Read More button below.\nThe unit will provide a grounding in circuit theory leading to solutions of electrical networks with node and mesh analysis, equivalent sources, two-port representations and simulation. AC analysis with phasors, first and second-order transient responses will be included. Frequency and time response will be developed with Laplace transform techniques.This unit provides foundation knowledge for analogue circuit analysis and design. You will be introduced to the fundamentals of linear electronic circuit analysis and design. At the completion of the unit, you will develop skills in using state of the art prototyping and measurement tools for linear electronic circuit analysis and design. The topics covered in this course include sinusoidal steady-state analysis using phasors and complex impedances, feedback concepts, solid-state electronics, solid-state diodes and diode circuits, field-effect transistors, bipolar junction transistors and operational amplifiers.\nThe unit will provide a grounding in circuit theory leading to solutions of electrical networks with node and mesh analysis, equivalent sources, two-port representations and simulation. AC analysis with phasors, first and second-order transient responses will be included. Frequency and time response will be developed with Laplace transform techniques.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1013",
+                        "ENG1002"
+                    ],
+                    "AND": [
+                        "ENG1005",
+                        "ENG1005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2031"
+                    ]
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MTH2232",
+            "credit points": "6",
+            "name": "Mathematical statistics",
+            "unit_details": {
+                "overview": "Overview This unit is a rigorous introduction to the theory of mathematical statistics and more specifically of statistical inference. It provides the mathematical theory underlying the methods and concepts used in statistics, such as estimation and hypothesis testing. This unit will cover a variety topics including: properties of a random sample, \u2026 For more content click the Read More button below.This unit is a rigorous introduction to the theory of mathematical statistics and more specifically of statistical inference. It provides the mathematical theory underlying the methods and concepts used in statistics, such as estimation and hypothesis testing. This unit will cover a variety topics including: properties of a random sample, principles of data reduction, point estimation (including maximum likelihood estimation), hypothesis testing, interval estimation, the analysis of variance and linear regression.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "MTH2222"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHE3133",
+            "credit points": "6",
+            "name": "Food engineering",
+            "unit_details": {
+                "overview": "Overview Graduates willing to develop a career in the food industry should have both theoretical and practical knowledge of various disciplines of food engineering. This include principles of food engineering (unit operations in food processing plants, heat and mass transfer, fluid flow, engineering properties of foods (thermal, electrical, dielectric, optical and \u2026 For more content click the Read More button below.Graduates willing to develop a career in the food industry should have both theoretical and practical knowledge of various disciplines of food engineering. This include principles of food engineering (unit operations in food processing plants, heat and mass transfer, fluid flow, engineering properties of foods (thermal, electrical, dielectric, optical and surface), food processing (drying, dehydration, thermal processing, non-thermal processing, destructive processing), food material sciences, food packaging, as well as the understanding of interactions of food components during processing and their measurement techniques. This unit is designed to provide you with comprehensive and practical knowledge covering relevant engineering aspects for optimal manufacture of the food products, as well as their process and quality evaluations.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITES:\nMust be enrolled in one of the following courses:\n\nE3001 Bachelor of Engineering (Honours): CHE2162 or CHE2163 or must have completed at least 72 credit points of engineering study\nM2001 Bachelor of Nutrition Science: Must have completed NUT1102 Food science and NUT2102 Food science, composition and skills\nS6004 Master of Food Science and Agribusiness\n "
+            }
+        },
+        {
+            "code": "CHE3163",
+            "credit points": "6",
+            "name": "Sustainable processing 1",
+            "unit_details": {
+                "overview": "Overview This unit will explore cleaner production and sustainability concepts, the principles of process design and development and associated flow sheets, systematic approaches to waste minimisation in process and utility systems, the methodology of life cycle assessment and application of life cycle assessment to processes and products. These themes will be \u2026 For more content click the Read More button below.This unit will explore cleaner production and sustainability concepts, the principles of process design and development and associated flow sheets, systematic approaches to waste minimisation in process and utility systems, the methodology of life cycle assessment and application of life cycle assessment to processes and products. These themes will be developed in lectures and supported by your project work related to selected industrial processes.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CHE2162"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHE3171",
+            "credit points": "6",
+            "name": "Bioprocess technology",
+            "unit_details": {
+                "overview": "Overview This unit explores how scalable, commercially viable process-unit operations are harnessed by the biotechnology industry for the production of valuable biomolecules (eg recombinant proteins, peptides, vaccines, enzymes, and nucleic acids). The design, operation and economic issues surrounding large-scale biomolecular process equipment including bioreactors, filtration systems, chromatographic columns, sterilisation and aseptic \u2026 For more content click the Read More button below.This unit explores how scalable, commercially viable process-unit operations are harnessed by the biotechnology industry for the production of valuable biomolecules (eg recombinant proteins, peptides, vaccines, enzymes, and nucleic acids). The design, operation and economic issues surrounding large-scale biomolecular process equipment including bioreactors, filtration systems, chromatographic columns, sterilisation and aseptic operation, auxiliary equipment and the associated control systems will be considered. The wider biotechnology environment will be considered especially with regards to GxP, national and international regulatory bodies, biosafety and commercialisation.Read More about Overview",
+                "offerings": {
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "CHM1011",
+                        "CHM1051",
+                        "CHM1022",
+                        "CHM1052",
+                        "CHE2162"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHE3172",
+            "credit points": "6",
+            "name": "Nanotechnology and materials 1",
+            "unit_details": {
+                "overview": "Overview This unit introduces the foundation concepts of nanotechnology and nanosynthesis methods, self-assembly of colloids and some characterisation techniques of materials. This unit also covers polymer synthesis and characterisation as well as a number of useful applications of nanotechnology including smart coatings and nanomedicine. The global market and safety associated with \u2026 For more content click the Read More button below.This unit introduces the foundation concepts of nanotechnology and nanosynthesis methods, self-assembly of colloids and some characterisation techniques of materials. This unit also covers polymer synthesis and characterisation as well as a number of useful applications of nanotechnology including smart coatings and nanomedicine. The global market and safety associated with nanomaterials and nanotechnology will be described.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "CHM1011",
+                        "CHM1022",
+                        "CHM1052",
+                        "CHM1051"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHE3873",
+            "credit points": "6",
+            "name": "Pilot plant project",
+            "unit_details": {
+                "overview": "Overview This unit offers you an opportunity to work on an open-ended industrial problem using an in-house pilot plant facility. The pilot plant primarily consists of a \u201creaction module\u201d and \u201cseparation\u00a0module\u201d that can be integrated to produce a variety of chemicals at high purity. Through this unit,you will be able \u2026 For more content click the Read More button below.This unit offers you an opportunity to work on an open-ended industrial problem using an in-house pilot plant facility. The pilot plant primarily consists of a \u201creaction module\u201d and \u201cseparation\u00a0module\u201d that can be integrated to produce a variety of chemicals at high purity. Through this unit,you will be able to hone your design skills, gain hands-on experience operating a small plant,\u00a0and acquire professional experience. Due to a limited number of slots available in each semester,\u00a0you must participate in the selection process. Your application\u00a0will be evaluated based on your academic performance, personal attributes and\u00a0leadership potential.Read More about Overview",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CHE2873"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHM3960",
+            "credit points": "6",
+            "name": "Environmental chemistry",
+            "unit_details": {
+                "overview": "Overview The three major components of the environment, air, soil and water, are considered. Environmental issues related to energy are outlined. Soils: natural, constituents, properties; chemical processes; organic matter; fertility; acidity; salinity; remediation. Water: major components; nutrient pollution including consequences and tracing methods; water treatment including sewage treatment, drinking water treatment \u2026 For more content click the Read More button below.The three major components of the environment, air, soil and water, are considered. Environmental issues related to energy are outlined. Soils: natural, constituents, properties; chemical processes; organic matter; fertility; acidity; salinity; remediation. Water: major components; nutrient pollution including consequences and tracing methods; water treatment including sewage treatment, drinking water treatment and artificial wetlands. Air and energy: importance to society; fossil fuel use; combating atmospheric problems associated with fossil fuel use; alternative fuels, including biofuels; CO2 emissions reduction, carbon capture and sequestration.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITE: 6 credit points of level one chemistry and 6 credit points of level two chemistry. Students without this should consult the third year coordinator. PROHIBITION: Permission by the unit coordinator is required for students in S6002 who are undertaking the Environmental Security (Science) specialisation. "
+            }
+        },
+        {
+            "code": "RSE3243",
+            "credit points": "6",
+            "name": "Bioenergy",
+            "unit_details": {
+                "overview": "Overview This unit provides foundational knowledge of the bioenergy industry, including feedstocks, processing and end-use of products. The unit provides insight into biomass energy resources and bioenergy technologies, including the properties and characteristics of the resources, conversion and utilisation processes, as well as industrial application. Economic cost-effectiveness will be examined. You \u2026 For more content click the Read More button below.This unit provides foundational knowledge of the bioenergy industry, including feedstocks, processing and end-use of products. The unit provides insight into biomass energy resources and bioenergy technologies, including the properties and characteristics of the resources, conversion and utilisation processes, as well as industrial application. Economic cost-effectiveness will be examined. You will also conduct a lifecycle analysis of the various pathways to determine the energy return on energy invested. Other issues, such as impacts on food availability, land availability and the social and political impacts, will also be covered.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "TRC3500",
+            "credit points": "6",
+            "name": "Sensors and artificial perception",
+            "unit_details": {
+                "overview": "Overview The unit provides an introduction to transducer principles and the background to classify them in terms of performance and characteristics. A range of commonly available sensors are considered. Electronic components and data acquisition/digital signal processing software used in sensor systems are examined. Advanced sensory systems and associated programming techniques are \u2026 For more content click the Read More button below.The unit provides an introduction to transducer principles and the background to classify them in terms of performance and characteristics. A range of commonly available sensors are considered. Electronic components and data acquisition/digital signal processing software used in sensor systems are examined. Advanced sensory systems and associated programming techniques are introduced using robotic systems as an example domain.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisites: (ECE2031 or ECE2131 or ECE2061) and (ECE2071 or FIT1008 or (FIT1029 and FIT1040)) "
+            }
+        },
+        {
+            "code": "CHE4171",
+            "credit points": "6",
+            "name": "Biochemical engineering",
+            "unit_details": {
+                "overview": "Overview Quantitative and analytical skills required for biochemical and bioprocess engineering will be covered. The relationships between chemical engineering principles and approaches and biology will be explored. Knowledge about the operational considerations for suspended cultures, immobilised cultures, bioreactors, scaling, process selection, and operation of bioprocess unit operations will be discussed and \u2026 For more content click the Read More button below.Quantitative and analytical skills required for biochemical and bioprocess engineering will be covered. The relationships between chemical engineering principles and approaches and biology will be explored. Knowledge about the operational considerations for suspended cultures, immobilised cultures, bioreactors, scaling, process selection, and operation of bioprocess unit operations will be discussed and worked on through calculations.Read More about Overview",
+                "offerings": {
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHE4172",
+            "credit points": "6",
+            "name": "Nanotechnology and materials 2",
+            "unit_details": {
+                "overview": "Overview Understanding of synthetic methods, properties and applications of nanomaterials, including zero-dimensional nanoparticles, one-dimensional nanostructures (nanotubes, nanorods, nanowires and nanofibres), two-dimensional thin films, nanoporous materials and nanofabrication techniques such as lithography and self-assembly. Emphasis on advanced nanomaterials and the importance of nanostructured materials used in various chemical engineering applications. Examples of \u2026 For more content click the Read More button below.Understanding of synthetic methods, properties and applications of nanomaterials, including zero-dimensional nanoparticles, one-dimensional nanostructures (nanotubes, nanorods, nanowires and nanofibres), two-dimensional thin films, nanoporous materials and nanofabrication techniques such as lithography and self-assembly. Emphasis on advanced nanomaterials and the importance of nanostructured materials used in various chemical engineering applications. Examples of bionanotechnology-inspired nanostructures using biological building blocks in self-assembling processes.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "CHE3172",
+                        "MTE2541"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisites:\u00a0Or MSC2011 "
+            }
+        },
+        {
+            "code": "CHE4173",
+            "credit points": "6",
+            "name": "Sustainable processing 2",
+            "unit_details": {
+                "overview": "Overview This unit will explore heat integration, water integration and recycling of process streams to achieve improved resource efficiencies and waste reduction, the identification and minimisation of waste in reactors and separation processes, natural cycles, pollution mechanisms and effects, strategies for improved industrial ecology and the role of regulatory and economic \u2026 For more content click the Read More button below.This unit will explore heat integration, water integration and recycling of process streams to achieve improved resource efficiencies and waste reduction, the identification and minimisation of waste in reactors and separation processes, natural cycles, pollution mechanisms and effects, strategies for improved industrial ecology and the role of regulatory and economic drivers in cleaner production. These themes will be developed in lectures and be supported by student project work related to selected industrial processes.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CHE2162"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITES:\u00a0Completion of 96 credit points (including CHE2162) "
+            }
+        },
+        {
+            "code": "CHE4322",
+            "credit points": "6",
+            "name": "Advanced biochemical engineering",
+            "unit_details": {
+                "overview": "",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ENE4042",
+            "credit points": "6",
+            "name": "Environmental impact and risk assessment",
+            "unit_details": {
+                "overview": "Overview This unit aims to develop an understanding of the role and basis for environmental impact\u00a0assessment (EIA), environmental risk assessment (ERA) and environmental management\u00a0systems (EMS). The unit focuses on the processes involved in producing a comprehensive\u00a0approach to identifying, assessing and planning management processes, with a particular\u00a0emphasis on \u2026 For more content click the Read More button below.This unit aims to develop an understanding of the role and basis for environmental impact\u00a0assessment (EIA), environmental risk assessment (ERA) and environmental management\u00a0systems (EMS). The unit focuses on the processes involved in producing a comprehensive\u00a0approach to identifying, assessing and planning management processes, with a particular\u00a0emphasis on synthesising technical, regulatory and community issues. The unit aims to\u00a0encourage you to integrate your existing knowledge in environmental engineering, applying it\u00a0to real projects. Through lectures, practice classes, individual assignments and group project\u00a0work, you should develop skills and knowledge in preparing major EIA, ERA and EMS\u00a0reports, your presentation and communication as well as your engineering context.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [
+                        "ENE3608",
+                        "ENE4607"
+                    ],
+                    "AND": []
+                },
+                "rules": "Prerequisites:\u00a0Completion of 96 credit points in engineering study or with permission "
+            }
+        },
+        {
+            "code": "CHE5321",
+            "credit points": "6",
+            "name": "Advanced bioprocess technology",
+            "unit_details": {
+                "overview": "Overview The unit explores how scalable commercially viable process-unit operations are harnessed by the biotechnology industry for the sustainable processing of biomolecules such as recombinant proteins, vaccines, enzymes, nucleic acids, biochemicals and bioplastics. Bioprocess engineering concepts will be developed within workshops and practice classes complemented with practical laboratory sessions. There will \u2026 For more content click the Read More button below.The unit explores how scalable commercially viable process-unit operations are harnessed by the biotechnology industry for the sustainable processing of biomolecules such as recombinant proteins, vaccines, enzymes, nucleic acids, biochemicals and bioplastics. Bioprocess engineering concepts will be developed within workshops and practice classes complemented with practical laboratory sessions. There will also be an opportunity for activities where, both individually and within teams, you will design your own biological engineering solutions to important issues or opportunities. You will learn about the wider biotechnology environment, especially regarding GxP, national and international regulations, ethics, biosafety and commercialisation, and its application to pharmaceutical, food and beverage, waste materials, food and water, bioenergy, and bioplastics sectors.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "CHE5322",
+            "credit points": "6",
+            "name": "Advanced biochemical engineering",
+            "unit_details": {
+                "overview": "Overview Your unit is central to the growing biotechnology industry within pharmaceuticals, food and beverage, waste materials, food and water, bioenergy and bioplastics sectors. It begins with an introduction to biological production systems, that is, cells, nutrients and bioreactors and advances to understanding operational considerations for maximising productivity from suspended, genetically \u2026 For more content click the Read More button below.Your unit is central to the growing biotechnology industry within pharmaceuticals, food and beverage, waste materials, food and water, bioenergy and bioplastics sectors. It begins with an introduction to biological production systems, that is, cells, nutrients and bioreactors and advances to understanding operational considerations for maximising productivity from suspended, genetically engineered and immobilised cultures. The unit explores process selection, scaling and bioprocess unit operations. Biochemical engineering concepts will be developed within workshops and practice classes complemented with practical laboratory sessions. There will also be an opportunity for activities where, within teams, you will research your own biological engineering solutions to important issues or opportunities.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "CHE5881",
+            "credit points": "6",
+            "name": "Advanced reaction engineering",
+            "unit_details": {
+                "overview": "Overview The unit will develop a higher level understanding of reaction kinetics, catalysis and reactor design, including:\n\nisothermal and non-isothermal reactor design - steady and unsteady states\nrunaway reactions, reactor safety and reactive hazards\nheterogeneous catalysis, photocatalysis and biocatalysis\ndiffusion effects in catalytic reactions\nresidence time distribution\nnon-ideal reactor design and \u2026 For more content click the Read More button below.\ndensity functional theory in catalysis\nreactor design strategy for different industries including CO2 utilization\nadvanced reactor concepts for graphene production\nuse of metal organic frameworks in energy applications including catalysis\nuse of Gold as catalyst\nThe unit will develop a higher level understanding of reaction kinetics, catalysis and reactor design, including:\n\nisothermal and non-isothermal reactor design - steady and unsteady states\nrunaway reactions, reactor safety and reactive hazards\nheterogeneous catalysis, photocatalysis and biocatalysis\ndiffusion effects in catalytic reactions\nresidence time distribution\nnon-ideal reactor design and operation\ndensity functional theory in catalysis\nreactor design strategy for different industries including CO2 utilization\nadvanced reactor concepts for graphene production\nuse of metal organic frameworks in energy applications including catalysis\nuse of Gold as catalyst\nRead More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-OS-CHI-SEU-ON-CAMPUS": {
+                        "location": [
+                            "Suzhou"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "CHE5882",
+            "credit points": "6",
+            "name": "Biomass and biorefineries",
+            "unit_details": {
+                "overview": "Overview The unit covers biomass reaction engineering including kinetics, reaction/mass transfer limitations, selectivity, improving reaction rates, and homogeneous and heterogeneous catalysis. The role of biotechnology including enzymatic reactions, fermentation, selectivity will also be studied together with common separation liquid and liquid-solid separation processes.\nGlobal concepts relevant to biorefineries will be emphasised \u2026 For more content click the Read More button below.The unit covers biomass reaction engineering including kinetics, reaction/mass transfer limitations, selectivity, improving reaction rates, and homogeneous and heterogeneous catalysis. The role of biotechnology including enzymatic reactions, fermentation, selectivity will also be studied together with common separation liquid and liquid-solid separation processes.\nGlobal concepts relevant to biorefineries will be emphasised including the carbon cycle (micro and macro perspectives), overall sustainability of water, energy, and minimising by-products from biorefineries.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ONLINE": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "Online"
+                        ]
+                    },
+                    "T3-57-OS-CHI-SEU-ON-CAMPUS": {
+                        "location": [
+                            "Suzhou"
+                        ],
+                        "teaching_period": "Term 3",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "CHE5883",
+            "credit points": "6",
+            "name": "Nanostructured membranes for separation and energy production",
+            "unit_details": {
+                "overview": "Overview This unit covers the applications of nanostructured membranes in the field of chemical engineering, including the introduction of fabrication techniques, functionalization of nanostructured membranes and membrane properties.\nEmphasis is placed on the importance of nanostructured membranes in improving energy efficiency and reducing environmental impact in various separation and energy production \u2026 For more content click the Read More button below.This unit covers the applications of nanostructured membranes in the field of chemical engineering, including the introduction of fabrication techniques, functionalization of nanostructured membranes and membrane properties.\nEmphasis is placed on the importance of nanostructured membranes in improving energy efficiency and reducing environmental impact in various separation and energy production processes.Read More about Overview",
+                "offerings": {
+                    "T3-57-OS-CHI-SEU-ON-CAMPUS": {
+                        "location": [
+                            "Suzhou"
+                        ],
+                        "teaching_period": "Term 3",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "CHE5884",
+            "credit points": "6",
+            "name": "Process modelling and optimisation",
+            "unit_details": {
+                "overview": "Overview The unit will cover the purpose and methods of modelling chemical and biochemical processes. It includes the development of constitutive relations, model building, evaluation and sensitivity analysis. Numerical techniques will include the solution of systems of linear, non-linear and algebraic equations. Models are subjected to optimisation.\nThe basic principles of \u2026 For more content click the Read More button below.The unit will cover the purpose and methods of modelling chemical and biochemical processes. It includes the development of constitutive relations, model building, evaluation and sensitivity analysis. Numerical techniques will include the solution of systems of linear, non-linear and algebraic equations. Models are subjected to optimisation.\nThe basic principles of optimisation including the types of variables, linear and non-linear models, constraints and objective functions will be covered. Various optimisation algorithms for linear, non-linear problems and mixed integer problems are presented in the context of chemical process design. Multi-objective optimisation is used to explore trade-offs involved with sustainable process development.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "T3-57-OS-CHI-SEU-ON-CAMPUS": {
+                        "location": [
+                            "Suzhou"
+                        ],
+                        "teaching_period": "Term 3",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "CHE5885",
+            "credit points": "6",
+            "name": "Principles and practices for sustainable development",
+            "unit_details": {
+                "overview": "",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHE5889",
+            "credit points": "6",
+            "name": "Food engineering and processing",
+            "unit_details": {
+                "overview": "Overview This unit covers the application of engineering and scientific knowledge in the processing of food. In this unit, you will learn about the properties of food and how processing changes these properties to impart important sensory, safety, storage and handling characteristics. You will develop the knowledge to measure these important \u2026 For more content click the Read More button below.This unit covers the application of engineering and scientific knowledge in the processing of food. In this unit, you will learn about the properties of food and how processing changes these properties to impart important sensory, safety, storage and handling characteristics. You will develop the knowledge to measure these important characteristics and properties. Topics in the unit will expose you to a broad range of processes in various food sectors, such as cereals, fruits and vegetables, dairy, fermented foods and beverages, and a design approach to the product innovation. You will develop an understanding of key unit operations relevant to the food industry. The principles learned from this unit will be essential for engineers working in the food industry.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        },
+        {
+            "code": "ENG5002",
+            "credit points": "6",
+            "name": "Engineering entrepreneurship",
+            "unit_details": {
+                "overview": "Overview The goal of this unit is to impart an evidence-based methodology for building scalable startups that you can use for the rest of your career, whether you are starting a new business or working in established organisations. For a new business, the goal is acquiring investor funding. In a corporate \u2026 For more content click the Read More button below.The goal of this unit is to impart an evidence-based methodology for building scalable startups that you can use for the rest of your career, whether you are starting a new business or working in established organisations. For a new business, the goal is acquiring investor funding. In a corporate environment, the methodology will help the organisation start new businesses and allocate their internal resources (time, technology, and talent) more efficiently. The unit will be taught in a hands-on way that engages student teams by requiring them to develop hypotheses and then test those hypotheses outside the classroom. Throughout the semester, teams will modify their business models based on feedback from potential customers, and can then decide if there is a worthwhile business to be built. The unit does not include the execution of the business models.Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "You must be currently enrolled in a master\u2019s course in engineering or related STEM and in a related discipline. The unit assumes that you have the necessary foundational knowledge. "
+            }
+        }
+    ]
+}

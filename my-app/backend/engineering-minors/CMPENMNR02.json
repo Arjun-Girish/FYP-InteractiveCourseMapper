@@ -1,0 +1,138 @@
+{
+    "code": "CMPENMNR02",
+    "credit points": "24",
+    "name": "Computational engineering",
+    "units": [
+        {
+            "code": "ECE3093",
+            "credit points": "6",
+            "name": "Optimisation estimation and numerical methods",
+            "unit_details": {
+                "overview": "Overview This unit will introduce you to time series analysis, matrix decomposition methods and optimisation in three equal parts. Time series will introduce the concepts of stochastic processes, wide-sense stationarity, autocovariance functions and spectral density. This will lead to the analysis of ARMA (p,g) processes using MATLAB. Matrix decomposition includes singular \u2026 For more content click the Read More button below.This unit will introduce you to time series analysis, matrix decomposition methods and optimisation in three equal parts. Time series will introduce the concepts of stochastic processes, wide-sense stationarity, autocovariance functions and spectral density. This will lead to the analysis of ARMA (p,g) processes using MATLAB. Matrix decomposition includes singular value decomposition with applications including data compression, image processing, noise filtering and finding exact and approximate solutions of linear systems. Numerical methods for working efficiently with large matrices and handling ill-conditioned data will be discussed. Methods for unconstrained and constrained optimisation will be presented, with the use of MATLAB.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "FIT3179",
+            "credit points": "6",
+            "name": "Data visualisation",
+            "unit_details": {
+                "overview": "Overview Data visualisation is a powerful technique that allows us to use our visual system to understand data. Interactive data visualisation is now common in business, engineering and design and the social and physical sciences. This unit introduces the main kinds of information graphics and interactive visualisation systems and their areas \u2026 For more content click the Read More button below.Data visualisation is a powerful technique that allows us to use our visual system to understand data. Interactive data visualisation is now common in business, engineering and design and the social and physical sciences. This unit introduces the main kinds of information graphics and interactive visualisation systems and their areas of application. It investigates the reasons why visualisation can be effective and based on this students will gain experience in critically assessing data visualisations and in designing their own visualisations. You will learn how to create visualisations with representative computer tools and gain experience in creating a data visualisation for an application domain of their choice.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite: Completion of 24 points at first year. "
+            }
+        },
+        {
+            "code": "MEC4447",
+            "credit points": "6",
+            "name": "Computers in fluids and energy",
+            "unit_details": {
+                "overview": "Overview Computational Fluid Dynamics (CFD) is a well-established analysis, design and optimisation approach for industrial fluid and heat transfer problems. Examples include turbomachinery, vehicle aerodynamics and aeronautics. It is also a powerful research tool and is being increasingly used to answer fundamental questions in a wide range of fields, from astrophysics \u2026 For more content click the Read More button below.Computational Fluid Dynamics (CFD) is a well-established analysis, design and optimisation approach for industrial fluid and heat transfer problems. Examples include turbomachinery, vehicle aerodynamics and aeronautics. It is also a powerful research tool and is being increasingly used to answer fundamental questions in a wide range of fields, from astrophysics to nanomaterials. This Unit provides an introduction to this mathematically sophisticated discipline. This involves a review of the equations governing motion and energy of fluids, the mathematical properties of these equations and the relevance of such properties to obtaining numerical solutions. The basics of numerical discretization and solution methods will be discussed. The Unit will also introduce you to using commercial CFD packages in analysing complex industrial problems involving fluids.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ECE3093",
+                        "MAE3456",
+                        "MEC3456",
+                        "MEC3456"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "MTE4590",
+            "credit points": "6",
+            "name": "Modelling of materials",
+            "unit_details": {
+                "overview": "Overview An introduction to the computational/modelling approaches currently available in materials science and engineering is provided. The reasons for using modelling approaches are discussed and the different types of models available are outlined. For each of the length scales important in understanding material behaviour (nano-, micro-, meso- and macro-), the available \u2026 For more content click the Read More button below.An introduction to the computational/modelling approaches currently available in materials science and engineering is provided. The reasons for using modelling approaches are discussed and the different types of models available are outlined. For each of the length scales important in understanding material behaviour (nano-, micro-, meso- and macro-), the available modelling techniques are outlined and their principles, methods of implementation, advantages, disadvantages and perceived future developments are discussed. Examples of modelling approaches will be selected from all classes of materials. The general methodology used for constructing models is emphasised.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005",
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        }
+    ]
+}

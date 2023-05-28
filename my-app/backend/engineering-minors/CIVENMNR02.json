@@ -1,0 +1,286 @@
+{
+    "code": "CIVENMNR02",
+    "credit points": "24",
+    "name": "Civil engineering",
+    "units": [
+        {
+            "code": "CIV2282",
+            "credit points": "6",
+            "name": "Transport and traffic engineering",
+            "unit_details": {
+                "overview": "Overview This unit introduces you to the field of transport and traffic engineering. The fundamental parameters used to describe deterministic traffic flow behaviour are introduced along with a simple traffic flow model. Stochastic traffic flow behaviour is described via random distributions. Fundamental queuing theory of traffic is briefly introduced. The procedures \u2026 For more content click the Read More button below.This unit introduces you to the field of transport and traffic engineering. The fundamental parameters used to describe deterministic traffic flow behaviour are introduced along with a simple traffic flow model. Stochastic traffic flow behaviour is described via random distributions. Fundamental queuing theory of traffic is briefly introduced. The procedures used to analyse the capacity and level of service are explored for both unsignalised and signalised intersections. The principle of traffic signal operation at isolated intersections is presented. Traffic surveys are discussed. You are introduced to contemporary road safety issues as well. Public transport is considered at the route level concerning the determination of fleet size and factors affecting operational capacity and reliability. Non-motorised transport including cyclists and pedestrians is also considered. In addition, the unit addresses Intelligent Transportation Systems (ITS). Consideration will also be given to the role of communications in the practice of transport and traffic engineers. To enhance your understanding of the unit content from practical points of view, some experts will be invited to give lectures on their relevant work. Throughout the whole unit, the focus is primarily on surface transport systems and applications of advanced technologies therein.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CIV2242",
+            "credit points": "6",
+            "name": "Geomechanics 1",
+            "unit_details": {
+                "overview": "Overview The unit covers all aspects of geomechanics at an elementary level, as well as basic engineering geology, formation and weathering processes, sedimentary, igneous and metamorphic rocks, soil- and rock-forming minerals, geological mapping and modelling, site investigations, in-situ testing, engineering classification of soil and rock, weight-volume relationship, and the two/three phase \u2026 For more content click the Read More button below.The unit covers all aspects of geomechanics at an elementary level, as well as basic engineering geology, formation and weathering processes, sedimentary, igneous and metamorphic rocks, soil- and rock-forming minerals, geological mapping and modelling, site investigations, in-situ testing, engineering classification of soil and rock, weight-volume relationship, and the two/three phase model. It also includes 2D seepage, effective stress theory, stresses in a soil mass and shear strength.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1011",
+                        "ENG1001",
+                        "ENG1060"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition: CIV2241\nE6011 Master of Professional Engineering - You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "CIV4288",
+            "credit points": "6",
+            "name": "Water treatment",
+            "unit_details": {
+                "overview": "Overview This unit provides an overview of water and wastewater systems in urban environments. The overview focuses on these systems' functions regarding the provision of drinking water and wastewater treatment and their modes of operation. Specific topics include water supply, water use and consumption, drinking water treatment and distribution, wastewater characterisation \u2026 For more content click the Read More button below.This unit provides an overview of water and wastewater systems in urban environments. The overview focuses on these systems' functions regarding the provision of drinking water and wastewater treatment and their modes of operation. Specific topics include water supply, water use and consumption, drinking water treatment and distribution, wastewater characterisation and secondary treatment, sludge handling, resource recovery and nature-based solutions for wastewater treatment. Treatment process theory and design are covered in this unit for both drinking water and wastewater treatment systems.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CIV2263",
+                        "CIV3285"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition:\u00a0CIV3264 "
+            }
+        },
+        {
+            "code": "CIV2282",
+            "credit points": "6",
+            "name": "Transport and traffic engineering",
+            "unit_details": {
+                "overview": "Overview This unit introduces you to the field of transport and traffic engineering. The fundamental parameters used to describe deterministic traffic flow behaviour are introduced along with a simple traffic flow model. Stochastic traffic flow behaviour is described via random distributions. Fundamental queuing theory of traffic is briefly introduced. The procedures \u2026 For more content click the Read More button below.This unit introduces you to the field of transport and traffic engineering. The fundamental parameters used to describe deterministic traffic flow behaviour are introduced along with a simple traffic flow model. Stochastic traffic flow behaviour is described via random distributions. Fundamental queuing theory of traffic is briefly introduced. The procedures used to analyse the capacity and level of service are explored for both unsignalised and signalised intersections. The principle of traffic signal operation at isolated intersections is presented. Traffic surveys are discussed. You are introduced to contemporary road safety issues as well. Public transport is considered at the route level concerning the determination of fleet size and factors affecting operational capacity and reliability. Non-motorised transport including cyclists and pedestrians is also considered. In addition, the unit addresses Intelligent Transportation Systems (ITS). Consideration will also be given to the role of communications in the practice of transport and traffic engineers. To enhance your understanding of the unit content from practical points of view, some experts will be invited to give lectures on their relevant work. Throughout the whole unit, the focus is primarily on surface transport systems and applications of advanced technologies therein.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CIV2235",
+            "credit points": "6",
+            "name": "Structural materials",
+            "unit_details": {
+                "overview": "Overview This unit introduces you to fundamental concepts in the common structural materials including concrete, steel, timber, and masonry. The major topics include concrete technology and the durability of concrete structures, the handling and placement of concrete components, the mechanical properties of different steels and steel connectors (bolts and welds), the \u2026 For more content click the Read More button below.This unit introduces you to fundamental concepts in the common structural materials including concrete, steel, timber, and masonry. The major topics include concrete technology and the durability of concrete structures, the handling and placement of concrete components, the mechanical properties of different steels and steel connectors (bolts and welds), the behaviour of steel materials under fire, and the mechanical properties of timber and masonry materials. Additionally, you will gain knowledge about various structural loads and load combinations. Finally, you will learn about some significant case studies of structural failures which will reinforce the importance of material behaviours on structural safety.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1011",
+                        "ENG1001",
+                        "ENG1001"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "CIV2225",
+                        "CIV3284"
+                    ]
+                },
+                "rules": "E6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "CIV3285",
+            "credit points": "6",
+            "name": "Engineering hydrology",
+            "unit_details": {
+                "overview": "Overview The unit introduces you to the basic concepts of hydrology and their application in the engineering practice. The key features of the main components of the hydrologic cycle (i.e., rainfall, streamflow, and evapotranspiration) are presented along with methods to measure and model them in natural and urban environments. Particular emphasis \u2026 For more content click the Read More button below.The unit introduces you to the basic concepts of hydrology and their application in the engineering practice. The key features of the main components of the hydrologic cycle (i.e., rainfall, streamflow, and evapotranspiration) are presented along with methods to measure and model them in natural and urban environments. Particular emphasis is on flooding and designed floods. The unit also provides an overview of the various water systems in an urban environment, their functions and modes of operation, and the influence of climate variability on urban requirements in terms of management and discharge of stormwater. A final aspect is the activation and transport of contaminants within the urban water cycle.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CIV2263",
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition: CIV3264 E6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "CIV3247",
+            "credit points": "6",
+            "name": "Geomechanics 2",
+            "unit_details": {
+                "overview": "Overview This unit covers all aspects of geomechanics at intermediate levels, including consolidation theory of soils, estimation of consolidation and creep settlements for different types of soils, advanced topics on shear strength of soils under various drainage conditions, stress-paths and laboratory triaxial tests, determination of drained and undrained shear strength parameters, \u2026 For more content click the Read More button below.This unit covers all aspects of geomechanics at intermediate levels, including consolidation theory of soils, estimation of consolidation and creep settlements for different types of soils, advanced topics on shear strength of soils under various drainage conditions, stress-paths and laboratory triaxial tests, determination of drained and undrained shear strength parameters, critical state mechanics and various failure criteria, soil and rock slope analysis, earth pressure theory and design of retaining walls. Applications to practical problems are key aspects of the learning covered.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CIV2242",
+                        "CIV2206"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        }
+    ]
+}

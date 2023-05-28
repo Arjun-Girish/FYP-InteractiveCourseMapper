@@ -1,0 +1,665 @@
+{
+    "code": "AIENGMNR02",
+    "credit points": "24",
+    "name": "Artificial intelligence in engineering",
+    "units": [
+        {
+            "code": "CIV4100",
+            "credit points": "6",
+            "name": "Autonomous vehicle systems",
+            "unit_details": {
+                "overview": "Overview This unit will introduce students to autonomous systems in general, autonomous vehicle (AV) system in particular, and its development. The unit will provide the fundamental system engineering knowledge of autonomous vehicle systems including the main building blocks, their design, integration and coordination to achieve the ultimate outcome of self-driving in \u2026 For more content click the Read More button below.This unit will introduce students to autonomous systems in general, autonomous vehicle (AV) system in particular, and its development. The unit will provide the fundamental system engineering knowledge of autonomous vehicle systems including the main building blocks, their design, integration and coordination to achieve the ultimate outcome of self-driving in a complex and uncertain environment. It will also cover and facilitate the learning in the further development of such systems through working and interacting with the actual autonomous vehicle and its testing and validation processes.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1014",
+                        "ENG1060"
+                    ],
+                    "AND": [
+                        "ENG2005",
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "ADDITIONAL PREREQUISITE: 96 cp of engineering study (including ENG1060, ENG2005) "
+            }
+        },
+        {
+            "code": "ECE4076",
+            "credit points": "6",
+            "name": "Computer vision",
+            "unit_details": {
+                "overview": "Overview This unit aims to develop an understanding of methods for extracting useful information (eg 3-D structure; object size, motion, shape, location and identity, etc) from images. It will allow you to understand how to construct computer vision systems for robotics, surveillance, medical imaging, and related application areas.This unit aims to develop an understanding of methods for extracting useful information (eg 3-D structure; object size, motion, shape, location and identity, etc) from images. It will allow you to understand how to construct computer vision systems for robotics, surveillance, medical imaging, and related application areas.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2071"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ECE4078",
+            "credit points": "6",
+            "name": "Intelligent robotics",
+            "unit_details": {
+                "overview": "Overview Intelligent robotics concerns the melding of artificial perception, strategic reasoning and robotic action in potentially unstructured and time-varying environments to fulfil useful physical tasks, whether in industry or for security, healthcare, search and rescue or civil defence etc. This unit covers topics underpinning the above requirements, including sensors, sensor fusion, \u2026 For more content click the Read More button below.Intelligent robotics concerns the melding of artificial perception, strategic reasoning and robotic action in potentially unstructured and time-varying environments to fulfil useful physical tasks, whether in industry or for security, healthcare, search and rescue or civil defence etc. This unit covers topics underpinning the above requirements, including sensors, sensor fusion, machine perception, environmental mapping/monitoring, path planning, localisation, mechanisms, artificial intelligence methodologies and application domains.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2071"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "ECE5178"
+                    ]
+                },
+                "rules": "PREREQUISITES: Or FIT1002 or TRC2400 or (FIT1029 and FIT1040)\nIf you are currently enrolled in\u00a0E6013 Master of Applied Engineering, you are exempt from the prerequisite requirement. "
+            }
+        },
+        {
+            "code": "ECE4179",
+            "credit points": "6",
+            "name": "Neural networks and deep learning",
+            "unit_details": {
+                "overview": "Overview This unit introduces fundamentals of deep learning and how it can solve problems in many areas, such as image classification, filter design and natural language processing. Neural networks are first described and how training can be achieved with backpropagation. Various forms of deep neural networks are developed, such as multilayer \u2026 For more content click the Read More button below.This unit introduces fundamentals of deep learning and how it can solve problems in many areas, such as image classification, filter design and natural language processing. Neural networks are first described and how training can be achieved with backpropagation. Various forms of deep neural networks are developed, such as multilayer perceptrons, convolution neural networks and recurrent neural networks. The mathematics of stochastic optimisation is used to interpret and understand the behaviour and training of these networks. Programming approaches are discussed for training and deploying neural networks. Deep learning technologies and design examples are discussed in areas such as driverless cars, personal cognitive assistants and mastering of games such as GO.Read More about Overview",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005",
+                        "ECE2071"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisites: Or ENG2092 in place of ENG2005 "
+            }
+        },
+        {
+            "code": "CIV4100",
+            "credit points": "6",
+            "name": "Autonomous vehicle systems",
+            "unit_details": {
+                "overview": "Overview This unit will introduce students to autonomous systems in general, autonomous vehicle (AV) system in particular, and its development. The unit will provide the fundamental system engineering knowledge of autonomous vehicle systems including the main building blocks, their design, integration and coordination to achieve the ultimate outcome of self-driving in \u2026 For more content click the Read More button below.This unit will introduce students to autonomous systems in general, autonomous vehicle (AV) system in particular, and its development. The unit will provide the fundamental system engineering knowledge of autonomous vehicle systems including the main building blocks, their design, integration and coordination to achieve the ultimate outcome of self-driving in a complex and uncertain environment. It will also cover and facilitate the learning in the further development of such systems through working and interacting with the actual autonomous vehicle and its testing and validation processes.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1014",
+                        "ENG1060"
+                    ],
+                    "AND": [
+                        "ENG2005",
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "ADDITIONAL PREREQUISITE: 96 cp of engineering study (including ENG1060, ENG2005) "
+            }
+        },
+        {
+            "code": "ECE2071",
+            "credit points": "6",
+            "name": "Computer organisation and programming",
+            "unit_details": {
+                "overview": "Overview This unit provides an introduction to computers and CPU organisation, assemblers and compilers, and algorithm design for engineering problems and embedded computer systems. It covers the language C and its implementation on a typical computer, including standard data types, arrays, control statements, functions, including ways of parameter passing, C library \u2026 For more content click the Read More button below.This unit provides an introduction to computers and CPU organisation, assemblers and compilers, and algorithm design for engineering problems and embedded computer systems. It covers the language C and its implementation on a typical computer, including standard data types, arrays, control statements, functions, including ways of parameter passing, C library functions, pointers, strings, arrays of pointers, structures, linked lists and binary tree data structures, dynamic memory allocations, and calls to assembly language programs. Object-oriented programming is introduced. Software engineering is covered as the methodology of software development and lifecycle models. Operating system concepts are introduced. The unit also includes an introduction to programmable logic controllers (PLCs).Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1003",
+                        "ENG1013",
+                        "ENG1014"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ECE4076",
+            "credit points": "6",
+            "name": "Computer vision",
+            "unit_details": {
+                "overview": "Overview This unit aims to develop an understanding of methods for extracting useful information (eg 3-D structure; object size, motion, shape, location and identity, etc) from images. It will allow you to understand how to construct computer vision systems for robotics, surveillance, medical imaging, and related application areas.This unit aims to develop an understanding of methods for extracting useful information (eg 3-D structure; object size, motion, shape, location and identity, etc) from images. It will allow you to understand how to construct computer vision systems for robotics, surveillance, medical imaging, and related application areas.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2071"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ECE4078",
+            "credit points": "6",
+            "name": "Intelligent robotics",
+            "unit_details": {
+                "overview": "Overview Intelligent robotics concerns the melding of artificial perception, strategic reasoning and robotic action in potentially unstructured and time-varying environments to fulfil useful physical tasks, whether in industry or for security, healthcare, search and rescue or civil defence etc. This unit covers topics underpinning the above requirements, including sensors, sensor fusion, \u2026 For more content click the Read More button below.Intelligent robotics concerns the melding of artificial perception, strategic reasoning and robotic action in potentially unstructured and time-varying environments to fulfil useful physical tasks, whether in industry or for security, healthcare, search and rescue or civil defence etc. This unit covers topics underpinning the above requirements, including sensors, sensor fusion, machine perception, environmental mapping/monitoring, path planning, localisation, mechanisms, artificial intelligence methodologies and application domains.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2071"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "ECE5178"
+                    ]
+                },
+                "rules": "PREREQUISITES: Or FIT1002 or TRC2400 or (FIT1029 and FIT1040)\nIf you are currently enrolled in\u00a0E6013 Master of Applied Engineering, you are exempt from the prerequisite requirement. "
+            }
+        },
+        {
+            "code": "ECE4179",
+            "credit points": "6",
+            "name": "Neural networks and deep learning",
+            "unit_details": {
+                "overview": "Overview This unit introduces fundamentals of deep learning and how it can solve problems in many areas, such as image classification, filter design and natural language processing. Neural networks are first described and how training can be achieved with backpropagation. Various forms of deep neural networks are developed, such as multilayer \u2026 For more content click the Read More button below.This unit introduces fundamentals of deep learning and how it can solve problems in many areas, such as image classification, filter design and natural language processing. Neural networks are first described and how training can be achieved with backpropagation. Various forms of deep neural networks are developed, such as multilayer perceptrons, convolution neural networks and recurrent neural networks. The mathematics of stochastic optimisation is used to interpret and understand the behaviour and training of these networks. Programming approaches are discussed for training and deploying neural networks. Deep learning technologies and design examples are discussed in areas such as driverless cars, personal cognitive assistants and mastering of games such as GO.Read More about Overview",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005",
+                        "ECE2071"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisites: Or ENG2092 in place of ENG2005 "
+            }
+        },
+        {
+            "code": "TRC2001",
+            "credit points": "6",
+            "name": "Introduction to systems engineering",
+            "unit_details": {
+                "overview": "Overview This unit introduces you to the fundamental principles of some basic systems comprising of mechanical, electrical, electronic, computing and electro-mechanical sub-systems, with an intention to introduce cross-links between them for an integrated design approach towards their application to the development of complex systems.\nSpecial emphasis will be made on introducing \u2026 For more content click the Read More button below.\nThis unit would outline the breadth of the knowledge that the mechatronics systems engineer must acquire regarding the features of diverse sub-systems and components that constitute the total system.This unit introduces you to the fundamental principles of some basic systems comprising of mechanical, electrical, electronic, computing and electro-mechanical sub-systems, with an intention to introduce cross-links between them for an integrated design approach towards their application to the development of complex systems.\nSpecial emphasis will be made on introducing sub-systems required for 'inception to completion' of mechatronic systems with practical design examples. The enabling sub-systems for an integrated approach such as sensors, actuators, mechanisms, controllers, hardware interfacing, as well as strategies for risk assessment, interface definition, system integration, human factors, measurement and analysis as required in mechatronics product design & development will also be introduced.\nThis unit would outline the breadth of the knowledge that the mechatronics systems engineer must acquire regarding the features of diverse sub-systems and components that constitute the total system.Read More about Overview",
+                "offerings": {
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite: 24 credit pointsProhibition: TRC2000 "
+            }
+        },
+        {
+            "code": "ECE4076",
+            "credit points": "6",
+            "name": "Computer vision",
+            "unit_details": {
+                "overview": "Overview This unit aims to develop an understanding of methods for extracting useful information (eg 3-D structure; object size, motion, shape, location and identity, etc) from images. It will allow you to understand how to construct computer vision systems for robotics, surveillance, medical imaging, and related application areas.This unit aims to develop an understanding of methods for extracting useful information (eg 3-D structure; object size, motion, shape, location and identity, etc) from images. It will allow you to understand how to construct computer vision systems for robotics, surveillance, medical imaging, and related application areas.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2071"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ECE4078",
+            "credit points": "6",
+            "name": "Intelligent robotics",
+            "unit_details": {
+                "overview": "Overview Intelligent robotics concerns the melding of artificial perception, strategic reasoning and robotic action in potentially unstructured and time-varying environments to fulfil useful physical tasks, whether in industry or for security, healthcare, search and rescue or civil defence etc. This unit covers topics underpinning the above requirements, including sensors, sensor fusion, \u2026 For more content click the Read More button below.Intelligent robotics concerns the melding of artificial perception, strategic reasoning and robotic action in potentially unstructured and time-varying environments to fulfil useful physical tasks, whether in industry or for security, healthcare, search and rescue or civil defence etc. This unit covers topics underpinning the above requirements, including sensors, sensor fusion, machine perception, environmental mapping/monitoring, path planning, localisation, mechanisms, artificial intelligence methodologies and application domains.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2071"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "ECE5178"
+                    ]
+                },
+                "rules": "PREREQUISITES: Or FIT1002 or TRC2400 or (FIT1029 and FIT1040)\nIf you are currently enrolled in\u00a0E6013 Master of Applied Engineering, you are exempt from the prerequisite requirement. "
+            }
+        },
+        {
+            "code": "ECE4179",
+            "credit points": "6",
+            "name": "Neural networks and deep learning",
+            "unit_details": {
+                "overview": "Overview This unit introduces fundamentals of deep learning and how it can solve problems in many areas, such as image classification, filter design and natural language processing. Neural networks are first described and how training can be achieved with backpropagation. Various forms of deep neural networks are developed, such as multilayer \u2026 For more content click the Read More button below.This unit introduces fundamentals of deep learning and how it can solve problems in many areas, such as image classification, filter design and natural language processing. Neural networks are first described and how training can be achieved with backpropagation. Various forms of deep neural networks are developed, such as multilayer perceptrons, convolution neural networks and recurrent neural networks. The mathematics of stochastic optimisation is used to interpret and understand the behaviour and training of these networks. Programming approaches are discussed for training and deploying neural networks. Deep learning technologies and design examples are discussed in areas such as driverless cars, personal cognitive assistants and mastering of games such as GO.Read More about Overview",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005",
+                        "ECE2071"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisites: Or ENG2092 in place of ENG2005 "
+            }
+        },
+        {
+            "code": "ECE2071",
+            "credit points": "6",
+            "name": "Computer organisation and programming",
+            "unit_details": {
+                "overview": "Overview This unit provides an introduction to computers and CPU organisation, assemblers and compilers, and algorithm design for engineering problems and embedded computer systems. It covers the language C and its implementation on a typical computer, including standard data types, arrays, control statements, functions, including ways of parameter passing, C library \u2026 For more content click the Read More button below.This unit provides an introduction to computers and CPU organisation, assemblers and compilers, and algorithm design for engineering problems and embedded computer systems. It covers the language C and its implementation on a typical computer, including standard data types, arrays, control statements, functions, including ways of parameter passing, C library functions, pointers, strings, arrays of pointers, structures, linked lists and binary tree data structures, dynamic memory allocations, and calls to assembly language programs. Object-oriented programming is introduced. Software engineering is covered as the methodology of software development and lifecycle models. Operating system concepts are introduced. The unit also includes an introduction to programmable logic controllers (PLCs).Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1003",
+                        "ENG1013",
+                        "ENG1014"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ECE4076",
+            "credit points": "6",
+            "name": "Computer vision",
+            "unit_details": {
+                "overview": "Overview This unit aims to develop an understanding of methods for extracting useful information (eg 3-D structure; object size, motion, shape, location and identity, etc) from images. It will allow you to understand how to construct computer vision systems for robotics, surveillance, medical imaging, and related application areas.This unit aims to develop an understanding of methods for extracting useful information (eg 3-D structure; object size, motion, shape, location and identity, etc) from images. It will allow you to understand how to construct computer vision systems for robotics, surveillance, medical imaging, and related application areas.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2071"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ECE4078",
+            "credit points": "6",
+            "name": "Intelligent robotics",
+            "unit_details": {
+                "overview": "Overview Intelligent robotics concerns the melding of artificial perception, strategic reasoning and robotic action in potentially unstructured and time-varying environments to fulfil useful physical tasks, whether in industry or for security, healthcare, search and rescue or civil defence etc. This unit covers topics underpinning the above requirements, including sensors, sensor fusion, \u2026 For more content click the Read More button below.Intelligent robotics concerns the melding of artificial perception, strategic reasoning and robotic action in potentially unstructured and time-varying environments to fulfil useful physical tasks, whether in industry or for security, healthcare, search and rescue or civil defence etc. This unit covers topics underpinning the above requirements, including sensors, sensor fusion, machine perception, environmental mapping/monitoring, path planning, localisation, mechanisms, artificial intelligence methodologies and application domains.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ECE2071"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "ECE5178"
+                    ]
+                },
+                "rules": "PREREQUISITES: Or FIT1002 or TRC2400 or (FIT1029 and FIT1040)\nIf you are currently enrolled in\u00a0E6013 Master of Applied Engineering, you are exempt from the prerequisite requirement. "
+            }
+        },
+        {
+            "code": "ECE4179",
+            "credit points": "6",
+            "name": "Neural networks and deep learning",
+            "unit_details": {
+                "overview": "Overview This unit introduces fundamentals of deep learning and how it can solve problems in many areas, such as image classification, filter design and natural language processing. Neural networks are first described and how training can be achieved with backpropagation. Various forms of deep neural networks are developed, such as multilayer \u2026 For more content click the Read More button below.This unit introduces fundamentals of deep learning and how it can solve problems in many areas, such as image classification, filter design and natural language processing. Neural networks are first described and how training can be achieved with backpropagation. Various forms of deep neural networks are developed, such as multilayer perceptrons, convolution neural networks and recurrent neural networks. The mathematics of stochastic optimisation is used to interpret and understand the behaviour and training of these networks. Programming approaches are discussed for training and deploying neural networks. Deep learning technologies and design examples are discussed in areas such as driverless cars, personal cognitive assistants and mastering of games such as GO.Read More about Overview",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005",
+                        "ECE2071"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisites: Or ENG2092 in place of ENG2005 "
+            }
+        }
+    ]
+}
