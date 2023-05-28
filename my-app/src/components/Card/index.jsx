@@ -182,7 +182,7 @@ const MyCard = (props) => {
     updateValue(item.id - 1, {});
   };
   const change = () => {
-    history(`/search/${index}`);
+    history(`/search/${index}`, { state: 6 });
   };
   const root = {
     id: "root",
