@@ -83,8 +83,8 @@
         "sem": 1,
         "credit points": "6",
         "name": "Foundation physics",
-        "overview":"The unit introduces fundamental principles of Newtonian mechanics, electricity and magnetism, waves and oscillations, and quantum physics. The unit explores these concepts in the context of current technology in areas such as transportation and communication. You will also discover how these ideas link to current research in Physics. The unit further introduces the concepts of experimental design, measurement, and analysis that form the basis of the evidence-based approach that is the foundation of scientific discoveries and theories.",
         "unit_details": {
+          "overview":"The unit introduces fundamental principles of Newtonian mechanics, electricity and magnetism, waves and oscillations, and quantum physics. The unit explores these concepts in the context of current technology in areas such as transportation and communication. You will also discover how these ideas link to current research in Physics. The unit further introduces the concepts of experimental design, measurement, and analysis that form the basis of the evidence-based approach that is the foundation of scientific discoveries and theories.",
             "offerings": {
                 "S1-01-CLAYTON-ON-CAMPUS": {
                     "location": [
@@ -116,8 +116,8 @@
         "sem": 1,
         "credit points": "6",
         "name": "Foundation mathematics",
-        "overview":"This unit introduces foundational mathematics required for all disciplines of engineering. It is equivalent to the Victorian Certificate of Education (VCE) Specialist Mathematics and a prerequisite for ENG1005. Major concepts taught using engineering contexts include functions and their properties, complex numbers, vectors, differentiation, integration and application.",
         "unit_details": {
+          "overview":"This unit introduces foundational mathematics required for all disciplines of engineering. It is equivalent to the Victorian Certificate of Education (VCE) Specialist Mathematics and a prerequisite for ENG1005. Major concepts taught using engineering contexts include functions and their properties, complex numbers, vectors, differentiation, integration and application.",
             "offerings": {
                 "NOV12-CLAYTON-ON-CAMPUS":{
                     "location": [
@@ -357,8 +357,9 @@
         "sem": 1,
         "credit points": "6",
         "name": "Foundation mathematics",
-        "overview":"This unit introduces foundational mathematics required for all disciplines of engineering. It is equivalent to the Victorian Certificate of Education (VCE) Specialist Mathematics and a prerequisite for ENG1005. Major concepts taught using engineering contexts include functions and their properties, complex numbers, vectors, differentiation, integration and application.",
         "unit_details": {
+          "overview":"This unit introduces foundational mathematics required for all disciplines of engineering. It is equivalent to the Victorian Certificate of Education (VCE) Specialist Mathematics and a prerequisite for ENG1005. Major concepts taught using engineering contexts include functions and their properties, complex numbers, vectors, differentiation, integration and application.",
+
             "offerings": {
                 "NOV12-CLAYTON-ON-CAMPUS":{
                     "location": [
@@ -608,8 +609,8 @@
         "sem": 1,
         "credit points": "6",
         "name": "Foundation physics",
-        "overview":"The unit introduces fundamental principles of Newtonian mechanics, electricity and magnetism, waves and oscillations, and quantum physics. The unit explores these concepts in the context of current technology in areas such as transportation and communication. You will also discover how these ideas link to current research in Physics. The unit further introduces the concepts of experimental design, measurement, and analysis that form the basis of the evidence-based approach that is the foundation of scientific discoveries and theories.",
         "unit_details": {
+          "overview":"The unit introduces fundamental principles of Newtonian mechanics, electricity and magnetism, waves and oscillations, and quantum physics. The unit explores these concepts in the context of current technology in areas such as transportation and communication. You will also discover how these ideas link to current research in Physics. The unit further introduces the concepts of experimental design, measurement, and analysis that form the basis of the evidence-based approach that is the foundation of scientific discoveries and theories.",
             "offerings": {
                 "S1-01-CLAYTON-ON-CAMPUS": {
                     "location": [
