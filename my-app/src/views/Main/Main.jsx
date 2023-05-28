@@ -627,8 +627,8 @@ const Main = ({ updateValue, data, event, swapValue, changeCourse }) => {
                     <div className="year-container" key={item}>
                       <div className="year-text">{yearStart + index}</div>
                       <div className="sem-container">
-                        <div>Samester 1</div>
-                        <div className="bottom">Samester 2</div>
+                        <div>Semester 1</div>
+                        <div className="bottom">Semester 2</div>
                         {index !== yearSem.length - 1 ? (
                           <span className="underline"></span>
                         ) : (
