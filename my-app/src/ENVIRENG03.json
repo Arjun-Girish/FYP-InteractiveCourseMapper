@@ -1,0 +1,1680 @@
+{
+    "code": "ENVIRENG03",
+    "credit points": "144",
+    "name": "Environmental engineering",
+    "core_units": [
+        
+        {
+            "code": "ENE2021",
+            "state": 1,
+            "sem": 1,
+            "credit points": "6",
+            "name": "Energy and the environment",
+            "unit_details": {
+                "overview": "Overview Energy is all around us. From powering household appliances and gas heaters to driving a car across town, it is responsible for making everything that involves movement or activity happen. Although energy cannot be created or destroyed, it is still important for the available energy within our environment to be \u2026 For more content click the Read More button below.\nThis unit provides a qualitative and quantitative survey of the physics behind conventional and alternative energy sources. The choice of energy source is also assessed in terms of its environmental impacts, its dependence on critical or scarce resources and the social or political consequences of reliance on that energy source concerning long-term sustainability. Building services and transport are among the largest end-use sectors responsible for energy consumption. Their energy efficiency and decarbonisation will be reviewed. Electricity is one of the most important energy commodities. The discussion on its generation, supply and demand will be expanded.Energy is all around us. From powering household appliances and gas heaters to driving a car across town, it is responsible for making everything that involves movement or activity happen. Although energy cannot be created or destroyed, it is still important for the available energy within our environment to be conserved and used wisely. Our decisions on how we use energy impact the plant's natural systems in complex ways. It is vital that we choose our energy sources carefully and be mindful of the amount of energy we use. The true cost of energy is more than just dollars and cents; there are important environmental and political factors and consequences to consider.\nThis unit provides a qualitative and quantitative survey of the physics behind conventional and alternative energy sources. The choice of energy source is also assessed in terms of its environmental impacts, its dependence on critical or scarce resources and the social or political consequences of reliance on that energy source concerning long-term sustainability. Building services and transport are among the largest end-use sectors responsible for energy consumption. Their energy efficiency and decarbonisation will be reviewed. Electricity is one of the most important energy commodities. The discussion on its generation, supply and demand will be expanded.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "ECE3051"
+                    ]
+                },
+                "rules": null
+            }
+        },
+        
+        {
+            "code": "CHE2164",
+            "state": 1,
+            "sem": 1,
+            "credit points": "6",
+            "name": "Thermodynamics 1",
+            "unit_details": {
+                "overview": "Overview Introduce fundamentals and applications of classical thermodynamics. Understand the concepts of heat, work, energy, and entropy, the First and Second Laws of Thermodynamics and their application. Introduction to the Carnot cycle and the concept of irreversibility. Understand the use of property diagrams in solving heat engine and heat pump cycles. \u2026 For more content click the Read More button below.Introduce fundamentals and applications of classical thermodynamics. Understand the concepts of heat, work, energy, and entropy, the First and Second Laws of Thermodynamics and their application. Introduction to the Carnot cycle and the concept of irreversibility. Understand the use of property diagrams in solving heat engine and heat pump cycles. Understand the operation and analysis of the Brayton, Otto, Diesel and Rankine cycles. Introduction to the analysis of refrigeration and heat pump cycles. Perform experiments to illustrate the concepts of Thermodynamics. Simple combustion processes. Renewable energy and its use in heating and electricity generation and environmental benefits.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [
+                        "MEC2405",
+                        "MAE2402"
+                    ],
+                    "AND": []
+                },
+                "rules": "Prerequisite - Completion of 24 credit points of units owned by the Faculty of Engineering. Students enrolled in E3008 are exempt. "
+            }
+        },
+        
+        {
+            "code": "CIV2263",
+            "state": 1,
+            "sem": 0,
+            "credit points": "6",
+            "name": "Water systems",
+            "unit_details": {
+                "overview": "",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": " ",
+            "state": 2
+        },
+        {
+            "code": "CHE2162",
+            "state": 1,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Material and energy balances",
+            "unit_details": {
+                "overview": "Overview This unit will introduce you to the fundamentals of material and energy balances through a systematic treatment of single and multiple-unit operations, reactive and non-reactive processes, recycle and bypass, extent of reactions, equations of state, vapour-liquid phase equilibrium, solid-liquid phase equilibrium, internal energy and enthalpy changes for process fluids undergoing \u2026 For more content click the Read More button below.This unit will introduce you to the fundamentals of material and energy balances through a systematic treatment of single and multiple-unit operations, reactive and non-reactive processes, recycle and bypass, extent of reactions, equations of state, vapour-liquid phase equilibrium, solid-liquid phase equilibrium, internal energy and enthalpy changes for process fluids undergoing specified changes in temperature, pressure, phase, reactions and chemical compositions and computer-aided simulation of process flow diagrams. A process simulation software will be used to aid in the solution of more complex systems.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        
+        {
+            "code": "ENG2005",
+            "state": 1,
+            "sem": 0,
+            "credit points": "6",
+            "name": "Advanced engineering mathematics",
+            "unit_details": {
+                "overview": "Overview This unit introduces advanced mathematical concepts required for all disciplines of engineering that extend on the concepts in ENG1005 Engineering mathematics.\nMajor concepts taught using engineering contexts include multivariable and vector calculus, Fourier series and partial differential equations. Specific topics include partial derivatives, double and triple integrals with change of \u2026 For more content click the Read More button below.This unit introduces advanced mathematical concepts required for all disciplines of engineering that extend on the concepts in ENG1005 Engineering mathematics.\nMajor concepts taught using engineering contexts include multivariable and vector calculus, Fourier series and partial differential equations. Specific topics include partial derivatives, double and triple integrals with change of coordinates, vector functions and operators, parametric curves and surfaces, periodic functions, Laplace transforms, ODE boundary value problems, partial differential equation solution techniques and applications.Read More about Overview",
+                "offerings": {
+                    "NOV12-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "November teaching period",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1014",
+                        "ENG1060"
+                    ],
+                    "AND": [
+                        "ENG1005",
+                        "ENG1005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [
+                        "MTH2010",
+                        "MTH2015"
+                    ],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ENE2503",
+            "state": 1,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Materials properties and recycling",
+            "unit_details": {
+                "overview": "Overview This unit will give you an appreciation of materials, their place in the environment and ways of dealing with their presence in the waste stream. You will gain a basic understanding of the structure and properties of the main classes of materials: metals, polymers and ceramics. You will learn about \u2026 For more content click the Read More button below.This unit will give you an appreciation of materials, their place in the environment and ways of dealing with their presence in the waste stream. You will gain a basic understanding of the structure and properties of the main classes of materials: metals, polymers and ceramics. You will learn about the ways in which these different materials can be disposed of, ranging from incineration, recycling and degradation, and the technologies involved in these processes. The advantages of these methods, as opposed simply to landfill, will be discussed. Methods of sorting of different materials from the waste stream into their various components will also be covered.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": " ",
+            "state": 2
+        },
+        
+        {
+            "code": "CIV3248",
+            "state": 1,
+            "sem": 1,
+            "credit points": "6",
+            "name": "Groundwater and environmental geomechanics",
+            "unit_details": {
+                "overview": "Overview Overview of concepts relating to groundwater resources and seepage, with emphasis on seepage containment in reservoirs, ponds, soil pollution and its avoidance, focusing on soil behaviour and its effect on seepage, groundwater percolation and migration of contaminant in the nearfield of waste containment facilities. Focus will also be on the \u2026 For more content click the Read More button below.Overview of concepts relating to groundwater resources and seepage, with emphasis on seepage containment in reservoirs, ponds, soil pollution and its avoidance, focusing on soil behaviour and its effect on seepage, groundwater percolation and migration of contaminant in the nearfield of waste containment facilities. Focus will also be on the function, design and construction of engineered soil barriers to prevent leakage from water reservoirs, ponds or to isolate different types of waste.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        
+        {
+            "code": "CIV3285",
+            "state": 1,
+            "sem": 1,
+            "credit points": "6",
+            "name": "Engineering hydrology",
+            "unit_details": {
+                "overview": "Overview The unit introduces you to the basic concepts of hydrology and their application in the engineering practice. The key features of the main components of the hydrologic cycle (i.e., rainfall, streamflow, and evapotranspiration) are presented along with methods to measure and model them in natural and urban environments. Particular emphasis \u2026 For more content click the Read More button below.The unit introduces you to the basic concepts of hydrology and their application in the engineering practice. The key features of the main components of the hydrologic cycle (i.e., rainfall, streamflow, and evapotranspiration) are presented along with methods to measure and model them in natural and urban environments. Particular emphasis is on flooding and designed floods. The unit also provides an overview of the various water systems in an urban environment, their functions and modes of operation, and the influence of climate variability on urban requirements in terms of management and discharge of stormwater. A final aspect is the activation and transport of contaminants within the urban water cycle.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CIV2263",
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition: CIV3264 E6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "BTX3100",
+            "state": 1,
+            "sem": 1,
+            "credit points": "6",
+            "name": "Sustainability regulation for business",
+            "unit_details": {
+                "overview": "Overview This unit introduces you to the legal risks and responsibilities faced by business enterprises arising from regulation and compliance obligations associated with global environmental and sustainability challenges. It focuses on developing vocational skills required by businesses transitioning to more sustainable business models.This unit introduces you to the legal risks and responsibilities faced by business enterprises arising from regulation and compliance obligations associated with global environmental and sustainability challenges. It focuses on developing vocational skills required by businesses transitioning to more sustainable business models.Read More about Overview",
+                "offerings": {
+                    "S1-01-CAULFIELD-ON-CAMPUS": {
+                        "location": [
+                            "Caulfield"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": " ",
+            "state": 2
+        },
+        
+        {
+            "code": "ENE3606",
+            "state": 1,
+            "sem": 2,
+            "credit points": "6",
+            "name": "The air environment",
+            "unit_details": {
+                "overview": "Overview Through lectures, practice classes, individual assignments and tests, you should develop knowledge of air pollution issues, assessment and control of pollutants from emission sources. The unit focusses on air pollution sources, emissions behaviour, pollutant pathways, receptor impacts and the associated national legislation and international treaties. The unit includes atmospheric stability \u2026 For more content click the Read More button below.Through lectures, practice classes, individual assignments and tests, you should develop knowledge of air pollution issues, assessment and control of pollutants from emission sources. The unit focusses on air pollution sources, emissions behaviour, pollutant pathways, receptor impacts and the associated national legislation and international treaties. The unit includes atmospheric stability conditions, pollutant transport models, air pollution control strategies and factors important in control equipment or schemes. The unit also encompasses climate change, greenhouse gas emissions sources and carbon accounting as well as national and international climate change mitigation strategies and adaptation approaches.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1001",
+                        "ENG1002",
+                        "ENG1011",
+                        "ENG1012"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        
+        {
+            "code": "ENE3032",
+            "state": 1,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Fate and transport of contaminants",
+            "unit_details": {
+                "overview": "Overview This unit will equip you with an understanding of contaminant fate and transport through the\u00a0environment. A short review of the key chemistry-related to environmental contaminants will be\u00a0included. You will then cover the principles of contaminant fate and transport and learn about contaminant fate and transport in air, water \u2026 For more content click the Read More button below.This unit will equip you with an understanding of contaminant fate and transport through the\u00a0environment. A short review of the key chemistry-related to environmental contaminants will be\u00a0included. You will then cover the principles of contaminant fate and transport and learn about contaminant fate and transport in air, water and soil. The opportunities for management,\u00a0mitigation and remediation will also be discussed.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisites:\u00a0Completion of 72 engineering credit points "
+            }
+        },
+        {
+            "code": "ENE3031",
+            "state": 1,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Building sustainability",
+            "unit_details": {
+                "overview": "Overview This unit will address issues of sustainability in the built environments from a number of\u00a0perspectives and provide you with a variety of lenses in which the built environments\u00a0interlock with the human and natural system. You will apply skills and knowledge from this\u00a0unit, and use a rigorous process \u2026 For more content click the Read More button below.This unit will address issues of sustainability in the built environments from a number of\u00a0perspectives and provide you with a variety of lenses in which the built environments\u00a0interlock with the human and natural system. You will apply skills and knowledge from this\u00a0unit, and use a rigorous process of design, simulation, validation, and evaluation, to solve real-world\u00a0problems. Topics include passive and active technologies, building energy simulation and\u00a0modelling of different domains in indoor environmental quality, field data acquisition and analysis,\u00a0building codes and rating system, and the topics intersecting with other fields, such as ubiquitous\u00a0computing, architecture design, public health, high-performance materials, etc.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG2005",
+                        "ENE2503"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": " ",
+            "state": 2
+        },
+        
+        {
+            "code": "ENG4701",
+            "state": 1,
+            "sem": 0,
+            "credit points": "6",
+            "name": "Final year project A",
+            "unit_details": {
+                "overview": "Overview The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course. This unit is the first part of a two-unit project.The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course. This unit is the first part of a two-unit project.",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITE: 18 credit points at level three in engineering or FIT-coded study\nCOREQUISITE: ENG0001 (Clayton-based students) "
+            }
+        },
+        
+        {
+            "code": "CIV4286",
+            "state": 1,
+            "sem": 0,
+            "credit points": "6",
+            "name": "Project management for civil engineers",
+            "unit_details": {
+                "overview": "Overview Need for project management; the project management context; fundamental project management processes and knowledge; tools and techniques for a structured application to project selection and planning including project brief/ideation/concept embodiment decision support tools, numeric profitability and scoring techniques, and EMV/decision tree risk quantification tools; analytical tool application to project scope, \u2026 For more content click the Read More button below.Need for project management; the project management context; fundamental project management processes and knowledge; tools and techniques for a structured application to project selection and planning including project brief/ideation/concept embodiment decision support tools, numeric profitability and scoring techniques, and EMV/decision tree risk quantification tools; analytical tool application to project scope, time, cost, risk, human resource, OHS and quality issues. Review of company financial management concepts.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite: Completion of 72 credit points of engineering study.\nE6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        
+        {
+            "code": "ENE4042",
+            "state": 1,
+            "sem": 1,
+            "credit points": "6",
+            "name": "Environmental impact and risk assessment",
+            "unit_details": {
+                "overview": "Overview This unit aims to develop an understanding of the role and basis for environmental impact\u00a0assessment (EIA), environmental risk assessment (ERA) and environmental management\u00a0systems (EMS). The unit focuses on the processes involved in producing a comprehensive\u00a0approach to identifying, assessing and planning management processes, with a particular\u00a0emphasis on \u2026 For more content click the Read More button below.This unit aims to develop an understanding of the role and basis for environmental impact\u00a0assessment (EIA), environmental risk assessment (ERA) and environmental management\u00a0systems (EMS). The unit focuses on the processes involved in producing a comprehensive\u00a0approach to identifying, assessing and planning management processes, with a particular\u00a0emphasis on synthesising technical, regulatory and community issues. The unit aims to\u00a0encourage you to integrate your existing knowledge in environmental engineering, applying it\u00a0to real projects. Through lectures, practice classes, individual assignments and group project\u00a0work, you should develop skills and knowledge in preparing major EIA, ERA and EMS\u00a0reports, your presentation and communication as well as your engineering context.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [
+                        "ENE3608",
+                        "ENE4607"
+                    ],
+                    "AND": []
+                },
+                "rules": "Prerequisites:\u00a0Completion of 96 credit points in engineering study or with permission "
+            }
+        },
+        {
+            "code": " ",
+            "state": 2
+        },
+        
+        {
+            "code": "ENG4702",
+            "state": 1,
+            "sem": 0,
+            "credit points": "6",
+            "name": "Final year project B",
+            "unit_details": {
+                "overview": "Overview This unit is a continuation of ENG4701 Final year project A. The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course.This unit is a continuation of ENG4701 Final year project A. The aim of this capstone unit is to provide an opportunity for you to undertake a substantial individual or small group project. Projects undertaken will integrate and build on content from earlier stages of the course.",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG4701"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CIV4212",
+            "state": 1,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Civil and environmental engineering practice",
+            "unit_details": {
+                "overview": "Overview This is a capstone unit drawing together the material taught in previous units. The objective is to utilise this knowledge to undertake a multi-disciplinary open ended design task for a specified civil engineering development, in groups, mirroring the expectations of working in professional practice. The design project will vary from \u2026 For more content click the Read More button below.This is a capstone unit drawing together the material taught in previous units. The objective is to utilise this knowledge to undertake a multi-disciplinary open ended design task for a specified civil engineering development, in groups, mirroring the expectations of working in professional practice. The design project will vary from year to year but will include aspects of structural, water, geomechanics, environmental engineering and transport design with an emphasis on sustainable design.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisites:\nCivil engineering students: (CIV2282 or CIV3283) and CIV3221 and CIV3247 and CIV3248 and (CIV3294 or CIV3284 or CIV2226) and (CIV3285 or CIV3264)\nEnvironmental engineering students: (ENE3031 and ENE3032) or [ENE3606 and (ENE2021 or ENE3048) and (CIV3285 or CIV3264)] "
+            }
+        },
+        {
+            "code": "ENE4041",
+            "state": 1,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Soil remediation and solid waste management",
+            "unit_details": {
+                "overview": "Overview This unit will equip you with an understanding of solid waste management practices, including soil remediation techniques. You will cover the types of wastes as well as typical contaminants found in different waste. Various waste management options will be covered as well as the concepts of integrated or comprehensive waste \u2026 For more content click the Read More button below.This unit will equip you with an understanding of solid waste management practices, including soil remediation techniques. You will cover the types of wastes as well as typical contaminants found in different waste. Various waste management options will be covered as well as the concepts of integrated or comprehensive waste management practices, including the development of waste management plans. Additionally, you will learn about soil remediation options and technologies as well as the development of remediation action plans.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENE3032"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": " ",
+            "state": 2
+        },
+
+
+        {
+            "code": "ATS2548",
+            "state": 10,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Environmental policy and management",
+            "unit_details": {
+                "overview": "Overview This unit provides an introduction to different perspectives and issues that influence climate and environmental policy and management. It examines the rise of environmentalism as a broad based movement and how it has led to the framing of climate change and other environmental problems by policy makers and managers in \u2026 For more content click the Read More button below.This unit provides an introduction to different perspectives and issues that influence climate and environmental policy and management. It examines the rise of environmentalism as a broad based movement and how it has led to the framing of climate change and other environmental problems by policy makers and managers in terms of state regulation, market-based, and citizen participation approaches. Themes include western ideas of property rights, neoliberalism and environmental governance, scientisation of environmental knowledge, Indigenous management approaches, policy internationalisation and corporate sustainability.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite: Twelve credit points of first-year Arts or at least 2 of BIO1042, CHM1011 or EAE1022 "
+            }
+        },
+        {
+            "code": "BIO2011",
+            "state": 10,
+            "sem": 1,
+            "credit points": "6",
+            "name": "Ecology and biodiversity",
+            "unit_details": {
+                "overview": "Overview This unit is an introduction to ecology; the scientific study of the interactions between organisms and their environment. Ecology and biodiversity forms the foundation for understanding conservation and the management of genetics, species and ecosystem diversity. The approach taken is to address core ecological theory, but with an emphasis on \u2026 For more content click the Read More button below.This unit is an introduction to ecology; the scientific study of the interactions between organisms and their environment. Ecology and biodiversity forms the foundation for understanding conservation and the management of genetics, species and ecosystem diversity. The approach taken is to address core ecological theory, but with an emphasis on contemporary management issues and applications. Topics include the scope and approaches of ecological enquiry; abiotic and biotic factors determining distributions; population growth and regulation; species interactions; patterns and maintenance of biodiversity; food web analysis; disturbance and succession; and production ecology and nutrient cycling. Particular emphasis is placed on integrating ecological processes across spatial and temporal scales. Practical work will be completed via a field excursion together with in-laboratory practical sessions.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITE: Enrolment in the Master of Environment and Sustainability or 24 points of level one units, which includes 6 credit points from BIO units or one of ATS1301, ATS1309, ATS1310, BMS1011 or BMS1021. For Bachelor of Environmental Engineering and associated double degree students only: ENE1621 Environmental engineering and BIO2040 Conservation biology will be required as either prerequisite or corequisite units. "
+            }
+        },
+        {
+            "code": "BIO2040",
+            "state": 10,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Conservation biology",
+            "unit_details": {
+                "overview": "Overview This unit deals with threats to the environment associated with human activities and potential solutions to redress their impacts. Recent losses of biota have been caused by habitat loss and degradation, climate change and pollution, the introduction of exotic species and overexploitation of natural resources. Science-based conservation measures are explored \u2026 For more content click the Read More button below.This unit deals with threats to the environment associated with human activities and potential solutions to redress their impacts. Recent losses of biota have been caused by habitat loss and degradation, climate change and pollution, the introduction of exotic species and overexploitation of natural resources. Science-based conservation measures are explored that may reduce loss of biodiversity/ecosystem function, including habitat preservation and restoration, combating climate change, and intensive conservation of species. We analyse how conservation efforts may involve trade-offs with biological, economic, social and political factors.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITE: Enrolment in the\u00a0Bachelor of Environmental Engineering or Master of Environment and Sustainability or\u00a024 points of level one units.\n\u00a0 PROHIBITION:\u00a0ENV2726, BIO2042 "
+            }
+        },
+        {
+            "code": "CIV2242",
+            "state": 10,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Geomechanics 1",
+            "unit_details": {
+                "overview": "Overview The unit covers all aspects of geomechanics at an elementary level, as well as basic engineering geology, formation and weathering processes, sedimentary, igneous and metamorphic rocks, soil- and rock-forming minerals, geological mapping and modelling, site investigations, in-situ testing, engineering classification of soil and rock, weight-volume relationship, and the two/three phase \u2026 For more content click the Read More button below.The unit covers all aspects of geomechanics at an elementary level, as well as basic engineering geology, formation and weathering processes, sedimentary, igneous and metamorphic rocks, soil- and rock-forming minerals, geological mapping and modelling, site investigations, in-situ testing, engineering classification of soil and rock, weight-volume relationship, and the two/three phase model. It also includes 2D seepage, effective stress theory, stresses in a soil mass and shear strength.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG1011",
+                        "ENG1001",
+                        "ENG1060"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition: CIV2241\nE6011 Master of Professional Engineering - You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "CIV2282",
+            "state": 10,
+            "sem": 1,
+            "credit points": "6",
+            "name": "Transport and traffic engineering",
+            "unit_details": {
+                "overview": "Overview This unit introduces you to the field of transport and traffic engineering. The fundamental parameters used to describe deterministic traffic flow behaviour are introduced along with a simple traffic flow model. Stochastic traffic flow behaviour is described via random distributions. Fundamental queuing theory of traffic is briefly introduced. The procedures \u2026 For more content click the Read More button below.This unit introduces you to the field of transport and traffic engineering. The fundamental parameters used to describe deterministic traffic flow behaviour are introduced along with a simple traffic flow model. Stochastic traffic flow behaviour is described via random distributions. Fundamental queuing theory of traffic is briefly introduced. The procedures used to analyse the capacity and level of service are explored for both unsignalised and signalised intersections. The principle of traffic signal operation at isolated intersections is presented. Traffic surveys are discussed. You are introduced to contemporary road safety issues as well. Public transport is considered at the route level concerning the determination of fleet size and factors affecting operational capacity and reliability. Non-motorised transport including cyclists and pedestrians is also considered. In addition, the unit addresses Intelligent Transportation Systems (ITS). Consideration will also be given to the role of communications in the practice of transport and traffic engineers. To enhance your understanding of the unit content from practical points of view, some experts will be invited to give lectures on their relevant work. Throughout the whole unit, the focus is primarily on surface transport systems and applications of advanced technologies therein.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "ECC2800",
+            "state": 10,
+            "sem": 0,
+            "credit points": "6",
+            "name": "Prosperity, poverty and sustainability in a globalised world",
+            "unit_details": {
+                "overview": "",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHE3161",
+            "state": 10,
+            "sem": 1,
+            "credit points": "6",
+            "name": "Chemistry and chemical thermodynamics",
+            "unit_details": {
+                "overview": "Overview This unit covers thermodynamics from a chemical engineering viewpoint. Content will cover basic concepts and the use of: thermodynamic functions such as free energy, enthalpy, and entropy; estimation of properties of pure compounds and mixtures; description of solution thermodynamics and its applications, equilibrium phase diagrams and chemical reaction equilibria.This unit covers thermodynamics from a chemical engineering viewpoint. Content will cover basic concepts and the use of: thermodynamic functions such as free energy, enthalpy, and entropy; estimation of properties of pure compounds and mixtures; description of solution thermodynamics and its applications, equilibrium phase diagrams and chemical reaction equilibria.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CHE2164"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "E6011 Master of Professional Engineering - You are exempt from the prerequisite rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "CHE3163",
+            "state": 10,
+            "sem": 1,
+            "credit points": "6",
+            "name": "Sustainable processing 1",
+            "unit_details": {
+                "overview": "Overview This unit will explore cleaner production and sustainability concepts, the principles of process design and development and associated flow sheets, systematic approaches to waste minimisation in process and utility systems, the methodology of life cycle assessment and application of life cycle assessment to processes and products. These themes will be \u2026 For more content click the Read More button below.This unit will explore cleaner production and sustainability concepts, the principles of process design and development and associated flow sheets, systematic approaches to waste minimisation in process and utility systems, the methodology of life cycle assessment and application of life cycle assessment to processes and products. These themes will be developed in lectures and supported by your project work related to selected industrial processes.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CHE2162"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CHE3165",
+            "state": 10,
+            "sem": 1,
+            "credit points": "6",
+            "name": "Separation processes",
+            "unit_details": {
+                "overview": "Overview A comprehensive treatment of the fundamentals of separation processes of interest to the chemical industry is covered. The fundamental principles of mass transfer are introduced and extended to include principles of interfacial mass transfer and simultaneous heat and mass transfer. General mass and energy balances are derived for equilibrium staged \u2026 For more content click the Read More button below.A comprehensive treatment of the fundamentals of separation processes of interest to the chemical industry is covered. The fundamental principles of mass transfer are introduced and extended to include principles of interfacial mass transfer and simultaneous heat and mass transfer. General mass and energy balances are derived for equilibrium staged processes. The applications of these principles are made to the unit operations of distillation (binary and multi-component), liquid-liquid extraction, gas-liquid absorption and stripping, adsorption and ion-exchange, and membrane separation processes.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CHE2162",
+                        "CHE2163"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "E6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "CHE3166",
+            "state": 10,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Process design",
+            "unit_details": {
+                "overview": "Overview This unit will develop four important inter-related themes associated with the detailed design of chemical equipment and processes. These themes are process safety, mechanical integrity, equipment selection, and process operability (including piping and instrumentation). These themes will be developed using a mixture of lectures, practice classes and a team-based detailed \u2026 For more content click the Read More button below.This unit will develop four important inter-related themes associated with the detailed design of chemical equipment and processes. These themes are process safety, mechanical integrity, equipment selection, and process operability (including piping and instrumentation). These themes will be developed using a mixture of lectures, practice classes and a team-based detailed design project.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CHE2163",
+                        "CHE2164"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "E6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
+            }
+        },
+        {
+            "code": "CIV3204",
+            "state": 10,
+            "sem": 0,
+            "credit points": "6",
+            "name": "Engineering investigation",
+            "unit_details": {
+                "overview": "",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CIV3247",
+            "state": 10,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Geomechanics 2",
+            "unit_details": {
+                "overview": "Overview This unit covers all aspects of geomechanics at intermediate levels, including consolidation theory of soils, estimation of consolidation and creep settlements for different types of soils, advanced topics on shear strength of soils under various drainage conditions, stress-paths and laboratory triaxial tests, determination of drained and undrained shear strength parameters, \u2026 For more content click the Read More button below.This unit covers all aspects of geomechanics at intermediate levels, including consolidation theory of soils, estimation of consolidation and creep settlements for different types of soils, advanced topics on shear strength of soils under various drainage conditions, stress-paths and laboratory triaxial tests, determination of drained and undrained shear strength parameters, critical state mechanics and various failure criteria, soil and rock slope analysis, earth pressure theory and design of retaining walls. Applications to practical problems are key aspects of the learning covered.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CIV2242",
+                        "CIV2206"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "RSE3020",
+            "state": 10,
+            "sem": 1,
+            "credit points": "6",
+            "name": "Resource estimation",
+            "unit_details": {
+                "overview": "Overview The mineral inventory of a company is quantified through resource or reserve estimates with associated error levels that, in many cases, are unknown. The estimation procedure used by a geologist or engineer should incorporate efforts to minimise errors and assumptions at every level of decision.\nThis unit focuses on resource \u2026 For more content click the Read More button below.The mineral inventory of a company is quantified through resource or reserve estimates with associated error levels that, in many cases, are unknown. The estimation procedure used by a geologist or engineer should incorporate efforts to minimise errors and assumptions at every level of decision.\nThis unit focuses on resource and reserve estimation of mineral ores and hydrocarbon deposits, with particular focus on the influence of the in situ geological conditions. You will learn the basics of resource and reserve reporting with particular reference to applicable industry codes. Resource modelling will be taught through computer applications with special consideration of geostatistical techniques.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition:\u00a0MNE3020 "
+            }
+        },
+        {
+            "code": "RSE3030",
+            "state": 10,
+            "sem": 1,
+            "credit points": "6",
+            "name": "Ventilation for surface and underground spaces",
+            "unit_details": {
+                "overview": "Overview This unit provides the fundamentals of ventilation for surface and underground spaces, including properties of air, gas, heat, dust and pollutants control, principles of airflow, ventilation network theory, as well as surface and underground ventilation systems design, with the emphasis on analysis and practical application.This unit provides the fundamentals of ventilation for surface and underground spaces, including properties of air, gas, heat, dust and pollutants control, principles of airflow, ventilation network theory, as well as surface and underground ventilation systems design, with the emphasis on analysis and practical application.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "CIV2263",
+                        "MEC2404",
+                        "CHE2161"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition:\u00a0MNE3030 "
+            }
+        },
+        {
+            "code": "RSE3040",
+            "state": 10,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Mining systems",
+            "unit_details": {
+                "overview": "Overview This unit covers underground and surface mining methods and equipment selection for the optimum performance of underground and surface operations. The unit provides a detailed understanding of mining processes and systems engineering along with their key drivers in modern open-cut and underground operations. For each of the mining methods explored \u2026 For more content click the Read More button below.This unit covers underground and surface mining methods and equipment selection for the optimum performance of underground and surface operations. The unit provides a detailed understanding of mining processes and systems engineering along with their key drivers in modern open-cut and underground operations. For each of the mining methods explored consideration is given to the mining cycle and access design - eg shafts and/or declines and materials handling. Through practical applications, you will explore the selection of optimal mining systems. For each of the mining systems covered, core risk identification and mitigation are considered.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibitions: MNE3040 and MNE3050 "
+            }
+        },
+        {
+            "code": "RSE3060",
+            "state": 10,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Rock breakage",
+            "unit_details": {
+                "overview": "Overview This unit will address the mechanics and practical applications and current technologies in rock breakage through machine excavation and drilling and blasting. The machine excavation includes fundamentals of rock cutting, cutting with discs and design of cutter heads along with the assessment of rock cuttability applicable to soft and hard \u2026 For more content click the Read More button below.This unit will address the mechanics and practical applications and current technologies in rock breakage through machine excavation and drilling and blasting. The machine excavation includes fundamentals of rock cutting, cutting with discs and design of cutter heads along with the assessment of rock cuttability applicable to soft and hard rock underground spaces, such as civil and water drainage tunnels and subways. The drilling and blasting component includes the impact of blasting not on the behaviour of rock mass properties, structure and discontinuities and rock breakage and fragmentation. Drilling and blasting techniques will be explored in relation to design, safety, security, environmental impacts and relevant legislation. This will be done in the context of mine-to-mill.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CIV2242"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition: MNE3060 "
+            }
+        },
+        {
+            "code": "RSE3141",
+            "state": 10,
+            "sem": 1,
+            "credit points": "6",
+            "name": "Solar energy",
+            "unit_details": {
+                "overview": "Overview This unit covers concepts associated with the solar energy industry including; the characteristics of solar radiation and solar collectors including efficiency evaluation and prediction of long-term performance; system modelling; energy storage; computer simulation and modelling of performance and the economics and financing of solar energy projects.This unit covers concepts associated with the solar energy industry including; the characteristics of solar radiation and solar collectors including efficiency evaluation and prediction of long-term performance; system modelling; energy storage; computer simulation and modelling of performance and the economics and financing of solar energy projects.Read More about Overview",
+                "offerings": {
+                    "S1-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [
+                        "ENG2005",
+                        "MTH2010",
+                        "MTH2015"
+                    ],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "RSE3241",
+            "state": 10,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Hydropower",
+            "unit_details": {
+                "overview": "Overview This unit covers all aspects of hydropower, including the fundamental physics behind energy storage in potential energy, design of hydropower systems (dam walls and reservoirs, penstock piping and tunnelling, power house design (turbine and generator), tailrace and electrical connection). The operation of hydropower stations and their influence on the integrated \u2026 For more content click the Read More button below.This unit covers all aspects of hydropower, including the fundamental physics behind energy storage in potential energy, design of hydropower systems (dam walls and reservoirs, penstock piping and tunnelling, power house design (turbine and generator), tailrace and electrical connection). The operation of hydropower stations and their influence on the integrated electrical system. The unit covers recent developments in hydropower, in particular, the current trend towards more pumped hydro energy storage. Lectures will be delivered by both academic staff and industry experts who work on real-world hydropower projects.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005",
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "RSE3243",
+            "state": 10,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Bioenergy",
+            "unit_details": {
+                "overview": "Overview This unit provides foundational knowledge of the bioenergy industry, including feedstocks, processing and end-use of products. The unit provides insight into biomass energy resources and bioenergy technologies, including the properties and characteristics of the resources, conversion and utilisation processes, as well as industrial application. Economic cost-effectiveness will be examined. You \u2026 For more content click the Read More button below.This unit provides foundational knowledge of the bioenergy industry, including feedstocks, processing and end-use of products. The unit provides insight into biomass energy resources and bioenergy technologies, including the properties and characteristics of the resources, conversion and utilisation processes, as well as industrial application. Economic cost-effectiveness will be examined. You will also conduct a lifecycle analysis of the various pathways to determine the energy return on energy invested. Other issues, such as impacts on food availability, land availability and the social and political impacts, will also be covered.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CIV4248",
+            "state": 10,
+            "sem": 0,
+            "credit points": "6",
+            "name": "Ground hazards engineering",
+            "unit_details": {
+                "overview": "Overview Geotechnical engineering concepts applied to solve or minimise geo-hazard problems specific to waste containment facilities, contaminated sites and redevelopment and construction on marginal land. The unit focuses on geotechnical aspects of ground improvement, as well as in the analysis, design and construction involving projects located on marginal land. Learning through \u2026 For more content click the Read More button below.Geotechnical engineering concepts applied to solve or minimise geo-hazard problems specific to waste containment facilities, contaminated sites and redevelopment and construction on marginal land. The unit focuses on geotechnical aspects of ground improvement, as well as in the analysis, design and construction involving projects located on marginal land. Learning through failure cases to highlight potential pitfalls of the discipline is an important component in this unit.Read More about Overview",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CIV3248"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CIV4249",
+            "state": 10,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Foundation engineering",
+            "unit_details": {
+                "overview": "Overview This unit introduces foundation systems and design principles with reference to the geological context of a project. It also addresses how to determine relevant foundation design parameters from field and laboratory tests. It teaches the detailed design of shallow foundations (isolated footing, raft foundation) for simple and complex ground and \u2026 For more content click the Read More button below.This unit introduces foundation systems and design principles with reference to the geological context of a project. It also addresses how to determine relevant foundation design parameters from field and laboratory tests. It teaches the detailed design of shallow foundations (isolated footing, raft foundation) for simple and complex ground and load conditions. Finally, the design of single and group pile foundations in soils and rocks subjected to axial and lateral loads are taught including an introduction to pile integrity and load tests.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CIV3247"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CIV4261",
+            "state": 10,
+            "sem": 1,
+            "credit points": "6",
+            "name": "Integrated urban water management",
+            "unit_details": {
+                "overview": "Overview This unit is designed to give a broad understanding of the integrated management of water resources within an urban context. This is a field of practice growing in importance in Australia and overseas, and will equip you well for careers in urban water management. The scope of the course will \u2026 For more content click the Read More button below.This unit is designed to give a broad understanding of the integrated management of water resources within an urban context. This is a field of practice growing in importance in Australia and overseas, and will equip you well for careers in urban water management. The scope of the course will be multi-disciplinary, giving you an understanding of the range of perspectives required in integrated urban water management (IUWM) covering structural and non-structural techniques available. The social science and ecological perspectives will be emphasised to give an appreciation of the multi-disciplinary nature of IUWM. Software packages such as MUSIC and Aquacycle will be introduced.Read More about Overview",
+                "offerings": {
+                    "S1-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "First semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CIV3285"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisites: Or CIV3264 "
+            }
+        },
+        {
+            "code": "CIV4268",
+            "state": 10,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Water resources management",
+            "unit_details": {
+                "overview": "Overview This unit considers the quality and quantity aspects of water resources management. Tools and techniques appropriate for design and analysis of water resource systems are introduced, starting from a development of quantitative hydrologic modelling and extending to quantitative prediction of water quality transformations. The fundamental principles of water quantity and \u2026 For more content click the Read More button below.This unit considers the quality and quantity aspects of water resources management. Tools and techniques appropriate for design and analysis of water resource systems are introduced, starting from a development of quantitative hydrologic modelling and extending to quantitative prediction of water quality transformations. The fundamental principles of water quantity and quality modelling are also applied within a framework that allows the assessment of water quality in various watercourses.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "ENG2005"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "PREREQUISITE: Completion of 96 cp in engineering study (ENG2005 included) "
+            }
+        },
+        {
+            "code": "CIV4283",
+            "state": 10,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Transport planning",
+            "unit_details": {
+                "overview": "Overview This unit examines contemporary issues in urban transport planning. The concept of sustainable transport is introduced along with the steps in the transport planning process. Emphasis is placed on the interrelationship between transport and land use planning and on the range of supply and demand oriented approaches that can be \u2026 For more content click the Read More button below.This unit examines contemporary issues in urban transport planning. The concept of sustainable transport is introduced along with the steps in the transport planning process. Emphasis is placed on the interrelationship between transport and land use planning and on the range of supply and demand oriented approaches that can be used to enhance the sustainability of urban transport systems. Strategic transport network models are introduced with consideration given to the calibration and application of those models. Travel survey methods are considered and the relationship between survey design, survey administration and data quality is explored.Read More about Overview",
+                "offerings": {
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prerequisite:\u00a0CIV2282\nProhibitions: CIV4293 "
+            }
+        },
+        {
+            "code": "CIV4287",
+            "state": 10,
+            "sem": 0,
+            "credit points": "6",
+            "name": "Road engineering",
+            "unit_details": {
+                "overview": "",
+                "offerings": {},
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": null
+            }
+        },
+        {
+            "code": "CIV4288",
+            "state": 10,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Water treatment",
+            "unit_details": {
+                "overview": "Overview This unit provides an overview of water and wastewater systems in urban environments. The overview focuses on these systems' functions regarding the provision of drinking water and wastewater treatment and their modes of operation. Specific topics include water supply, water use and consumption, drinking water treatment and distribution, wastewater characterisation \u2026 For more content click the Read More button below.This unit provides an overview of water and wastewater systems in urban environments. The overview focuses on these systems' functions regarding the provision of drinking water and wastewater treatment and their modes of operation. Specific topics include water supply, water use and consumption, drinking water treatment and distribution, wastewater characterisation and secondary treatment, sludge handling, resource recovery and nature-based solutions for wastewater treatment. Treatment process theory and design are covered in this unit for both drinking water and wastewater treatment systems.Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    },
+                    "S2-01-MALAYSIA-ON-CAMPUS": {
+                        "location": [
+                            "Malaysia"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": [
+                        "CIV2263",
+                        "CIV3285"
+                    ]
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": []
+                },
+                "rules": "Prohibition:\u00a0CIV3264 "
+            }
+        },
+        {
+            "code": "MTE4593",
+            "state": 10,
+            "sem": 2,
+            "credit points": "6",
+            "name": "Materials and sustainability",
+            "unit_details": {
+                "overview": "Overview This unit provides an introduction to the political, social and environmental background to materials usage. Major technologies relating to the production, sustainable use and recycling of metals, plastics, glass, electronics, paper and ceramic materials are discussed. Various options involving materials substitution, reclamation, energy recovery and disposal are critically evaluated. The \u2026 For more content click the Read More button below.This unit provides an introduction to the political, social and environmental background to materials usage. Major technologies relating to the production, sustainable use and recycling of metals, plastics, glass, electronics, paper and ceramic materials are discussed. Various options involving materials substitution, reclamation, energy recovery and disposal are critically evaluated. The unit considers the economics of materials production, as well as 'cradle-to-grave' analyses of materials, including products and byproducts of the nuclear fuel cycle. In particular, it looks at various life-cycle analysis techniques. We will examine the impact of population, affluence and technology changes on population and ecological footprints with the arrival of the current \"Anthropocene Era\".Read More about Overview",
+                "offerings": {
+                    "S2-01-CLAYTON-ON-CAMPUS": {
+                        "location": [
+                            "Clayton"
+                        ],
+                        "teaching_period": "Second semester",
+                        "Attendance_mode": [
+                            "On-campus"
+                        ]
+                    }
+                },
+                "prerequisite": {
+                    "OR": [],
+                    "AND": []
+                },
+                "prohibition": {
+                    "OR": [],
+                    "AND": [
+                        "MTE5193"
+                    ]
+                },
+                "rules": "PREREQUISITE: Completion of 96 credit points in engineering study "
+            }
+        }
+    ]
+}
