@@ -2476,46 +2476,6 @@
             "minor": []
         },
         {
-            "code": "ECE2072",
-            "credit points": "6",
-            "state": 3,
-            "Sem": 2,
-            "name": "Digital systems",
-            "units": {
-                "overview": "Overview This unit introduces you to modern logic design techniques, hardware used and common representations. Topics include two and multi-level combinational logic, decoders, multiplexers, arithmetic circuits, programmable and steering logic, flip-flops, registers, counters, RAM and ROM. Using this hardware the design component will include finite state machine design and applications to \u2026 For more content click the Read More button below.This unit introduces you to modern logic design techniques, hardware used and common representations. Topics include two and multi-level combinational logic, decoders, multiplexers, arithmetic circuits, programmable and steering logic, flip-flops, registers, counters, RAM and ROM. Using this hardware the design component will include finite state machine design and applications to computer data path control. This will incorporate simple analogue and digital I/O interfacing. Programmable logic devices will be covered, and the use of a hardware description language for describing, synthesising and testing digital logic. Laboratories cover logic design, implementation, and testing.Read More about Overview",
-                "offerings": {
-                    "S2-01-CLAYTON-ON-CAMPUS": {
-                        "location": [
-                            "Clayton"
-                        ],
-                        "teaching_period": "Second semester",
-                        "Attendance_mode": [
-                            "On-campus"
-                        ]
-                    },
-                    "S2-01-MALAYSIA-ON-CAMPUS": {
-                        "location": [
-                            "Malaysia"
-                        ],
-                        "teaching_period": "Second semester",
-                        "Attendance_mode": [
-                            "On-campus"
-                        ]
-                    }
-                },
-                "prerequisite": {
-                    "OR": [],
-                    "AND": []
-                },
-                "prohibition": {
-                    "OR": [],
-                    "AND": []
-                },
-                "rules": "Prerequisite: 24 credit points from the Faculty of Engineering or the Faculty of Information Technology\nE6011 Master of Professional Engineering\u00a0- You\u00a0are exempt from the prerequisite\u00a0rule if you are enrolled in this course. "
-            },
-            "minor": []
-        },
-        {
             "code": "FIT2085",
             "state": 3,
             "Sem": 0,
