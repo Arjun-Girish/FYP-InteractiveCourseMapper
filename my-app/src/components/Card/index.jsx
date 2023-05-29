@@ -157,12 +157,14 @@ import Tree from "../tree/";
 import { connect } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { updateValue, updateEvent } from "../../store/actions";
+import Index from "../../views/search";
 const MyCard = (props) => {
   const history = useNavigate();
-  const { title, item, updateValue } = props;
+  const { title, item, updateValue,index } = props;
   const orPrereqs = item.unit_details?.prerequisite?.OR.map((prereq) => {
     return {
       value: {
+        id:2,
         name: prereq,
       },
     };
@@ -171,6 +173,7 @@ const MyCard = (props) => {
   const andPrereqs = item.unit_details?.prerequisite?.AND.map((prereq) => {
     return {
       value: {
+        id:3,
         name: prereq,
       },
     };
@@ -179,7 +182,7 @@ const MyCard = (props) => {
     updateValue(item.id - 1, {});
   };
   const change = () => {
-    history(`/search/${item.id - 1}`);
+    history(`/search/${index}`, { state: 6 });
   };
   const root = {
     id: "root",
@@ -231,44 +234,38 @@ const MyCard = (props) => {
 
             <div className="right-unit-info-container">
               <h1 className = "right-unit-info-header"> Campus: </h1> 
-              <p1 className= "right-unit-info-value">  Clayton </p1>
+              <p className= "right-unit-info-header">  Clayton </p>
             </div>
 
             <div className="right-unit-info-container">
               <h1 className = "right-unit-info-header"> Department: </h1> 
-              <p1 className= "right-unit-info-value">  Faculty of Engineering </p1>
+              <p className= "right-unit-info-header">  Faculty of Engineering </p>
             </div>
 
             <div className="right-unit-info-container">
               <h1 className = "right-unit-info-header"> Teaching Period: </h1> 
-              <p1 className= "right-unit-info-value">    {item.sem == 0
+              <p className= "right-unit-info-header">    {item.sem === 0
               ? "Semester 1 or Semester 2"
-              : item.sem == 1
+              : item.sem === 1
               ? "Semester 1"
               : "Semester 2"}{" "}
-            <br /> </p1>
+            <br /> </p>
             </div>
 
             <div className="right-unit-info-container">
               <h1 className = "right-unit-info-header"> Prohibition:  </h1> 
-              <p1 className= "right-unit-info-value">    {" OR: " +
-              item.unit_details.prohibition.OR +
-              "AND: " +
-              item.unit_details.prohibition.AND}{" "}
-          </p1>
+              <p className= "right-unit-info-header"> 
+              <span style={{color:'blue'}}>OR</span><span>:{item.unit_details?.prohibition.OR}</span> 
+          </p>
+            </div>
+            <div className="right-unit-info-container">
+            <h1 className = "right-unit-info-header" style={{color:"white"}}> Prohibition:  </h1> 
+            <p className= "right-unit-info-header"> 
+              <span style={{color:'red'}}>AND</span>:{item.unit_details?.prohibition.AND}
+              </p>
             </div>
 
-            <div className="right-unit-info-container">
-              <h1 className = "right-unit-info-header"> Major: </h1> 
-              <p1 className= "right-unit-info-value">  ECSE </p1>
-            </div>
-
-            <div className="right-unit-info-container">
-              <h1 className = "right-unit-info-header"> Electives: </h1> 
-              <p1 className= "right-unit-info-value">  () </p1>
-            </div>
-          
-            <Button type="primary" style={{ float: "left", "margin-top": "20px" }}>
+            <Button type="primary" style={{ float: "left", marginTop: "20px" }}>
               <a
                 href={`http://www.monash.edu.au/pubs/handbooks/units/${item.code}.html`}
                 target="_blank"
@@ -282,7 +279,7 @@ const MyCard = (props) => {
 
         <div className="bottom-popup-container">
           <h1 className = "overview-header">Unit Overview</h1>
-          {item.overview}
+          {item.unit_details?.overview}
         </div>
       </div>
     </div>
